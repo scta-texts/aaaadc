@@ -1,0 +1,2683 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 2</title> <!-- De Caelo -->
+        <author ref="#Aristotle">Aristotle</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 2</title>
+          <date when="2022-12-15">December 15, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <!-- manifestation sctar:aristdeanima/cod-AAAdcg-2 in codex sctar:cod-AAAdcg- -->
+          <witness xml:id="J" n="cod-AAAdcg-2">Venice 1562, volume 05</witness> <!-- italic version -->
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-12-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <!--<pb ed="#J" n="1-r"/>-->
+      </div>
+    </front>
+    <body>
+      <div xml:id="aaaadc-gfdttt"> <!-- arist-dc-l2 -->
+      <head>Liber 2</head>
+      <!-- start of book 2 -->
+      <p xml:id="aaaadc-gfdttt-d1e5853"> <!-- arist-dc-l2c1-it -->
+         <lb ed="#P" n="33"/>Iam declarauimus sermonibus
+      <lb ed="#P" n="34"/>sufficientibus, &amp; fortibus 
+      demon<lb ed="#P" n="35" break="no"/>strationibus, quod coelum non sit ex
+      <lb ed="#P" n="36"/>elemento, &amp; quod impo ssibile est
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0198.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="37"/>vt cadat sub corruptione, sed 
+      sem<lb ed="#P" n="38" break="no"/>per erit aeternum, &amp; fuit sine 
+      pri<lb ed="#P" n="39" break="no"/>cipio, &amp; sine sine per omnia 
+      secu<lb ed="#P" n="40" break="no"/>la, &amp; est causa temporis infiniti,
+      <lb ed="#P" n="41"/>&amp; est continens ipsum. 
+      Consyde<lb ed="#P" n="42" break="no"/>ras autem bene poterit scire quod 
+      <lb ed="#P" n="43"/>coe lum est, sicut diximus, ex 
+      ver<lb ed="#P" n="44" break="no"/>bis dicentium coelum esse sub 
+      gene<lb ed="#P" n="45" break="no"/>ratione. si enim possibile est vt 
+      coe<lb ed="#P" n="46" break="no"/>lum sit, sicut diximus, &amp; 
+      impossi<lb ed="#P" n="47" break="no"/>bile est, secundum quod alii dicut,
+      <lb ed="#P" n="48"/>hoc etiam confirmat sermonem non
+      <lb ed="#P" n="49"/>strum, quod coelum sit aeternum
+      <lb ed="#P" n="50"/>non corruptibile.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e5934"> <!-- arist-dc-l2c2-it -->
+         <lb ed="#P" n="52"/>Et dicamus quod oportet nos 
+      ere<lb ed="#P" n="53" break="no"/>dere sermones Antiquorum 
+      veris<lb ed="#P" n="54" break="no"/>simos, &amp; maxime, quia sunt parem,
+      <lb ed="#P" n="55"/>tes nostri. dixerunt enim quod aliquia
+      <lb ed="#P" n="56"/>est velocissime mobile, aeternum,
+      <lb ed="#P" n="57"/>non corruptibile, &amp; eius motus non
+      <lb ed="#P" n="58"/>habet finem, sed ipse finis est 
+      cuius<lb ed="#P" n="59" break="no"/>libet finis, &amp; vltimum cuius libet
+      <lb ed="#P" n="60"/>vltimi, &amp; continens omne 
+      conti<lb ed="#P" n="61" break="no"/>nens. &amp; ille motus est perfectus,
+      <lb ed="#P" n="62"/>continens omne diminutum, non 
+      <lb ed="#P" n="63"/>perfectum, &amp; omne finitum, &amp; 
+      <lb ed="#P" n="64"/>generatum. ipse autem non habet
+      <lb ed="#P" n="65"/>principium, neque, fine, sed est 
+      ater<lb ed="#P" n="66" break="no"/>num in tempore infinito. aliorum
+      <lb ed="#P" n="67"/>autem motuum quidam sunt, quo
+      <lb ed="#P" n="68"/>rum primum principium est iste
+      <lb ed="#P" n="69"/>motus aeternus, &amp; quidam sunt,
+      <lb ed="#P" n="70"/>quorum recipiens quietem eorum
+      <lb ed="#P" n="71"/>est iste motus aeternus. &amp; dicimus
+      <lb ed="#P" n="72"/>quod omnes Antiqui posuerunt
+      <lb ed="#P" n="73"/>Coelum esse locum Creatoris, 
+      pro<lb ed="#P" n="74" break="no"/>pter suam icorruptibilitatem, &amp; 
+      <lb ed="#P" n="75"/>aeternitatem.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e5986"> <!-- arist-dc-l2c3-it -->
+         <lb ed="#P" n="45"/>Ratio autem, quam complemus
+      <lb ed="#P" n="46"/>dicere: testatur quod coelum non 
+      <lb ed="#P" n="47"/>est corruptibile, neque generabile,
+      <lb ed="#P" n="48"/>neque recipiens passiones, remotum
+      <lb ed="#P" n="49"/>ab omni occasione, &amp; 
+      consumptio<lb ed="#P" n="50" break="no"/>ne. Et cum hoc, quod diximus, non 
+      <lb ed="#P" n="51"/>fatigatur etiam. non enim habet
+      <lb ed="#P" n="52"/>alium motum, nisi suum naturalem.
+      <lb ed="#P" n="53"/>quapropter non indiget virtute 
+      na<lb ed="#P" n="54" break="no"/>turae prohibente ipsum ab illo 
+      mo<lb ed="#P" n="55" break="no"/>tus scilicet naturali. &amp; omne, quod est 
+      hu<lb ed="#P" n="56" break="no"/>iusmodi, fatigatur: &amp; quanto 
+      ma<lb ed="#P" n="57" break="no"/>gis fatigatur, tanto magis caret 
+      <lb ed="#P" n="58"/>bona dispositione.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e6026"> <!-- arist-dc-l2c4-it -->
+         <lb ed="#P" n="58"/>Et propter hoc non dicimus in
+      <lb ed="#P" n="59"/>hoc corpore nobili, neque, opinamum
+      <lb ed="#P" n="60"/>in eo illud, quod quidam Antiquo
+      <lb ed="#P" n="61"/>rum opinabantur, &amp; dicunt quod 
+      <lb ed="#P" n="62"/>coelum indiget aliquo deferente 
+      ip<lb ed="#P" n="63" break="no"/>sum, appellato Athlas, vt seruet
+      <lb ed="#P" n="64"/>ipsum, &amp; non dimittat ipsum 
+      ca<lb ed="#P" n="65" break="no"/>dere. illi autem, qui hoc dicunt, 
+      as<lb ed="#P" n="66" break="no"/>similantur istis, qui sunt in 
+      tempo<lb ed="#P" n="67" break="no"/>re nostro, qui putant omnia 
+      corpo<lb ed="#P" n="68" break="no"/>ra superiora grauia: &amp; propter
+      <lb ed="#P" n="69"/>hoc dicunt quod indigent 
+      necessa<lb ed="#P" n="70" break="no"/>rio anima mouente ea. &amp; sermo
+      <lb ed="#P" n="71"/>iste eorum non fuit vera ratione,
+      <lb ed="#P" n="72"/>sed casualiter.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e6061"> <!-- arist-dc-l2c5-it -->
+         <lb ed="#P" n="25"/>Neque, etiam stabilitas coeli, &amp; 
+      <lb ed="#P" n="26"/>eius permanetia est, sicut dixit 
+      Em<lb ed="#P" n="27" break="no"/>pedocles. dicit enim quod coelum est 
+      fi<lb ed="#P" n="28" break="no"/>xum, &amp; stabile propter eius 
+      mo<lb ed="#P" n="29" break="no"/>tus velocitatem: quoniam motus
+      <lb ed="#P" n="30"/>velocitas retinet rem totam, &amp; non 
+      <lb ed="#P" n="31"/>dimittit rem mota recedere a 
+      loci<lb ed="#P" n="32" break="no"/>proprio, &amp; sic non cadit. Nos autem
+      <lb ed="#P" n="33"/>dicimus quod, si ita esset, non 
+      per<lb ed="#P" n="34" break="no"/>maneret tempore infinito, scilicet 
+      dico<lb ed="#P" n="35" break="no"/>propter velocitatem sui motus. 
+      quo<lb ed="#P" n="36" break="no"/>niam iste est motus violentus, non
+      <lb ed="#P" n="37"/>naturalis: motus autem violentus
+      <lb ed="#P" n="38"/>non est infinitus, neque, perfectus, 
+      si<lb ed="#P" n="39" break="no"/>cut saepe declarauimus.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e6085"> <!-- arist-dc-l2c6-it -->
+         <lb ed="#P" n="27"/>Et dico quod coelum non debet
+      <lb ed="#P" n="28"/>esse aeternum, permanens propter
+      <lb ed="#P" n="29"/>animam, quam habet. Quidam enim
+      <lb ed="#P" n="30"/>dicunt quod coelum est aeternum,
+      <lb ed="#P" n="31"/>permanentis essentiae, quonia hbet
+      <lb ed="#P" n="32"/>animam, &amp; quod anima cogit ip
+      <lb ed="#P" n="33"/>sum, vt sit aeternum, permanens.
+      <lb ed="#P" n="34"/>&amp; iste sermo est impossibilis. 
+      quia<lb ed="#P" n="35" break="no"/>ista vita impossibile est vt sit sine
+      <lb ed="#P" n="36"/>fatioatione, &amp; sine labore. &amp; 
+      im<lb ed="#P" n="37" break="no"/>pos sibile est vt sit laudabilis 
+      bona<lb ed="#P" n="38" break="no"/>quia mouet corpus secundum alium
+      <lb ed="#P" n="39"/>modum a suo motu proprio. si ergo
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0203.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="40"/>est sic, erit semper in negocio, &amp; 
+      ca<lb ed="#P" n="41" break="no"/>rens omnino non vexatione, existem,
+      <lb ed="#P" n="42"/>te ex habenti intellectum. &amp;, cum
+      <lb ed="#P" n="43"/>ita fuerit, non habebit non 
+      vexa<lb ed="#P" n="44" break="no"/>tione omnino. neque, assimilatur non 
+      <lb ed="#P" n="45"/>vexarioni animarum animalium
+      <lb ed="#P" n="46"/>in somno. &amp; tunc assimilatur 
+      fa<lb ed="#P" n="47" break="no"/>bulae Antiquorum de Equisor, quod 
+      <lb ed="#P" n="48"/>est aeternum, &amp; semper mouetur
+      <lb ed="#P" n="49"/>violente, sine fine, &amp; sine quietem.
+      <lb ed="#P" n="50"/>Et dico quod sermo illorum de isto
+      <lb ed="#P" n="51"/>motu aeterno est sine ratione, sicut
+      <lb ed="#P" n="52"/>sermo eorum de multitudine 
+      Deo<lb ed="#P" n="53" break="no"/>rum. &amp; non oportet nos iudicare
+      <lb ed="#P" n="54"/>res per sermonem dicentes, sed per
+      <lb ed="#P" n="55"/>verum sermonem, &amp; firma ratio
+      <lb ed="#P" n="56"/>ne: volumus igitur fugere istos 
+      ser<lb ed="#P" n="57" break="no"/>mones, &amp; sabulas, &amp; reuerti ad
+      <lb ed="#P" n="58"/>narrandum hoc, quod remanet 
+      de<lb ed="#P" n="59" break="no"/>dispositione huius nobilis corporis,
+      <lb ed="#P" n="60"/>scilicet coeli¬
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e6150"> <!-- arist-dc-l2c7-it -->
+         <lb ed="#P" n="77"/>Dicamus igitur quod aliqui 
+      An<lb ed="#P" n="78" break="no"/>tiquorum dixerunt coelum habere
+      <lb ed="#P" n="79"/>dextrum, &amp; sinistrum scilicet secta 
+      po<lb ed="#P" n="80" break="no"/>thagoricorum: quidam enim eorum
+      <lb ed="#P" n="81"/>Loc dicunt. Et volumus 
+      perscruta<lb ed="#P" n="82" break="no"/>ri de hoc, &amp; dicamus ergo quod, 
+      <lb ed="#P" n="83"/>si oportet attribuere corpori totius
+      <lb ed="#P" n="84"/>ista principia dextrum scilicet &amp; sinie
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0205.xml-->
+      <pb ed="#P" n="99-r"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>strum, etiam attribuemus corpori 
+      <lb ed="#P" n="2"/>principia priora istis necessario, scilicet
+      <lb ed="#P" n="3"/>superius, &amp; inferius, &amp; ante, &amp; 
+      <lb ed="#P" n="4"/>retro. Et haec quidem principia 
+      ia<lb ed="#P" n="5" break="no"/>distincta sunt in libro, quem 
+      feci<lb ed="#P" n="6" break="no"/>mus de motibus animalium. illae
+      <lb ed="#P" n="7"/>autem dispositiones sunt 
+      conuenien<lb ed="#P" n="8" break="no"/>tes naturis animalium, &amp; in eis
+      <lb ed="#P" n="9"/>sunt manifestae. sed animalia quae
+      <lb ed="#P" n="10"/>dam habent haec omnia, scilicet dextrum,
+      <lb ed="#P" n="11"/>&amp; sinistrum, &amp; sursum, &amp; 
+      deor<lb ed="#P" n="12" break="no"/>sum, ante, &amp; post, &amp; quaedam 
+      ha<lb ed="#P" n="13" break="no"/>bent ante, &amp; retro: vegetabile 
+      au<lb ed="#P" n="14" break="no"/>tem non habet, nisi superius, &amp; 
+      in<lb ed="#P" n="15" break="no"/>ferius tantum.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e6213"> <!-- arist-dc-l2c8-it -->
+         <lb ed="#P" n="64"/>Reuertamur ergo, &amp; dicamus
+      <lb ed="#P" n="65"/>quod, si in coelo posuimus dextrum
+      <lb ed="#P" n="66"/>&amp; sinistrum, necessario ponemus
+      <lb ed="#P" n="67"/>ante ista alia principia, sicut 
+      dixi<lb ed="#P" n="68" break="no"/>mus in libro de motibus animalium.
+      <lb ed="#P" n="69"/>&amp; dicamus etiam quod, si istae 
+      di<lb ed="#P" n="70" break="no"/>spositiones sint tres, necesse est vt
+      <lb ed="#P" n="71"/>quaelibet earum habeat principium.
+      <lb ed="#P" n="72"/>&amp; intelligo per dispositiones 
+      sur<lb ed="#P" n="73" break="no"/>sum &amp; deorsum, dextrum &amp; 
+      sini<lb ed="#P" n="74" break="no"/>strum, ante &amp; retro. &amp; necesse est,
+      <lb ed="#P" n="75"/>vt omnes istae mensurae sint in 
+      cor<lb ed="#P" n="76" break="no"/>poribus perfectis. Dicamus ergo
+      <lb ed="#P" n="77"/>quod superius est principium 
+      lon<lb ed="#P" n="78" break="no"/>gitudinis, &amp; dextrum est principium
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0206.xml-->
+      <pb ed="#P" n="99-v"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>latitudinis, ante autem est 
+      princi<lb ed="#P" n="2" break="no"/>pium prosunditatis. Et voco 
+      princi<lb ed="#P" n="3" break="no"/>pium, illud, ex quo incipit motus in
+      <lb ed="#P" n="4"/>corpore moto, quoniam principium
+      <lb ed="#P" n="5"/>motus crementi est superius: &amp; 
+      <lb ed="#P" n="6"/>principium motus localis est 
+      dex<lb ed="#P" n="7" break="no"/>trum: &amp; principium motuum 
+      sen<lb ed="#P" n="8" break="no"/>sibilium est ante. &amp; est dicere 
+      an<lb ed="#P" n="9" break="no"/>te, vbi sunt sensus.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e6270"> <!-- arist-dc-l2c9-it -->
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0207.xml-->
+         <pb ed="#P" n="100-r"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>Propter hoc igitur, &amp; eius 
+      si<lb ed="#P" n="2" break="no"/>mile non quaerimus in omni 
+      corpo<lb ed="#P" n="3" break="no"/>re sursum, &amp; deorsum, &amp; dextri
+      <lb ed="#P" n="4"/>&amp; sinistrum, &amp; ante &amp; retro. sed 
+      <lb ed="#P" n="5"/>quaerimus istos motus in omni 
+      cor<lb ed="#P" n="6" break="no"/>pore animato, habente in se 
+      princi<lb ed="#P" n="7" break="no"/>pium motus. quoniam non videmus
+      <lb ed="#P" n="8"/>in corporibus carentibus anima vn
+      <lb ed="#P" n="9"/>de incipiat motus eorum. &amp; 
+      dica<lb ed="#P" n="10" break="no"/>mus etiam quod quaedam corpora
+      <lb ed="#P" n="11"/>mouentur ex oionibus partibus
+      <lb ed="#P" n="12"/>aequaliter vt ignis, qui mouetur
+      <lb ed="#P" n="13"/>tantum ad superius, &amp; terra, quae 
+      <lb ed="#P" n="14"/>ad medium mouetur tantum.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e6300"> <!-- arist-dc-l2c10-it -->
+         <lb ed="#P" n="63"/>Et dicamus etiam quod 
+      corpo<lb ed="#P" n="64" break="no"/>ra inanimata habent superius, &amp; 
+      <lb ed="#P" n="65"/>inferius, &amp; dextrum &amp; sinistrum,
+      <lb ed="#P" n="66"/>quo ad nos, vt faciunt augures 
+      vo<lb ed="#P" n="67" break="no"/>cates autem, quae est in nostro 
+      dex<lb ed="#P" n="68" break="no"/>tro dextrum, &amp; in nostro 
+      sinistro<lb ed="#P" n="69" break="no"/>sinistrum. &amp; sicut res positae 
+      econ<lb ed="#P" n="70" break="no"/>uerso situi nostro. vt imago. 
+      sini<lb ed="#P" n="71" break="no"/>strum enim imaginis est oppositum
+      <lb ed="#P" n="72"/>dextro aspicientis, &amp; dextrum 
+      si<lb ed="#P" n="73" break="no"/>nistro. &amp; vniuersaliter dico quod 
+      <lb ed="#P" n="74"/>situs imaginis, qui est contrarius
+      <lb ed="#P" n="75"/>situi nostro, e dextrum, &amp; sinistrum
+      <lb ed="#P" n="76"/>imaginis, &amp; ante &amp; retro, &amp; 
+      nul<lb ed="#P" n="77" break="no"/>la harum dispositionum est in 
+      essen<lb ed="#P" n="78" break="no"/>tia imaginis. imago enim cum con¬
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0208.xml-->
+      <pb ed="#P" n="100-v"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>uertitur suus situs, tuc vocabimus
+      <lb ed="#P" n="2"/>ipecunam ecouerso. sinistrum enim siet dextrum
+      <lb ed="#P" n="3"/>&amp; dextrum sinistrum: &amp; sic de aliis
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e6337"> <!-- arist-dc-l2c11-it -->
+         <lb ed="#P" n="60"/>Mirandum est de Pythagoricis,
+      <lb ed="#P" n="61"/>qui dicut quod principia motuum
+      <lb ed="#P" n="62"/>sunt tantum duo, scilicet dextrum, &amp; 
+      si<lb ed="#P" n="63" break="no"/>nistrum, &amp; dimittunt quatuor re 
+      <lb ed="#P" n="64"/>sidua, quae non sunt minus, quam 
+      <lb ed="#P" n="65"/>ista duo. differentia enim inter 
+      an<lb ed="#P" n="66" break="no"/>te, &amp; retro non est minor ea, quae est,
+      <lb ed="#P" n="67"/>inter dextrum, &amp; sinistrum, quae 
+      <lb ed="#P" n="68"/>sunt in omnibus animalibus. 
+      quo<lb ed="#P" n="69" break="no"/>niam sinistrum, &amp; dextrum 
+      tan<lb ed="#P" n="70" break="no"/>tum potentia differunt, residua al
+      <lb ed="#P" n="71"/>tem secundum figuras.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e6366"> <!-- arist-dc-l2c12-it -->
+         <lb ed="#P" n="34"/>Et dicamus etiam que in sursum,
+      <lb ed="#P" n="35"/>&amp; deorsum in omnibus animatis
+      <lb ed="#P" n="36"/>est ex animalibus, &amp; plantis, dex
+      <lb ed="#P" n="37"/>trum aute, &amp; sinistrum non sunt in
+      <lb ed="#P" n="38"/>plantis. Et etia dicamus quod 
+      longi<lb ed="#P" n="39" break="no"/>tudo est ante latitudine, &amp; 
+      princi<lb ed="#P" n="40" break="no"/>piu eius, &amp; quod superius est prin¬
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0209.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="41"/>cipium longitudinis, &amp; dextrum 
+      <lb ed="#P" n="42"/>principiu latitudinis. reuertamu
+      <lb ed="#P" n="43"/>ergo, &amp; dicamus quod, si 
+      longitu<lb ed="#P" n="44" break="no"/>do est ante latitudinem, necessario 
+      su<lb ed="#P" n="45" break="no"/>perius erit ante dextrum in sua 
+      gene<lb ed="#P" n="46" break="no"/>ratione. &amp; dicoi generatione, quia
+      <lb ed="#P" n="47"/>principium dicitur multis modis.
+      <lb ed="#P" n="48"/>Et dico etiam quod superius est 
+      vbi<lb ed="#P" n="49" break="no"/>est principiu motus, &amp; dextrum est
+      <lb ed="#P" n="50"/>locus exitus motus, &amp; ante est 
+      lo<lb ed="#P" n="51" break="no"/>cus finis motus. &amp;, si ita sit, 
+      neces<lb ed="#P" n="52" break="no"/>sario superius habet potentia 
+      pro<lb ed="#P" n="53" break="no"/>priam principii inter alios motus. 
+      <lb ed="#P" n="54"/>Oportet igitur nos inuehi contra D
+      <lb ed="#P" n="55"/>thagoricos, cum dimiserunt priora
+      <lb ed="#P" n="56"/>principia, &amp; dixerunt tantu 
+      dex<lb ed="#P" n="57" break="no"/>trum, &amp; sinistrum, &amp; cum 
+      opina<lb ed="#P" n="58" break="no"/>bantur quod haec duo sunt in 
+      omni<lb ed="#P" n="59" break="no"/>bus rebus habentibus motus 
+      prin<lb ed="#P" n="60" break="no"/>cipium aequaliter. Nos autem 
+      distin<lb ed="#P" n="61" break="no"/>ximus has virtutes nuper, &amp; 
+      dixi<lb ed="#P" n="62" break="no"/>mus quod sunt in rebus, in quibus
+      <lb ed="#P" n="63"/>est principium motus. 
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e6421"> <!-- arist-dc-l2c13-it -->
+         <lb ed="#P" n="13"/>Dicamus etiam quod, si coelum
+      <lb ed="#P" n="14"/>S habet animam, &amp; principium 
+      mo<lb ed="#P" n="15" break="no"/>tus, necessario habet sursum, &amp; 
+      deor<lb ed="#P" n="16" break="no"/>sum, dextrum, &amp; sinistrum. Et non
+      <lb ed="#P" n="17"/>debet aliquis fugere hoc per 
+      rotun<lb ed="#P" n="18" break="no"/>ditatem figurae totius, &amp; quanomo quidam
+      <lb ed="#P" n="19"/>erit eius dextrum, &amp; quidam sin
+      <lb ed="#P" n="20"/>strum, &amp; omnes partes eius sunt 
+      simi<lb ed="#P" n="21" break="no"/>les, &amp; motae in aeterno: sed oportet, 
+      <lb ed="#P" n="22"/>vt imaginetur homo habens 
+      dex<lb ed="#P" n="23" break="no"/>trum, &amp; sinistrum diuersa in 
+      figu<lb ed="#P" n="24" break="no"/>ra, qui super circundatur ab orbe.
+      <lb ed="#P" n="25"/>quapropter ille orbis habebit virtum
+      <lb ed="#P" n="26"/>tem diuersanm necessario, dextrum scilicet
+      <lb ed="#P" n="27"/>&amp; sinistrum, quia habet loca 
+      prin<lb ed="#P" n="28" break="no"/>cipii, &amp; finis ex operatione sui 
+      agen<lb ed="#P" n="29" break="no"/>tis. Et ita debemus imaginari etia
+      <lb ed="#P" n="30"/>in initio motus orbis. quoniam, &amp; 
+      fi<lb ed="#P" n="31" break="no"/>motus eius non est in tempore, sed 
+      <lb ed="#P" n="32"/>tamen motus eius habet principium
+      <lb ed="#P" n="33"/>necessario, quoniam, si in principio
+      <lb ed="#P" n="34"/>mouetur, necenssario motus eius
+      <lb ed="#P" n="35"/>bet locum, ex quo incoepit. motus 
+      igi<lb ed="#P" n="36" break="no"/>tur orbis habet principium in 
+      ma<lb ed="#P" n="37" break="no"/>gnitudine, &amp; principia in loco.
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0211.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="65" type="fixed=102-r"/>
+         <!--<figure>
+            <graphic url="https://loris2.scta.info/cod-AAadcg//[canvasshortid]/759,138,528,686/full/0/default.jpg"/>
+            <ab type="figure-details">
+               <seg type="figure-text">Figura, ostendens quo modo imaginari¬ debemus dextrum, &amp; sun¬ strum in coelo.</seg>
+               <seg type="figure-ideas"/>
+               <seg type="transkribus-id">749269-28354116-TextRegion_1652540398524_2177</seg>
+            </ab>
+            <figDesc/>
+         </figure>-->
+      </p>
+      <p xml:id="aaaadc-gfdttt-d1e6480"> <!-- arist-dc-l2c14-it -->
+         <lb ed="#P" n="18"/>Dicamus etiam, quod longitudo
+      <lb ed="#P" n="19"/>orbis est dimensio, in quae sunt orbes
+      <lb ed="#P" n="20"/>orbium enim quidam sunt superius,
+      <lb ed="#P" n="21"/>&amp; quidam inferius. &amp; iste locus,
+      <lb ed="#P" n="22"/>scilicet remotio orbium, ex omnibus
+      <lb ed="#P" n="23"/>medi etatibus orbium eius est 
+      tan<lb ed="#P" n="24" break="no"/>tum diuersus. quoniam orbes, qui
+      <lb ed="#P" n="25"/>sunt in medietate istius orbis, non 
+      <lb ed="#P" n="26"/>mouetur omnino. Et assueti sumus
+      <lb ed="#P" n="27"/>vocare latera mundi in respectum 
+      oni<lb ed="#P" n="28" break="no"/>bium istorum, non in respectu ad 
+      su<lb ed="#P" n="29" break="no"/>perius mundi, &amp; eius inferius. 
+      quo<lb ed="#P" n="30" break="no"/>nia ista loca sunt tantum longitudo.
+      <lb ed="#P" n="31"/>Et dicamus etia, quod illud, quod 
+      <lb ed="#P" n="32"/>ex orbibus videtur super nos, est pars
+      <lb ed="#P" n="33"/>inferior primi orbis, &amp; quod non 
+      vi<lb ed="#P" n="34" break="no"/>detur est pars superior primi orbis.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e6526"> <!-- arist-dc-l2c15-it -->
+         <lb ed="#P" n="69"/>Dicamus etiam quod non 
+      voca<lb ed="#P" n="70" break="no"/>mus dextrum in omni habente 
+      dex<lb ed="#P" n="71" break="no"/>trum, nisi vbi est principium sui 
+      loca<lb ed="#P" n="72" break="no"/>lis motus. &amp;, cu ita sit, &amp; initium
+      <lb ed="#P" n="73"/>est motus coeli ex partem, a quae 
+      ascen<lb ed="#P" n="74" break="no"/>dut stellae, necessario iste locus erit
+      <lb ed="#P" n="75"/>dextrum coeli, &amp; vbi cadunt, erit
+      <lb ed="#P" n="76"/>sinistrum coeli. Si igitur coelum incipit.
+      <lb ed="#P" n="77"/>moueri ex dextro, &amp; reuoluitur ad
+      <lb ed="#P" n="78"/>dextrum, tunc orbis superior 
+      necessa<lb ed="#P" n="79" break="no"/>rio latebit nos, &amp; non videbimus
+      <lb ed="#P" n="80"/>ipsum. &amp;, si locus superior sit 
+      ca<lb ed="#P" n="81" break="no"/>dens sub visu, necessario erit 
+      mo<lb ed="#P" n="82" break="no"/>tus coeli ad sinistrum. quod non 
+      di<lb ed="#P" n="83" break="no"/>cimus esse omnino.
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0215.xml-->
+      <pb ed="#P" n="104-r"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="53" type="fixed=104-r"/>
+         <!--<figure>
+            <graphic url="https://loris2.scta.info/cod-AAadcg//[canvasshortid]/237,110,1043,719/full/0/default.jpg"/>
+            <ab type="figure-details">
+               <seg type="figure-text">Figura, declarans partium distantias, &amp; locor in colo¬ Polus antarticus. e¬ er Polus arcticus.</seg>
+               <seg type="figure-ideas"/>
+               <seg type="transkribus-id">749269-28354120-TextRegion_1652540662981_2369</seg>
+            </ab>
+            <figDesc/>
+         </figure>-->
+      </p>
+      <p xml:id="aaaadc-gfdttt-d1e6556"> <!-- arist-dc-l2c16-it -->
+         <lb ed="#P" n="78"/>Manifestum igitur quod orbis 
+      la<lb ed="#P" n="79" break="no"/>tens est orbis superior, &amp; quod 
+      ha<lb ed="#P" n="80" break="no"/>bitantes illic sunt illi, qui sunt in 
+      <lb ed="#P" n="81"/>medietate orbios superioris in 
+      dex<lb ed="#P" n="82" break="no"/>tro. nos autem habitamus in medieta
+      <lb ed="#P" n="83"/>te inferioris orbis in sinistro, 
+      econtra<lb ed="#P" n="84" break="no"/>ei, quod dicunt Pathagorici, qui po¬
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0217.xml-->
+      <pb ed="#P" n="105-r"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>nunt nos in medietate superioris 
+      or<lb ed="#P" n="2" break="no"/>bis in dextro, &amp; ponut illos, qui 
+      ha<lb ed="#P" n="3" break="no"/>bitant illic in medietate inferiori
+      <lb ed="#P" n="4"/>orbis in sinistro. manifestum est ergo
+      <lb ed="#P" n="5"/>ex hoc, quod declarauimus, 
+      contra<lb ed="#P" n="6" break="no"/>rium eius, quod dicunt. Sed 
+      tamen<lb ed="#P" n="7" break="no"/>in motu, &amp; reuolutione secunda, scilicet
+      <lb ed="#P" n="8"/>motu stellarum erraticarum nos
+      <lb ed="#P" n="9"/>habitamus in medietate superioris
+      <lb ed="#P" n="10"/>orbis, &amp; in dextro. illi alii autem in 
+      <lb ed="#P" n="11"/>medietate inferioris orbis in 
+      sini<lb ed="#P" n="12" break="no"/>stro. motus enim istorum orbium 
+      con<lb ed="#P" n="13" break="no"/>trarius est motui primi orbis. 
+      acci<lb ed="#P" n="14" break="no"/>dit ergo ex hoc, quod diximus, vt
+      <lb ed="#P" n="15"/>nos simus in parte principii motus 
+      <lb ed="#P" n="16"/>coeli, illi autem in parte orizontis 
+      mo<lb ed="#P" n="17" break="no"/>tus coeli. Ia ergo determinauimus
+      <lb ed="#P" n="18"/>ex hoc, quod declarauimus, 
+      dimen<lb ed="#P" n="19" break="no"/>siones partium coeli, &amp; loca 
+      ea<lb ed="#P" n="20" break="no"/>rum terminata.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e6606"> <!-- arist-dc-l2c17-it -->
+         <lb ed="#P" n="7"/>Modo igitur volumus 
+      perscru<lb ed="#P" n="8" break="no"/>tari de caeteris, quae 
+      perscrutanda<lb ed="#P" n="9" break="no"/>sunt. &amp; ia diximus multoties quod 
+      <lb ed="#P" n="10"/>motus circularis non est contrarius
+      <lb ed="#P" n="11"/>motui circulari. perscrutemur ergi
+      <lb ed="#P" n="12"/>de motibus, quare sunt, &amp; in quo
+      <lb ed="#P" n="13"/>sunt motus circulares plures, &amp; ia
+      <lb ed="#P" n="14"/>promisimus quaerere superius 
+      de<lb ed="#P" n="15" break="no"/>istis motibus. Dicamus ergo quod 
+      <lb ed="#P" n="16"/>causa multitudinis motuum 
+      circu<lb ed="#P" n="17" break="no"/>larium est quod omne habens actione
+      <lb ed="#P" n="18"/>est propter sua actionem: &amp; quod 
+      <lb ed="#P" n="19"/>actio rei diuinae est aeternitas, quae
+      <lb ed="#P" n="20"/>est vita aeterna. &amp;, si ita sit, 
+      neces<lb ed="#P" n="21" break="no"/>sario res diuina habet motum 
+      aeter<lb ed="#P" n="22" break="no"/>num: coelum autem est huiusmodi, 
+      quia<lb ed="#P" n="23" break="no"/>est corpus spirituale, rotundum, 
+      mo<lb ed="#P" n="24" break="no"/>tum motu circulari naturali, 
+      aeter<lb ed="#P" n="25" break="no"/>no. Dicamus etiam in eo, quod totu 
+      cor<lb ed="#P" n="26" break="no"/>pus coeli non mouetur vno motu, 
+      <lb ed="#P" n="27"/>quia corpus, quod circulariter 
+      mo<lb ed="#P" n="28" break="no"/>uetur, mouetur necessario super 
+      me<lb ed="#P" n="29" break="no"/>dium fixum: &amp; nulla pars partium
+      <lb ed="#P" n="30"/>corporis rotundi est fixa omo. &amp; 
+      ni<lb ed="#P" n="31" break="no"/>hil ex eo mouetur ad medium. quo
+      <lb ed="#P" n="32"/>nia, si aliquid ex eo moueretur ad
+      <lb ed="#P" n="33"/>medium, esset motus eius naturalis,
+      <lb ed="#P" n="34"/>ad medium: sed iam diximus ipsum
+      <lb ed="#P" n="35"/>moueri mota circulari 
+      naturali<lb ed="#P" n="36" break="no"/>ter: quonia, si esset ecotrario, motus 
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0219.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="37"/>eius esset non aeternus. quoniam, illud,
+      <lb ed="#P" n="38"/>quod est extra naturam, non est 
+      ater<lb ed="#P" n="39" break="no"/>num: accidentale autem est post 
+      nato<lb ed="#P" n="40" break="no"/>rale, &amp; est remotio naturalis ad 
+      ac<lb ed="#P" n="41" break="no"/>cidens, quod est extra naturam.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e6702"> <!-- arist-dc-l2c18-it -->
+         <lb ed="#P" n="9"/>Reuertamur ergo, &amp; dicamus
+      <lb ed="#P" n="10"/>quod, si necessarium est quod motu 
+      <lb ed="#P" n="11"/>circularis sit circa aliquod quiescens
+      <lb ed="#P" n="12"/>fixum, necesse est vt sit terra: quonia
+      <lb ed="#P" n="13"/>est quiescens in medio. sit hoc igitur,
+      <lb ed="#P" n="14"/>secundum quod diximus, &amp; post 
+      lo<lb ed="#P" n="15" break="no"/>quemur de ipsa, &amp; de aliis 
+      elemen<lb ed="#P" n="16" break="no"/>tis compendiose. Modo autem dicamus
+      <lb ed="#P" n="17"/>quod, si alterum contrariorum 
+      fu<lb ed="#P" n="18" break="no"/>rit naturale, &amp; reliqum erit 
+      na<lb ed="#P" n="19" break="no"/>tur ale necessario: quonia materia
+      <lb ed="#P" n="20"/>contrariorum eadem est. Et, quia
+      <lb ed="#P" n="21"/>habitus est ante priuationem, vt 
+      ca<lb ed="#P" n="22" break="no"/>lidum, &amp; frigidum. quies vero, et
+      <lb ed="#P" n="23"/>grauitas non dicunt, nisi 
+      priuatio<lb ed="#P" n="24" break="no"/>nem leuitatis, &amp; motus. 
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e6744"> <!-- arist-dc-l2c19-it -->
+         <lb ed="#P" n="20"/>Reuertamur modo. &amp; dicamus
+      <lb ed="#P" n="21"/>quod, si necessario sunt terra, &amp;
+      <lb ed="#P" n="22"/>ignis, ergo et alia corpora, quae sunt,
+      <lb ed="#P" n="23"/>inter ea. sit ergo hoc, secundum quod 
+      <lb ed="#P" n="24"/>diximus, &amp; post perscrutabimums
+      <lb ed="#P" n="25"/>in hoc sufficienter. Modo autem 
+      dica<lb ed="#P" n="26" break="no"/>mus quod, si econtrario sunt duo, 
+      ma<lb ed="#P" n="27" break="no"/>nifestum est quod tunc generatio est
+      <lb ed="#P" n="28"/>ex eis necessario. impossibile enim
+      <lb ed="#P" n="29"/>est vt aliquod elemetorum sit 
+      sem<lb ed="#P" n="30" break="no"/>per permanens: quoniam contraria
+      <lb ed="#P" n="31"/>agunt, &amp; patiuntur.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e6775"> <!-- arist-dc-l2c20-it -->
+         <lb ed="#P" n="72"/>Et dicamus etiam quod impossbile
+      <lb ed="#P" n="73"/>est vt sit motus aeternus, cu non 
+      ha<lb ed="#P" n="74" break="no"/>buerit motum aeternum naturale: 
+      <lb ed="#P" n="75"/>necessario enim erit non permanes.
+      <lb ed="#P" n="76"/>Manifestum est igitur, quod 
+      necessa<lb ed="#P" n="77" break="no"/>rio est generatio. &amp;, si generatio est,
+      <lb ed="#P" n="78"/>necessario, erit sicut motus 
+      circula<lb ed="#P" n="79" break="no"/>ris vnus, aut plures necessario. 
+      secum<lb ed="#P" n="80" break="no"/>dum enim dispositionem totius erit,
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0224.xml-->
+      <pb ed="#P" n="108-v"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>dispositio elementorum adinuicem. &amp; 
+      <lb ed="#P" n="2"/>post declarabimus hoc manifestius.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e6808"> <!-- arist-dc-l2c21-it -->
+         <lb ed="#P" n="37"/>Modo vero volumus dicere 
+      qua<lb ed="#P" n="38" break="no"/>re corpora rotunda sunt plura. 
+      Di<lb ed="#P" n="39" break="no"/>camus igitur quod sunt plura 
+      pro<lb ed="#P" n="40" break="no"/>pter generationem, quia generatio
+      <lb ed="#P" n="41"/>necessaria est. generatio enim im¬
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0224.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="42"/>possibile est vt sit, nisi per ignem,
+      <lb ed="#P" n="43"/>&amp; alia elementa. &amp; terra non est,
+      <lb ed="#P" n="44"/>nisi quia est necessarium, si aliquid
+      <lb ed="#P" n="45"/>motum est aeternum, vt sit aliquid
+      <lb ed="#P" n="46"/>fixcum semper quiescens. 
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e6829"> <!-- arist-dc-l2c22-it -->
+         <lb ed="#P" n="80"/>Dicamus etiam quod figura 
+      coe<lb ed="#P" n="81" break="no"/>li rotunda est necessario: quoniam.
+      <lb ed="#P" n="82"/>illa figura est conueniens 
+      substan<lb ed="#P" n="83" break="no"/>tiae, &amp; naturae coeli. Volumus 
+      mo<lb ed="#P" n="84" break="no"/>do perscrutari de figuris, &amp; quae 
+      <lb ed="#P" n="85"/>sunt primae in superficiebus, &amp; cor¬
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0226.xml-->
+      <pb ed="#P" n="109-v"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>poribus. Dicamus ergo quod omn
+      <lb ed="#P" n="2"/>superficiale, aut est figura 
+      aequa<lb ed="#P" n="3" break="no"/>lis, aut circuluris figura autem 
+      cir<lb ed="#P" n="4" break="no"/>cularis est illa, quam continet vna 
+      li<lb ed="#P" n="5" break="no"/>nea figura autem aequalis, quam 
+      <lb ed="#P" n="6"/>continent plures lineae. Et, cum ita
+      <lb ed="#P" n="7"/>sit, &amp; vnum in omni genere est 
+      an<lb ed="#P" n="8" break="no"/>te plura, &amp; primum eorum 
+      natu<lb ed="#P" n="9" break="no"/>raliter: &amp; simplex est ante 
+      compo<lb ed="#P" n="10" break="no"/>situm: ergo circulus est ante, &amp; 
+      <lb ed="#P" n="11"/>prius figuris superficialibus.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e6871"> <!-- arist-dc-l2c23-it -->
+         <lb ed="#P" n="57"/>Dicamus etiam quod completum
+      <lb ed="#P" n="58"/>et illud, quod non inuenitur, nec 
+      possi<lb ed="#P" n="59" break="no"/>bile est inueniri post ipsum, neque, 
+      ex<lb ed="#P" n="60" break="no"/>tra ipsum aliquid, sicut prius 
+      de<lb ed="#P" n="61" break="no"/>terminauimus, sed possibile est addem
+      <lb ed="#P" n="62"/>re semper in linea recta, &amp; non et
+      <lb ed="#P" n="63"/>possibile addere in linea circulari
+      <lb ed="#P" n="64"/>omnino. &amp;, cum ita sit, manifestum
+      <lb ed="#P" n="65"/>et quod linea circularis est completa,
+      <lb ed="#P" n="66"/>&amp; perfecta. &amp;, si circulare est 
+      per<lb ed="#P" n="67" break="no"/>fectum, &amp; perfectum est ante 
+      dimi<lb ed="#P" n="68" break="no"/>nutum, necessario erit propter hac
+      <lb ed="#P" n="69"/>propositones praedictas, circulus 
+      ante<lb ed="#P" n="70" break="no"/>istas figuras, &amp; primum earum.
+      <lb ed="#P" n="71"/>Erit igitur corpus sphaericum 
+      ante<lb ed="#P" n="72" break="no"/>alia corpora. quoniam ipsum solum
+      <lb ed="#P" n="73"/>continetur ab vna superficie, alia
+      <lb ed="#P" n="74"/>vero corpora aequalium linearum
+      <lb ed="#P" n="75"/>continentur a pluribus 
+      superficie<lb ed="#P" n="76" break="no"/>bus. &amp; dicamus etiam quoniam.
+      <lb ed="#P" n="77"/>sicut circulus in superficiebus, 
+      ita<lb ed="#P" n="78" break="no"/>sphaericum in corporibus.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e6913"> <!-- arist-dc-l2c24-it -->
+         <lb ed="#P" n="72"/>Dicamus etiam, quod corpora
+      <lb ed="#P" n="73"/>facientes ex superficiebus, &amp; 
+      dis<lb ed="#P" n="74" break="no"/>soluentes ea in ipsas testantur 
+      no<lb ed="#P" n="75" break="no"/>bis. hi non dissoluunt corpus sphaeri
+      <lb ed="#P" n="76"/>cum inter alia corpora: quoniam.
+      <lb ed="#P" n="77"/>non habet plures superficies. &amp; non
+      <lb ed="#P" n="78"/>est dissolutio corporum in 
+      superfi<lb ed="#P" n="79" break="no"/>cies, sicut dissolutio totius corporis
+      <lb ed="#P" n="80"/>in partes. dissolutio enim corporum
+      <lb ed="#P" n="81"/>in superficies erit in formas 
+      diuer<lb ed="#P" n="82" break="no"/>sas. Manifestum est igitur quod 
+      fi<lb ed="#P" n="83" break="no"/>gura corporis sphaerici est ante 
+      fi<lb ed="#P" n="84" break="no"/>guras aliorum corporum.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e6939"> <!-- arist-dc-l2c25-it -->
+         <lb ed="#P" n="52"/>Dicamus quod, si figura 
+      corpo<lb ed="#P" n="53" break="no"/>ris sphaerici est etiam in numero
+      <lb ed="#P" n="54"/>&amp; termino ante figuram aliorum:
+      <lb ed="#P" n="55"/>corporum: sphaericum enim habet
+      <lb ed="#P" n="56"/>vnam lineam, triangulus autem 
+      <lb ed="#P" n="57"/>habet duas: &amp; vnum ante duo est
+      <lb ed="#P" n="58"/>prius in numero, &amp; in termino: er 
+      <lb ed="#P" n="59"/>go figura corporis sphaerici est 
+      ante<lb ed="#P" n="60" break="no"/>figuras corporum.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e6961"> <!-- arist-dc-l2c26-it -->
+         <lb ed="#P" n="27"/>Dicamus etiam quod, si prima
+      <lb ed="#P" n="28"/>figura est in primo corpore, &amp; 
+      pri<lb ed="#P" n="29" break="no"/>mum corpus est illud, quod est in 
+      <lb ed="#P" n="30"/>primo orizonte motus totius, 
+      nece<lb ed="#P" n="31" break="no"/>se erit illud, quod circulariter 
+      mo<lb ed="#P" n="32" break="no"/>uetur esse rotundum. igitur &amp; 
+      con<lb ed="#P" n="33" break="no"/>pus, quod sequitur ipsum, est etiam.
+      <lb ed="#P" n="34"/>rotundum. corpus enim copulatum
+      <lb ed="#P" n="35"/>cum corpore rotundo etiam est 
+      ro<lb ed="#P" n="36" break="no"/>tundum. Et corpus, quod est in 
+      me<lb ed="#P" n="37" break="no"/>dio, est etiam rotundum. omnia enim
+      <lb ed="#P" n="38"/>corpora quae continentur, &amp; 
+      copu<lb ed="#P" n="39" break="no"/>lantur cum corpore rotudo sunt ro¬
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0230.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="40"/>tunda necessario. &amp;, cum ita sit,
+      <lb ed="#P" n="41"/>&amp; corpora, quae sunt sub orbibus
+      <lb ed="#P" n="42"/>erraticis, sint copulata cum 
+      supe<lb ed="#P" n="43" break="no"/>riori motu, necessario erit totum
+      <lb ed="#P" n="44"/>rotundae figurae: quoniam omnia
+      <lb ed="#P" n="45"/>corpora sunt continua, &amp; 
+      contan<lb ed="#P" n="46" break="no"/>rentia sunt orbes erraticos: orbes
+      <lb ed="#P" n="47"/>aut erratici tagut orbes vltimos.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e6998"> <!-- arist-dc-l2c27-it -->
+         <lb ed="#P" n="62"/>Et dicamus etiam quod, cum 
+      il<lb ed="#P" n="63" break="no"/>lud, quod diximus, videtur cadere
+      <lb ed="#P" n="64"/>sub visu, necessario est permanens,
+      <lb ed="#P" n="65"/>&amp; manifestum est quod figura 
+      vni<lb ed="#P" n="66" break="no"/>uersalis vadit circulariter, &amp; iam
+      <lb ed="#P" n="67"/>declarauimus etia rationabiliter
+      <lb ed="#P" n="68"/>quod extra vltimum orbem non est
+      <lb ed="#P" n="69"/>vacuum, neque, locus, &amp;, cum ita sit,
+      <lb ed="#P" n="70"/>figura est rotunda propter has 
+      di<lb ed="#P" n="71" break="no"/>spositiones, quas posuimus in eo 
+      ne<lb ed="#P" n="72" break="no"/>cessario. Quoniam, si vltimus orbis,
+      <lb ed="#P" n="73"/>fuerit linea aequalis, non rotunda.
+      <lb ed="#P" n="74"/>necossario erit extra ipsam nacuum,
+      <lb ed="#P" n="75"/>&amp; locus, &amp; corpus. quoniam linea
+      <lb ed="#P" n="76"/>aequalis, quando mouetur motu 
+      cir<lb ed="#P" n="77" break="no"/>culari, &amp; motus eius non fuerit in
+      <lb ed="#P" n="78"/>eodem loco, sed in diuersis locis, 
+      rece<lb ed="#P" n="79" break="no"/>det a suo loco, in quo aliquando fuit
+      <lb ed="#P" n="80"/>&amp; aliquando non: &amp; locus, in quo
+      <lb ed="#P" n="81"/>non est aliquando, est aliquando: 
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0232.xml-->
+      <pb ed="#P" n="112-v"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>&amp; hoc non erit propter 
+      diuersita<lb ed="#P" n="2" break="no"/>tem angulorum. Et similiter erit
+      <lb ed="#P" n="3"/>in aliis figuris quae non sunt 
+      circu<lb ed="#P" n="4" break="no"/>lares, &amp; quarum lineae exeuntes
+      <lb ed="#P" n="5"/>a medio non sunt aequales, vt 
+      figu<lb ed="#P" n="6" break="no"/>ra lentis, &amp; oui. quoniam, cum 
+      or<lb ed="#P" n="7" break="no"/>bis fuerit figuratus aliqua istarum
+      <lb ed="#P" n="8"/>figurarum, deinde motus fuerit
+      <lb ed="#P" n="9"/>motu circulari, erit vacuum, &amp;
+      <lb ed="#P" n="10"/>locus. quoniam circulatio totius, et
+      <lb ed="#P" n="11"/>eius itio non erit super vnum 
+      locu<lb ed="#P" n="12" break="no"/>semper, sed super loca diuersa, si
+      <lb ed="#P" n="13"/>cut diximus superius. 
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e7056"> <!-- arist-dc-l2c28-it -->
+         <lb ed="#P" n="71"/>Et dicamus quod numerus 
+      om<lb ed="#P" n="72" break="no"/>nium motuum est motus coeli: ipse
+      <lb ed="#P" n="73"/>enim solus est continuus, aequalis,
+      <lb ed="#P" n="74"/>&amp; aeternus. &amp; dicamus. quod 
+      prius<lb ed="#P" n="75" break="no"/>cipium numeri cuius libet rei est ex
+      <lb ed="#P" n="76"/>minimo. &amp;, cum ita sit, &amp; 
+      mini<lb ed="#P" n="77" break="no"/>mus motus est velocis simus, 
+      neces<lb ed="#P" n="78" break="no"/>sario erit motus coeli velocissimus
+      <lb ed="#P" n="79"/>omnium motuum.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e7078"> <!-- arist-dc-l2c29-it -->
+         <lb ed="#P" n="34"/>Et dicamus etiam quod 
+      mini<lb ed="#P" n="35" break="no"/>ma figurarum, incipientium ex eo
+      <lb ed="#P" n="36"/>dem loco, &amp; peruenientium ad 
+      ip<lb ed="#P" n="37" break="no"/>sum, est linea circularis. Si igitur,
+      <lb ed="#P" n="38"/>linea circuli est minima omnium
+      <lb ed="#P" n="39"/>linearum figurarum, necessario est
+      <lb ed="#P" n="40"/>motus circuli velocissimiis omnium
+      <lb ed="#P" n="41"/>motuum. Et, cum ita sit,  motus 
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0234.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="42"/>coeli est rotundus, circularis, &amp; 
+      ve<lb ed="#P" n="43" break="no"/>locissimus omnium motuum, 
+      neces<lb ed="#P" n="44" break="no"/>sario igitur erit coelum sphaericum
+      <lb ed="#P" n="45"/>&amp; rotundum.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e7096"> <!-- arist-dc-l2c30-it -->
+         <lb ed="#P" n="54"/>Et posset aliquis credere quod 
+      <lb ed="#P" n="55"/>coelum est rotudum circulare ex 
+      cor<lb ed="#P" n="56" break="no"/>poribus in medio existentibus. A 
+      qua<lb ed="#P" n="57" break="no"/>enim existit super terram, &amp; aer i
+      <lb ed="#P" n="58"/>super aquam, &amp; ignis super aere, 
+      <lb ed="#P" n="59"/>sed super haec corpora coelestia. &amp; 
+      <lb ed="#P" n="60"/>illa corpora superiora non continua
+      <lb ed="#P" n="61"/>sunt cum istis inferioribus, sed 
+      con<lb ed="#P" n="62" break="no"/>tangentia ea tantum. superficies
+      <lb ed="#P" n="63"/>vero aquae est rotunda: quoniam
+      <lb ed="#P" n="64"/>quod tangit aliquod rotudum est 
+      ro<lb ed="#P" n="65" break="no"/>tudum etia. manifestum igitur est quod 
+      <lb ed="#P" n="66"/>coelum est rotundum, &amp; sphaericum
+      <lb ed="#P" n="67"/>propter hoc, quod diximus.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e7138"> <!-- arist-dc-l2c31-it -->
+      <!-- missing page 114-v and 115-r  in scan -->
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e7143"> <!-- arist-dc-l2c32-it -->
+         <lb ed="#P" n="11"/>Manifestum est igitur ex hoc,
+      <lb ed="#P" n="12"/>quod diximus. quod totus mundus
+      <lb ed="#P" n="13"/>est rotundus, &amp; est sphaericus, &amp; 
+      <lb ed="#P" n="14"/>quod sapienter est factus: &amp; 
+      impo<lb ed="#P" n="15" break="no"/>sibile est vt aliquid factum 
+      man<lb ed="#P" n="16" break="no"/>bus, sit simile ei in sua 
+      rotundita<lb ed="#P" n="17" break="no"/>te, neque, aliquid visibile omnino. ne
+      <lb ed="#P" n="18"/>que est possibile vt aliquid sit ita
+      <lb ed="#P" n="19"/>lene, &amp; aequale, sicut aequalitas
+      <lb ed="#P" n="20"/>huius corporis, &amp; lenitas: neque, 
+      spil<lb ed="#P" n="21" break="no"/>situdo istius corporis assimilatur
+      <lb ed="#P" n="22"/>alicui spissitudini omnino. &amp; hoc
+      <lb ed="#P" n="23"/>manifestum est. quoniam, sicut 
+      in<lb ed="#P" n="24" break="no"/>ter spissitudinem aquae, &amp; spissitium
+      <lb ed="#P" n="25"/>dinem terrae, &amp; sicut remotio 
+      spil<lb ed="#P" n="26" break="no"/>situdinis elementorum, quae 
+      mul<lb ed="#P" n="27" break="no"/>tum remouentur inter se, ita est 
+      re<lb ed="#P" n="28" break="no"/>motio spissitudinis corporis coeli ab
+      <lb ed="#P" n="29"/>aliis corporibus.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e7174"> <!-- arist-dc-l2c33-it -->
+         <lb ed="#P" n="30"/>Volumus etiam perscrutari 
+      do<lb ed="#P" n="31" break="no"/>motu primi corporis mobilis, &amp; 
+      <lb ed="#P" n="32"/>dicere quod possibile est vt corpus 
+      <lb ed="#P" n="33"/>rotundum moueatur duobus moti
+      <lb ed="#P" n="34"/>bus, quorum vnus est ex A ad B,
+      <lb ed="#P" n="35"/>&amp; alter ex B ad A. iam igitur,
+      <lb ed="#P" n="36"/>diximus superius quod isti motus 
+      <lb ed="#P" n="37"/>non sunt contrarij. Dicamus ergo
+      <lb ed="#P" n="38"/>quod, si impossibile est vt aliquia
+      <lb ed="#P" n="39"/>sit ociose, impossibile est vt rei 
+      aeter<lb ed="#P" n="40" break="no"/>nae sint absolutae sine causa: &amp; co¬
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0237.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="41"/>lum est aeternum: quae de causa er. 
+      <lb ed="#P" n="42"/>go motus coeli fuit ex quibusdam.
+      <lb ed="#P" n="43"/>partibus, &amp; non ex aliis: &amp; iste
+      <lb ed="#P" n="44"/>motus aut est causa alicuius, aut
+      <lb ed="#P" n="45"/>habet causam.
+      <lb ed="#P" n="73" type="fixed=116-r"/>
+         <!--<figure>
+            <graphic url="https://loris2.scta.info/cod-AAadcg//[canvasshortid]/751,400,512,424/full/0/default.jpg"/>
+            <ab type="figure-details">
+               <seg type="figure-text">p A C</seg>
+               <seg type="figure-ideas"/>
+               <seg type="transkribus-id">749269-28354142-TextRegion_1652573360610_3689</seg>
+            </ab>
+            <figDesc/>
+         </figure>-->
+      </p>
+      <p xml:id="aaaadc-gfdttt-d1e7214"> <!-- arist-dc-l2c34-it -->
+         <lb ed="#P" n="9"/>Et dicamus quod labor in 
+      quae<lb ed="#P" n="10" break="no"/>vendo causas aliquarum rerum 
+      dif<lb ed="#P" n="11" break="no"/>ficilium, &amp; perscrutatio de causa
+      <lb ed="#P" n="12"/>cuius libet rei, &amp; non dimittere 
+      ali<lb ed="#P" n="13" break="no"/>quid sine perscrutatione existima¬.
+      <lb ed="#P" n="14"/>tur esse aut ex inueretundia, ex 
+      pau<lb ed="#P" n="15" break="no"/>citate sui itellectus, aut propter 
+      ma<lb ed="#P" n="16" break="no"/>litia consyderandi, aut propter 
+      ma<lb ed="#P" n="17" break="no"/>litiam consyderadi ex 
+      abundantia<lb ed="#P" n="18" break="no"/>consyderandi ex fatuitate, aut ex
+      <lb ed="#P" n="19"/>multo desyderio ad sciendum 
+      cau<lb ed="#P" n="20" break="no"/>sas rerum secundum veritatem. Et non
+      <lb ed="#P" n="21"/>debemus cauere cognitione 
+      omnii<lb ed="#P" n="22" break="no"/>tausarum aequaliter, sed oportet nos 
+      <lb ed="#P" n="23"/>consyderare primo quo aliquis 
+      dici<lb ed="#P" n="24" break="no"/>de causa rei, &amp; quo sufficit 
+      audien<lb ed="#P" n="25" break="no"/>ti, aut sufficientia humana debili,
+      <lb ed="#P" n="26"/>aut sufficientia forti sine 
+      contradi<lb ed="#P" n="27" break="no"/>ctione. Quoniam, cum aliquis 
+      inue<lb ed="#P" n="28" break="no"/>nerit necessaria propria 
+      sufficien<lb ed="#P" n="29" break="no"/>tia, tunc debet laudare inuentorem,
+      <lb ed="#P" n="30"/>nos autem volumus reuerti, &amp; 
+      dice<lb ed="#P" n="31" break="no"/>re causas manifestas visibiles scilicet 
+      cau<lb ed="#P" n="32" break="no"/>sam, propter qua caelum mouetus
+      <lb ed="#P" n="33"/>ex aliqua parte, &amp; non ex alia.
+      <lb ed="#P" n="34"/>Dicamus igitur, quod natura 
+      inna<lb ed="#P" n="35" break="no"/>ta est facere melius, &amp; nobilius in
+      <lb ed="#P" n="36"/>eo, quod est possibile fieri. &amp;, cum
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0239.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="37"/>ita sit, &amp; in rebus, quae aequaliter 
+      <lb ed="#P" n="38"/>mouentur, locus superior est nobilior 
+      <lb ed="#P" n="39"/>loco inferiori, &amp; ante magis quam 
+      <lb ed="#P" n="40"/>retro, &amp; dextrum quam sinistrum.
+      <lb ed="#P" n="41"/>Et testatur super hoc, scilicet quod 
+      <lb ed="#P" n="42"/>primum coelum habet, &amp; vltimum,
+      <lb ed="#P" n="43"/>scilicet nobilius, &amp; est quaestio, 
+      qua<lb ed="#P" n="44" break="no"/>diximus superius. causa enim istius
+      <lb ed="#P" n="45"/>quaestionis dissoluit, &amp; explanat 
+      ip<lb ed="#P" n="46" break="no"/>sam. quonia, si natura fecit in 
+      coelo<lb ed="#P" n="47" break="no"/>illud, quod est nobiltus, &amp; melius
+      <lb ed="#P" n="48"/>e causa quaestionis, &amp; eius solutio.
+      <lb ed="#P" n="49"/>melius enim &amp; nobilius est vt coe
+      <lb ed="#P" n="50"/>lum moueatur semper sine cessatio
+      <lb ed="#P" n="51"/>ne, &amp; quod motus eius sit ex 
+      nobi<lb ed="#P" n="52" break="no"/>lissimo locorum, quod est dextrum.
+      <lb ed="#P" n="53"/>Manifestum est igitur quare coelum
+      <lb ed="#P" n="54"/>mouetur ex oriete ad occidentem,
+      <lb ed="#P" n="55"/>&amp; non econuerso.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e7299"> <!-- arist-dc-l2c35-it -->
+         <lb ed="#P" n="36"/>Et volumus etiam perscrutari in 
+      fu<lb ed="#P" n="37" break="no"/>turo de motu coeli, &amp; quod est 
+      aequa<lb ed="#P" n="38" break="no"/>lis sine diuersitatem. &amp; hoc erit in
+      <lb ed="#P" n="39"/>primo coelo, &amp; in primo motu. mo¬ 
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0241.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="40"/>tus autem orbium, qui sunt sub primo,
+      <lb ed="#P" n="41"/>sunt plures, &amp; congregatur in eodem.
+      <lb ed="#P" n="42"/>Dicamus igitur quod, si primum
+      <lb ed="#P" n="43"/>coelum mouetur motu diuerso, non 
+      <lb ed="#P" n="44"/>aequali, necessario motus eius 
+      habe<lb ed="#P" n="45" break="no"/>bit fortitudinem, &amp; debilitatem. Et
+      <lb ed="#P" n="46"/>fortitudo motus, &amp; debilitas 
+      aut<lb ed="#P" n="47" break="no"/>erunt in principio motus, aut fine,
+      <lb ed="#P" n="48"/>aut medio, vt animalia, quae ad 
+      la<lb ed="#P" n="49" break="no"/>tera mouentur. Nos autm non inuens
+      <lb ed="#P" n="50"/>mus in motu circulari fortitudinem,
+      <lb ed="#P" n="51"/>neque, in principio, neque, in medio, neque,
+      <lb ed="#P" n="52"/>in fine. non enim habet principium,
+      <lb ed="#P" n="53"/>neque, finem, neque, medium, quoniam.
+      <lb ed="#P" n="54"/>est aeternus in tempore congregatae
+      <lb ed="#P" n="55"/>longitudinis. Reuertamur ergo, &amp; 
+      <lb ed="#P" n="56"/>dicamns quod, si coelum non nabet
+      <lb ed="#P" n="57"/>fortitudinem, non erut diuersi 
+      mo<lb ed="#P" n="58" break="no"/>tus necessario. diuersitas enim 
+      mo<lb ed="#P" n="59" break="no"/>tus prouenit ex fortitudine &amp; 
+      <lb ed="#P" n="60"/>debilitate.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e7371"> <!-- arist-dc-l2c36-it -->
+         <lb ed="#P" n="10"/>Et dicamus quod, si omne motu
+      <lb ed="#P" n="11"/>mouetur a motore, necessario diuer
+      <lb ed="#P" n="12"/>sitas motus aut erit propter 
+      rem<lb ed="#P" n="13" break="no"/>motam, aut propter motorem, aut
+      <lb ed="#P" n="14"/>propter vtrunque. &amp; hoc erit, aut
+      <lb ed="#P" n="15"/>quia motor non mouet semper vna
+      <lb ed="#P" n="16"/>virtute, aut quia res mota 
+      trans<lb ed="#P" n="17" break="no"/>mutatur, &amp; non remanet in eaedo
+      <lb ed="#P" n="18"/>dispositione, aut propter dispositio
+      <lb ed="#P" n="19"/>nem moti, &amp; motoris. &amp;, cum ita
+      <lb ed="#P" n="20"/>sit non est impossibile vt motum 
+      mo<lb ed="#P" n="21" break="no"/>ueatur motu diuerso non 
+      aequali<lb ed="#P" n="22" break="no"/>Et non erit in coelo aliqua harum 
+      di<lb ed="#P" n="23" break="no"/>spositionum, quas diximus ia enim
+      <lb ed="#P" n="24"/>declarauimus superius quod 
+      pri<lb ed="#P" n="25" break="no"/>mum motum non est factum, neque
+      <lb ed="#P" n="26"/>generatum, neque, corruptibile, nec,
+      <lb ed="#P" n="27"/>transmutabile, neque, alterabile 
+      om<lb ed="#P" n="28" break="no"/>nino. &amp;, cum itae sit, dignius est vt
+      <lb ed="#P" n="29"/>motor primus sit huiusmodi. causa
+      <lb ed="#P" n="30"/>enim prima mouet primum 
+      cau<lb ed="#P" n="31" break="no"/>satum, &amp; simplex mouet simplex,
+      <lb ed="#P" n="32"/>&amp; non generabile, neque, 
+      corrupti<lb ed="#P" n="33" break="no"/>bile mouet non generabile neque, 
+      cor<lb ed="#P" n="34" break="no"/>ruptibile. Et, cum ita sit, &amp; corpus 
+      <lb ed="#P" n="35"/>primum motum non est 
+      generabi<lb ed="#P" n="36" break="no"/>le, neque alterabile, necessario erit
+      <lb ed="#P" n="37"/>motor istius corporis non alterabi¬
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0244.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="38"/>lis, &amp; maxime, cum sit spiritualis,
+      <lb ed="#P" n="39"/>non corporeus.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e7434"> <!-- arist-dc-l2c37-it -->
+         <lb ed="#P" n="50"/>Impossibile est igitur vt motus 
+      <lb ed="#P" n="51"/>coeli sit diuersus, non aequalis. Si 
+      er<lb ed="#P" n="52" break="no"/>go motus coeli fuerit non aequalis.
+      <lb ed="#P" n="53"/>aut vniuersaliter transmutatur,
+      <lb ed="#P" n="54"/>quapropter motus eius erit aliquam
+      <lb ed="#P" n="55"/>do velocior, &amp; aliquando tardior, 
+      <lb ed="#P" n="56"/>aut partes eius essent huiusmodi.
+      <lb ed="#P" n="57"/>Sed motus partium coeli non sunt 
+      di<lb ed="#P" n="58" break="no"/>uersi. &amp; hoc manifestum est, 
+      quo<lb ed="#P" n="59" break="no"/>niam, si essent diuersi, necessario in 
+      <lb ed="#P" n="60"/>longitudine seculi remoueretur 
+      stel<lb ed="#P" n="61" break="no"/>lae abinuicem. quaedam enim essent
+      <lb ed="#P" n="62"/>in parte coeli, quae mouentur motu
+      <lb ed="#P" n="63"/>veloci, &amp; quaedam in motu tardo.
+      <lb ed="#P" n="64"/>quapropter stellae elongarentur ab
+      <lb ed="#P" n="65"/>inuice quod est impossibile in 
+      prae<lb ed="#P" n="66" break="no"/>terito seculi. Neque, coelum 
+      transmu<lb ed="#P" n="67" break="no"/>tatur etiam. quonia flexibilitas 
+      cu<lb ed="#P" n="68" break="no"/>ius libet rei est, propter suam 
+      debi<lb ed="#P" n="69" break="no"/>litatem debilitas autem est 
+      extra<lb ed="#P" n="70" break="no"/>naturam: est enim accidens, quod 
+      <lb ed="#P" n="71"/>accidit ei: quoniam debilitas existens
+      <lb ed="#P" n="72"/>in omnibus animalibus est accidens
+      <lb ed="#P" n="73"/>extra natura, vt senectus, &amp; 
+      phthi<lb ed="#P" n="74" break="no"/>sis. &amp; hoc accidit per generationem
+      <lb ed="#P" n="75"/>animalium, quae fiunt ex rebus 
+      con<lb ed="#P" n="76" break="no"/>trariis diuersorum locorum: &amp; 
+      nulla<lb ed="#P" n="77" break="no"/>pars animalis est in suo loco: 
+      quapro<lb ed="#P" n="78" break="no"/>pter animal cito senescit. Reuerta¬
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0247.xml-->
+      <pb ed="#P" n="121-r"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>mur ergo, &amp; dicamus quod, si 
+      a<lb ed="#P" n="2" break="no"/>ctus, qui sunt extra natura, non 
+      se<lb ed="#P" n="3" break="no"/>quuntur corpora prima, quae sunt
+      <lb ed="#P" n="4"/>simplicia, non admixta, &amp; sunt in
+      <lb ed="#P" n="5"/>suis locix naturalibus, &amp; non habent
+      <lb ed="#P" n="6"/>contrarium omnino, necessario non 
+      <lb ed="#P" n="7"/>accidit eis debilitas. Si igitur 
+      debi<lb ed="#P" n="8" break="no"/>litas non accidit eis, ergo motus 
+      eo<lb ed="#P" n="9" break="no"/>rum non habebunt rigiditatem, neque,
+      <lb ed="#P" n="10"/>stexibilitatem scilicet non velocitatem,
+      <lb ed="#P" n="11"/>vel tarditatem. quoniam, si motus 
+      <lb ed="#P" n="12"/>horum haberent rigiditatem, 
+      ha<lb ed="#P" n="13" break="no"/>berent ftexibilitatem necessario.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e7506"> <!-- arist-dc-l2c38-it -->
+         <lb ed="#P" n="53"/>Dicamus etiam, quod impossibile
+      <lb ed="#P" n="54"/>est vt aliquod motu aliquando sit
+      <lb ed="#P" n="55"/>forte, &amp; rigidum in tempore 
+      infini<lb ed="#P" n="56" break="no"/>to, &amp; aliquando debile in tempore.
+      <lb ed="#P" n="57"/>infinito. No enim videmus aliquid 
+      <lb ed="#P" n="58"/>extra naturam accidens ei aeternum
+      <lb ed="#P" n="59"/>in infinito, debilitas autem est accidens
+      <lb ed="#P" n="60"/>extra natura, quapropter 
+      impossi<lb ed="#P" n="61" break="no"/>bile est vt res mota sit debilis in 
+      tem<lb ed="#P" n="62" break="no"/>pore infinito: &amp; impossibile est, vt
+      <lb ed="#P" n="63"/>motus sit secundum dispositione 
+      na<lb ed="#P" n="64" break="no"/>turalem, &amp; extra suam dispositio
+      <lb ed="#P" n="65"/>nem naturalem in aequali tempore, scilicet
+      <lb ed="#P" n="66"/>quod erit rigidus, &amp; debilis 
+      insi<lb ed="#P" n="67" break="no"/>mul in tempore infinito, quoniam 
+      mo<lb ed="#P" n="68" break="no"/>tus, cum debilitatur, &amp; stectitur 
+      fie<lb ed="#P" n="69" break="no"/>xione aeterna, erit in tepore 
+      infini<lb ed="#P" n="70" break="no"/>to. quod est impossibile. quonia res
+      <lb ed="#P" n="71"/>accidentalis, quae est extra naturam,
+      <lb ed="#P" n="72"/>non erit aequalis in tempore rei 
+      na<lb ed="#P" n="73" break="no"/>turali. Et impossibile est vt 
+      motor<lb ed="#P" n="74" break="no"/>etia vigorescat in suo motis 
+      vigora<lb ed="#P" n="75" break="no"/>tione aeterna, &amp; slectat ipsum 
+      ste<lb ed="#P" n="76" break="no"/>xione aeterna, quonia, si ita esset, in 
+      <lb ed="#P" n="77"/>ueniretur motus infinitus, &amp; non 
+      <lb ed="#P" n="78"/>determinatus. &amp; ia diximus quod 
+      <lb ed="#P" n="79"/>ois motus non erit nisi de loco ad 
+      lo<lb ed="#P" n="80" break="no"/>cum, et qued est terminatus, et finitus.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e7548"> <!-- arist-dc-l2c39-it -->
+         <lb ed="#P" n="84"/>Et dicamus etiam, quod motus 
+      <lb ed="#P" n="85"/>coeli habet tempus determinatum 
+      mini<lb ed="#P" n="86" break="no"/>mum, in cuius minori non potest moueri¬
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0251.xml-->
+      <pb ed="#P" n="123-r"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>sicut nec potest ambulans ambula
+      <lb ed="#P" n="2"/>re, neque, musicus tangere chordam in 
+      <lb ed="#P" n="3"/>minori tempore eo, in quo sit ambum
+      <lb ed="#P" n="4"/>latio, &amp; tactus. quonia omnis 
+      ope<lb ed="#P" n="5" break="no"/>ratio habet tempus minimum 
+      ter<lb ed="#P" n="6" break="no"/>minatum, quod non pertransit. ita
+      <lb ed="#P" n="7"/>motus coeli etiam habet tempus 
+      mo<lb ed="#P" n="8" break="no"/>dicum, in quo mouetur suo motu 
+      cir<lb ed="#P" n="9" break="no"/>culari, vltra quod non procedit.
+      <lb ed="#P" n="10"/>Et, si hoc sit in hoc mundo, 
+      impossi<lb ed="#P" n="11" break="no"/>bile est vt motus eius habeat 
+      per<lb ed="#P" n="12" break="no"/>petuam fiexibilitatem. quoniam,
+      <lb ed="#P" n="13"/>cum impossibile fuerit alterum 
+      ho<lb ed="#P" n="14" break="no"/>rum, impossibile est alterum, quia,
+      <lb ed="#P" n="15"/>cum possibile fuerit vt motus 
+      coeli<lb ed="#P" n="16" break="no"/>semper addat, scilicet in vigore,
+      <lb ed="#P" n="17"/>possibile est vt semper addat in 
+      sto<lb ed="#P" n="18" break="no"/>xione. &amp;, cum possibile est vt 
+      mo<lb ed="#P" n="19" break="no"/>tus eius semper addat in stexione
+      <lb ed="#P" n="20"/>possibilem erit vt semper addat in vi
+      <lb ed="#P" n="21"/>gore. quod est impossibile, vt 
+      decla<lb ed="#P" n="22" break="no"/>rauimus superius. 
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e7584"> <!-- arist-dc-l2c40-it -->
+         <lb ed="#P" n="18"/>Remanet ergo dicere quod 
+      mo<lb ed="#P" n="19" break="no"/>tus coeli aliquando vigoratur, &amp; 
+      <lb ed="#P" n="20"/>aliquando debilitatur, &amp; quod isti
+      <lb ed="#P" n="21"/>motus sunt successiui, scilicet quod 
+      <lb ed="#P" n="22"/>coelum aliquando est velocius, 
+      ali<lb ed="#P" n="23" break="no"/>quando tardius. hoc autem 
+      impos<lb ed="#P" n="24" break="no"/>sibile est, &amp; simile fabulae. Et, si ita
+      <lb ed="#P" n="25"/>esset, non lateret nos casus eius 
+      sub<lb ed="#P" n="26" break="no"/>visu. quoniam, cum contraria 
+      posi<lb ed="#P" n="27" break="no"/>ta fuerint vnum in opposito alterius,
+      <lb ed="#P" n="28"/>citius cognoscutur, &amp; facilius 
+      sen<lb ed="#P" n="29" break="no"/>tiuntur. Declaratum est igitur per 
+      <lb ed="#P" n="30"/>ea, quae diximus ex propositioibus
+      <lb ed="#P" n="31"/>&amp; sillogismis, quod coelum est vnum
+      <lb ed="#P" n="32"/>tantum, &amp; quod non est factum,
+      <lb ed="#P" n="33"/>neque, generatu, &amp; quod motus eius
+      <lb ed="#P" n="34"/>est aeternus, &amp; quod est aequalis, sine
+      <lb ed="#P" n="35"/>aliquae diuersitate omnino.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e7613"> <!-- arist-dc-l2c41-it -->
+         <lb ed="#P" n="23"/>Volumus modo perscrutari, post
+      <lb ed="#P" n="24"/>quam compleuimus sermonem 
+      de<lb ed="#P" n="25" break="no"/>primo corpore, de gtellis, et eius 
+      con<lb ed="#P" n="26" break="no"/>poribus, &amp; de earum figuris, &amp; 
+      <lb ed="#P" n="27"/>suis motibus. Dicamus ergo, quod 
+      <lb ed="#P" n="28"/>oportet nos propter ea, quae diximus
+      <lb ed="#P" n="29"/>superius, ponere quamlibet stellam
+      <lb ed="#P" n="30"/>ex illo corpore, in quo mouetur. iam
+      <lb ed="#P" n="31"/>enim diximus superius, quod hoc
+      <lb ed="#P" n="32"/>et corpus aliud ab istis quatuor 
+      cor<lb ed="#P" n="33" break="no"/>poribus, quod circulariter 
+      mouae<lb ed="#P" n="34" break="no"/>tur. Et dicamus quod, 
+      quemadino<lb ed="#P" n="35" break="no"/>dum dicentes quod stellae sunt igneae
+      <lb ed="#P" n="36"/>non dicebant hoc, nisi quia corpus 
+      <lb ed="#P" n="37"/>altissimum ponebant igneum, &amp; 
+      <lb ed="#P" n="38"/>dicebant quod necesse est, vi quod 
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0253.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="39"/>libet corpus sit ex natura corporis, 
+      <lb ed="#P" n="40"/>in quo est positum, &amp; fixum, it a
+      <lb ed="#P" n="41"/>dicemus nos, quod stellae sunt ex 
+      na<lb ed="#P" n="42" break="no"/>tura quinti corporis, quia ponutur,
+      <lb ed="#P" n="43"/>in eo fixae.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e7672"> <!-- arist-dc-l2c42-it -->
+         <lb ed="#P" n="53"/>Calor autem veniens ex stellis
+      <lb ed="#P" n="54"/>fit ex confricatione aeris, quae fit
+      <lb ed="#P" n="55"/>ex motu earum. motus enim 
+      inna<lb ed="#P" n="56" break="no"/>tus est calefacere lignum, &amp; 
+      fer<lb ed="#P" n="57" break="no"/>rum, &amp; lapidem. Et, cum ita sit,
+      <lb ed="#P" n="58"/>illud, quod est propinquius igni, est
+      <lb ed="#P" n="59"/>dignius calefieri quam alia: &amp; 
+      <lb ed="#P" n="60"/>propinquissimum rerum igni est aer. 
+      <lb ed="#P" n="61"/>motus ergo necessario calefacit 
+      ae<lb ed="#P" n="62" break="no"/>rem. &amp; verificatio huius est, quia
+      <lb ed="#P" n="63"/>motus calefacit plumbum sagittaes
+      <lb ed="#P" n="64"/>quoniam, cuio sagitta exiuerit a
+      <lb ed="#P" n="65"/>agittario, plumbum liquesit a 
+      sa<lb ed="#P" n="66" break="no"/>gitta. Beuertamur ergo, &amp; 
+      dica<lb ed="#P" n="67" break="no"/>mus quod, cum stellae calefaciunt,
+      <lb ed="#P" n="68"/>ex motu calesit aer, qui est in 
+      cir<lb ed="#P" n="69" break="no"/>cuitu earum necessario. &amp; istae 
+      stel<lb ed="#P" n="70" break="no"/>lae non calefiunt, nisi quia 
+      mouen<lb ed="#P" n="71" break="no"/>tur in aere: &amp;, cum aer scinditur,
+      <lb ed="#P" n="72"/>ex motu stellarum sit ignis: &amp; sic
+      <lb ed="#P" n="73"/>stellae calefiunt ex eo. stellae 
+      au<lb ed="#P" n="74" break="no"/>tem, quae sunt in orbe superiori, 
+      pro<lb ed="#P" n="75" break="no"/>cedunt in suo orbe: &amp; propter hoc
+      <lb ed="#P" n="76"/>non calefiunt. stellae autem non 
+      <lb ed="#P" n="77"/>calefiunt, nisi quia aer est sub 
+      in<lb ed="#P" n="78" break="no"/>feriori orbe rotundo. &amp; cum ille
+      <lb ed="#P" n="79"/>orbis mouebitur, calefiet aer, &amp; 
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0255.xml-->
+      <pb ed="#P" n="125-r"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>maxinse aer, qui est prope 
+      liga<lb ed="#P" n="2" break="no"/>mentum solis. &amp; ideo calor solis est
+      <lb ed="#P" n="3"/>secundum suam propinquitatem,
+      <lb ed="#P" n="4"/>&amp; remotionem a nostris capitibus,
+      <lb ed="#P" n="5"/>Manifestum est igitur quod 
+      stel<lb ed="#P" n="6" break="no"/>lae non sunt igneae, &amp; quod lux 
+      ea<lb ed="#P" n="7" break="no"/>rum non est ignea, &amp; non cadit,
+      <lb ed="#P" n="8"/>propter hoc sub visu.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e7737"> <!-- arist-dc-l2c43-it -->
+         <lb ed="#P" n="49"/>Et dicamus etiam quod stellae
+      <lb ed="#P" n="50"/>cum videntur transferri, &amp; 
+      totu<lb ed="#P" n="51" break="no"/>coelum, necessario erit hoc, aut am
+      <lb ed="#P" n="52"/>bobus quiescentibus, aut ambobus
+      <lb ed="#P" n="53"/>motis, aut hoc quiescente &amp; hoc
+      <lb ed="#P" n="54"/>moto. Dicamus igitur quod 
+      impos<lb ed="#P" n="55" break="no"/>sibile est vt amoo sint quiescentia,
+      <lb ed="#P" n="56"/>cum terra sit quiescens. quod, si ita
+      <lb ed="#P" n="57"/>esset, non videremus hoc, quod 
+      vi<lb ed="#P" n="58" break="no"/>demus de stellis. sit ergo terra 
+      mo<lb ed="#P" n="59" break="no"/>do quiescens, donec de ea in futuro
+      <lb ed="#P" n="60"/>perscrutetur.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e7774"> <!-- arist-dc-l2c44-it -->
+         <lb ed="#P" n="66"/>Remanet nobis dicere aut 
+      am<lb ed="#P" n="67" break="no"/>bo sunt mota, scilicet stella, &amp; coelum, aut
+      <lb ed="#P" n="68"/>hoc motum, &amp; hoc quiescens. Si
+      <lb ed="#P" n="69"/>igitur ambo sunt mota, consimile
+      <lb ed="#P" n="70"/>habebunt velocitatem. quod est 
+      ex<lb ed="#P" n="71" break="no"/>tra rationem, vt motus sit idem 
+      mo<lb ed="#P" n="72" break="no"/>tui coeli. esset enim velocitas 
+      mo<lb ed="#P" n="73" break="no"/>tus cuiuslibet stellae similis motui 
+      <lb ed="#P" n="74"/>orbis, in quo mouetur, &amp; 
+      perueni<lb ed="#P" n="75" break="no"/>rent cum suo orbe ad eundem locum
+      <lb ed="#P" n="76"/>in eadem hora. &amp; tunc accideret 
+      <lb ed="#P" n="77"/>vt locus stellarum reuolueretur 
+      cir<lb ed="#P" n="78" break="no"/>culo, &amp; reuoluens moueretur reuo
+      <lb ed="#P" n="79"/>lutione, &amp; reuolueretur cum 
+      stellae<lb ed="#P" n="80" break="no"/>in eodem tempore. Et non est 
+      necel<lb ed="#P" n="81" break="no"/>sarium vt velocitas motus stelle su¬
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0261.xml-->
+      <pb ed="#P" n="128-r"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>secundum magnitudinem stellarum.
+      <lb ed="#P" n="2"/>velocitas autem motus circulorum
+      <lb ed="#P" n="3"/>non est ignotum vt sit secundum 
+      ma<lb ed="#P" n="4" break="no"/>gnitudinem suam: sed haec est 
+      nece<lb ed="#P" n="5" break="no"/>sarium. &amp; non oportet quod hoc sit
+      <lb ed="#P" n="6"/>in stellis, quae sunt in circulis scilicet vt
+      <lb ed="#P" n="7"/>velocitas motus stellae sit secundum
+      <lb ed="#P" n="8"/>magnitudinem sui orbis. quoniam,
+      <lb ed="#P" n="9"/>si stella pertransiret maiorem 
+      orbe<lb ed="#P" n="10" break="no"/>cito secundum suam magnitudinem
+      <lb ed="#P" n="11"/>necessario, si stellae transferrentur
+      <lb ed="#P" n="12"/>ex suis orbibus in alios, esset motus 
+      <lb ed="#P" n="13"/>quarundam tardior, &amp; quarudam
+      <lb ed="#P" n="14"/>velocior. &amp; sic stellae non haberent
+      <lb ed="#P" n="15"/>motum proprium, sed circuli 
+      defer<lb ed="#P" n="16" break="no"/>rent eas, &amp; mouerent eas.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e7848"> <!-- arist-dc-l2c45-it -->
+         <lb ed="#P" n="26"/>Dicamus etiam quod, si stellae,
+      <lb ed="#P" n="27"/>&amp; orbes essent non causati, scilicet sine
+      <lb ed="#P" n="28"/>causa, &amp; agente, non esset omnino
+      <lb ed="#P" n="29"/>necessarium vt orbis esset magnus
+      <lb ed="#P" n="30"/>in omnibus stellis, &amp; motus 
+      stella<lb ed="#P" n="31" break="no"/>esset in eo velox secundum 
+      magni<lb ed="#P" n="32" break="no"/>tudinem orbis. Si igitur vna 
+      stel<lb ed="#P" n="33" break="no"/>la, aut duae essent huiusmodi, non 
+      <lb ed="#P" n="34"/>esset inopinabile tantum: cum 
+      au<lb ed="#P" n="35" break="no"/>tem omnes stellae sint huiusmodi 
+      <lb ed="#P" n="36"/>iste sermo est fabulosus. &amp; nihil o
+      <lb ed="#P" n="37"/>in rebus naturalibus habes aliquam
+      <lb ed="#P" n="38"/>dispositionem casualem. &amp; casus
+      <lb ed="#P" n="39"/>etiam impossibile est vt sit in om¬
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0262.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="40"/>nibus rebus, scilicet, vt res non 
+      ha<lb ed="#P" n="41" break="no"/>beant causam.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e7875"> <!-- arist-dc-l2c46-it -->
+         <lb ed="#P" n="36"/>Reuertamur igitur &amp; 
+      dica<lb ed="#P" n="37" break="no"/>mus quod, si sint circuli quiescentes,
+      <lb ed="#P" n="38"/>&amp; stellae motae, erit etiam 
+      inopina<lb ed="#P" n="39" break="no"/>bile, &amp; extra rationem propter hac
+      <lb ed="#P" n="40"/>causam, quam diximus. accidit enim
+      <lb ed="#P" n="41"/>vt motus stellarum sit secundum
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0263.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="42"/>magnitudinem circulorum. 
+      Dica<lb ed="#P" n="43" break="no"/>mus igitur quod declaratum est, et
+      <lb ed="#P" n="44"/>manifestum quod non est possibile
+      <lb ed="#P" n="45"/>vt circuli, &amp; stellae moueantur in
+      <lb ed="#P" n="46"/>simul, neque, quod stellae moueantur.
+      <lb ed="#P" n="47"/>oportet nos igitur dicere quod 
+      cir<lb ed="#P" n="48" break="no"/>culi moueantur tantum, &amp; 
+      stella<lb ed="#P" n="49" break="no"/>sint quiescentes, fixae in circulis, &amp; 
+      <lb ed="#P" n="50"/>circuli deferant eas. quonia, cu 
+      fue<lb ed="#P" n="51" break="no"/>rint hmoi, non accidit vt iste sermo
+      <lb ed="#P" n="52"/>sit extra rationem. necessarium est
+      <lb ed="#P" n="53"/>enim vt velocitas motus. orbis 
+      ma<lb ed="#P" n="54" break="no"/>iorum orbium positorum in eodem 
+      <lb ed="#P" n="55"/>loco sit secundum motum 
+      magnitudi<lb ed="#P" n="56" break="no"/>nis suae. &amp; sicut in aliis corporibus
+      <lb ed="#P" n="57"/>non circularibus corpus maius 
+      mo<lb ed="#P" n="58" break="no"/>uetur citius, sic. &amp; de corporibus
+      <lb ed="#P" n="59"/>circularibus dico quod corpus 
+      ma<lb ed="#P" n="60" break="no"/>ius eorum mouetur citius secundum
+      <lb ed="#P" n="61"/>suam magnitudinem.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e7921"> <!-- arist-dc-l2c47-it -->
+         <lb ed="#P" n="16"/>Et dicamus etiam quod, cum
+      <lb ed="#P" n="17"/>circuli tantum mouebuntur, non 
+      <lb ed="#P" n="18"/>stellae, non diuidetur coelum, neque
+      <lb ed="#P" n="19"/>findetur. &amp; iam declarauimus 
+      su<lb ed="#P" n="20" break="no"/>perius quod totum coelum est 
+      con<lb ed="#P" n="21" break="no"/>tinuum, non separatum omnino.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e7937"> <!-- arist-dc-l2c48-it -->
+         <lb ed="#P" n="68"/>Et dicamus etiam, quod 
+      stellae<lb ed="#P" n="69" break="no"/>sunt sphaericae rotundae. Antiqui
+      <lb ed="#P" n="70"/>vero hoc dicebant, nos aut 
+      confite<lb ed="#P" n="71" break="no"/>mur hoc, cum posuerimus eas ex 
+      cor<lb ed="#P" n="72" break="no"/>pore quinto sphaerico. &amp; dicamus
+      <lb ed="#P" n="73"/>etiam, quod corpus rotundum habet
+      <lb ed="#P" n="74"/>duos motus, quorum vnus est reuersus,
+      <lb ed="#P" n="75"/>&amp; alter secudum reuolutionem: si igi
+      <lb ed="#P" n="76"/>tur stellae mouerentur, necessario
+      <lb ed="#P" n="77"/>erit motus earum vno istorum 
+      mo<lb ed="#P" n="78" break="no"/>dorum. Si ergo motus earum esset
+      <lb ed="#P" n="79"/>circularis, omnino essent fixae¬
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0266.xml-->
+      <pb ed="#P" n="130-v"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>isuis locis. &amp; nos videmus eas 
+      mu<lb ed="#P" n="2" break="no"/>tari a suis locis: &amp; omnes homines 
+      con<lb ed="#P" n="3" break="no"/>cedunt hoc. Et, si motus earum esset 
+      <lb ed="#P" n="4"/>huiusmodi, oporteret vt motus 
+      om<lb ed="#P" n="5" break="no"/>nium stellarum esset talis. modo 
+      ue<lb ed="#P" n="6" break="no"/>ro Sol tantum videtur moueri isto
+      <lb ed="#P" n="7"/>motu apud suam ascensionem, &amp; 
+      <lb ed="#P" n="8"/>occasum. existimatur autem esse
+      <lb ed="#P" n="9"/>talis disponis non ex se, sed quia 
+      ual<lb ed="#P" n="10" break="no"/>de remotus est a visu. visus enim 
+      ci<lb ed="#P" n="11" break="no"/>multum fuerit remotus, &amp; 
+      exten<lb ed="#P" n="12" break="no"/>sus, reuoluetur propter suam 
+      debi<lb ed="#P" n="13" break="no"/>litatem. &amp; ideo motus totius 
+      So<lb ed="#P" n="14" break="no"/>lis existimatur esse secundum 
+      re<lb ed="#P" n="15" break="no"/>uolutionem. Et propter hanc cam
+      <lb ed="#P" n="16"/>entiam stellaefixae videntur 
+      scinti<lb ed="#P" n="17" break="no"/>lare, stellae autem erraticae 
+      viden<lb ed="#P" n="18" break="no"/>tur non luminosae, quia 
+      appropin<lb ed="#P" n="19" break="no"/>quant nobis, &amp; propter suam 
+      pro<lb ed="#P" n="20" break="no"/>pinquitatem comprebenduntur a
+      <lb ed="#P" n="21"/>visu, &amp; peruenit ad eas fortiter
+      <lb ed="#P" n="22"/>quod non potest in stellis fixis, si non
+      <lb ed="#P" n="23"/>tremerent propter suam 
+      remotio<lb ed="#P" n="24" break="no"/>nem. &amp;, cum visus reuoluetur, 
+      vi<lb ed="#P" n="25" break="no"/>debit quod stella est, quae mouetus
+      <lb ed="#P" n="26"/>isto motu, qui est secundum reuolum
+      <lb ed="#P" n="27"/>tionem, &amp; conuersionem. &amp; non 
+      <lb ed="#P" n="28"/>est opinabile videur visus, vel videns 
+      <lb ed="#P" n="29"/>moueat visum.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e8007"> <!-- arist-dc-l2c49-it -->
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0267.xml-->
+         <cb ed="#P" n="b"/>
+         <lb ed="#P" n="44"/>Et dicamus etiam, quod stellae
+      <lb ed="#P" n="45"/>non mouentur motu titubationis
+      <lb ed="#P" n="46"/>&amp; hoc manifestum est, quia illud,
+      <lb ed="#P" n="47"/>quod titubat, necessario 
+      reuerte<lb ed="#P" n="48" break="no"/>tur: facies autem lunae semper est
+      <lb ed="#P" n="49"/>ad nos, &amp; respiciens nos. 
+      Reuerta<lb ed="#P" n="50" break="no"/>mur ergo, &amp; dicamus quod 
+      stellae<lb ed="#P" n="51" break="no"/>si mouerentur per se, necesse esset
+      <lb ed="#P" n="52"/>vt mouerentur per motum earum
+      <lb ed="#P" n="53"/>aeternum: &amp; sunt illi duo motus 
+      <lb ed="#P" n="54"/>quos diximus superius: sed non 
+      vi<lb ed="#P" n="55" break="no"/>dentur moueri istis motibus: ergo
+      <lb ed="#P" n="56"/>motus earum non est per se omnino.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e8031"> <!-- arist-dc-l2c50-it -->
+         <lb ed="#P" n="29"/>Et dicamus etiam, quod extra rone
+      <lb ed="#P" n="30"/>est vt natura ponat stellas motas,
+      <lb ed="#P" n="31"/>&amp; non dedit eis instrumenta 
+      mo<lb ed="#P" n="32" break="no"/>tus. natura autem nihil ponit ocio
+      <lb ed="#P" n="33"/>sum sine cam. &amp; impossibile est vt
+      <lb ed="#P" n="34"/>natura esset ingeniosa in 
+      animali<lb ed="#P" n="35" break="no"/>bus, &amp; dimisisset haec corpora, 
+      ha<lb ed="#P" n="36" break="no"/>bentia vtiles dispositiones, &amp; 
+      ab<lb ed="#P" n="37" break="no"/>stulisset eis ea, per quae possent 
+      mo<lb ed="#P" n="38" break="no"/>ueri per se, &amp; remouit eas a rebus
+      <lb ed="#P" n="39"/>habentibus instrumentum motus.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e8055"> <!-- arist-dc-l2c51-it -->
+         <lb ed="#P" n="22"/>Et dicamus etiam, quod 
+      opor<lb ed="#P" n="23" break="no"/>tet secundum hunc modum omnes
+      <lb ed="#P" n="24"/>perscrutantes de istis rebus esse 
+      con<lb ed="#P" n="25" break="no"/>tentos, &amp; dicere, quod totum 
+      coe<lb ed="#P" n="26" break="no"/>lum est sphaericum, &amp; quod 
+      omni<lb ed="#P" n="27" break="no"/>stella est sphaerica, &amp; quod figura
+      <lb ed="#P" n="28"/>sphaerica est conuenientior omnibus 
+      fi<lb ed="#P" n="29" break="no"/>guris motu caeli. quoniam, cum 
+      fue<lb ed="#P" n="30" break="no"/>rit sphaericum, mouebitur motuue
+      <lb ed="#P" n="31"/>loci, remanendo in suo loco, non 
+      re<lb ed="#P" n="32" break="no"/>cedendo ab eo omnino. Si igitur 
+      fi<lb ed="#P" n="33" break="no"/>gura circularis etiam non est 
+      conuo<lb ed="#P" n="34" break="no"/>niens motui, qui est ad ante, scilicet loca
+      <lb ed="#P" n="35"/>li, sed conuenit linea aequalis, sed 
+      <lb ed="#P" n="36"/>est remotum afigura corporum 
+      mo<lb ed="#P" n="37" break="no"/>torum motu locaum, dico ad medium
+      <lb ed="#P" n="38"/>&amp; a medio. Si igitur ita fit, &amp; ne¬
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0270.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="39"/>cessario est vt coelum moueatur
+      <lb ed="#P" n="40"/>motu circulari, &amp; stellae non sunt,
+      <lb ed="#P" n="41"/>motae per se. recte est vt quaelibet,
+      <lb ed="#P" n="42"/>stellarum, &amp; coeli earum sit 
+      circum<lb ed="#P" n="43" break="no"/>laris sphaerica: &amp; tunc alterum eorum
+      <lb ed="#P" n="44"/>erit motum, &amp; alterum quiescens. 
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e8111"> <!-- arist-dc-l2c52-it -->
+         <lb ed="#P" n="75"/>Et dicamus, quod manifestum est
+      <lb ed="#P" n="76"/>ex eis, quae diximus etiam in sermo
+      <lb ed="#P" n="77"/>ne dicetis quod accidit ex motu 
+      or<lb ed="#P" n="78" break="no"/>bium, &amp; stellarum vox 
+      musicalis<lb ed="#P" n="79" break="no"/>propter consonantia collisionis 
+      mo<lb ed="#P" n="80" break="no"/>tus orbium, &amp; stellarum. &amp; dicens
+      <lb ed="#P" n="81"/>hoc dicit hoc inuerecunde, &amp; 
+      fa<lb ed="#P" n="82" break="no"/>tue: &amp; veritas eius est in opposito.
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0272.xml-->
+      <pb ed="#P" n="133-v"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>IQuidam enim existimant quod ex
+      <lb ed="#P" n="2"/>motu horum corporum maximorum
+      <lb ed="#P" n="3"/>accidat collisio necessario: videmus
+      <lb ed="#P" n="4"/>enim quod corpora, quae non sunt in
+      <lb ed="#P" n="5"/>magnitudine Solis, &amp; Lunae, neque 
+      <lb ed="#P" n="6"/>in sua velocitate, cum mouebutur,
+      <lb ed="#P" n="7"/>accidit ex motu eorum magnus 
+      so<lb ed="#P" n="8" break="no"/>nus necessario. Et dixerunt etiam.
+      <lb ed="#P" n="9"/>quod impossibile est quod motus ista
+      <lb ed="#P" n="10"/>rum stellarum multarum, &amp; 
+      ma<lb ed="#P" n="11" break="no"/>gnarum sit ita velox sine sono, &amp;
+      <lb ed="#P" n="12"/>voce. &amp;, cum hoc impossibile est,
+      <lb ed="#P" n="13"/>&amp; velocitas earum est secundum
+      <lb ed="#P" n="14"/>suam remotionem adinuicem, 
+      neces<lb ed="#P" n="15" break="no"/>sario erit sonus, qui accidit ex 
+      mo<lb ed="#P" n="16" break="no"/>tu eorum, habens formam 
+      musica<lb ed="#P" n="17" break="no"/>lem extranea. Sed illi bene sciunt,
+      <lb ed="#P" n="18"/>quod suus sermo est extra ratione,
+      <lb ed="#P" n="19"/>scilicet vt ita habeant magnum so
+      <lb ed="#P" n="20"/>num, &amp; nos non possumus audire.
+      <lb ed="#P" n="21"/>&amp; inquiunt quod ca eius est quod, 
+      <lb ed="#P" n="22"/>cum nati sumus, cadit in auditum
+      <lb ed="#P" n="23"/>nostrum sonus orbium, &amp; stellarum,
+      <lb ed="#P" n="24"/>&amp; replet ipsum. &amp; propter hoc non
+      <lb ed="#P" n="25"/>possumus distinguere istum sonum
+      <lb ed="#P" n="26"/>a silentio: cognitio enim soni non est,
+      <lb ed="#P" n="27"/>nisi propter suum contrarium. &amp; 
+      dici<lb ed="#P" n="28" break="no"/>quod silentium significat 
+      cognitio<lb ed="#P" n="29" break="no"/>nem soni. &amp; testantur hoc mallea
+      <lb ed="#P" n="30"/>tores. isti enim nesciut, nec scire 
+      po<lb ed="#P" n="31" break="no"/>sunt distinguere inter sonum, &amp; 
+      si<lb ed="#P" n="32" break="no"/>lentium: &amp; quia auditus eorum sunt
+      <lb ed="#P" n="33"/>plent sono malleorum. &amp; hoc etiam 
+      acci<lb ed="#P" n="34" break="no"/>dit homibus, qui non possunt 
+      distingue<lb ed="#P" n="35" break="no"/>re rem, in quae sunt assueti a suo 
+      con<lb ed="#P" n="36" break="no"/>trario, sicut distingunt non assueti.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e8192"> <!-- arist-dc-l2c53-it -->
+         <lb ed="#P" n="21"/>Et dixerunt hoc stulte, sicut 
+      di<lb ed="#P" n="22" break="no"/>ximus superius, &amp; sermo eorum est
+      <lb ed="#P" n="23"/>impossibilis scilicet quod motus corpori
+      <lb ed="#P" n="24"/>altissimorum faciat sonum, &amp; non
+      <lb ed="#P" n="25"/>audiatur. Et causa, quam dixerunt
+      <lb ed="#P" n="26"/>in hoc, est valde debilis. quonia 
+      qua<lb ed="#P" n="27" break="no"/>uis, non audiamus sonum motuum
+      <lb ed="#P" n="28"/>orbium, &amp; stellarum, propter 
+      cau<lb ed="#P" n="29" break="no"/>sam, quam dixerunt, tamen 
+      debe<lb ed="#P" n="30" break="no"/>rent operari in nobis aliquid, qua
+      <lb ed="#P" n="31"/>uis non sentiremus ipsos. soni enim
+      <lb ed="#P" n="32"/>magni operantur in spissitudinem
+      <lb ed="#P" n="33"/>corporum. V. g. sinus tonitrui scindit.
+      <lb ed="#P" n="34"/>lapides, &amp; corpora fortia. si igitur
+      <lb ed="#P" n="35"/>sonus tonitrui facit hoc, dignior est
+      <lb ed="#P" n="36"/>facere hunc sonum, qui fit ex motu
+      <lb ed="#P" n="37"/>corporum multorum, &amp; magnorum,
+      <lb ed="#P" n="38"/>&amp; quod perueniat ad nos necessa¬
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0273.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="39"/>rio: &amp; nos non possumus sustinere, et,
+      <lb ed="#P" n="40"/>quod fugiamus ab eius victoria.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e8223"> <!-- arist-dc-l2c54-it -->
+         <lb ed="#P" n="41"/>Et dicamus etiam, quod nos non
+      <lb ed="#P" n="42"/>audimus ex motu orbium, &amp; stel¬
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0274.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="43"/>larum sonum, &amp; quod corpora nihul 
+      <lb ed="#P" n="44"/>timorosum recipiunt ex motu 
+      or<lb ed="#P" n="45" break="no"/>bium, neque, aliquam passionem, quo
+      <lb ed="#P" n="46"/>niam non habent sonum, neque, 
+      rugi<lb ed="#P" n="47" break="no"/>tum. &amp; causa eius est manifesta ex
+      <lb ed="#P" n="48"/>praedictis, &amp; verificatur noster 
+      ser<lb ed="#P" n="49" break="no"/>mo. &amp; creditur ex sermone dicetis
+      <lb ed="#P" n="50"/>quod omnes stellae sunt fixae. 
+      Pythago<lb ed="#P" n="51" break="no"/>ricos autem induxit error ad 
+      dicen<lb ed="#P" n="52" break="no"/>dum quod motus superior habet 
+      so<lb ed="#P" n="53" break="no"/>num musicalem ex hoc, quod vident
+      <lb ed="#P" n="54"/>apud nos, quod omne figuratum 
+      fa<lb ed="#P" n="55" break="no"/>cit sonum, &amp; rugetum, &amp; quod 
+      <lb ed="#P" n="56"/>omne, quod illic est, est firmum, &amp; 
+      <lb ed="#P" n="57"/>ligatum in moto. vt partes 
+      nauu<lb ed="#P" n="58" break="no"/>non faciunt sonum, neque, rugitum,
+      <lb ed="#P" n="59"/>neque, ex motu nauis accidit etiam.
+      <lb ed="#P" n="60"/>sonus, cum mota fuerit in siuuio
+      <lb ed="#P" n="61"/>currente velocis motus. 
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e8260"> <!-- arist-dc-l2c55-it -->
+         <lb ed="#P" n="26"/>Si igitur aliquis dixerit, quod 
+      <lb ed="#P" n="27"/>impossibile est vt non accidat ex 
+      mo<lb ed="#P" n="28" break="no"/>tu pectoris nauis, pedis eius 
+      ma<lb ed="#P" n="29" break="no"/>gnus rugitus, &amp; vt non accidat etiam
+      <lb ed="#P" n="30"/>Ionus ex motuo nauis, dicemus quod
+      <lb ed="#P" n="31"/>si delatu est quod est distinctum ala
+      <lb ed="#P" n="32"/>tore, accidet ab eo sonus. si igitur de
+      <lb ed="#P" n="33"/>latum fuerit continuum culatore, 
+      <lb ed="#P" n="34"/>non accidet sonus, neque, rugitus.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e8282"> <!-- arist-dc-l2c56-it -->
+         <lb ed="#P" n="75"/>Si igitur ita sit, dicamus etiam.
+      <lb ed="#P" n="76"/>quod, si motus corporum superiorum
+      <lb ed="#P" n="77"/>esset in aere multo, reuoluto in 
+      vm<lb ed="#P" n="78" break="no"/>bra, aut igne, sicut dicunt 
+      singen<lb ed="#P" n="79" break="no"/>tes hoc, accideret necessario ex 
+      mo<lb ed="#P" n="80" break="no"/>tu eorum sonus, &amp; rugitus, &amp; per 
+      <lb ed="#P" n="81"/>ueniet ad nos iste sonus, &amp; opera¬
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0276.xml-->
+      <pb ed="#P" n="135-v"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>bitur in nos, &amp; diuidet corpora 
+      mi<lb ed="#P" n="2" break="no"/>bilia. Qnoniam autem, cum non 
+      fa<lb ed="#P" n="3" break="no"/>cimus comparationem de hoc, quod 
+      <lb ed="#P" n="4"/>diximus in istis corporibus, quae 
+      di<lb ed="#P" n="5" break="no"/>ximus, &amp; est apud nos ex motu 
+      il<lb ed="#P" n="6" break="no"/>lorum corporum superiorum, 
+      mani<lb ed="#P" n="7" break="no"/>festum est quod stellae non habent
+      <lb ed="#P" n="8"/>motum omnino, neque, animatum, neque, 
+      <lb ed="#P" n="9"/>violentum necessario. &amp; stetit 
+      na<lb ed="#P" n="10" break="no"/>tura, cum fecit stellas non motas,
+      <lb ed="#P" n="11"/>quasi sciret hoc, quod accideret ex
+      <lb ed="#P" n="12"/>motu earum. quapropter fuit 
+      inge<lb ed="#P" n="13" break="no"/>niata hoc ingenio, &amp; fecit ipsas 
+      fi<lb ed="#P" n="14" break="no"/>xas, remanentes fixas, scilicet 
+      fir<lb ed="#P" n="15" break="no"/>mas. quoniam, si mouerentur, nihil 
+      <lb ed="#P" n="16"/>figeretur ex eis, quae sunt apud nos
+      <lb ed="#P" n="17"/>in sua dispositione, &amp; omnia 
+      cor<lb ed="#P" n="18" break="no"/>rumperentur ex fortitudine sui 
+      so<lb ed="#P" n="19" break="no"/>ni, &amp; rucitus. Declaratum est 
+      igi<lb ed="#P" n="20" break="no"/>tur quod figura stellarum est 
+      spha<lb ed="#P" n="21" break="no"/>rica rotunda, &amp; quod stellae sunt
+      <lb ed="#P" n="22"/>fixae, &amp; firmatae, non motae omnino.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e8372"> <!-- arist-dc-l2c58-it -->
+         <lb ed="#P" n="33"/>Modo igitur dicamus, quod 
+      re<lb ed="#P" n="34" break="no"/>cte accidit cuilibet stellarum, vt 
+      mo<lb ed="#P" n="35" break="no"/>tus eius sit secundum suam 
+      remo<lb ed="#P" n="36" break="no"/>tionem. &amp; dico, quod earum 
+      quae<lb ed="#P" n="37" break="no"/>dam habent vnum motum leuem
+      <lb ed="#P" n="38"/>velocem, &amp; quaedam habent 
+      plu<lb ed="#P" n="39" break="no"/>res motus tardos, &amp; quaelibet 
+      stel<lb ed="#P" n="40" break="no"/>larum moueturuin suo orbe econtra¬
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0278.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="41"/>rio motui primi coeli. &amp; hoc fuitre 
+      <lb ed="#P" n="42"/>cte. Et dico, quod stella, quae est 
+      po<lb ed="#P" n="43" break="no"/>sita prope primum motum 
+      simpli<lb ed="#P" n="44" break="no"/>cem, facit suam reuolutione in 
+      ma<lb ed="#P" n="45" break="no"/>iori tempore: &amp; stella posita a 
+      re<lb ed="#P" n="46" break="no"/>motis a primo motu simplici facit
+      <lb ed="#P" n="47"/>reuolutionem in tempore minori. 
+      cae<lb ed="#P" n="48" break="no"/>terae autem stellae, quae appropinquant
+      <lb ed="#P" n="49"/>primo motui simplici, faciut in 
+      ma<lb ed="#P" n="50" break="no"/>iori tempore, &amp; quae non 
+      appropin<lb ed="#P" n="51" break="no"/>quant illi motui, faciunt in tempore
+      <lb ed="#P" n="52"/>minori. &amp; hoc fuit recte. quoniam.
+      <lb ed="#P" n="53"/>in eis, quae appropinquat primo mo 
+      <lb ed="#P" n="54"/>tut simplici, contingit plus, &amp; quae 
+      <lb ed="#P" n="55"/>remouentur, contingit debilitas 
+      pro<lb ed="#P" n="56" break="no"/>pter remotionem, &amp; quae sunt 
+      in<lb ed="#P" n="57" break="no"/>ter se, sequuntur a primo motu, &amp; 
+      <lb ed="#P" n="58"/>simplici secundum propinquitatem,
+      <lb ed="#P" n="59"/>&amp; remotionem, sicut declarauerunt
+      <lb ed="#P" n="60"/>Mathematici scilicet in Almagesti.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e8424"> <!-- arist-dc-l2c59-it -->
+         <lb ed="#P" n="56"/>Volumus modo dicere de figuris
+      <lb ed="#P" n="57"/>stellarum, quae oportet consyderante,
+      <lb ed="#P" n="58"/>in hmot dicere quod figura cuius 
+      li<lb ed="#P" n="59" break="no"/>bet earum sit sphaerica. Et iam 
+      dixi<lb ed="#P" n="60" break="no"/>mus, quod stellae non mouentur omnino
+      <lb ed="#P" n="61"/>per se, &amp; quod natura nihil facit,
+      <lb ed="#P" n="62"/>ociosum, &amp; sine fine. recte igitur
+      <lb ed="#P" n="63"/>figurauit ea, quae non mouentur, 
+      fi<lb ed="#P" n="64" break="no"/>gura immobili omnino. stella autem non 
+      <lb ed="#P" n="65"/>mouetur, quia nihil bet ex 
+      instru<lb ed="#P" n="66" break="no"/>mentis motus. Manifestum est 
+      igi<lb ed="#P" n="67" break="no"/>tur, quod spissitudo corporum 
+      stella<lb ed="#P" n="68" break="no"/>rum rotundarum est sphaerica 
+      aequa<lb ed="#P" n="69" break="no"/>liter, &amp; indifferenter. Et 
+      verifica<lb ed="#P" n="70" break="no"/>tio huius, quod diximus, est Luna.
+      <lb ed="#P" n="71"/>Luna enim aliis stellis magis 
+      appa<lb ed="#P" n="72" break="no"/>ret sphaerica per sua facie. si enim
+      <lb ed="#P" n="73"/>non esset sphaeriea, non esset 
+      illumi<lb ed="#P" n="74" break="no"/>natis arcualis, &amp; modo media, &amp; 
+      <lb ed="#P" n="75"/>modo qunadrata. Et iam 
+      declaraui<lb ed="#P" n="76" break="no"/>mus hoc in Astrologia, quia, si 
+      Sol<lb ed="#P" n="77" break="no"/>non esset sphaericus, eclipsis eius non
+      <lb ed="#P" n="78"/>esset arcualis. Si igitur inuentatur,
+      <lb ed="#P" n="79"/>vnastellarum sphaerica, necesse est
+      <lb ed="#P" n="80"/>vt omnes sint spharicae.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e8492"> <!-- arist-dc-l2c60-it -->
+         <lb ed="#P" n="45"/>Et volumus modo perscrutari 
+      de<lb ed="#P" n="46" break="no"/>duabus quastionibus, de quibus 
+      opor<lb ed="#P" n="47" break="no"/>tet perscrutatorem perscrutari: &amp; 
+      di<lb ed="#P" n="48" break="no"/>cemus in eis secudum nostram sciam,
+      <lb ed="#P" n="49"/>&amp; nostram opinionem. &amp; non debet
+      <lb ed="#P" n="50"/>aliquis videre hoc in nobis, quod sit
+      <lb ed="#P" n="51"/>ex inuerecundia nostra, &amp; 
+      auda<lb ed="#P" n="52" break="no"/>cia, sed oportet mirari de nostra in
+      <lb ed="#P" n="53"/>quisitione in Philosophia, &amp; de no
+      <lb ed="#P" n="54"/>stra dilectione ad ea. &amp;, cum nos
+      <lb ed="#P" n="55"/>quaesiuerimus quoiones disputabiles,
+      <lb ed="#P" n="56"/>et potuerimus dissoluere eas parua
+      <lb ed="#P" n="57"/>dissolutione, tunc audiente oportet, 
+      <lb ed="#P" n="58"/>esse hilarem, &amp; infrigidari in 
+      pe<lb ed="#P" n="59" break="no"/>ctore. Prima vero quaestio est, quod 
+      <lb ed="#P" n="60"/>mirabilia naturae sunt plura: &amp; 
+      <lb ed="#P" n="61"/>hoc est vnum eorum, &amp; non minus 
+      <lb ed="#P" n="62"/>caeteris. dico volumus scire quae de
+      <lb ed="#P" n="63"/>causa omnis orbis remotus a primo 
+      or<lb ed="#P" n="64" break="no"/>be non mouetur pluribus motibus
+      <lb ed="#P" n="65"/>aeternis. Quoniaio necesse est vt 
+      exi<lb ed="#P" n="66" break="no"/>stimatur, si primum corpus mouetur
+      <lb ed="#P" n="67"/>vno motu, vt orbis propinquus ei
+      <lb ed="#P" n="68"/>moueatur paucis motibus, aut 
+      duo<lb ed="#P" n="69" break="no"/>bus, aut tribus. Modo autem eius 
+      con<lb ed="#P" n="70" break="no"/>trarium accidit eis. quonia Sol, &amp; 
+      <lb ed="#P" n="71"/>Luna mouentur paucioribus 
+      moti<lb ed="#P" n="72" break="no"/>bus, quam sint motus stellarum 
+      erra<lb ed="#P" n="73" break="no"/>ticarum: &amp; loca earum, cum haec sunt
+      <lb ed="#P" n="74"/>remota a medio, &amp; propinqua 
+      pri<lb ed="#P" n="75" break="no"/>mo corpori. Et hoc manifestum est, et
+      <lb ed="#P" n="76"/>sensibile in quibusdam stellis erraricis.
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0283.xml-->
+      <pb ed="#P" n="139-r"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>iam enim vidimus Lunam intrasse
+      <lb ed="#P" n="2"/>secundum medietatem sub stella 
+      Ma<lb ed="#P" n="3" break="no"/>tis, &amp; eclipsare Marte ex parte 
+      ni<lb ed="#P" n="4" break="no"/>gredinis Lunae, deinde apparuit, et
+      <lb ed="#P" n="5"/>exiuit ex parte albedinis Lunae, et
+      <lb ed="#P" n="6"/>luminis eius. Et similiter dicunt de
+      <lb ed="#P" n="7"/>aliis stellis Bablonici, &amp; 
+      Aeg<lb ed="#P" n="8" break="no"/>ptii, qui consyderauerut hoc in 
+      mul<lb ed="#P" n="9" break="no"/>tis, &amp; addiscimus nos ab eis, et 
+      cre<lb ed="#P" n="10" break="no"/>dimus eis, &amp; scimus sciam 
+      valde<lb ed="#P" n="11" break="no"/>nobilem in qualibet stellarum.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e8588"> <!-- arist-dc-l2c61-it -->
+         <lb ed="#P" n="33"/>Secunda autem quaestio est, &amp; 
+      vo<lb ed="#P" n="34" break="no"/>lumus scire quae de causa in primo
+      <lb ed="#P" n="35"/>orbe sunt plures stellae 
+      innumerabi<lb ed="#P" n="36" break="no"/>les, &amp; in vnoquoque, alio orbe est 
+      vna<lb ed="#P" n="37" break="no"/>sola stella. Dicamus igitur, quod 
+      <lb ed="#P" n="38"/>oportet quaerentem cognitionem rerum
+      <lb ed="#P" n="39"/>perscrutari de hoc. hoc enim 
+      aug<lb ed="#P" n="40" break="no"/>mentat virtute intellectus: quauis
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0284.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="41"/>scia istarum rerum sit difficilis 
+      pro<lb ed="#P" n="42" break="no"/>pter paucitatem causarum cognitionis
+      <lb ed="#P" n="43"/>earum, &amp; remotione, &amp; nobilitatem
+      <lb ed="#P" n="44"/>earum. sed tamen cum hoc, si vtamus
+      <lb ed="#P" n="45"/>eo, quod est in eis, &amp; nos dicemus
+      <lb ed="#P" n="46"/>eas modo, cum ista quod non sit 
+      extra<lb ed="#P" n="47" break="no"/>ronem, neque, eius cognitio 
+      pertran<lb ed="#P" n="48" break="no"/>situr. sed tamen nos non intelligimus
+      <lb ed="#P" n="49"/>haec corpora nobilia, &amp; opinamur
+      <lb ed="#P" n="50"/>ea esse tantum corpora. &amp; habere non
+      <lb ed="#P" n="51"/>bilitatem, &amp; ordinem sine anima omino.
+      <lb ed="#P" n="52"/>Dicamus ergo, quod oportet nos in 
+      <lb ed="#P" n="53"/>telligere ea esse viua, &amp; habere I
+      <lb ed="#P" n="54"/>actionem animalem. cum enim 
+      intel<lb ed="#P" n="55" break="no"/>lexerimus ea huius dispositionis, tunc 
+      <lb ed="#P" n="56"/>motus eorum non inueniuntur ociosi,
+      <lb ed="#P" n="57"/>&amp; non pertransitur scientia illius.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e8640"> <!-- arist-dc-l2c62-it -->
+         <lb ed="#P" n="61"/>Incipiamus modo, &amp; dicamus,
+      <lb ed="#P" n="62"/>qiod illud, quod est nobile perfecte,
+      <lb ed="#P" n="63"/>est nobile sine actione, &amp; sine 
+      ope<lb ed="#P" n="64" break="no"/>ratione, quae acquirit nobilitatem: 
+      <lb ed="#P" n="65"/>&amp; illud, quod est propinquum 
+      no<lb ed="#P" n="66" break="no"/>bili, est illud, quod acquirit ipsum
+      <lb ed="#P" n="67"/>vna actione parua: &amp; illud, quod 
+      <lb ed="#P" n="68"/>est remotum a nobili, est, quod 
+      ac<lb ed="#P" n="69" break="no"/>quirit ipsum pluribus actionibus.
+      <lb ed="#P" n="70"/>in corporibus hominum. quidam
+      <lb ed="#P" n="71"/>
+         <!-- line coord error -->
+         <lb ed="#P" n="72"/>enim sanus est sine acttone, &amp; sine 
+      <lb ed="#P" n="73"/>aliqua formarum: &amp; quidam non 
+      <lb ed="#P" n="74"/>acquirunt sanitatem, nisi per 
+      cur<lb ed="#P" n="75" break="no"/>sum, &amp; laborem, &amp; mulum exet
+      <lb ed="#P" n="76"/>citium: &amp; quidam non acquirunt
+      <lb ed="#P" n="77"/>sanitatem, licet multum laborent, 
+      <lb ed="#P" n="78"/>&amp; exercitentur multum, &amp; si 
+      cu<lb ed="#P" n="79" break="no"/>piant cupiditate multa.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e8670"> <!-- arist-dc-l2c63-it -->
+         <lb ed="#P" n="13"/>Et dicamus etiaem, quod 
+      perfi<lb ed="#P" n="14" break="no"/>cere vnum est facilius, quam 
+      perfice<lb ed="#P" n="15" break="no"/>re plura. &amp; perficere aliquid 
+      se<lb ed="#P" n="16" break="no"/>mel, aut bis est facilius, quam 
+      perfi<lb ed="#P" n="17" break="no"/>cere multotiens. Et, cu aliquid 
+      ac<lb ed="#P" n="18" break="no"/>quiritur vna actione, aut duabus
+      <lb ed="#P" n="19"/>facilius est eo, quod acquiritur 
+      pluri<lb ed="#P" n="20" break="no"/>bus, &amp; quod acquiritur pluribus,
+      <lb ed="#P" n="21"/>est difficilius. Secundum hoc igitur in
+      <lb ed="#P" n="22"/>telligendae sunt operationes 
+      stella<lb ed="#P" n="23" break="no"/>rum, dico quantitate operationum 
+      ani<lb ed="#P" n="24" break="no"/>malium, &amp; plantarum. operatione,
+      <lb ed="#P" n="25"/>eni homis plures sunt, &amp; eius 
+      actio<lb ed="#P" n="26" break="no"/>nes multae: quoniam potest 
+      perfice<lb ed="#P" n="27" break="no"/>re plura: quapropter actiones eius
+      <lb ed="#P" n="28"/>mutiplicantur, &amp; actiones eius non
+      <lb ed="#P" n="29"/>sunt propter se, sed propter aliud. 
+      il<lb ed="#P" n="30" break="no"/>lud autem quod est perfectae 
+      nobilita<lb ed="#P" n="31" break="no"/>tis, non indiget operatione, quae sit
+      <lb ed="#P" n="32"/>nobile. nam ipsum est illud, propter
+      <lb ed="#P" n="33"/>quod sit omnis operatio: &amp; omnis 
+      actio<lb ed="#P" n="34" break="no"/>&amp; perfectio operationis erit per 
+      il<lb ed="#P" n="35" break="no"/>lud, quod facit operationem propter
+      <lb ed="#P" n="36"/>aliquid, &amp; propter illud, quod est
+      <lb ed="#P" n="37"/>actio facientis.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e8731"> <!-- arist-dc-l2c64-it -->
+         <lb ed="#P" n="48"/>Dicamus igitur, quod quaedam 
+      <lb ed="#P" n="49"/>acquirunt nobile vna actione, &amp; 
+      <lb ed="#P" n="50"/>quaedam pluribus: quonia &amp; 
+      plu<lb ed="#P" n="51" break="no"/>res operationes ducunt ipsum, &amp; 
+      <lb ed="#P" n="52"/>faciunt apsum ascendere, &amp; 
+      veni<lb ed="#P" n="53" break="no"/>re ad illam nobilitatem. Nobile enim
+      <lb ed="#P" n="54"/>perfectum est vnum, sicut diximus
+      <lb ed="#P" n="55"/>superius, non indigens operatione,
+      <lb ed="#P" n="56"/>qua fiat nobile: &amp; quaedam sunt
+      <lb ed="#P" n="57"/>vropinqua ei pauca actione: &amp; quae 
+      <lb ed="#P" n="58"/>dam multa operatione: &amp; quaedam
+      <lb ed="#P" n="59"/>impossibile est vt sint 
+      propinqua<lb ed="#P" n="60" break="no"/>ei omnino, sed sunt contenta, cum
+      <lb ed="#P" n="61"/>siant propinqua aliirei, &amp; 
+      propin<lb ed="#P" n="62" break="no"/>quant nobili. sicut diximus quod 
+      sa<lb ed="#P" n="63" break="no"/>nitas est finis, &amp; perfectio. &amp; quae 
+      <lb ed="#P" n="64"/>dam corpora sunt propinqua 
+      sani<lb ed="#P" n="65" break="no"/>tati perfectae pauca operatione, &amp; 
+      <lb ed="#P" n="66"/>sient sana: &amp; quaedam sunt 
+      sana<lb ed="#P" n="67" break="no"/>per diminutionem corporis: &amp; quae 
+      <lb ed="#P" n="68"/>dam sunt sana per multum exerei 
+      <lb ed="#P" n="69"/>tium: &amp; quaedam non acquirunt,
+      <lb ed="#P" n="70"/>anitatem per exercitium, sed per 
+      <lb ed="#P" n="71"/>aliam operationem. motus erut 
+      igi<lb ed="#P" n="72" break="no"/>tur, quibus corpora appropinquant,
+      <lb ed="#P" n="73"/>sanitati perfectae, plures, &amp; non 
+      <lb ed="#P" n="74"/>plures, &amp; pauci, &amp; minimi.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e8773"> <!-- arist-dc-l2c65-it -->
+         <lb ed="#P" n="10"/>Et dico etiam, quod corporum
+      <lb ed="#P" n="11"/>quaedam non possunt esse sana, sed 
+      <lb ed="#P" n="12"/>possunt currere tantum: &amp; quaedam
+      <lb ed="#P" n="13"/>non possunt currere, sed possunt essam
+      <lb ed="#P" n="14"/>contenta quadam extenuatione: &amp; 
+      <lb ed="#P" n="15"/>quodlibet istorum corporum finen
+      <lb ed="#P" n="16"/>haent, alium a fine sui comparis.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e8784"> <!-- arist-dc-l2c66-it -->
+         <lb ed="#P" n="3"/>Et dico etiam vniuersaliter quod 
+      <lb ed="#P" n="4"/>perfectio cuiuslibet rei est acquisi
+      <lb ed="#P" n="5"/>tio complementi, &amp; finis. &amp; si hoc
+      <lb ed="#P" n="6"/>non poterit, nobilius est, &amp; melius
+      <lb ed="#P" n="7"/>vt sit propinqua complemento. &amp; 
+      <lb ed="#P" n="8"/>quanto magis erit propinqua ei, tam
+      <lb ed="#P" n="9"/>to magis erit nobilior. Quapropter
+      <lb ed="#P" n="10"/>terra non mouetur omnino, &amp; 
+      cor<lb ed="#P" n="11" break="no"/>pora ei propinqua mouentur 
+      pau<lb ed="#P" n="12" break="no"/>cis motibus. quia non perueniunt
+      <lb ed="#P" n="13"/>ad finem, sed illud acquirut, quod 
+      <lb ed="#P" n="14"/>possunt acquirere ex causa prima
+      <lb ed="#P" n="15"/>diuina secundum suum posse, &amp;
+      <lb ed="#P" n="16"/>potentiam. Coelum autem primum
+      <lb ed="#P" n="17"/>acquirit hoc vno motu veloci. 
+      cor<lb ed="#P" n="18" break="no"/>pora autem media inter primum
+      <lb ed="#P" n="19"/>corpus, &amp; vltimum acquirunt hoc
+      <lb ed="#P" n="20"/>pluribus.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e8826"> <!-- arist-dc-l2c67-it -->
+         <lb ed="#P" n="37"/>Volumus modo dissoluere Secum
+      <lb ed="#P" n="38"/>dam quaestionem, duare in octauo
+      <lb ed="#P" n="39"/>orbe, propinquo orbi primo, habenti
+      <lb ed="#P" n="40"/>motum vnum sunt plures stellae non 
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0293.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="41"/>numeratae, &amp; in aliorum orbium 
+      <lb ed="#P" n="42"/>vnoquoque, habentium plures 
+      mo<lb ed="#P" n="43" break="no"/>tus est vna stella.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e8850"> <!-- arist-dc-l2c68-it -->
+         <lb ed="#P" n="67"/>Dicamus igitur quod recte hoc
+      <lb ed="#P" n="68"/>fuit. Sciendum igitur quod primus
+      <lb ed="#P" n="69"/>orbis principium est potentiae, &amp; 
+      <lb ed="#P" n="70"/>causa in vita cuiuslibet viui, 
+      plus<lb ed="#P" n="71" break="no"/>quam alii orbes. quapropter primus
+      <lb ed="#P" n="72"/>orbis mouet plura corpora, &amp; 
+      unul<lb ed="#P" n="73" break="no"/>quisque caeterorum mouet unam
+      <lb ed="#P" n="74"/>stellam.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e8867"> <!-- arist-dc-l2c69-it -->
+         <lb ed="#P" n="40"/>Dicamus etiam, quod recte 
+      pri<lb ed="#P" n="41" break="no"/>mus orbis est vnus, &amp; mouet 
+      plu<lb ed="#P" n="42" break="no"/>ra corpora spiritualia, &amp; isti or¬
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0294.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="43"/>bes, qui sunt plures, vnusquisque, 
+      mo<lb ed="#P" n="44" break="no"/>uet vnum corpus tantum, quonia
+      <lb ed="#P" n="45"/>omnis orbis orbium erraticorum 
+      mo<lb ed="#P" n="46" break="no"/>uetur plurib. motibus, &amp; primus
+      <lb ed="#P" n="47"/>orbis vno. Et secundum hoc 
+      iustefe<lb ed="#P" n="48" break="no"/>cit natura, cum posuit in eis 
+      ordi<lb ed="#P" n="49" break="no"/>nem: dico, quia dedit vni motui 
+      <lb ed="#P" n="50"/>plura corpora, &amp; vni corpori 
+      plu<lb ed="#P" n="51" break="no"/>res motus. 
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e8893"> <!-- arist-dc-l2c70-it -->
+         <lb ed="#P" n="11"/>Et dicamus etiam, quod in quo
+      <lb ed="#P" n="12"/>libet orbium habentium plures 
+      mo<lb ed="#P" n="13" break="no"/>tus diuersos fuit una stella, 
+      quia<lb ed="#P" n="14" break="no"/>quilibet eorum mouet plura 
+      corpo<lb ed="#P" n="15" break="no"/>ra, scilicet orbis continens orbes stellarum
+      <lb ed="#P" n="16"/>erraticarum, quae sunt in eo. 
+      quo<lb ed="#P" n="17" break="no"/>niam orbis vltimus scilicet contines 
+      stel<lb ed="#P" n="18" break="no"/>as est rraticas mouetur, &amp; 
+      firma<lb ed="#P" n="19" break="no"/>tur in pluribus orbibus, &amp; 
+      omni<lb ed="#P" n="20" break="no"/>orbis eorum est corpus, vt operatio
+      <lb ed="#P" n="21"/>orbium, qui reuoluunt stellam 
+      erra<lb ed="#P" n="22" break="no"/>ticam, sit vniuersalis operatio 
+      or<lb ed="#P" n="23" break="no"/>bium, qui reuoluunt. &amp; quilibet 
+      <lb ed="#P" n="24"/>eorum habeat motum, &amp; 
+      opera<lb ed="#P" n="25" break="no"/>tionem propriam.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e8924"> <!-- arist-dc-l2c71-it -->
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0296.xml-->
+         <pb ed="#P" n="145-v"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>Et, si in aliquo orbe orbium 
+      er<lb ed="#P" n="2" break="no"/>raticorum essent plures stellae, esset 
+      <lb ed="#P" n="3"/>vltimus orbis in labore, cum mouet
+      <lb ed="#P" n="4"/>orbes, qui sunt post ipsum motu 
+      di<lb ed="#P" n="5" break="no"/>uerso, &amp; reuoliut ipsos, &amp; in 
+      quo<lb ed="#P" n="6" break="no"/>libet eorum sunt multae stellae. &amp; 
+      <lb ed="#P" n="7"/>ia diximus multotiens quod omne
+      <lb ed="#P" n="8"/>torpus finitum habet potentiam etiam
+      <lb ed="#P" n="9"/>finitam. propter hanc causam 
+      igi<lb ed="#P" n="10" break="no"/>tur fuit in quolibet orbe orbium 
+      er<lb ed="#P" n="11" break="no"/>raticorum vna stella tantu. Ia 
+      er<lb ed="#P" n="12" break="no"/>go compleuimus sermonem de 
+      stei<lb ed="#P" n="13" break="no"/>lis, &amp; quo modo mouentur, &amp; 
+      <lb ed="#P" n="14"/>quam substantiam habeant, &amp; 
+      <lb ed="#P" n="15"/>figuram, &amp; de locis, et ordine 
+      ea<lb ed="#P" n="16" break="no"/>rum sermone sufficienti.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e8944"> <!-- arist-dc-l2c72-it -->
+         <lb ed="#P" n="43"/>Volumus modo dicere de 
+      dispo<lb ed="#P" n="44" break="no"/>sitioe Terrae, &amp; perscrutari de ea,
+      <lb ed="#P" n="45"/>&amp; de loco eius, &amp; vtrum sit quie
+      <lb ed="#P" n="46"/>scens, aut mota. Dicamus ergo, quod 
+      <lb ed="#P" n="47"/>Antiqui diuersi sunt in loco eius.
+      <lb ed="#P" n="48"/>&amp; omnes dicentes quod coelum est
+      <lb ed="#P" n="49"/>finitum dicunt terram esse posita
+      <lb ed="#P" n="50"/>in medio. Pythagorici autem 
+      habi<lb ed="#P" n="51" break="no"/>tantes Italiam contradicunt illis,
+      <lb ed="#P" n="52"/>&amp; dicunt quod ignis est positus in
+      <lb ed="#P" n="53"/>medio, &amp; quod terra est stellarum
+      <lb ed="#P" n="54"/>vna, &amp; reuoluitur circulariter, et 
+      <lb ed="#P" n="55"/>ex motu eius circulari fit nox, &amp; 
+      <lb ed="#P" n="56"/>dies, &amp; faciunt aliam terra, quam
+      <lb ed="#P" n="57"/>vocant antugamonani. &amp; dicunt
+      <lb ed="#P" n="58"/>hoc, &amp; opinantur hanc opinionem
+      <lb ed="#P" n="59"/>quia non quaerunt cognitionem 
+      cau<lb ed="#P" n="60" break="no"/>arum rerum, &amp; sermonum in eis
+      <lb ed="#P" n="61"/>ex visu, sed mutant visum 
+      secun<lb ed="#P" n="62" break="no"/>dum suam voluntatem, deinde 
+      la<lb ed="#P" n="63" break="no"/>borant in confirmando illam 
+      vo<lb ed="#P" n="64" break="no"/>luntatem.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e9009"> <!-- arist-dc-l2c73-it -->
+         <lb ed="#P" n="60"/>Et alii plures Antiquorum 
+      di<lb ed="#P" n="61" break="no"/>cunt hoc etiam, quod isti dicut, &amp; 
+      <lb ed="#P" n="62"/>non ponunt terram in medio, neque,
+      <lb ed="#P" n="63"/>confirmant sermonem suum ex 
+      vi<lb ed="#P" n="64" break="no"/>su, neque, ex ratione, sed quibusdam 
+      ser<lb ed="#P" n="65" break="no"/>monibus Antiquorum. 
+      opinaban<lb ed="#P" n="66" break="no"/>tur enim quod omnis res nobilis debet esse
+      <lb ed="#P" n="67"/>in loco nobili, &amp; quod ignis est 
+      nobi<lb ed="#P" n="68" break="no"/>lior terra, &amp; quod finis loci est non
+      <lb ed="#P" n="69"/>bilior medio, &amp; quod vltimum 
+      me<lb ed="#P" n="70" break="no"/>dij mundi est finis. &amp; ex istis 
+      mo<lb ed="#P" n="71" break="no"/>dis, quos diximus, ratiocinantur
+      <lb ed="#P" n="72"/>&amp; non concedunt quod terra sit 
+      fi<lb ed="#P" n="73" break="no"/>xa in medio orbis, sed ignis est 
+      posi<lb ed="#P" n="74" break="no"/>tus in medio orbis. Et 
+      pythagorici<lb ed="#P" n="75" break="no"/>etiam dicunt propter hanc causam,
+      <lb ed="#P" n="76"/>quam nos dicemus, quod ignis est
+      <lb ed="#P" n="77"/>in medio. quoniam res nobilis 
+      con<lb ed="#P" n="78" break="no"/>seruada est, quae nihil est nobilius,
+      <lb ed="#P" n="79"/>signis, &amp; quod medium est 
+      conser<lb ed="#P" n="80" break="no"/>uant res: quapropter Antiqui 
+      vo<lb ed="#P" n="81" break="no"/>cabant ipsum geuus aequale, 
+      scili<lb ed="#P" n="82" break="no"/>cet locum quietis.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e9059"> <!-- arist-dc-l2c74-it -->
+         <lb ed="#P" n="60"/>Et dixerunt hoc, quia 
+      ignora<lb ed="#P" n="61" break="no"/>bant quid est medium. Medium enim
+      <lb ed="#P" n="62"/>simpliciter dicitur duobus modis.
+      <lb ed="#P" n="63"/>dicitur enim de medio corporis, &amp; 
+      <lb ed="#P" n="64"/>magnitudinis, &amp; etiam de medio
+      <lb ed="#P" n="65"/>naturae. isti autem dicebant medium
+      <lb ed="#P" n="66"/>quasi vno modo. nos autem dicimus
+      <lb ed="#P" n="67"/>quod medium animalis, &amp; medium
+      <lb ed="#P" n="68"/>corporis non est idem. &amp; sic oportet, 
+      <lb ed="#P" n="69"/>nos intelligere de toto coelo etiam.
+      <lb ed="#P" n="70"/>Et propter hanc causam, quae 
+      dixi<lb ed="#P" n="71" break="no"/>mus etiam non debent dubitare in 
+      <lb ed="#P" n="72"/>dispositione totius, neque, ponere 
+      cen<lb ed="#P" n="73" break="no"/>trum custodiam aliarum rerum,
+      <lb ed="#P" n="74"/>sed oportet nos perscrutari de 
+      qua<lb ed="#P" n="75" break="no"/>litate medii, &amp; quod medium 
+      na<lb ed="#P" n="76" break="no"/>tur a est primum, &amp; nobilius. 
+      me<lb ed="#P" n="77" break="no"/>dium vero loci videtur esse 
+      vlti<lb ed="#P" n="78" break="no"/>mum, non primum: medium enim
+      <lb ed="#P" n="79"/>est terminatum, orizon autem est
+      <lb ed="#P" n="80"/>terminmans.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e9112"> <!-- arist-dc-l2c75-it -->
+         <lb ed="#P" n="39"/>Iam ergo compleuimus 
+      sermo<lb ed="#P" n="40" break="no"/>nem de loco terrae. Volumus modo
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0302.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="41"/>dicere diuersitatem Antiquorum 
+      <lb ed="#P" n="42"/>de quiete, &amp; motu terrae. 
+      Anti<lb ed="#P" n="43" break="no"/>qui enim differunt in hoc. quidam enim
+      <lb ed="#P" n="44"/>dicunt, quod terra non est in medio,
+      <lb ed="#P" n="45"/>&amp; dicunt etiam quod mouetur 
+      circa<lb ed="#P" n="46" break="no"/>medium, deinde dicunt quod non 
+      tan<lb ed="#P" n="47" break="no"/>tum ipsa terra, sed &amp; alia, quae 
+      dici<lb ed="#P" n="48" break="no"/>tur astaricon, sicut diximus 
+      supe<lb ed="#P" n="49" break="no"/>rius. Et quidam dicunt, quod 
+      possi<lb ed="#P" n="50" break="no"/>bile est plura corpora, scilicet terras 
+      simi<lb ed="#P" n="51" break="no"/>les isti terrae esse, quae mouentur 
+      cir<lb ed="#P" n="52" break="no"/>ca medium: sed latent nos, quia ista
+      <lb ed="#P" n="53"/>terra cooperit eas. &amp; non facit hoc
+      <lb ed="#P" n="54"/>ista terra tantum, sed terrae faciut
+      <lb ed="#P" n="55"/>hoc. &amp; dicunt etiam quod, si 
+      terra<lb ed="#P" n="56" break="no"/>non est centrum, &amp; est remota a
+      <lb ed="#P" n="57"/>suo semicirculo, tamen non propter
+      <lb ed="#P" n="58"/>hoc prohibet quin stellae apparetes
+      <lb ed="#P" n="59"/>cadant sub visu, cum non 
+      habite<lb ed="#P" n="60" break="no"/>mus centrum. &amp;, si terra esset 
+      posi<lb ed="#P" n="61" break="no"/>ta in medio, non laterent nos 
+      stellae<lb ed="#P" n="62" break="no"/>quae sunt in semicirculo, cum simus
+      <lb ed="#P" n="63"/>re moti a polo. Quidam etia dicunt
+      <lb ed="#P" n="64"/>quod terra est posita in centro, &amp; 
+      <lb ed="#P" n="65"/>quod mouetur, &amp; reuoluitur super 
+      <lb ed="#P" n="66"/>orbem, qui dicitur orbis superexiem
+      <lb ed="#P" n="67"/>sus, vt dictum est in rimaeo.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e9184"> <!-- arist-dc-l2c76-it -->
+         <lb ed="#P" n="67"/>Et dicamus etiam, quod 
+      Anti<lb ed="#P" n="68" break="no"/>qui diuersi sunt, vt diximus in 
+      figu<lb ed="#P" n="69" break="no"/>ra terrae. Quidam enim dicunt quod 
+      <lb ed="#P" n="70"/>terra est rotunda sphaerica, &amp; qui 
+      <lb ed="#P" n="71"/>dam quod est lata, vt figura 
+      tum<lb ed="#P" n="72" break="no"/>pani, cum fuerit in parte conuexa.
+      <lb ed="#P" n="73"/>&amp; dicunt quod signum huius est,
+      <lb ed="#P" n="74"/>quia, cum Sol occidit, &amp; oritur, 
+      la<lb ed="#P" n="75" break="no"/>tet a terra secundum longitudinem,
+      <lb ed="#P" n="76"/>non secundum circularitatem &amp; 
+      <lb ed="#P" n="77"/>si esset rotuda, deberet latere a 
+      ter<lb ed="#P" n="78" break="no"/>ra secundum circulum. &amp; dicunt
+      <lb ed="#P" n="79"/>hoc, quia dimittunt cogitare in 
+      re<lb ed="#P" n="80" break="no"/>motione Solis in magnitudine suae
+      <lb ed="#P" n="81"/>rotuditatis, &amp;, quia videtur exre 
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0304.xml-->
+      <pb ed="#P" n="149-v"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>moto longus, quemadmodum hic 
+      ac<lb ed="#P" n="2" break="no"/>cidit paruis circulis, qui videntur,
+      <lb ed="#P" n="3"/>a remotis plani. Et oporteret eos, ut
+      <lb ed="#P" n="4"/>non opinarentur quod figura 
+      terra<lb ed="#P" n="5" break="no"/>est rotuda ex hoc, quod diximus 
+      de<lb ed="#P" n="6" break="no"/>errore sensuum: &amp; sic ponunt 
+      eam<lb ed="#P" n="7" break="no"/>esse rotundam. Sed isti dimittuns
+      <lb ed="#P" n="8"/>credere hoc, &amp; volunt confirmare
+      <lb ed="#P" n="9"/>suum sermone, dicendo quod 
+      figu<lb ed="#P" n="10" break="no"/>ra terrae est figura tumpani, propter
+      <lb ed="#P" n="11"/>quam figuram quiescit necessario.
+      <lb ed="#P" n="67" type="fixed=149-v"/>
+         <!--<figure>
+            <graphic url="https://loris2.scta.info/cod-AAadcg//[canvasshortid]/270,684,531,715/full/0/default.jpg"/>
+            <ab type="figure-details">
+               <seg type="figure-text"/>
+               <seg type="figure-ideas"/>
+               <seg type="transkribus-id">749269-28354209-TextRegion_1652957970995_155</seg>
+            </ab>
+            <figDesc/>
+         </figure>-->
+      </p>
+      <p xml:id="aaaadc-gfdttt-d1e9241"> <!-- arist-dc-l2c77-it -->
+         <lb ed="#P" n="47"/>Dicamus nos vniuersaliter quod 
+      <lb ed="#P" n="48"/>opiniones, quas Antiqui dixerunt
+      <lb ed="#P" n="49"/>in motu, et quiete terrae valde 
+      mul<lb ed="#P" n="50" break="no"/>tiplicatur, illud autem, in quo 
+      An<lb ed="#P" n="51" break="no"/>tiqui diuersificati sunt, &amp; dubitan
+      <lb ed="#P" n="52"/>tes oportet nos dicere. Dicamus igi
+      <lb ed="#P" n="53"/>tur quod debet homo mirari, nisi
+      <lb ed="#P" n="54"/>habeat cognitionem brutalem. 
+      vi<lb ed="#P" n="55" break="no"/>demus enim quod, cum acceperimus
+      <lb ed="#P" n="56"/>partem paruam terrae, &amp; eleuaueri
+      <lb ed="#P" n="57"/>mus eam, &amp; dimiserimus ea, non 
+      <lb ed="#P" n="58"/>stat in suo loco, neque, figitur in 
+      loco<lb ed="#P" n="59" break="no"/>aeris, in quo dimiserimus eam, sed 
+      <lb ed="#P" n="60"/>descendit ad inferius, &amp; quato 
+      ma<lb ed="#P" n="61" break="no"/>gis illa pars terrae erit maior, tanto
+      <lb ed="#P" n="62"/>magis erit velocioris descensus. &amp; 
+      <lb ed="#P" n="63"/>si aliquis acceperit tota terram, et
+      <lb ed="#P" n="64"/>dimiserit eam, stabit, &amp; non 
+      rece<lb ed="#P" n="65" break="no"/>det a loco suo, &amp; non ibit ad 
+      infe<lb ed="#P" n="66" break="no"/>rius: &amp; quod figatur duplex totius
+      <lb ed="#P" n="67"/>grauis mirum est. Et dicamus etiam.
+      <lb ed="#P" n="68"/>quod, si homo acceperit partem 
+      to<lb ed="#P" n="69" break="no"/>tius terrae, &amp; eleuauerit ipsam 
+      su<lb ed="#P" n="70" break="no"/>per terra, deinde dimiserit eam, et
+      <lb ed="#P" n="71"/>fecerit terram recedere a suo loco,
+      <lb ed="#P" n="72"/>antequam illae partes cadant super 
+      <lb ed="#P" n="73"/>terra, non remanebit in suo loco 
+      ae<lb ed="#P" n="74" break="no"/>ris, in quae dimictebatur: neque, 
+      quie<lb ed="#P" n="75" break="no"/>scet etiam in loco, super quem cadet,
+      <lb ed="#P" n="76"/>postqua partes recesserint: sed 
+      va<lb ed="#P" n="77" break="no"/>dit ad inferius, cu nihil prohibeat,
+      <lb ed="#P" n="78"/>ipsam a descensu sempiterno, dum
+      <lb ed="#P" n="79"/>aliquid non impediat eam.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e9287"> <!-- arist-dc-l2c78-it -->
+         <lb ed="#P" n="81"/>Dicamus igitur quod hoc, quod 
+      <lb ed="#P" n="82"/>Antiqui quaerunt de causa 
+      cogni<lb ed="#P" n="83" break="no"/>tionis istius rei, est vera philosophia.
+      <lb ed="#P" n="84"/>Dissolutiones autem, quas Antiqui
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0307.xml-->
+      <pb ed="#P" n="151-r"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>Bdicunt, sunt inopinabiles, &amp; debet
+      <lb ed="#P" n="2"/>omnis homo mirari plus, quam de
+      <lb ed="#P" n="3"/>quaestione. Quidam enim dicunt, quod 
+      <lb ed="#P" n="4"/>prosundum terrae, &amp; eius inferius
+      <lb ed="#P" n="5"/>est infinitum, quia suum 
+      fundamen<lb ed="#P" n="6" break="no"/>tum est ad infinitum, vt plures ho
+      <lb ed="#P" n="7"/>mines dicunt, scilicet Malaconenses. 
+      Em<lb ed="#P" n="8" break="no"/>pedo, aute resistit eis, &amp; dicit, quod 
+      <lb ed="#P" n="9"/>iam exiuerunt, &amp; dimiferunt 
+      ii<lb ed="#P" n="10" break="no"/>mundo recte ociosiora mendacia, 
+      cu<lb ed="#P" n="11" break="no"/>dicunt terram carentem prosundo.
+      <lb ed="#P" n="12"/>quia parum cognoscunt de 
+      essentia<lb ed="#P" n="13" break="no"/>ipsius. Quidam autem dicunt 
+      terra<lb ed="#P" n="14" break="no"/>fundatam esse super aquas, &amp; 
+      accc<lb ed="#P" n="15" break="no"/>perunt istum sermonem ex viro Ar
+      <lb ed="#P" n="16"/>tiquo, v&amp; est Relus de ciuitatem,
+      <lb ed="#P" n="17"/>H emor. &amp; quod terra natat super
+      <lb ed="#P" n="18"/>aquam, vt lignum, &amp; est simile 
+      sibi<lb ed="#P" n="19" break="no"/>lignum enim non figitur super aerem,
+      <lb ed="#P" n="20"/>sed super aquam.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e9348"> <!-- arist-dc-l2c79-it -->
+         <lb ed="#P" n="43"/>Et oportet igitur vt dicatur 
+      di<lb ed="#P" n="44" break="no"/>centi hunc sermonem, vtrum dicat
+      <lb ed="#P" n="45"/>de terra, &amp; de aqua deferente quod 
+      <lb ed="#P" n="46"/>sint idem. aqua enim non figitur in
+      <lb ed="#P" n="47"/>aerem, sed stat super aliquod 
+      defe<lb ed="#P" n="48" break="no"/>rens ipsam. Et dicamus etiam quod 
+      <lb ed="#P" n="49"/>aer est leuior aqua, &amp; aqua terra.
+      <lb ed="#P" n="50"/>&amp;, si ita sit, quo igitur leue est 
+      sub<lb ed="#P" n="51" break="no"/>grauius Et dicamus etia quod, si 
+      to<lb ed="#P" n="52" break="no"/>ta terra potest stare super aquam,
+      <lb ed="#P" n="53"/>necesse est vt quaelibet partium eius
+      <lb ed="#P" n="54"/>stet super aquam. sed non videtur,
+      <lb ed="#P" n="55"/>hoc, sed quaecunque, pars est terrae, 
+      si<lb ed="#P" n="56" break="no"/>posita fuerit super aquam, 
+      descen<lb ed="#P" n="57" break="no"/>dit, quousque, perueniat ad profundum
+      <lb ed="#P" n="58"/>aquae, &amp; quanto magis terra 
+      fue<lb ed="#P" n="59" break="no"/>rit maior, tanto velocius descendit.
+      <lb ed="#P" n="60"/>ad profundum.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e9387"> <!-- arist-dc-l2c80-it -->
+         <lb ed="#P" n="64"/>Sed quaerunt, &amp; perscrutantur
+      <lb ed="#P" n="65"/>de causa istius rei secundum posse 
+      sui<lb ed="#P" n="66" break="no"/>finem, non secudum sinem 
+      quaestio<lb ed="#P" n="67" break="no"/>nis. &amp; haec est consuetudo omnium
+      <lb ed="#P" n="68"/>nostrum scilicet quia non quaerimus de 
+      ali<lb ed="#P" n="69" break="no"/>quo secundum quaestionem, &amp; illud
+      <lb ed="#P" n="70"/>perscrutamnr, sed secudum 
+      loquen<lb ed="#P" n="71" break="no"/>tem, &amp; contradicentem nostro 
+      set<lb ed="#P" n="72" break="no"/>moni. &amp; similiter, si nos quaerimus 
+      <lb ed="#P" n="73"/>de aliquo, perscrutabimur de eo,
+      <lb ed="#P" n="74"/>quousque perueniamus ad aliquid,
+      <lb ed="#P" n="75"/>quod no possumus negare super nos
+      <lb ed="#P" n="76"/>ipsos. oportet igitur volentem 
+      de<lb ed="#P" n="77" break="no"/>aliquo quaerere, perscrutari 
+      contran<lb ed="#P" n="78" break="no"/>dicere sibi contradictione vera, 
+      con<lb ed="#P" n="79" break="no"/>uenienti generi quaestionis. &amp; 
+      po<lb ed="#P" n="80" break="no"/>test hoc facere, cum fuerit 
+      perscru<lb ed="#P" n="81" break="no"/>tatus, &amp; cognouerit omnes 
+      diffe<lb ed="#P" n="82" break="no"/>rentias illius generis.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e9419"> <!-- arist-dc-l2c81-it -->
+         <lb ed="#P" n="5"/>Volumus igitur reuerti, &amp; 
+      di<lb ed="#P" n="6" break="no"/>tere quod Pythagorici, &amp; 
+      Demo<lb ed="#P" n="7" break="no"/>eriti dicunt, quod latitudo figurae
+      <lb ed="#P" n="8"/>terrae est causa suae quietis. quonia,
+      <lb ed="#P" n="9"/>non abscindit aerem, qui est sub eo,
+      <lb ed="#P" n="10"/>sed natat super eum, vt faciut alia
+      <lb ed="#P" n="11"/>corpora lata, quae figuntur, et stat,
+      <lb ed="#P" n="12"/>&amp; non mouentur a ventis. Et sic 
+      fa<lb ed="#P" n="13" break="no"/>cit terra super aerem, qui est sub ea.
+      <lb ed="#P" n="14"/>aer enim non habet locum, a 
+      quo<lb ed="#P" n="15" break="no"/>exeat: &amp; sic quiescit terra super 
+      ip<lb ed="#P" n="16" break="no"/>sum, &amp; stat. vt accidit aquae, cum
+      <lb ed="#P" n="17"/>fuerit in vase, quod dicitur fascam,
+      <lb ed="#P" n="18"/>&amp; est serens aquam. Et confirma:
+      <lb ed="#P" n="19"/>suum sermonem per multa signa, &amp; 
+      <lb ed="#P" n="20"/>quod aer potest deferre poderosum,
+      <lb ed="#P" n="21"/>cum fuerit retentus, &amp; quiescit,
+      <lb ed="#P" n="22"/>&amp; stat Si igitur terra non esset 
+      la<lb ed="#P" n="23" break="no"/>ta, &amp; esset retenta super aerem,
+      <lb ed="#P" n="24"/>non staret super ipsum.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e9471"> <!-- arist-dc-l2c82-it -->
+         <lb ed="#P" n="48"/>Dicamus igitur quod secudum
+      <lb ed="#P" n="49"/>suum sermonem non est latitudo eius,
+      <lb ed="#P" n="50"/>sed magnitudo est dignior vt sit 
+      cau<lb ed="#P" n="51" break="no"/>sa suae quietis. dicunt eni quod aer, 
+      <lb ed="#P" n="52"/>cum astringatur, &amp; non habuerit
+      <lb ed="#P" n="53"/>locum, a quo exeat, stabit. 
+      constri<lb ed="#P" n="54" break="no"/>ctio enim aeris est propter 
+      magni<lb ed="#P" n="55" break="no"/>tudinem terrae. &amp;, cum ita sit, 
+      di<lb ed="#P" n="56" break="no"/>camus etiam quod haec 
+      constrictio<lb ed="#P" n="57" break="no"/>erit, quamuis terra non sit lata, sed 
+      <lb ed="#P" n="58"/>sphaerica, rotuda tamen secundum
+      <lb ed="#P" n="59"/>suam primam magnitudinem. 
+      qua<lb ed="#P" n="60" break="no"/>propter quiescit, &amp; stabit super 
+      <lb ed="#P" n="61"/>aquam secundum suam rationem.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e9502"> <!-- arist-dc-l2c83-it -->
+         <lb ed="#P" n="68"/>Volumus modo contradicere 
+      il<lb ed="#P" n="69" break="no"/>lis, qui diuersificati sunt in totalita
+      <lb ed="#P" n="70"/>te terrae, non in suis partibus. &amp; 
+      di<lb ed="#P" n="71" break="no"/>camus vtrum corpora habeant 
+      ali<lb ed="#P" n="72" break="no"/>quem motum naturalem, aut 
+      nul<lb ed="#P" n="73" break="no"/>lum motum omnino: deinde &amp; si non 
+      <lb ed="#P" n="74"/>habeant motum naturalem, vtrum
+      <lb ed="#P" n="75"/>habent motum violentum. Et iam
+      <lb ed="#P" n="76"/>distinximus hoc superius, tamen 
+      di<lb ed="#P" n="77" break="no"/>cemus modo, inquantum indigemus.
+      <lb ed="#P" n="78"/>Et dicamus quod nos damus eis 
+      mo<lb ed="#P" n="79" break="no"/>tum. &amp;, si non habuerint motu 
+      na<lb ed="#P" n="80" break="no"/>turalem, non habebunt motum vio
+      <lb ed="#P" n="81"/>lentum omnino. &amp;, si non 
+      habue<lb ed="#P" n="82" break="no"/>rint motum naturalem, nec 
+      violen<lb ed="#P" n="83" break="no"/>tum, nihil mouebitur. &amp; ia distin¬
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0312.xml-->
+      <pb ed="#P" n="153-v"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>ximus omma ista superius, &amp; 
+      acci<lb ed="#P" n="2" break="no"/>dunt corporibus: necossario.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e9541"> <!-- arist-dc-l2c84-it -->
+         <lb ed="#P" n="63"/>Et dicamus etiam quod 
+      impos<lb ed="#P" n="64" break="no"/>sibile est, quietem esse. &amp; signum
+      <lb ed="#P" n="65"/>huius est hoc, quod dicimus, quod 
+      mo<lb ed="#P" n="66" break="no"/>tus est autem naturalis. aut violentus,
+      <lb ed="#P" n="67"/>&amp; similiter quies est autem 
+      natura<lb ed="#P" n="68" break="no"/>lis, aut violenta. Et, si inueniatur
+      <lb ed="#P" n="69"/>motus naturalis, impossile est vt 
+      mo<lb ed="#P" n="70" break="no"/>tus vtolentus tantum sit, aut quies
+      <lb ed="#P" n="71"/>violenta tantum.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e9557"> <!-- arist-dc-l2c85-it -->
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0313.xml-->
+         <cb ed="#P" n="b"/>
+         <lb ed="#P" n="43"/>Et, si ita sit, terra est permanens,
+      <lb ed="#P" n="44"/>&amp; stat violente, aut vadit ad 
+      me<lb ed="#P" n="45" break="no"/>dium, &amp; stat illic propter rotundi 
+      <lb ed="#P" n="46"/>tatem. omnes enim conueniunt quod 
+      <lb ed="#P" n="47"/>causa quietis terrae est rotunditas.
+      <lb ed="#P" n="48"/>&amp; hoc dixetunt, quia videbant hoc
+      <lb ed="#P" n="49"/>in humoribus, &amp; aere. corpora eni
+      <lb ed="#P" n="50"/>grauia, &amp; magna, existentia in
+      <lb ed="#P" n="51"/>aere, aut in aqua, mouentur ad 
+      sun<lb ed="#P" n="52" break="no"/>medium propter reuolutione aquae,
+      <lb ed="#P" n="53"/>&amp; votunditatem aeris. Et propter
+      <lb ed="#P" n="54"/>hoc omnis, dicens quod celum est 
+      ge<lb ed="#P" n="55" break="no"/>neratum, dicit quod terra est 
+      posi<lb ed="#P" n="56" break="no"/>ta in medio, &amp; quod terra 
+      expelli<lb ed="#P" n="57" break="no"/>tur ad ipsum propter velocitatem
+      <lb ed="#P" n="58"/>motus coeli. Sed quaerunt causam.
+      <lb ed="#P" n="59"/>quietis eius in medio. Et quidam eo
+      <lb ed="#P" n="60"/>rum dicebant hoc modosc li quod 
+      cau<lb ed="#P" n="61" break="no"/>sa quietis terrae, &amp; status: est eius 
+      <lb ed="#P" n="62"/>magnitudo, &amp; latitudo. Et quidam
+      <lb ed="#P" n="63"/>dicut quod causa quietis terrae, &amp; 
+      <lb ed="#P" n="64"/>suae permanentiae est motus coeli, ut
+      <lb ed="#P" n="65"/>Empedo. dicit enim quod coelum 
+      mo<lb ed="#P" n="66" break="no"/>uetur circa terram circumquaque, 
+      mo<lb ed="#P" n="67" break="no"/>tu veloci valde: quapropter non 
+      mo<lb ed="#P" n="68" break="no"/>uetur, vt accidit de aqua existente
+      <lb ed="#P" n="69"/>in vase. aqua enim reuoluitur 
+      iter<lb ed="#P" n="70" break="no"/>vas: &amp; cuprum existens in 
+      aqua<lb ed="#P" n="71" break="no"/>non descendit inferius propter 
+      cau<lb ed="#P" n="72" break="no"/>sam hanc, scilicet reuolutione aquae: 
+      quan<lb ed="#P" n="73" break="no"/>uis cuprum sit natu descendere.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e9609"> <!-- arist-dc-l2c86-it -->
+         <lb ed="#P" n="10"/>Dicamus modo quod velocitas
+      <lb ed="#P" n="11"/>motus orbis, aut latitudo terrae non 
+      <lb ed="#P" n="12"/>impediunt motum terrae, deinde ex
+      <lb ed="#P" n="13"/>aere super ipsam, quonia tunc 
+      mo<lb ed="#P" n="14" break="no"/>uebitur ad quendam locorum, 
+      quo<lb ed="#P" n="15" break="no"/>niam, si motus eius ad medium 
+      fue<lb ed="#P" n="16" break="no"/>rit violentus, &amp; quies eius fuerit
+      <lb ed="#P" n="17"/>violenta, necessario habebit locum
+      <lb ed="#P" n="18"/>naturalem, &amp; motum naturalem.
+      <lb ed="#P" n="19"/>Dicat ergo vtrum sit sursum, 
+      vel<lb ed="#P" n="20" break="no"/>deorsum: quoniam necessarium est
+      <lb ed="#P" n="21"/>vt habeat locum. Si igitur deorsum
+      <lb ed="#P" n="22"/>non fuerit dignius vt sit locus eius
+      <lb ed="#P" n="23"/>qua sursum: &amp; aer superior non 
+      pro<lb ed="#P" n="24" break="no"/>hibuerit ipsam, quin moueatur ad
+      <lb ed="#P" n="25"/>superius, neque, aer, qui est sub ea, quin 
+      <lb ed="#P" n="26"/>moueatur ad inferius. causae enim
+      <lb ed="#P" n="27"/>eaedem, &amp; consimiles sunt 
+      causa<lb ed="#P" n="28" break="no"/>torum consimilium.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e9654"> <!-- arist-dc-l2c87-it -->
+         <lb ed="#P" n="68"/>Et dicamus etiam, quod aliquis
+      <lb ed="#P" n="69"/>bene potest contradicere sermoni 
+      Em<lb ed="#P" n="70" break="no"/>pedo. &amp; dicere dicendo ei, 
+      demon<lb ed="#P" n="71" break="no"/>stra nobis, antequam elementa 
+      es<lb ed="#P" n="72" break="no"/>sent segregata adinuicem, quae 
+      cau<lb ed="#P" n="73" break="no"/>sa erat in quiete terrae. non enim 
+      po<lb ed="#P" n="74" break="no"/>test dicere quod causa quietis 
+      terra<lb ed="#P" n="75" break="no"/>fuerit reuolutio. Et debebat 
+      intelli<lb ed="#P" n="76" break="no"/>gere quod partes impossibile est vt
+      <lb ed="#P" n="77"/>sint motae in praeterito ad medium,
+      <lb ed="#P" n="78"/>&amp; fuerint aggregatae in ea per re
+      <lb ed="#P" n="79"/>uolutione, &amp; quod propter ista 
+      cau<lb ed="#P" n="80" break="no"/>sam modo et omnia corpora grauia
+      <lb ed="#P" n="81"/>mouentur ad ipsam scilicet terram. 
+      tem<lb ed="#P" n="82" break="no"/>pus enim reuolutionis est remotum
+      <lb ed="#P" n="83"/>a nobis, non propinquum.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e9685"> <!-- arist-dc-l2c88-it -->
+         <lb ed="#P" n="53"/>Dicamus etiam qua de 
+      causa<lb ed="#P" n="54" break="no"/>ignis mouetur ad superius. ille 
+      igi<lb ed="#P" n="55" break="no"/>tur non potest dicere in hoc quod hoc 
+      <lb ed="#P" n="56"/>est propter reuolutionem. si igitur,
+      <lb ed="#P" n="57"/>terra innata est moueri ad aliquem
+      <lb ed="#P" n="58"/>ocum, manifestum est quod 
+      debe<lb ed="#P" n="59" break="no"/>mus di¬ere quod reliqua terra est
+      <lb ed="#P" n="60"/>ad aliquem locum.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e9698"> <!-- arist-dc-l2c89-it -->
+         <lb ed="#P" n="14"/>Et dicamus etiam necessario, quod 
+      <lb ed="#P" n="15"/>reuolutio. &amp; motus aequalis non 
+      fi<lb ed="#P" n="16" break="no"/>ciut graue, aut leue: sed prima 
+      cor<lb ed="#P" n="17" break="no"/>pora fuerunt grauia, &amp; leuia, &amp; 
+      <lb ed="#P" n="18"/>quaedam veniunt ad medium, &amp; 
+      <lb ed="#P" n="19"/>quaedam natant non propter motu.
+      <lb ed="#P" n="20"/>Necesse est igitur vt quaedam 
+      cor<lb ed="#P" n="21" break="no"/>pora fuerint grauia, &amp; quaedam 
+      <lb ed="#P" n="22"/>leuia, antequam eis accideret reuo
+      <lb ed="#P" n="23"/>lutio. Et, cum ita sit, oportet nos per
+      <lb ed="#P" n="24"/>scrutari quo modo corpora fuerant
+      <lb ed="#P" n="25"/>distincta ante reuolutione, &amp; 
+      quo<lb ed="#P" n="26" break="no"/>modo mouebantur. impossibile enim
+      <lb ed="#P" n="27"/>erat moueri ad superius, aut ad 
+      in<lb ed="#P" n="28" break="no"/>ferius. quoniam res, cum non 
+      habue<lb ed="#P" n="29" break="no"/>rint fine, impossibile est vt illic sit,
+      <lb ed="#P" n="30"/>aut superius, aut inferius. loca 
+      eni<lb ed="#P" n="31" break="no"/>non iuueniuntur nisi in graui, aut
+      <lb ed="#P" n="32"/>leui, sicut diximus multotiens.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e9735"> <!-- arist-dc-l2c90-it -->
+         <lb ed="#P" n="19"/>Dicamus etiam, quod fere 
+      om<lb ed="#P" n="20" break="no"/>nes Antiqui errauerunt in 
+      co<lb ed="#P" n="21" break="no"/>gnitione istarum causarum per 
+      to<lb ed="#P" n="22" break="no"/>tam vitam suam: &amp; quidam 
+      di<lb ed="#P" n="23" break="no"/>cebant quod terra est quiescens 
+      pro<lb ed="#P" n="24" break="no"/>pter suam aequalitatem, vt 
+      Ana<lb ed="#P" n="25" break="no"/>ximander Antiquus, qui dixit.
+      <lb ed="#P" n="26"/>oportet rem existentem in medio,
+      <lb ed="#P" n="27"/>remotam esse ab orizontibus 
+      aequa<lb ed="#P" n="28" break="no"/>Liter, vt non moueatur ad superius,
+      <lb ed="#P" n="29"/>neque, ad inferius, neque, ad latera, 
+      quo<lb ed="#P" n="30" break="no"/>niam, si fuerit huiusmodi. 
+      impossi<lb ed="#P" n="31" break="no"/>bile est vt moueatur ad loca 
+      con<lb ed="#P" n="32" break="no"/>trariae: &amp;, si hoc est impossibile,
+      <lb ed="#P" n="33"/>stabit, &amp; quiescet necessario.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e9770"> <!-- arist-dc-l2c91-it -->
+         <lb ed="#P" n="74"/>Et dicamus. quod iste sermo non
+      <lb ed="#P" n="75"/>est verus. Quoniam, si ita esset, 
+      ne<lb ed="#P" n="76" break="no"/>cesse esset vt omne, quod poneretur,
+      <lb ed="#P" n="77"/>in medio, quiesceret in eo. ergo, si
+      <lb ed="#P" n="78"/>ignis poneretur in medio, non 
+      mo<lb ed="#P" n="79" break="no"/>ueretur omnino, sed quiesceret. sermo
+      <lb ed="#P" n="80"/>enim Anaximandri non est 
+      pro<lb ed="#P" n="81" break="no"/>prius terrae.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e9788"> <!-- arist-dc-l2c92-it -->
+         <lb ed="#P" n="49"/>Dicamus etiam, quod sermo eius
+      <lb ed="#P" n="50"/>non est necessarius, quia non 
+      tantum<lb ed="#P" n="51" break="no"/>videmus terram quiescente in 
+      me<lb ed="#P" n="52" break="no"/>dio, sed etiam mouetur ad ipsum.
+      <lb ed="#P" n="53"/>&amp; in quocunque loco fuerit motus 
+      <lb ed="#P" n="54"/>alicuius partis, illic etiam erit 
+      mo<lb ed="#P" n="55" break="no"/>tus totius tetrae necessario: &amp; 
+      quo<lb ed="#P" n="56" break="no"/>mouetur naturaliter, illic stat 
+      na<lb ed="#P" n="57" break="no"/>turaliter. Declaratum est igitur
+      <lb ed="#P" n="58"/>quod terra quiescit, non quia aequa
+      <lb ed="#P" n="59"/>liter distat ab orizotibus, quia haec
+      <lb ed="#P" n="60"/>causa communis est omnibus 
+      cor<lb ed="#P" n="61" break="no"/>poribus, non tantum terrae: 
+      mo<lb ed="#P" n="62" break="no"/>tus autem ad medium est 
+      pro<lb ed="#P" n="63" break="no"/>prius terrae.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e9822"> <!-- arist-dc-l2c93-it -->
+         <lb ed="#P" n="8"/>Dicamus etiam, quod foedum
+      <lb ed="#P" n="9"/>est vt quaerens perscrutetur, quare 
+      <lb ed="#P" n="10"/>terra posita est in medio, &amp; non 
+      <lb ed="#P" n="11"/>perscrutetur quare ignis est positus
+      <lb ed="#P" n="12"/>cum orizonte. Quoniam, si orizon oC
+      <lb ed="#P" n="13"/>locus naturalis ignis, manifestum
+      <lb ed="#P" n="14"/>est quod necessarium est ut medum
+      <lb ed="#P" n="15"/>sit locus naturalis terrae. Quoniam,
+      <lb ed="#P" n="16"/>si iste locus non fuerit naturalis 
+      te<lb ed="#P" n="17" break="no"/>rae, &amp; fuerit fixa, &amp; permanens
+      <lb ed="#P" n="18"/>propter necessitatem aequalitatio
+      <lb ed="#P" n="19"/>ub orizontibus, erit iste sermo 
+      simi<lb ed="#P" n="20" break="no"/>lis sermoni de extensa circuquaque,
+      <lb ed="#P" n="21"/>extensione forti, non abscissa. &amp; 
+      si<lb ed="#P" n="22" break="no"/>milis huic, quod dicitur de habento
+      <lb ed="#P" n="23"/>sitim, &amp; samem valde, &amp; cibus,
+      <lb ed="#P" n="24"/>&amp; vinum sunt remota ab eo 
+      aequa<lb ed="#P" n="25" break="no"/>liter scilicet quod necessarium est vt 
+      quie<lb ed="#P" n="26" break="no"/>scat, &amp; non moueatur omnino. &amp; 
+      <lb ed="#P" n="27"/>oportet eos perscrutari etiam de 
+      quie<lb ed="#P" n="28" break="no"/>te ignis in orzzonte. Et mirum est
+      <lb ed="#P" n="29"/>de quaerente causam quietis 
+      corpo<lb ed="#P" n="30" break="no"/>rum, &amp; non quaerente causam 
+      mo<lb ed="#P" n="31" break="no"/>tus eorum. dico quae de causa 
+      quae<lb ed="#P" n="32" break="no"/>dam mouetur ad superius, &amp; quod
+      <lb ed="#P" n="33"/>ad inferius, nisi aliquid impediat.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e9885"> <!-- arist-dc-l2c94-it -->
+         <lb ed="#P" n="33"/>Et dicamus etiam, quod iste 
+      ser<lb ed="#P" n="34" break="no"/>mo non est verus, vt accidat sermo
+      <lb ed="#P" n="35"/>ni dicentis quod omne, auod non 
+      de<lb ed="#P" n="36" break="no"/>bet moueri huc, neque, illuc, figitur,
+      <lb ed="#P" n="37"/>&amp; stat in medio necessario. 
+      Dica<lb ed="#P" n="38" break="no"/>mus igitur, quod propter hunc 
+      se<lb ed="#P" n="39" break="no"/>monem non debet stare in medio
+      <lb ed="#P" n="40"/>sed diuidi, &amp; moueri ad omnes
+      <lb ed="#P" n="41"/>partes.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e9905"> <!-- arist-dc-l2c95-it -->
+         <lb ed="#P" n="35"/>Et dicamus, quod inste sermo 
+      ma<lb ed="#P" n="36" break="no"/>nifestus. est similiter in igne. ignis
+      <lb ed="#P" n="37"/>enim, cum positus fuerit in medio,
+      <lb ed="#P" n="38"/>stabit necessario, sicut terra stat
+      <lb ed="#P" n="39"/>quoniam tunc erit remotus 
+      aequali<lb ed="#P" n="40" break="no"/>ter ab orizontibus. sed mouetur a
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0326.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="41"/>medio ad superius, sicut videmus, 
+      <lb ed="#P" n="42"/>quod facit. sed non mouetur 
+      secun<lb ed="#P" n="43" break="no"/>dum totum ad idem punctum: 
+      quo<lb ed="#P" n="44" break="no"/>niam hoc contingit necessario 
+      tan<lb ed="#P" n="45" break="no"/>tum sermoni dicetis aequalitatem: 
+      <lb ed="#P" n="46"/>sed quaelibet partium ignis 
+      moue<lb ed="#P" n="47" break="no"/>tur ad suum simile partium 
+      orizo<lb ed="#P" n="48" break="no"/>tis, dico quod quarta pars ignis 
+      mo<lb ed="#P" n="49" break="no"/>uetur ad quartam partem 
+      orizon<lb ed="#P" n="50" break="no"/>tis, &amp; auomentatio corporum non
+      <lb ed="#P" n="51"/>est ad punctum notum. ignis enim,
+      <lb ed="#P" n="52"/>cum stringitur ex magnitudine ad
+      <lb ed="#P" n="53"/>paruitatem, &amp; cum densatur, per
+      <lb ed="#P" n="54"/>ueniet ad locum minorem, &amp;, cum
+      <lb ed="#P" n="55"/>expanditur a paruitatem ad 
+      magni<lb ed="#P" n="56" break="no"/>tudine, &amp; rarificatur veniet ad
+      <lb ed="#P" n="57"/>maiorem locum. &amp;, cum ita sit, et
+      <lb ed="#P" n="58"/>medium non est locus naturalis 
+      ter<lb ed="#P" n="59" break="no"/>rae, terra etiam mouebitur tal. 
+      mo<lb ed="#P" n="60" break="no"/>tum propter aequalitatem remotionis
+      <lb ed="#P" n="61"/>ab orizontibus. iste igitur 
+      opinio<lb ed="#P" n="62" break="no"/>nes, &amp; diuersitates sunt inter per 
+      <lb ed="#P" n="63"/>scrutantes, &amp; consyderates de 
+      cau<lb ed="#P" n="64" break="no"/>sis rerum in figura terrae, &amp; loco,
+      <lb ed="#P" n="65"/>&amp; quiete, &amp; motu eius.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e9968"> <!-- arist-dc-l2c96-it -->
+         <lb ed="#P" n="77"/>Volumus igitur dicere nos, &amp; 
+      <lb ed="#P" n="78"/>perscrutari de istis rebus: sed 
+      ante<lb ed="#P" n="79" break="no"/>volumus quaerere vtrum terra 
+      mo<lb ed="#P" n="80" break="no"/>ueatur, aut quiescat. Quidam enim
+      <lb ed="#P" n="81"/>antiquorum posuerunt terram, 
+      vna<lb ed="#P" n="82" break="no"/>stellarum, sicut diximus superius 
+      <lb ed="#P" n="83"/>&amp; quidam dixerunt quod est in 
+      mo<lb ed="#P" n="84" break="no"/>dio, &amp; duod reuoluitur, &amp; moue¬
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0329.xml-->
+      <pb ed="#P" n="162-r"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>tur super orbem medium. Et hoc
+      <lb ed="#P" n="2"/>est impossibile. &amp;, signum eius 
+      es<lb ed="#P" n="3" break="no"/>quod, si nos incoeperimus dicero
+      <lb ed="#P" n="4"/>quod terra mouetur isto motu, 
+      si<lb ed="#P" n="5" break="no"/>cut narrauerunt extra medium
+      <lb ed="#P" n="6"/>&amp; intra, necessario mouebitur isto
+      <lb ed="#P" n="7"/>motu violente, quoniam iste motus 
+      <lb ed="#P" n="8"/>non est essentialis. quoniam, si etiem
+      <lb ed="#P" n="9"/>essentialis, quaelibet pars eius 
+      mo<lb ed="#P" n="10" break="no"/>ueretur isto motu. nos autem 
+      vide<lb ed="#P" n="11" break="no"/>mus omnes partes terrae moueri re
+      <lb ed="#P" n="12"/>cte. &amp;, cum ita sit, impossibile est
+      <lb ed="#P" n="13"/>vt iste motus terrae sit aeternus, cum
+      <lb ed="#P" n="14"/>sit violentus, non naturalis: 
+      elemo<lb ed="#P" n="15" break="no"/>tum autem mundi est aeternum,
+      <lb ed="#P" n="16"/>sine abscissione.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e10020"> <!-- arist-dc-l2c97-it -->
+         <lb ed="#P" n="81"/>Et dicamus etiam, quod 
+      corpo<lb ed="#P" n="82" break="no"/>ra, quae circulariter mouentur, mo¬ 
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0330.xml-->
+      <pb ed="#P" n="162-v"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>uentur motu diminuto, &amp; motus 
+      <lb ed="#P" n="2"/>eorum sunt plures diuersorum 
+      lo<lb ed="#P" n="3" break="no"/>corum, nisi id, quod est ex primo
+      <lb ed="#P" n="4"/>orbe, quoniam motus eius est idem,
+      <lb ed="#P" n="5"/>non diuersus. si igitur terra esset 
+      mo<lb ed="#P" n="6" break="no"/>ta, cum fuisset posita in m edio, non
+      <lb ed="#P" n="7"/>cessario moueretur duobus 
+      moti<lb ed="#P" n="8" break="no"/>bus. Et, si ita esset, transmutaretus 
+      <lb ed="#P" n="9"/>stellae, &amp; diuersarentur stellae 
+      fixae<lb ed="#P" n="10" break="no"/>in profundo coeli. &amp; non videmus
+      <lb ed="#P" n="11"/>quod ita sit: quonia ex locis, ex qui
+      <lb ed="#P" n="12"/>pus semel oriutur, semper oriutur.
+      <lb ed="#P" n="13"/>et similiter in occasu.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e10051"
+        > <!-- arist-dc-l2c98-it -->
+         <lb ed="#P" n="61"/>Et dicamus, quod motus partium
+      <lb ed="#P" n="62"/>terrae, &amp; motus totius eius 
+      natura<lb ed="#P" n="63" break="no"/>liter est idem ad medium totius: 
+      qui<lb ed="#P" n="64" break="no"/>niam locus eorum est centrum.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e10063"
+        > <!-- arist-dc-l2c99-it -->
+         <lb ed="#P" n="5"/>Et debet aliquis quaerere, cum
+      <lb ed="#P" n="6"/>medium totius sit idem cum medio
+      <lb ed="#P" n="7"/>terrae, ad quod duorum mediorum
+      <lb ed="#P" n="8"/>mouentur grauia, &amp; partes 
+      terrae<lb ed="#P" n="9" break="no"/>naturaliter, aut ad medium totius
+      <lb ed="#P" n="10"/>aut ad medium terrae scilicet cum vadum
+      <lb ed="#P" n="11"/>ad medium, vadunt, quia est 
+      me<lb ed="#P" n="12" break="no"/>dium totius, aut quia est medium
+      <lb ed="#P" n="13"/>terraes Dicamus igitur quod 
+      corpo<lb ed="#P" n="14" break="no"/>ra grauia mouentur ad medium 
+      ne<lb ed="#P" n="15" break="no"/>cessario, quia est medium totius. et
+      <lb ed="#P" n="16"/>signum eius est, quod corpora leuia
+      <lb ed="#P" n="17"/>&amp; ignis, quae mouentur 
+      econtra<lb ed="#P" n="18" break="no"/>rio corporum grauium, mouentur,
+      <lb ed="#P" n="19"/>quousque veniunt ad locum 
+      vlti<lb ed="#P" n="20" break="no"/>mum medii orizontis continentis.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e10096"> <!-- arist-dc-l2c100-it -->
+         <lb ed="#P" n="70"/>Et dicamus quod accidit vt 
+      me<lb ed="#P" n="71" break="no"/>dium terrae sit idem cum 
+      medioto<lb ed="#P" n="72" break="no"/>tius. quoniam corpora quae 
+      mouen<lb ed="#P" n="73" break="no"/>tur ad inferius, mouentur, quousque,
+      <lb ed="#P" n="74"/>perueniant ad medium terrae: sed 
+      <lb ed="#P" n="75"/>hoc erit accidentaliter, quonia 
+      me<lb ed="#P" n="76" break="no"/>dium terrae est positum in medio
+      <lb ed="#P" n="77"/>totius. Et signum eius est, vt omne,
+      <lb ed="#P" n="78"/>quod mouetur ad iferius, mouetur
+      <lb ed="#P" n="79"/>ad medium corporum grauium. et
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0332.xml-->
+      <pb ed="#P" n="163-v"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>cum mouetur ad medium terrae, non 
+      <lb ed="#P" n="2"/>est figura motus eorum aequalis id et
+      <lb ed="#P" n="3"/>non est aeque distans, sed obliqua,
+      <lb ed="#P" n="4"/>ita, quod descensus eorum erit ad
+      <lb ed="#P" n="5"/>eundem angulum.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e10122"> <!-- arist-dc-l2c101-it -->
+         <lb ed="#P" n="73"/>Et, cum ita sit, manifestum est
+      <lb ed="#P" n="74"/>quod corpora grauia mouentur ad
+      <lb ed="#P" n="75"/>medium terrae, &amp; manifestum est
+      <lb ed="#P" n="76"/>etiam quod terra est posita in 
+      me<lb ed="#P" n="77" break="no"/>dio, &amp; quod est quiescens propter
+      <lb ed="#P" n="78"/>causas, quas diximus. &amp; proptes
+      <lb ed="#P" n="79"/>hanc causam etiam est quod, cum
+      <lb ed="#P" n="80"/>corpora grauia fuerint proiecta ad
+      <lb ed="#P" n="81"/>superius aequali proiectione frequem
+      <lb ed="#P" n="82"/>ter, stabunt in eodem loco. &amp; si 
+      pro<lb ed="#P" n="83" break="no"/>iectio fuerit semper, non mutabul
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0333.xml-->
+      <pb ed="#P" n="164-r"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>sua loca. Manifestum est igitur,
+      <lb ed="#P" n="2"/>ex hoc, quod diximus, quod 
+      terra<lb ed="#P" n="3" break="no"/>est quiescens, non mota, neque, in 
+      mo<lb ed="#P" n="4" break="no"/>dio, neque, extra medium.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e10146"> <!-- arist-dc-l2c102-it -->
+         <lb ed="#P" n="54"/>Et dicamus etiam quod caum 
+      quie<lb ed="#P" n="55" break="no"/>tis terrae est manifesta ex hoc, quod 
+      <lb ed="#P" n="56"/>diximus. Quoniam, si innata est 
+      mo<lb ed="#P" n="57" break="no"/>ueri ex omnibus partibus ad 
+      me<lb ed="#P" n="58" break="no"/>dium motu naturali, vt videmus
+      <lb ed="#P" n="59"/>&amp; motus etiam ignis est a medio
+      <lb ed="#P" n="60"/>ad orizontem, impossibile est vt
+      <lb ed="#P" n="61"/>pars terrae moueatur a medio ad
+      <lb ed="#P" n="62"/>orizontem nisi uiolente. omne enim
+      <lb ed="#P" n="63"/>corpus habet vnum motum tantum:
+      <lb ed="#P" n="64"/>&amp; omne corpus simplex habet 
+      mo<lb ed="#P" n="65" break="no"/>tum simplicem: motus aut a 
+      me<lb ed="#P" n="66" break="no"/>dio contrarius est motui ad medium.
+      <lb ed="#P" n="67"/>Si igitur impossibile est vt aliqua
+      <lb ed="#P" n="68"/>pars terrae moueatur a medio, 
+      ma<lb ed="#P" n="69" break="no"/>nifestum est quod magis 
+      impossibi<lb ed="#P" n="70" break="no"/>le est vt tota terra. quoniam ad 
+      lo<lb ed="#P" n="71" break="no"/>cum, ad quem motus partis 
+      terrae<lb ed="#P" n="72" break="no"/>peruenit, &amp; motus totius terrae.
+      <lb ed="#P" n="73"/>Et, si it a sit, &amp; impossibile est vt
+      <lb ed="#P" n="74"/>terra moueatur nisi a potentia 
+      for<lb ed="#P" n="75" break="no"/>tiori, &amp; nobiliori, necesse est vt
+      <lb ed="#P" n="76"/>quiescat in medio.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e10196"> <!-- arist-dc-l2c103-it -->
+         <lb ed="#P" n="64"/>Et testatur nobis super hoc, quod 
+      <lb ed="#P" n="65"/>diximus, quod terra posita est in 
+      me<lb ed="#P" n="66" break="no"/>dio, Mathematici, &amp; quod dictum
+      <lb ed="#P" n="67"/>est in Astrologia. quoniam 
+      ascen<lb ed="#P" n="68" break="no"/>siones stellarum, &amp; occasus, &amp; 
+      fi<lb ed="#P" n="69" break="no"/>gurae, &amp; ordines earum sunt 
+      pro<lb ed="#P" n="70" break="no"/>pter terram, quae est posita in 
+      me<lb ed="#P" n="71" break="no"/>dio, non mota. Iam igitur 
+      declara<lb ed="#P" n="72" break="no"/>uimus locum terrae, &amp; vtrum sit
+      <lb ed="#P" n="73"/>quiescens, aut mota 
+      determinatio<lb ed="#P" n="74" break="no"/>ne sufficienti vera.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e10218"> <!-- arist-dc-l2c104-it -->
+         <lb ed="#P" n="6"/>Volumus modo dicere de 
+      figura<lb ed="#P" n="7" break="no"/>terrae. &amp; dicamus quod figura eius
+      <lb ed="#P" n="8"/>est rotuda, sphaerica necessario: quo
+      <lb ed="#P" n="9"/>nia quaelibet pars eius habet 
+      graui<lb ed="#P" n="10" break="no"/>tate, quousque, perueniat ad medium.
+      <lb ed="#P" n="11"/>&amp; quod pars maior eius constringit
+      <lb ed="#P" n="12"/>minorem, &amp; non potest expandi, &amp; 
+      <lb ed="#P" n="13"/>recedere, sed constringi, &amp; 
+      congre<lb ed="#P" n="14" break="no"/>gari. &amp;, quanto magis fuerit 
+      pro<lb ed="#P" n="15" break="no"/>pinqua medio, tanto magis 
+      constrin<lb ed="#P" n="16" break="no"/>getur. &amp; ista pars expellit istam, do
+      <lb ed="#P" n="17"/>nec perueniat ad medium. Et 
+      intelli<lb ed="#P" n="18" break="no"/>gendum est hoc, quod diximus, &amp; 
+      <lb ed="#P" n="19"/>posuimus, sicut adispositio existens a
+      <lb ed="#P" n="20"/>quibusdam Antiquis, qui 
+      diceban<lb ed="#P" n="21" break="no"/>tur Naturales. Sed illi ponebant 
+      mo<lb ed="#P" n="22" break="no"/>tum terrae ad medium violentum.
+      <lb ed="#P" n="23"/>Nos autem diximus melius, &amp; 
+      re<lb ed="#P" n="24" break="no"/>ctius, quod hoc erit, quonia corpus 
+      <lb ed="#P" n="25"/>graue nabet natura, vt moueatur
+      <lb ed="#P" n="26"/>ad medium: &amp; dicamus, narrando
+      <lb ed="#P" n="27"/>sermone eorum, quia corpus graue
+      <lb ed="#P" n="28"/>fuit in potentia. Deinde dixerunt
+      <lb ed="#P" n="29"/>quod corpora grauia ab alienis 
+      con<lb ed="#P" n="30" break="no"/>tinentibus mota fuerunt ad medium
+      <lb ed="#P" n="31"/>motu aequali. Dicamus etia quod, 
+      <lb ed="#P" n="32"/>si corpora grauia mouebantur 
+      al<lb ed="#P" n="33" break="no"/>orizontibus ad medium motu 
+      aequa<lb ed="#P" n="34" break="no"/>li, aut econtrario, necessario 
+      moue<lb ed="#P" n="35" break="no"/>buntur ad medium, &amp; non 
+      rece<lb ed="#P" n="36" break="no"/>dent ab eo.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e10284"> <!-- arist-dc-l2c105-it -->
+         <lb ed="#P" n="3"/>Et dicamus etiam, quod, cum 
+      par<lb ed="#P" n="4" break="no"/>tes terrae mouentur ex omnibus 
+      par<lb ed="#P" n="5" break="no"/>tibus, &amp; orizontibus ad medium
+      <lb ed="#P" n="6"/>motu aequali, consimili, necessario
+      <lb ed="#P" n="7"/>erit motus totius terrae consimilis.
+      <lb ed="#P" n="8"/>&amp; hoc manifestum est, quoniam, 
+      ci<lb ed="#P" n="9" break="no"/>venerint ex omnibus partibus 
+      aequa<lb ed="#P" n="10" break="no"/>liter, necessario erit remotio omnium
+      <lb ed="#P" n="11"/>partium a medio aequalis, &amp; 
+      huius<lb ed="#P" n="12" break="no"/>modi figura necessario est sphaerica.
+      <lb ed="#P" n="13"/>Et secundum hunc modum erit 
+      ter<lb ed="#P" n="14" break="no"/>ra, quauis partes eius non 
+      veniani<lb ed="#P" n="15" break="no"/>ex omnibus partibus ad medium
+      <lb ed="#P" n="16"/>aequaliter. pars enim magna 
+      expe<lb ed="#P" n="17" break="no"/>lit paruam necessario, &amp; superior,
+      <lb ed="#P" n="18"/>inferiorem, quousque, ventant ad 
+      me<lb ed="#P" n="19" break="no"/>dium: innatae sunt enim peruenire
+      <lb ed="#P" n="20"/>ad medium.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e10328"> <!-- arist-dc-l2c106-it -->
+         <lb ed="#P" n="15"/>Et potest aliquis dissoluere per 
+      <lb ed="#P" n="16"/>hoc ressonsum omnem huiusmodi 
+      <lb ed="#P" n="17"/>quaestione. dico quod aliquis potest,
+      <lb ed="#P" n="18"/>quaerere, si terra posita fuerit in 
+      me<lb ed="#P" n="19" break="no"/>dio, &amp; figura eius fuerit 
+      sphaerica<lb ed="#P" n="20" break="no"/>&amp; positum fuerit duplex 
+      grauita<lb ed="#P" n="21" break="no"/>tis eius in altera suarum partium,
+      <lb ed="#P" n="22"/>ex parte medietatis orbis, tunc 
+      mo<lb ed="#P" n="23" break="no"/>dium terrae, &amp; medium 
+      medieta<lb ed="#P" n="24" break="no"/>tis totius non erit idem. tunc igitur
+      <lb ed="#P" n="25"/>continget, vt autem terra non quiescat,
+      <lb ed="#P" n="26"/>&amp; stet in medio, aut, si steterit, &amp; 
+      <lb ed="#P" n="27"/>quieuerit, &amp; non fuerit in medio,
+      <lb ed="#P" n="28"/>possibile erit vt moueatur ex eo
+      <lb ed="#P" n="29"/>necessario.
+    </p>
+        <p xml:id="aaaadc-gfdttt-d1e10352"> <!-- arist-dc-l2c107-it -->
+         <lb ed="#P" n="19"/>Haec est igitur quaestio 
+      contin<lb ed="#P" n="20" break="no"/>gens. Dicamus igitur, quod solutio
+      <lb ed="#P" n="21"/>istius quaestionis est possibilis, 
+      cun<lb ed="#P" n="22" break="no"/>nos consyderauerimus parum, &amp; 
+      <lb ed="#P" n="23"/>distinxerimus, &amp; declarauerimus
+      <lb ed="#P" n="24"/>quo diximus quod uenit ad medium.
+      <lb ed="#P" n="25"/>sed maior pars constringit minorem, 
+      <lb ed="#P" n="26"/>&amp; vincit eam, veniendo ad medium
+      <lb ed="#P" n="27"/>per figuram, &amp; eius medium 
+      in<lb ed="#P" n="28" break="no"/>nata est enim descendere, quousque,
+      <lb ed="#P" n="29"/>perueniat ad istu locum scilicet medium.
+      <lb ed="#P" n="30"/>Et iste sermo est conueniens vni 
+      glo<lb ed="#P" n="31" break="no"/>bae, &amp; parti terrae, &amp; in 
+      totalita<lb ed="#P" n="32" break="no"/>te terrae. Et, si aliquis dixerit, 
+      pro<lb ed="#P" n="33" break="no"/>pter quid accidit hoc e dicemus
+      <lb ed="#P" n="34"/>quod non propter paruitatem 
+      corpo<lb ed="#P" n="35" break="no"/>ris, neque, propter eius magnitudinem,
+      <lb ed="#P" n="36"/>sed accidit in omni corpore, quod est
+      <lb ed="#P" n="37"/>mnatum descendere ad medium.
+      <lb ed="#P" n="38"/>Et, si ita sit, si tota terra moueatur,
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0342.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="39"/>ab aliquo loco, aut aliqua pars eius,
+      <lb ed="#P" n="40"/>necessario mouebitur, quousque, 
+      per<lb ed="#P" n="41" break="no"/>ueniat ad medium ex omnibus 
+      par<lb ed="#P" n="42" break="no"/>tibus aequaliter. sed motus partuum,
+      <lb ed="#P" n="43"/>&amp; descensus earum diuersantur.
+      <lb ed="#P" n="44"/>quoniam partes magnae expellunt,
+      <lb ed="#P" n="45"/>partes paruas, quousque, perueniant
+      <lb ed="#P" n="46"/>ad medium: &amp; sic de scensus earum
+      <lb ed="#P" n="47"/>erit tardior, &amp; velocior.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e10411"> <!-- arist-dc-l2c108-it -->
+         <lb ed="#P" n="82"/>Si igitur terra fuerit generata,
+      <lb ed="#P" n="83"/>&amp; posita in medio secundum hunc 
+      <lb ed="#P" n="84"/>modum, quo quidam dicunt, 
+      neces<lb ed="#P" n="85" break="no"/>sario fuit secundum modum, que nar¬
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0344.xml-->
+      <pb ed="#P" n="169-v"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>rauimus. &amp;, si ita sit, manifestum
+      <lb ed="#P" n="2"/>est quod locus terrae est sphaericus.
+      <lb ed="#P" n="3"/>Si igitur semper fuit in hac 
+      disposi<lb ed="#P" n="4" break="no"/>tione, secundum quam prius fuit 
+      ge<lb ed="#P" n="5" break="no"/>nerata, necessario figura eius erit
+      <lb ed="#P" n="6"/>sphaerica, propter sermonem, que 
+      di<lb ed="#P" n="7" break="no"/>ximus, &amp; quia corpora grauia 
+      mo<lb ed="#P" n="8" break="no"/>uentur, &amp; descendunt ad angulos
+      <lb ed="#P" n="9"/>consimiles. &amp; hoc est signum, quod 
+      <lb ed="#P" n="10"/>non descendunt hoc descensu, nisi
+      <lb ed="#P" n="11"/>quia sunt sphaerica naturaliter. Et,
+      <lb ed="#P" n="12"/>si corpus terrae est sphaericum, 
+      natura<lb ed="#P" n="13" break="no"/>eius erit sphaerica. et dicamus quod 
+      <lb ed="#P" n="14"/>oportet vt omnes res sint secudum suam
+      <lb ed="#P" n="15"/>dispositionem naturalem, non 
+      secun<lb ed="#P" n="16" break="no"/>dum dispositionem violentam.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e10453"> <!-- arist-dc-l2c109-it -->
+         <lb ed="#P" n="57"/>Et dicamus etiam, quod signum,
+      <lb ed="#P" n="58"/>quod figura terrae est rotunda, est
+      <lb ed="#P" n="59"/>hoc, quod cadit sub visu. quoniam,
+      <lb ed="#P" n="60"/>nisi esset sphaericae figurae, 
+      impossi<lb ed="#P" n="61" break="no"/>bile esset vt sic caderet eclipsis 
+      Lu<lb ed="#P" n="62" break="no"/>nae, sicut visum est. modo autem 
+      vide<lb ed="#P" n="63" break="no"/>mus, quod in omni mese figuratur,
+      <lb ed="#P" n="64"/>in omnibus suis figuris. est enim arcua
+      <lb ed="#P" n="65"/>lis, &amp; aequalis, &amp; profunda, apud
+      <lb ed="#P" n="66"/>aut eclipsim linea cotinens semper
+      <lb ed="#P" n="67"/>est arcualis. Et, si ita sit, &amp; causa
+      <lb ed="#P" n="68"/>eclipsiis eius est quod terra cooperit,
+      <lb ed="#P" n="69"/>ipsam, necessario non eclipsatur, nisi
+      <lb ed="#P" n="70"/>propter rotuditate terrae, &amp; causa
+      <lb ed="#P" n="71"/>eclipsis eius est rotunditas terrae.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e10486"> <!-- arist-dc-l2c110-it -->
+         <lb ed="#P" n="56"/>Dicamus etiam quod 
+      signumro<lb ed="#P" n="57" break="no"/>tunditatis terrae, &amp; quod est 
+      sphae<lb ed="#P" n="58" break="no"/>rica, &amp; non est valde magna, est
+      <lb ed="#P" n="59"/>hoc. quod videtur de stellis. Quoniam,
+      <lb ed="#P" n="60"/>cum parum transferimur ad parte
+      <lb ed="#P" n="61"/>medii coeli, aut ad partem Tarcadam,
+      <lb ed="#P" n="62"/>tunc videbimus alium modum 
+      stel<lb ed="#P" n="63" break="no"/>larum, quae sunt in verticem 
+      nostro<lb ed="#P" n="64" break="no"/>rum capitum diuersarum eis, quae 
+      <lb ed="#P" n="65"/>sunt in circuitu ex stellis. quoniam,
+      <lb ed="#P" n="66"/>cum trasferimur ad medium, aut
+      <lb ed="#P" n="67"/>ad Farcadam, videbimus stellas 
+      la<lb ed="#P" n="68" break="no"/>tentes nos in Aegrpto, &amp; persia,
+      <lb ed="#P" n="69"/>et non videbimus illas in parte 
+      Ear<lb ed="#P" n="70" break="no"/>cada, stellas, quas uidemus in AeQ
+      <lb ed="#P" n="71"/>pto. &amp; stellae, quae videntur in 
+      Ear<lb ed="#P" n="72" break="no"/>cadam, pariter latent in illis 
+      par<lb ed="#P" n="73" break="no"/>tibus scilicet in Aegipto, &amp; persia.
+      <lb ed="#P" n="74"/>Manifestum est igitur ex his quod 
+      <lb ed="#P" n="75"/>terra est sphaerica, &amp; quod 
+      terra<lb ed="#P" n="76" break="no"/>non est magna valde. quoniam, si
+      <lb ed="#P" n="77"/>esset magna, non appareret nobis,
+      <lb ed="#P" n="78"/>cum parum transferimur a nostris
+      <lb ed="#P" n="79"/>locis, alius modorum stellarum, &amp; 
+      <lb ed="#P" n="80"/>terminorum orbis.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e10542"> <!-- arist-dc-l2c111-it -->
+         <lb ed="#P" n="36"/>Et significat paruitatem terrae.
+      <lb ed="#P" n="37"/>quod locus, qui dicitur idolum 
+      Rer<lb ed="#P" n="38" break="no"/>culis, continet primum terminum
+      <lb ed="#P" n="39"/>terminorum indiae. &amp; ideo dicunt
+      <lb ed="#P" n="40"/>quod mare est idem. &amp; hoc, quod 
+      <lb ed="#P" n="41"/>dicunt non est valde inopinabile.
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0348.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="42"/>Et verificatio nostri sermonis sunt,
+      <lb ed="#P" n="43"/>elephates: quonia non existunt, nisi
+      <lb ed="#P" n="44"/>in illis locis, scilicet in orizontibus
+      <lb ed="#P" n="45"/>illorum duorum locorum: &amp; existut,
+      <lb ed="#P" n="46"/>in illis locis, quia loca cogregantur,
+      <lb ed="#P" n="47"/>illic, &amp; sic inueniuntur.
+    </p>
+      <p xml:id="aaaadc-gfdttt-d1e10568"> <!-- arist-dc-l2c112-it -->
+         <lb ed="#P" n="37"/>Et testantur nobis etiam quod 
+      fi<lb ed="#P" n="38" break="no"/>gura terrae est rotunda Geometrae,
+      <lb ed="#P" n="39"/>&amp; Mathematici, qui laborant ad
+      <lb ed="#P" n="40"/>sciendum quantitatem 
+      reuolutio<lb ed="#P" n="41" break="no"/>nis terrae, &amp; dicunt quod quanti¬
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0349.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="42"/>tas reuolutionis terrae est. axiu. 
+      mi<lb ed="#P" n="43" break="no"/>lia miliarium terrae, &amp; ex hoc 
+      sci<lb ed="#P" n="44" break="no"/>uerunt quod terra hebet figuram.
+      <lb ed="#P" n="45"/>sphaericam, &amp; quod est parui 
+      cor<lb ed="#P" n="46" break="no"/>poris necessario, in respectum 
+      magni<lb ed="#P" n="47" break="no"/>tudinis caeterarum stellarum. Iam
+      <lb ed="#P" n="48"/>igitur compleuimus determinatio
+      <lb ed="#P" n="49"/>nem, &amp; declaratione de figura 
+      ter<lb ed="#P" n="50" break="no"/>rae, &amp; quod est quiescens, non mota.
+    </p>
+   </div>
+   
+    </body>
+  </text>
+</TEI>

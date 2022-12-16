@@ -1,0 +1,3057 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1</title> <!-- De Caelo -->
+        <author ref="#Aristotle">Aristotle</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1</title>
+          <date when="2022-12-15">December 15, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <!-- manifestation sctar:aristdeanima/cod-AAAdcg-2 in codex sctar:cod-AAAdcg- -->
+          <witness xml:id="J" n="cod-AAAdcg-2">Venice 1562, volume 05</witness> <!-- italic version -->
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-12-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <!--<pb ed="#J" n="1-r"/>-->
+      </div>
+    </front>
+    <body>
+      <div xml:id="aaaadc-gfdsss"> <!-- arist-dc-l1 -->
+      <head>Liber 1</head>
+      <p xml:id="aaaadc-gfdsss-d1e100"> <!-- arist-dc-l1c1-it -->
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0009.xml-->
+         <cb ed="#P" n="c"/>
+         <lb ed="#P" n="38"/>MAxima cognitio 
+      na<lb ed="#P" n="39" break="no"/>tur ae, &amp; scientia de
+      <lb ed="#P" n="40"/>monstrans ipsam est
+      <lb ed="#P" n="41"/>in corporibus, &amp; 
+      in<lb ed="#P" n="42" break="no"/>aliis magnitudinibus, &amp; in 
+      pas<lb ed="#P" n="43" break="no"/>sionibus, &amp; in motibus eorum, &amp; 
+      <lb ed="#P" n="44"/>in principiis cuiuslibet, quod 
+      assi<lb ed="#P" n="45" break="no"/>milatur isti naturae. entium enim
+      <lb ed="#P" n="46"/>naturalium quaedam sunt corpus, 
+      <lb ed="#P" n="47"/>&amp; magnitudo, &amp; quaedam habent
+      <lb ed="#P" n="48"/>corpus, &amp; magnitudinem, &amp; quae 
+      <lb ed="#P" n="49"/>dam sunt principia habentium 
+      cor<lb ed="#P" n="50" break="no"/>pora, &amp; magnitudinem.
+  </p>
+      <p xml:id="aaaadc-gfdsss-d1e103"> <!-- arist-dc-l1c2-it -->
+         <lb ed="#P" n="44"/>Continuum quidem est quod 
+      di<lb ed="#P" n="45" break="no"/>uisibile in recipientia diuisionem
+      <lb ed="#P" n="46"/>successiue. Corpus autem est 
+      diuisi<lb ed="#P" n="47" break="no"/>bile secundum omnes mensuras. 
+      Ma<lb ed="#P" n="48" break="no"/>vnitudinis vero quod est vnius 
+      mo<lb ed="#P" n="49" break="no"/>surae est linea: &amp; quod est duarum
+      <lb ed="#P" n="50"/>superficies: trium autem est corpus. et
+      <lb ed="#P" n="51"/>post istas nulla quantitas est: mnia enim
+      <lb ed="#P" n="52"/>sunt tria, &amp; diuisa in tres 
+      mensu<lb ed="#P" n="53" break="no"/>ras. Et similiter dixerunt 
+      Pythago<lb ed="#P" n="54" break="no"/>riciquod omne, &amp; res terminatur 
+      tri<lb ed="#P" n="55" break="no"/>bus mensuris, fine, medio, &amp; 
+      prin<lb ed="#P" n="56" break="no"/>cipio. &amp; hic est numerus 
+      cuiusli<lb ed="#P" n="57" break="no"/>bet: &amp; est demonstrans trinitatem,
+      <lb ed="#P" n="58"/>rerum. Et non inuenimus istum 
+      nu<lb ed="#P" n="59" break="no"/>merum, nisi ex natura, &amp; 
+      sustine<lb ed="#P" n="60" break="no"/>mus ipsum quasi legem nobis. Et se
+      <lb ed="#P" n="61"/>cunduinm istum numerum tenemur
+      <lb ed="#P" n="62"/>magnificare Deum creatorem 
+      re<lb ed="#P" n="63" break="no"/>motum a modis creaturarum. Et
+      <lb ed="#P" n="64"/>et nominamus numerum secundum
+      <lb ed="#P" n="65"/>hunc modum. dico quod 
+      nuntera<lb ed="#P" n="66" break="no"/>mus duos numeros duo, &amp; duos ui 
+      <lb ed="#P" n="67"/>ros duos viros, &amp; non dicimus 
+      om<lb ed="#P" n="68" break="no"/>nes: sed hoc omne non dicitur, 
+      nifi<lb ed="#P" n="69" break="no"/>le tribus, &amp; per ipsum 
+      nomina<lb ed="#P" n="70" break="no"/>mus tria primo. Et hoc fuit dictum
+      <lb ed="#P" n="71"/>quoniam natura naturata ita 
+      fe<lb ed="#P" n="72" break="no"/>cit: &amp; nos sequimur ita suum opus
+      <lb ed="#P" n="73"/>sicut prius narrauimus.
+  </p>
+      <p xml:id="aaaadc-gfdsss-d1e179"> <!-- arist-dc-l1c3-it -->&gt;
+    <lb ed="#P" n="37"/>Dicimus etiam quod totum, et
+      <lb ed="#P" n="38"/>omne, &amp; perfectum non differunt 
+      se<lb ed="#P" n="39" break="no"/>cundum formam, sed secundum 
+      ma<lb ed="#P" n="40" break="no"/>teriam. &amp;, cum ita est, 
+      manifesti<lb ed="#P" n="41" break="no"/>est igitur quod solum corpus est per¬
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0013.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="42"/>fectum, &amp; perfectius omnibus magni 
+      <lb ed="#P" n="43"/>tudinibus. corpus enim terminaturper 
+      <lb ed="#P" n="44"/>tres mensuras: quapropter 
+      diuidi<lb ed="#P" n="45" break="no"/>tur in omnes mensuras. aliaris autem suntm
+      <lb ed="#P" n="46"/>quaedam duarum quantitatum, &amp; 
+      <lb ed="#P" n="47"/>quodam vnius quantitatis. &amp;, 
+      secu<lb ed="#P" n="48" break="no"/>dum quod de eis dicitur mensura,
+      <lb ed="#P" n="49"/>ita dicitur continuatio de eis, aut
+      <lb ed="#P" n="50"/>discretio. habens enim vnam mensura
+      <lb ed="#P" n="51"/>dicitur continium: habentia autem,
+      <lb ed="#P" n="52"/>duas dicuntur discreta: &amp; corpus 
+      <lb ed="#P" n="53"/>recipit duo nomina.
+  </p>
+      <p xml:id="aaaadc-gfdsss-d1e214"> <!-- arist-dc-l1c4-it -->
+         <lb ed="#P" n="63"/>Et dicimus etiam, quod omnis 
+      ma<lb ed="#P" n="64" break="no"/>gnitudo discreta necessario etia est
+      <lb ed="#P" n="65"/>continua. vtrum autem continuum sit
+      <lb ed="#P" n="66"/>discretum, aut non, adhuc non est
+      <lb ed="#P" n="67"/>manifestum. Quod autem est notum,
+      <lb ed="#P" n="68"/>&amp; manifestum est hoc, scilicet quod 
+      cor<lb ed="#P" n="69" break="no"/>pus impossibile est ferri in aliud 
+      ge<lb ed="#P" n="70" break="no"/>nus, sicut linea fertur in 
+      planicie<lb ed="#P" n="71" break="no"/>deinde planicies in corpus. si autem,
+      <lb ed="#P" n="72"/>possibile est ferri in aliud genus 
+      <lb ed="#P" n="73"/>tunc non erit corpus magnitudo per 
+      <lb ed="#P" n="74"/>fecta, sed imperfecta. talis autem 
+      la<lb ed="#P" n="75" break="no"/>tio non existit necessario, nisi in im
+      <lb ed="#P" n="76"/>perfecto. impossibile est igitur 
+      per<lb ed="#P" n="77" break="no"/>fectum sit diminutum: discretum
+      <lb ed="#P" n="78"/>enim est in omnibus mensuris: 
+      vnu<lb ed="#P" n="79" break="no"/>quodque, autem aliorum corporum, quae 
+      <lb ed="#P" n="80"/>sunt sicut partes in suis formis, per 
+      <lb ed="#P" n="81"/>fectum est, sicut dicimus de defini¬
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0015.xml-->
+      <pb ed="#P" n="4-r"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>A tione perfecti. quodlibet enim 
+      illo<lb ed="#P" n="2" break="no"/>rum habet tres mensuras: 
+      tamenha<lb ed="#P" n="3" break="no"/>bet terminum, quo tangit illud, quod
+      <lb ed="#P" n="4"/>est post ipsum ex corporibus. 
+      qua<lb ed="#P" n="5" break="no"/>propter vnumquodque, corporum est
+      <lb ed="#P" n="6"/>plura. Totu aute, cuius corpora haec
+      <lb ed="#P" n="7"/>sunt partes, necessario est perfectum:
+      <lb ed="#P" n="8"/>&amp; est sicut nomen eius significa:
+      <lb ed="#P" n="9"/>totum significatione perpetua, &amp; 
+      <lb ed="#P" n="10"/>non est quibusdam rebus totum, et
+      <lb ed="#P" n="11"/>quibusdam rebus non totu. Et nos 
+      <lb ed="#P" n="12"/>dicemus post, naturam totius, &amp; 
+      <lb ed="#P" n="13"/>vtrum habeat finem, aut non in 
+      <lb ed="#P" n="14"/>magnitudine.
+  </p>
+      <p xml:id="aaaadc-gfdsss-d1e285"> <!-- arist-dc-l1c5-it -->
+         <lb ed="#P" n="75"/>Modo autem uolo dicere partes
+      <lb ed="#P" n="76"/>totius diuersarum formarum, &amp; in 
+      <lb ed="#P" n="77"/>cipiam sic. Sia corpora naturalia,
+      <lb ed="#P" n="78"/>&amp; magnitudines mouentur per se
+      <lb ed="#P" n="79"/>motu locali. natura enim est principium
+      <lb ed="#P" n="80"/>motus in ipsis. Et omnis motus 
+      lo<lb ed="#P" n="81" break="no"/>calis aut aequalis est, aut circularis,
+      <lb ed="#P" n="82"/>aut compositus est ex istis: &amp; isti
+      <lb ed="#P" n="83"/>duo motus sunt tantum simplices.
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0017.xml-->
+      <pb ed="#P" n="5-r"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>et causa illius est, quod corpora 
+      sim<lb ed="#P" n="2" break="no"/>plicia sunt ista, longum, &amp; 
+      rotun<lb ed="#P" n="3" break="no"/>dum. Motus aut circularis est 
+      ci<lb ed="#P" n="4" break="no"/>ca medium. Motus autem aequalis aut
+      <lb ed="#P" n="5"/>est superius, aut inferius. &amp; est 
+      di<lb ed="#P" n="6" break="no"/>cere ad superius motum a medio: &amp; 
+      <lb ed="#P" n="7"/>ad inferius motum ad medium.
+  </p>
+      <p xml:id="aaaadc-gfdsss-d1e344"> <!-- arist-dc-l1c6-it -->
+         <lb ed="#P" n="3"/>Manifestum est igitur quod omnis
+      <lb ed="#P" n="4"/>motus simplex aut a medio, aut ad
+      <lb ed="#P" n="5"/>medium, aut circa medium est. &amp; 
+      <lb ed="#P" n="6"/>hoc sequitur hoc, quod diximus su¬.
+      <lb ed="#P" n="7"/>perius. quod corpus componitur ex
+      <lb ed="#P" n="8"/>tribus mensuris: quapropter &amp; 
+      mo<lb ed="#P" n="9" break="no"/>tus corporis sunt tres.
+  </p>
+      <p xml:id="aaaadc-gfdsss-d1e370"> <!-- arist-dc-l1c7-it -->
+         <lb ed="#P" n="47"/>Et, cum corporum hoc quidem 
+      sim<lb ed="#P" n="48" break="no"/>plex est, hec autem compositu ex 
+      sim<lb ed="#P" n="49" break="no"/>plici: &amp; est dicere corpus simplex,
+      <lb ed="#P" n="50"/>oe corpus, in quo est principium 
+      mo<lb ed="#P" n="51" break="no"/>tus naturalis, v. gignis, &amp; terra,
+      <lb ed="#P" n="52"/>&amp; similia formis eorum, &amp; generi: 
+      <lb ed="#P" n="53"/>&amp; etiam necessario motuu hic quidem
+      <lb ed="#P" n="54"/>est simplex, hic autem compositus. &amp; 
+      <lb ed="#P" n="55"/>motus corporum simplicium 
+      simpli<lb ed="#P" n="56" break="no"/>ces, &amp; motus corporum compositorum
+      <lb ed="#P" n="57"/>erunt diuersi: sed tamen mouentur
+      <lb ed="#P" n="58"/>secundum motum corporis 
+      simpli<lb ed="#P" n="59" break="no"/>cis in eis dominantis.
+  </p>
+      <p xml:id="aaaadc-gfdsss-d1e401"> <!-- arist-dc-l1c8-it -->
+         <lb ed="#P" n="47"/>Et, cum motus rectus sit simplex,
+      <lb ed="#P" n="48"/>&amp; motus circularis sit simplex, 
+      cor<lb ed="#P" n="49" break="no"/>poris simplicis est motus simplex.
+      <lb ed="#P" n="50"/>et motus simplex habet corpus 
+      sim<lb ed="#P" n="51" break="no"/>plex. si ergo in corpore composito in 
+      <lb ed="#P" n="52"/>ueniatur motus simplex, erit ille
+      <lb ed="#P" n="53"/>motus corporis simplicis dominatis
+      <lb ed="#P" n="54"/>in illo. Manifestum est igitur ex his,
+      <lb ed="#P" n="55"/>quae diximus, quod necessario est 
+      cor<lb ed="#P" n="56" break="no"/>pus simplex, quod per natura eius
+      <lb ed="#P" n="57"/>mouetur motu circulari.
+  </p>
+      <p xml:id="aaaadc-gfdsss-d1e430"> <!-- arist-dc-l1c9-it -->
+         <lb ed="#P" n="81"/>Et etiam, quoniam possibile est vt
+      <lb ed="#P" n="82"/>aliquod corpus moueatur motu 
+      ae<lb ed="#P" n="83" break="no"/>cidentali, manifestum est igitur, quod 
+      <lb ed="#P" n="84"/>in alio corpore sit motus naturalis: 
+      <lb ed="#P" n="85"/>ita quod impossibilem est vt illius 
+      cor<lb ed="#P" n="86" break="no"/>poris sit natura et alius motus.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e443"> <!-- arist-dc-l1c10-it -->
+         <lb ed="#P" n="57"/>Et etiam motus naturalis 
+      con<lb ed="#P" n="58" break="no"/>trarius est motui accidentali, &amp; 
+      re<lb ed="#P" n="59" break="no"/>gula est maxima vt vnum non 
+      ha<lb ed="#P" n="60" break="no"/>oeat contrarium nisi vnum, &amp; quod 
+      <lb ed="#P" n="61"/>motus circularis est simplex. si 
+      er<lb ed="#P" n="62" break="no"/>go iste motus non naturalis est in 
+      <lb ed="#P" n="63"/>corpore moto, necesse est ipsum esse
+      <lb ed="#P" n="64"/>accidentalem. Hoc quidem corpus, 
+      <lb ed="#P" n="65"/>quod mouetur hoc motu circulari,
+      <lb ed="#P" n="66"/>aut est ignis, aut est aliud corpus 
+      <lb ed="#P" n="67"/>aliorum corporum similium igni.
+      <lb ed="#P" n="68"/>erit ergo motus naturalis 
+      contra<lb ed="#P" n="69" break="no"/>rius motui circulari. &amp; iam 
+      dixi<lb ed="#P" n="70" break="no"/>mus superius quod vnum est 
+      contr<lb ed="#P" n="71" break="no"/>rium vni: motus ergo ad superius
+      <lb ed="#P" n="72"/>est contrarius motui ad inferius,
+      <lb ed="#P" n="73"/>non contrarius motui circulari.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e477"> <!-- arist-dc-l1c11-it -->
+         <lb ed="#P" n="24"/>Si ergo aliud corpus, praeter ista
+      <lb ed="#P" n="25"/>corpora praedicta, mouetur 
+      circum<lb ed="#P" n="26" break="no"/>lariter secundum accidens, necessario
+      <lb ed="#P" n="27"/>habet alium motum naturalem.
+      <lb ed="#P" n="28"/>quod est impossibile. erit enim autm
+      <lb ed="#P" n="29"/>motus ad superius, &amp; tuc erit autem
+      <lb ed="#P" n="30"/>ignis, aut aeris, aut motus ad 
+      infe<lb ed="#P" n="31" break="no"/>rius, &amp; tunc autem aquae, aut terrae.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e495"> <!-- arist-dc-l1c12-it -->
+         <lb ed="#P" n="18"/>Et etiam motus circularis est
+      <lb ed="#P" n="19"/>primus motus motuum necessario.
+      <lb ed="#P" n="20"/>perfectum enim &amp; completum est
+      <lb ed="#P" n="21"/>ante diminutum, &amp; est prius eo
+      <lb ed="#P" n="22"/>prioritate naturae. &amp; quod 
+      circu<lb ed="#P" n="23" break="no"/>lus est perfectior figurarum, linea
+      <lb ed="#P" n="24"/>rum autem aequalium nulla est 
+      perfe<lb ed="#P" n="25" break="no"/>cta, siue finita, siue infinita. 
+      quo<lb ed="#P" n="26" break="no"/>nia, si infinitum, erit diminutum,
+      <lb ed="#P" n="27"/>no erit perfectum: non enim 
+      habei<lb ed="#P" n="28" break="no"/>complementum, neque, finem: perfectum
+      <lb ed="#P" n="29"/>enim habet complementum: et finem.
+      <lb ed="#P" n="30"/>si finitu, etiam erit diminutum, cum
+      <lb ed="#P" n="31"/>habeat continens: quapropter 
+      possi<lb ed="#P" n="32" break="no"/>bile est eum augeri in omnem 
+      par<lb ed="#P" n="33" break="no"/>tem, &amp; crescere. Et etiam reuerta
+      <lb ed="#P" n="34"/>mur, &amp; dicamus quod, si primus
+      <lb ed="#P" n="35"/>motus est naturalis primo corpori,
+      <lb ed="#P" n="36"/>&amp; motus circularis est principium
+      <lb ed="#P" n="37"/>motus aequalis, &amp; est motus 
+      aequa<lb ed="#P" n="38" break="no"/>lis simplicibus corporibus, vt est
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0026.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="39"/>ignis vadens ad superius aequaliter,
+      <lb ed="#P" n="40"/>&amp; terra descendens ad inferius scilicet
+      <lb ed="#P" n="41"/>ad medium, &amp; necessario erit 
+      mo<lb ed="#P" n="42" break="no"/>tus circularis quorundam corporum
+      <lb ed="#P" n="43"/>simplicium. &amp; iam diximus 
+      supe<lb ed="#P" n="44" break="no"/>rius quod corpora composita sunt 
+      se<lb ed="#P" n="45" break="no"/>tundum corpus simplex, existens,
+      <lb ed="#P" n="46"/>&amp; dominmans in eis.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e547"> <!-- arist-dc-l1c13-it -->
+         <lb ed="#P" n="76"/>Quoniam igitur hoc corpus aliud
+      <lb ed="#P" n="77"/>est, &amp; alia substantia, praeter ista
+      <lb ed="#P" n="78"/>corpora, quae nobis vicinantur, est
+      <lb ed="#P" n="79"/>substantia, &amp; corpus nobile, &amp; 
+      glo<lb ed="#P" n="80" break="no"/>riosum, &amp; esse primum omnium
+      <lb ed="#P" n="81"/>istorum corporum manifestum est.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e560"> <!-- arist-dc-l1c14-it -->
+         <lb ed="#P" n="23"/>Et, si aliquis dixerit quod omnis
+      <lb ed="#P" n="24"/>motus aut est naturalis, aut accid.
+      <lb ed="#P" n="25"/>talis, &amp; motus, qui est naturalis,
+      <lb ed="#P" n="26"/>quibusdam corporibus, est 
+      acciden<lb ed="#P" n="27" break="no"/>talis alicui alii corpori, v. g. 
+      ascen<lb ed="#P" n="28" break="no"/>sus, &amp; descensus. motus enim ad 
+      su<lb ed="#P" n="29" break="no"/>perius est naturalis alicui corpori, 
+      <lb ed="#P" n="30"/>&amp; accidentalis alii, igni enim 
+      na<lb ed="#P" n="31" break="no"/>turalis, terrae vero accidentalis: 
+      si<lb ed="#P" n="32" break="no"/>militer motus ad inferius terrae 
+      na<lb ed="#P" n="33" break="no"/>turalis, igni accidentalis: 
+      necessa<lb ed="#P" n="34" break="no"/>rium est nobis dicere quod, cum 
+      mo<lb ed="#P" n="35" break="no"/>tus circularis est accidentalis his,
+      <lb ed="#P" n="36"/>corporibus, non est dubium quin sit
+      <lb ed="#P" n="37"/>naturalis alicui corpori.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e589"> <!-- arist-dc-l1c15-it -->
+         <lb ed="#P" n="78"/>Et etiam, si motus circularis sit
+      <lb ed="#P" n="79"/>naturalis, manifestum est quod 
+      ali<lb ed="#P" n="80" break="no"/>quod corpus priorum simplicium 
+      mo<lb ed="#P" n="81" break="no"/>uetur motu circulari naturali, 
+      si<lb ed="#P" n="82" break="no"/>cut ignis motus ad superius, &amp; 
+      ter<lb ed="#P" n="83" break="no"/>rae motus ad inferius. Si ergo 
+      corpo<lb ed="#P" n="84" break="no"/>ra, mota motu circulari non mouen
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0030.xml-->
+      <pb ed="#P" n="11-v"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>tur, nisi accidentaliter, hoc est 
+      mi<lb ed="#P" n="2" break="no"/>rabile, &amp; extra rationem omnino,
+      <lb ed="#P" n="3"/>scilicet vt motus accidentalis 
+      tan<lb ed="#P" n="4" break="no"/>tum sit continuus, &amp; aeternus, &amp; 
+      <lb ed="#P" n="5"/>infinitus. &amp; visus testatur 
+      contra<lb ed="#P" n="6" break="no"/>rium: videmus enim res accidenta
+      <lb ed="#P" n="7"/>les corrupi, &amp; finiri cito. Et etiam,
+      <lb ed="#P" n="8"/>si illud, quod circulariter mouetur,
+      <lb ed="#P" n="9"/>est ignis, vt quidam dicunt, 
+      acciden<lb ed="#P" n="10" break="no"/>talis est ei: videmus enim quod 
+      mo<lb ed="#P" n="11" break="no"/>tus ignis est ascendere aequalites
+      <lb ed="#P" n="12"/>ad superius. 
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e639"> <!-- arist-dc-l1c16-it -->
+         <lb ed="#P" n="55"/>Et habens rationem potest ex
+      <lb ed="#P" n="56"/>omnibus pdictis ratiocinari, quod 
+      <lb ed="#P" n="57"/>aliud corpus est praeter ista corpora
+      <lb ed="#P" n="58"/>vicinantia, &amp; continentia nos, 
+      se<lb ed="#P" n="59" break="no"/>paratum ab eis, cuius natura 
+      nobi<lb ed="#P" n="60" break="no"/>lior est naturis eorum secundum
+      <lb ed="#P" n="61"/>suam remotionem ab eis, &amp; 
+      collo<lb ed="#P" n="62" break="no"/>cationem eius super ipsa.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e660"> <!-- arist-dc-l1c17-it -->
+         <lb ed="#P" n="28"/>Manifestum est ergo ex 
+      proposi<lb ed="#P" n="29" break="no"/>tionibus praedictis, &amp; ex his 
+      demo<lb ed="#P" n="30" break="no"/>strationibus quod primum corpus 
+      <lb ed="#P" n="31"/>volubile, quod circulariter 
+      moue<lb ed="#P" n="32" break="no"/>tur, neque, habet grauitatem, neque, le
+      <lb ed="#P" n="33"/>uitate. Quapropter videtur rectum
+      <lb ed="#P" n="34"/>declarare graue, et leue quae sunt.
+      <lb ed="#P" n="35"/>&amp; dicemus in eis secundum 
+      neces<lb ed="#P" n="36" break="no"/>sitatem in hoc loco ab eis. 
+      demon<lb ed="#P" n="37" break="no"/>stratio autem sufficiens, &amp; 
+      perscru<lb ed="#P" n="38" break="no"/>tatio abundans erit in futuro, cum
+      <lb ed="#P" n="39"/>notae fuerint substantiae eorum. po¬
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0031.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="40"/>namus ergo quod Graue sit descen 
+      <lb ed="#P" n="41"/>dens ad medium, &amp; Leue ascendens 
+      <lb ed="#P" n="42"/>a medio: &amp; ponamus Grauissmum,
+      <lb ed="#P" n="43"/>residens sub omnibus 
+      descendenti<lb ed="#P" n="44" break="no"/>bus ad inferius, &amp; Leuissimum,
+      <lb ed="#P" n="45"/>quod super omnia ascendentia 
+      ele<lb ed="#P" n="46" break="no"/>uatur. Si igitur ita est, omne 
+      cor<lb ed="#P" n="47" break="no"/>pus, vadens ad superius, aut 
+      infe<lb ed="#P" n="48" break="no"/>rius, necessario habet grauitatem,
+      <lb ed="#P" n="49"/>seu leuitatem, aut ambo insimul,
+      <lb ed="#P" n="50"/>non eodem modo, sed in respectum,
+      <lb ed="#P" n="51"/>sicut in respectuaeris ad aquam,
+      <lb ed="#P" n="52"/>&amp; aquae ad terram.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e730"> <!-- arist-dc-l1c18-it -->
+         <lb ed="#P" n="19"/>Manifestum est ergo modo, et
+      <lb ed="#P" n="20"/>quod corpus rotundum non habet
+      <lb ed="#P" n="21"/>grauitatem, neque, leuitatem. 
+      impos<lb ed="#P" n="22" break="no"/>sibile est enim moueri ad medium
+      <lb ed="#P" n="23"/>neque, a medio motu naturali, nequo
+      <lb ed="#P" n="24"/>motu accidentali. Motus enim 
+      aequa<lb ed="#P" n="25" break="no"/>lis non est ei naturalis: quonia non 
+      <lb ed="#P" n="26"/>est proprius, nisi corporibus 
+      simpl<lb ed="#P" n="27" break="no"/>cibus. si ergo moueretur eo motu,
+      <lb ed="#P" n="28"/>erit cum illo corpore idem. &amp;, si
+      <lb ed="#P" n="29"/>ergo corpus rotundum moueretus 
+      <lb ed="#P" n="30"/>motu accidentali, aut esset motus 
+      <lb ed="#P" n="31"/>eius ad inferius motus 
+      accidenta<lb ed="#P" n="32" break="no"/>lis, &amp; motus eius ad superius 
+      mo<lb ed="#P" n="33" break="no"/>tus naturalis, aut moueretur ad
+      <lb ed="#P" n="34"/>superius motu accidentali, &amp; ad
+      <lb ed="#P" n="35"/>inferius motu naturali. &amp; ia 
+      pra<lb ed="#P" n="36" break="no"/>diximus, cum alter motuum 
+      con<lb ed="#P" n="37" break="no"/>trariorum fuerit naturalis, 
+      altei<lb ed="#P" n="38" break="no"/>erit accidentalis necessario. &amp; cor¬
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0033.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="39"/>pus rotundum nullum habet 
+      con<lb ed="#P" n="40" break="no"/>trarium omnino.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e778"> <!-- arist-dc-l1c19-it -->
+         <lb ed="#P" n="59"/>Et etiam locus mouens totius idem
+      <lb ed="#P" n="60"/>est cum loco motus partium eius
+      <lb ed="#P" n="61"/>v.g. tota terra, &amp; vna gleba 
+      mo<lb ed="#P" n="62" break="no"/>uentur ad eundem locum. &amp; cum
+      <lb ed="#P" n="63"/>sint, secundum quod diximus, non 
+      <lb ed="#P" n="64"/>est dubium quod corpus rotundum
+      <lb ed="#P" n="65"/>neque, habet leuitatem, neque, 
+      grauita<lb ed="#P" n="66" break="no"/>tem omnino. nam, si haberet 
+      graui<lb ed="#P" n="67" break="no"/>tatem, aut leuitatem, possibile 
+      es<lb ed="#P" n="68" break="no"/>set ipsum moueri a medio, vel ad
+      <lb ed="#P" n="69"/>medium. Manifestum est etiam.
+      <lb ed="#P" n="70"/>quod corpus rotudum primum im
+      <lb ed="#P" n="71"/>possibile est moueri motu locali, 
+      ne<lb ed="#P" n="72" break="no"/>que ad superius, neque, ad inferius,
+      <lb ed="#P" n="73"/>neque, alio motu accidentali, neque, 
+      se<lb ed="#P" n="74" break="no"/>cundum totum, neque secundum 
+      par<lb ed="#P" n="75" break="no"/>tes. sermo enim de toto, &amp; parte idem
+      <lb ed="#P" n="76"/>est, sicut iam diximus superius.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e820"> <!-- arist-dc-l1c20-it -->
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0036.xml-->
+         <pb ed="#P" n="14-v"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>Et oportet nos dicere etiam, quod 
+      <lb ed="#P" n="2"/>corpus gloriosum non est factum,
+      <lb ed="#P" n="3"/>neque, generabile ab aliquo, neque, 
+      ca<lb ed="#P" n="4" break="no"/>dit sub corruptione, neque, recipit autem,
+      <lb ed="#P" n="5"/>mentum, neque diminutionem,
+      <lb ed="#P" n="6"/>neque transmutationem, neque
+      <lb ed="#P" n="7"/>alterationem, neque aliquam 
+      <lb ed="#P" n="8"/>transmutationem. omne enim 
+      ge<lb ed="#P" n="9" break="no"/>nerabile non generatur, nisi ab
+      <lb ed="#P" n="10"/>aliquo ente ei contrario: neque
+      <lb ed="#P" n="11"/>corrumpitur nisi in suum 
+      contra<lb ed="#P" n="12" break="no"/>rium. &amp; iam diximus quod 
+      mo<lb ed="#P" n="13" break="no"/>tus contrariorum corporusunt 
+      con<lb ed="#P" n="14" break="no"/>trarij. Et, cum ita sit, corpus primum
+      <lb ed="#P" n="15"/>non habet contrarium omino. non enim
+      <lb ed="#P" n="16"/>motus circularis habet contrarium
+      <lb ed="#P" n="17"/>consulta igitur bene fuit natura,
+      <lb ed="#P" n="18"/>cum fecit hoc corpus gloriosum, non
+      <lb ed="#P" n="19"/>generabile, &amp; remouit ipsum a 
+      con<lb ed="#P" n="20" break="no"/>trariis. generatio enim &amp; 
+      cor<lb ed="#P" n="21" break="no"/>ruptio necessario existunt in 
+      con<lb ed="#P" n="22" break="no"/>trariis.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e881"> <!-- arist-dc-l1c21-it -->
+         <lb ed="#P" n="82"/>Et etiam omne, quod augetur,
+      <lb ed="#P" n="83"/>&amp; omne, quod corrumpitur, non auge
+      <lb ed="#P" n="84"/>tur nisi ex aliquo homogeneo, quod 
+      <lb ed="#P" n="85"/>fertur in ipsum. diminuitur ergo
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0038.xml-->
+      <pb ed="#P" n="15-v"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>Squod praeparatum est ad corruptio
+      <lb ed="#P" n="2"/>nem in sua materia. corpus autenm 
+      <lb ed="#P" n="3"/>primum gloriosum non est ex 
+      ali<lb ed="#P" n="4" break="no"/>quo omnino. Et, si non recipit aug
+      <lb ed="#P" n="5"/>mentationem. &amp; corruptionem,
+      <lb ed="#P" n="6"/>propter hoc non recipit 
+      transmuta<lb ed="#P" n="7" break="no"/>tionem, nec alterationem. trasmum
+      <lb ed="#P" n="8"/>tatio autem est motus qualitatis.
+      <lb ed="#P" n="9"/>&amp; qualitates habent dispsitiones, &amp; 
+      <lb ed="#P" n="10"/>formas, quae non sunt sine 
+      alteratio<lb ed="#P" n="11" break="no"/>ne actiua, v.g. sanitas, &amp; 
+      aegritu<lb ed="#P" n="12" break="no"/>do. &amp; visum est quod omne corpus 
+      cor<lb ed="#P" n="13" break="no"/>porum naturalium alteratione 
+      al<lb ed="#P" n="14" break="no"/>teratur, per quam recipit 
+      additio<lb ed="#P" n="15" break="no"/>nem, &amp; diminutionem, sicut 
+      cor<lb ed="#P" n="16" break="no"/>pora animalium, &amp; partes corum
+      <lb ed="#P" n="17"/>&amp; corpora plantarum, &amp; partes
+      <lb ed="#P" n="18"/>eorum. similiter alteratio 
+      elemen<lb ed="#P" n="19" break="no"/>torum mutatorum adinuicem.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e925"> <!-- arist-dc-l1c22-it -->
+         <lb ed="#P" n="11"/>Et etiam, si corpus rotundum 
+      no<lb ed="#P" n="12" break="no"/>recipit additionem, neque, diminutio
+      <lb ed="#P" n="13"/>nem, dignum est vt nonrecipiat nec
+      <lb ed="#P" n="14"/>transmutationem, neque, 
+      alteratio<lb ed="#P" n="15" break="no"/>nem. Cum igitur hoc corpus glorio
+      <lb ed="#P" n="16"/>sum semper permanet, propter hoc
+      <lb ed="#P" n="17"/>etiam non recipit additionem, neque 
+      <lb ed="#P" n="18"/>diminutionem, neque, intrat ipsum
+      <lb ed="#P" n="19"/>senectus, neque, recipit passiones. Et
+      <lb ed="#P" n="20"/>hoc bene manifestum est ex his, quoe
+      <lb ed="#P" n="21"/>diximus eis, qui volunt credere, et
+      <lb ed="#P" n="22"/>suscipere, &amp; consyderare in 
+      propo<lb ed="#P" n="23" break="no"/>sitionibus, et syllogismis praedictis.
+      <lb ed="#P" n="24"/>Et etiam super ea ratio testatui
+      <lb ed="#P" n="25"/>visui, &amp; visus rationi. Ses enim hones
+      <lb ed="#P" n="26"/>conueniunt in hoc, quod hoc corpus 
+      <lb ed="#P" n="27"/>gloriosum primum est locus 
+      spiri<lb ed="#P" n="28" break="no"/>tuum scilicet Graeci, &amp; alii primarum
+      <lb ed="#P" n="29"/>gentium, qui cognouerunt Deum,
+      <lb ed="#P" n="30"/>&amp; diuinum eius. &amp; dixerunt hoc,
+      <lb ed="#P" n="31"/>quoniam illud, super quod non 
+      ca<lb ed="#P" n="32" break="no"/>dit corruptio, neque, latio, debet esse
+      <lb ed="#P" n="33"/>in loco, qui non corrumpitur, neque
+      <lb ed="#P" n="34"/>diminuitur, neque, transmutatur, non
+      <lb ed="#P" n="35"/>que alteratur. Et oportet esse, sicut
+      <lb ed="#P" n="36"/>est in loco, qui non diminuitur, neque,
+      <lb ed="#P" n="37"/>corrumpitur, neque, transmutatur.
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0040.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="38"/>neque, alteratur, neque, fertur, ereare.
+      <lb ed="#P" n="39"/>additionem, diminutionem, 
+      altera<lb ed="#P" n="40" break="no"/>tionem, corruptionem, &amp; 
+      trasmu<lb ed="#P" n="41" break="no"/>tationem, &amp; lationem, &amp; creare
+      <lb ed="#P" n="42"/>quod vnquam recipit, &amp; patitur,
+      <lb ed="#P" n="43"/>additionem, &amp; corruptionem, &amp; 
+      <lb ed="#P" n="44"/>transmutationem, lationem, &amp; 
+      al<lb ed="#P" n="45" break="no"/>terationem. &amp; impossibile est vt
+      <lb ed="#P" n="46"/>sit contrarium eius, quod diximus.
+      <lb ed="#P" n="47"/>&amp; recte dixerunt in hoc: quoniam.
+      <lb ed="#P" n="48"/>hoc corpus gloriosum perpetuu est.
+      <lb ed="#P" n="49"/>Iam ergo declarauimus, &amp; 
+      demo<lb ed="#P" n="50" break="no"/>strauimus sufficienter, &amp; 
+      perfecte<lb ed="#P" n="51" break="no"/>in prima substantia corporum. Et
+      <lb ed="#P" n="52"/>inducemus testimonium ad illud per 
+      <lb ed="#P" n="53"/>visum, &amp; sufficiemus hominibus
+      <lb ed="#P" n="54"/>per ipsum sufficientia perfecta.
+      <lb ed="#P" n="55"/>non enim cessauit hoc corpus scilicet 
+      coe<lb ed="#P" n="56" break="no"/>leste per secula praeterita, secundum
+      <lb ed="#P" n="57"/>quod haereditabunt homines, unus
+      <lb ed="#P" n="58"/>post alterum, permanendo in 
+      suo<lb ed="#P" n="59" break="no"/>esse, neque transmutatur, neque 
+      al<lb ed="#P" n="60" break="no"/>teratur, neque secundum totum,
+      <lb ed="#P" n="61"/>neque secundum partem omnino.
+      <lb ed="#P" n="62"/>Et hoc videbant, &amp; in hoc 
+      conue<lb ed="#P" n="63" break="no"/>nerunt secundum opinionem. 
+      no<lb ed="#P" n="64" break="no"/>stram, &amp; dixerunt in eo, quod nos 
+      <lb ed="#P" n="65"/>diximus, non semel, neque bis, sed 
+      <lb ed="#P" n="66"/>pluries, &amp; peruenerunt ad nos. Mt
+      <lb ed="#P" n="67"/>debant igitur &amp; dicebant quod 
+      <lb ed="#P" n="68"/>primum corpus est aliud a terra,
+      <lb ed="#P" n="69"/>&amp; ab igne, &amp; ab aere, &amp; ab 
+      a<lb ed="#P" n="70" break="no"/>qua, &amp; appellabant istum locum
+      <lb ed="#P" n="71"/>octauum, aethereum, nomine 
+      deri<lb ed="#P" n="72" break="no"/>uatum a sua actione. est enim in 
+      mo<lb ed="#P" n="73" break="no"/>tu aeterno uelocissimum, permanens
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0041.xml-->
+      <pb ed="#P" n="17-r"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>sinem diminutione per se, neque cum
+      <lb ed="#P" n="2"/>transmutatione, neque cum 
+      altera<lb ed="#P" n="3" break="no"/>tione in se, neque corruptioe, neque
+      <lb ed="#P" n="4"/>latione accidente ei in se. 
+      Anaxi<lb ed="#P" n="5" break="no"/>mander autem non vtebatur hoc
+      <lb ed="#P" n="6"/>nomine secundum suam veritatem,
+      <lb ed="#P" n="7"/>quia vocauit ignem aethereum: &amp; 
+      <lb ed="#P" n="8"/>peccauit in sermone suo.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e1037"> <!-- arist-dc-l1c23-it -->
+         <lb ed="#P" n="11"/>Manifestum est igitur ex hoc,
+      <lb ed="#P" n="12"/>quod diximus, quod haec corpora 
+      si<lb ed="#P" n="13" break="no"/>plicia est impossibile vt essent 
+      plu<lb ed="#P" n="14" break="no"/>ra. &amp; iam diximus etiam quod motus 
+      <lb ed="#P" n="15"/>corporum simplicium est simplex no
+      <lb ed="#P" n="16"/>cessario. dicimus et quod motus 
+      sim<lb ed="#P" n="17" break="no"/>plices sunt duo scilicet motus circularis,
+      <lb ed="#P" n="18"/>&amp; motus rectus: &amp; quod motus 
+      <lb ed="#P" n="19"/>aequalis istorum duorum motuu aut est
+      <lb ed="#P" n="20"/>ad medium, aut a medio.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e1068"> <!-- arist-dc-l1c24-it -->
+         <lb ed="#P" n="50"/>Et motus circulares non habent
+      <lb ed="#P" n="51"/>contrarium omnino. &amp; potest consyderas
+      <lb ed="#P" n="52"/>in hoc sufficere ex multis. Quorum
+      <lb ed="#P" n="53"/>vnum est. quoniam, si posuerimus
+      <lb ed="#P" n="54"/>motum circularem habere mitum
+      <lb ed="#P" n="55"/>contrarium, erit motus rectus 
+      di<lb ed="#P" n="56" break="no"/>gnior, vt sit contrarium.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e1081"> <!-- arist-dc-l1c25-it -->
+         <lb ed="#P" n="33"/>Motus autem concauus, qui est
+      <lb ed="#P" n="34"/>in ventre arcus, &amp; motus gibbosus,
+      <lb ed="#P" n="35"/>qui est super dorsum arcus, sunt 
+      com<lb ed="#P" n="36" break="no"/>trarii, &amp; sunt contrarij motui 
+      aequa<lb ed="#P" n="37" break="no"/>li in suis formis, &amp; 
+      compositioni<lb ed="#P" n="38" break="no"/>bus. Si igitur inueniatur aliquis
+      <lb ed="#P" n="39"/>motus contrarius motui aequali 
+      prae<lb ed="#P" n="40" break="no"/>ter ista, necessario est etiam motui 
+      <lb ed="#P" n="41"/>circulari contrarium.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e1099"> <!-- arist-dc-l1c26-it -->
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0046.xml-->
+         <pb ed="#P" n="19-v"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>Et iam diximus multotiens quod 
+      <lb ed="#P" n="2"/>motus aequalis est contrarius sibi ad
+      <lb ed="#P" n="3"/>inuicem, propter loca. superius 
+      au<lb ed="#P" n="4" break="no"/>tem, &amp; inferius sunt nomina 
+      ca<lb ed="#P" n="5" break="no"/>dentia super diuersitatem locorum
+      <lb ed="#P" n="6"/>&amp; contrarietatem eorum.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e1110"> <!-- arist-dc-l1c27-it -->
+         <lb ed="#P" n="32"/>Qui ergo dixit quod sermo de
+      <lb ed="#P" n="33"/>motu aequali, &amp; motu circulari o
+      <lb ed="#P" n="34"/>udem, peccauit. motus enim ab A
+      <lb ed="#P" n="35"/>ad B contrarius est motui a B ad
+      <lb ed="#P" n="36"/>A. &amp; noluit dicere per sermonem
+      <lb ed="#P" n="37"/>suum hoc, nisi propter 
+      coniunctio<lb ed="#P" n="38" break="no"/>nem, quae est lineae rectae, &amp; 
+      circu<lb ed="#P" n="39" break="no"/>laris super eadem puncta. &amp; non 
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0046.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="40"/>dixit per sermonem suum quod 
+      mo<lb ed="#P" n="41" break="no"/>tus aequalis habet vltimum finem
+      <lb ed="#P" n="42"/>circuli autem sunt infiniti super 
+      <lb ed="#P" n="43"/>puncta. &amp; non intem debat eos per 
+      ser<lb ed="#P" n="44" break="no"/>monem eius. &amp; sit haec figura B A
+      
+      <!-- unclear but seems like the figure might belong with the italicized translation --> 
+      <lb ed="#P" n="69" type="fixed=19-v"/>
+         <!--<figure>
+            <graphic url="https://loris2.scta.info/cod-AAadcg//[canvasshortid]/793,428,528,515/full/0/default.jpg"/>
+            <ab type="figure-details">
+               <seg type="figure-text">A B Figurae hae quatuor subsequentes ostendunt nullum motum super lineam circularem habere contrarium: sed, si habere videatur, hoc esse ratione lineae rectae.</seg>
+               <seg type="figure-ideas"/>
+               <seg type="transkribus-id">749269-28353951-TextRegion_1666278799703_172</seg>
+            </ab>
+            <figDesc/>
+         </figure>-->
+      </p>
+      <p xml:id="aaaadc-gfdsss-d1e1130"> <!-- arist-dc-l1c28-it -->
+         <lb ed="#P" n="46"/>Similiter etiam erit in medio
+      <lb ed="#P" n="47"/>circuli in motu, qui est ex C ad D,
+      <lb ed="#P" n="48"/>etia ex D ad C. &amp; iste motus 
+      exi<lb ed="#P" n="49" break="no"/>stit in diametro super pucta 
+      diuer<lb ed="#P" n="50" break="no"/>sa. &amp; haec est figura.
+      
+      <lb ed="#P" n="80" type="fixed=20-r"/>
+         <!--<figure>
+            <graphic url="https://loris2.scta.info/cod-AAadcg//[canvasshortid]/748,505,511,229/full/0/default.jpg"/>
+            <ab type="figure-details">
+               <seg type="figure-text">DD cu¬</seg>
+               <seg type="figure-ideas"/>
+               <seg type="transkribus-id">749269-28353952-TextRegion_1652117827763_1136</seg>
+            </ab>
+            <figDesc/>
+         </figure>-->
+      </p>
+      <p xml:id="aaaadc-gfdsss-d1e1151"> <!-- arist-dc-l1c29-it -->
+         <lb ed="#P" n="29"/>Et similiter qui descripsit 
+      cir<lb ed="#P" n="30" break="no"/>culum, &amp; posuit motum 
+      semicir<lb ed="#P" n="31" break="no"/>culi contrarium motui medietatis
+      <lb ed="#P" n="32"/>residuae: &amp; haec est figura. 
+      pona<lb ed="#P" n="33" break="no"/>mus ergo circulum integrum, &amp; 
+      <lb ed="#P" n="34"/>sit semicirculus i, &amp; moueatur ex
+      <lb ed="#P" n="35"/>E ad &amp; contrario motu motui 
+      semi<lb ed="#P" n="36" break="no"/>circuli T, qui mouetur ex E ad 4
+      <lb ed="#P" n="37"/>Si ergo isti motus fuerint 
+      contra<lb ed="#P" n="38" break="no"/>rii, non erunt omnes motus totius
+      <lb ed="#P" n="39"/>circuli contrarij per illos motus.
+      
+      <!-- text below seems more like editorial text that goes with the figure -->
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0048.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="40"/>it et in Sexto Physicorum textu 
+      <lb ed="#P" n="41"/>com. Quinti annotatu fuit, in 
+      figu<lb ed="#P" n="42" break="no"/>ris haec sunt obseruanda. Si literae
+      <lb ed="#P" n="43"/>duplicatae proximae inuenientur,
+      <lb ed="#P" n="44"/>prima textut fideli, secuda 
+      Auer<lb ed="#P" n="45" break="no"/>rois textui deseruit. Eodem pacto
+      <lb ed="#P" n="46"/>si vna erit alteri superposita, 
+      supe<lb ed="#P" n="47" break="no"/>rior primo, inferior secundo 
+      aptabi<lb ed="#P" n="48" break="no"/>tur textui. Quae autm unae tatu erut,
+      <lb ed="#P" n="49"/>eae vtrique, textui accomodabutur.
+      
+      <!--<!-\- TODO figure not marked in traskribus needs to be re-exported 
+        
+        <!-\-Averroes_DC_DGC_M_JuntSecunda_05-0048.xml-\->
+      <cb ed="#P" n="d"/>
+      <lb ed="#P" n="68"/>C. I
+      <lb ed="#P" n="69"/>E
+    </p>
+  <p>
+    <lb ed="#P" n="70"/>Ea
+    <lb ed="#P" n="71"/>R. T-->
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e1177"> <!-- arist-dc-l1c30-it -->
+         <lb ed="#P" n="51"/>Et etiam motus totius circuli,
+      <lb ed="#P" n="52"/>qui est ex A ad B non est 
+      contra<lb ed="#P" n="53" break="no"/>rius motui, qui est ex A ad C. 
+      mo<lb ed="#P" n="54" break="no"/>tus enim qui est in circulo, est su¬.
+      <lb ed="#P" n="55"/>per vnum punctum, quod non 
+      mu<lb ed="#P" n="56" break="no"/>tat illum locum. &amp; haec est figura
+      <lb ed="#P" n="57"/>circuli. &amp; iam diximus superius,
+      <lb ed="#P" n="58"/>quod motus contrarij sunt super 
+      pun<lb ed="#P" n="59" break="no"/>cta diuersa in locis diuersis.
+      
+      <!-- TODO: figure not marked in transkribus; needs to be re-exported -->
+      
+      <!-- <!-\-Averroes_DC_DGC_M_JuntSecunda_05-0049.xml-\->
+      <cb ed="#P" n="d"/>
+      <lb ed="#P" n="72"/>B
+      <lb ed="#P" n="73"/>A
+    </p>
+    <p>
+      <lb ed="#P" n="74"/>C--> 
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e1197"> <!-- arist-dc-l1c31-it -->
+         <lb ed="#P" n="42"/>Etiam, si motus circularis esset 
+      <lb ed="#P" n="43"/>contrarius motui circulari, esset al¬
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0050.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="44"/>ter eorum ociosus. Et etiam corpus, 
+      <lb ed="#P" n="45"/>quod circulariter mouetur, 
+      aequali<lb ed="#P" n="46" break="no"/>ter mouetur in omnibus locis diuersis
+      <lb ed="#P" n="47"/>contrariis a quocunque, loco incoepit.
+      <lb ed="#P" n="48"/>Et iam diximus quod diuersitas 
+      lo<lb ed="#P" n="49" break="no"/>corum est superius, &amp; inferius, &amp; 
+      <lb ed="#P" n="50"/>anterius &amp; posterius, &amp; dextrum
+      <lb ed="#P" n="51"/>&amp; sinistrum: &amp; quod diuersitas 
+      mo<lb ed="#P" n="52" break="no"/>tuum est secundum diuersitatem locorum.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e1226"> <!-- arist-dc-l1c32-it -->
+         <lb ed="#P" n="28"/>Et etiam, si motuum circuli 
+      di<lb ed="#P" n="29" break="no"/>uersitas esset aequaliter, omnino non
+      <lb ed="#P" n="30"/>moueretur circulus. &amp;, si quidam.
+      <lb ed="#P" n="31"/>motuum esset fortior quodam, 
+      om<lb ed="#P" n="32" break="no"/>nino non esset motus victus. &amp;, 
+      si<lb ed="#P" n="33" break="no"/>ita esset, esset aliqua pars circuls
+      <lb ed="#P" n="34"/>ociosa, vel motus eius non est per se,
+      <lb ed="#P" n="35"/>vt dicimus quod sotular est 
+      ocio<lb ed="#P" n="36" break="no"/>sus, cum non fuerit eo aliquis 
+      cal<lb ed="#P" n="37" break="no"/>ciatus. Natura autem nihil 
+      fa<lb ed="#P" n="38" break="no"/>cit ociosum.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e1248"> <!-- arist-dc-l1c33-it -->
+         <lb ed="#P" n="36"/>Et, cum declarata sunt ista, &amp; 
+      <lb ed="#P" n="37"/>bene determinata, volumus 
+      per<lb ed="#P" n="38" break="no"/>scrutari de hoc, quod remanet. Et
+      <lb ed="#P" n="39"/>primo incipiemus vtrum aliquod
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0053.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="40"/>corpus possit esse sine fine, vt plures,
+      <lb ed="#P" n="41"/>Antiquo dicunt. deinde 
+      perscruta<lb ed="#P" n="42" break="no"/>bimur de mundo vtrum sit vnus,
+      <lb ed="#P" n="43"/>aut plures. quoniam, si sit, aut 
+      econ<lb ed="#P" n="44" break="no"/>trario, non est parua differentia,
+      <lb ed="#P" n="45"/>immo valde magna. differentia enim
+      <lb ed="#P" n="46"/>cadens in principiis mundi, &amp; 
+      in<lb ed="#P" n="47" break="no"/>toto mundo, facit cadere 
+      diuersita<lb ed="#P" n="48" break="no"/>tem in comprehendendo veritate.
+      <lb ed="#P" n="49"/>hoc ergo principium est omnium 
+      di<lb ed="#P" n="50" break="no"/>uersitatum scilicet propter quas 
+      diuersi<lb ed="#P" n="51" break="no"/>ficati sunt in narratione totius 
+      na<lb ed="#P" n="52" break="no"/>turae in praeterito, &amp; illi, qui diuer
+      <lb ed="#P" n="53"/>sificabuntur in futuro: &amp; non 
+      ha<lb ed="#P" n="54" break="no"/>bent tanta diuersitatem, nisi 
+      quia<lb ed="#P" n="55" break="no"/>qui parum pertransit de veritate
+      <lb ed="#P" n="56"/>mille millies persaltabit veritatem
+      <lb ed="#P" n="57"/>post, sicut ille, qui dixit corpus 
+      mi<lb ed="#P" n="58" break="no"/>nimum esse: quoniam, quado in 
+      suo<lb ed="#P" n="59" break="no"/>sermone posuit minimum, mouebit,
+      <lb ed="#P" n="60"/>&amp; excitabit maximam 
+      disputa<lb ed="#P" n="61" break="no"/>tionem inter homines. Et causa 
+      il<lb ed="#P" n="62" break="no"/>lius est, quod principium est magnum
+      <lb ed="#P" n="63"/>aut in potetia, aut in actu, aut 
+      ma<lb ed="#P" n="64" break="no"/>gnitudine. manifestum est igitur. 
+      <lb ed="#P" n="65"/>quod minimus error in principiis rei 
+      <lb ed="#P" n="66"/>multiplicatur in fine infinitum enim
+      <lb ed="#P" n="67"/>valde magnum est, &amp; habens 
+      ma<lb ed="#P" n="68" break="no"/>gnam potentia, &amp; magna quanti 
+      <lb ed="#P" n="69"/>tatem maxima in magnitudine.
+      <lb ed="#P" n="70"/>est enim principiu rerum. non est
+      <lb ed="#P" n="71"/>ergo mirum, neque, extra ritione, si 
+      di<lb ed="#P" n="72" break="no"/>uersitas in hoc sit valde mirabilis.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e1335"> <!-- arist-dc-l1c34-it -->
+         <lb ed="#P" n="77"/>Et, cum quidam Antiquorum
+      <lb ed="#P" n="78"/>dixerint corpus infinitum esse 
+      possi<lb ed="#P" n="79" break="no"/>bile, volumus modo perscrutari 
+      de<lb ed="#P" n="80" break="no"/>sermone suo, et dicere in eo perfecte.
+      <lb ed="#P" n="81"/>Sed primo reuertamur ad illud, 
+      de<lb ed="#P" n="82" break="no"/>quo loquebamur, quousque, sit 
+      comple<lb ed="#P" n="83" break="no"/>tum antequam incipiamus 
+      contradi<lb ed="#P" n="84" break="no"/>cere eis: deide incipiemus contra 
+      ser<lb ed="#P" n="85" break="no"/>monem illorum, &amp; complebimus con¬
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0056.xml-->
+      <pb ed="#P" n="24-v"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>tra ipsum. Dicamus modo, quod omni
+      <lb ed="#P" n="2"/>corpus aut est simplex, aut copositu.
+      <lb ed="#P" n="3"/>corpus ergo infinitum autem est simplex,
+      <lb ed="#P" n="4"/>aut compositu. Et etia, si corpora 
+      sim<lb ed="#P" n="5" break="no"/>plicia sunt finita, ergo &amp; 
+      composi<lb ed="#P" n="6" break="no"/>tum ex eis. &amp; hoc manifestum est.
+      <lb ed="#P" n="7"/>corpus enim compositum ex 
+      parti<lb ed="#P" n="8" break="no"/>bus finitis multitudine, &amp; 
+      magni<lb ed="#P" n="9" break="no"/>tudine, est etiam finitum 
+      multitu<lb ed="#P" n="10" break="no"/>dine, &amp; magnitudine. quoniam erit
+      <lb ed="#P" n="11"/>in multitudine, &amp; magnitudine,
+      <lb ed="#P" n="12"/>secundum multitudinem corporum,
+      <lb ed="#P" n="13"/>ex quibus componitur, &amp; 
+      magni<lb ed="#P" n="14" break="no"/>tudinem eorum.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e1367"> <!-- arist-dc-l1c35-it -->
+         <lb ed="#P" n="70"/>Oportet nos ergo quaerere vtrum
+      <lb ed="#P" n="71"/>sit possibile quod aliquod corpus 
+      <lb ed="#P" n="72"/>simplex sit infinitum magnitudine,
+      <lb ed="#P" n="73"/>aut sit impossibile. sed oportet 
+      po<lb ed="#P" n="74" break="no"/>nere perscrutationem nostram primo
+      <lb ed="#P" n="75"/>de primo corporum simplicium, 
+      dein<lb ed="#P" n="76" break="no"/>de de aliis. Et dicamus quod 
+      neces<lb ed="#P" n="77" break="no"/>sarium est, ut totum rotundum 
+      cor<lb ed="#P" n="78" break="no"/>pus sit finitum, per hanc 
+      demostra<lb ed="#P" n="79" break="no"/>tionem. Quoniam, si corpus 
+      rotun<lb ed="#P" n="80" break="no"/>dum sit infinitum, ergo lineae 
+      exeun<lb ed="#P" n="81" break="no"/>tes a medio erunt infinitae etiam: 
+      <lb ed="#P" n="82"/>diuersitas autem linearum infinitarum
+      <lb ed="#P" n="83"/>infinita est: &amp; est intelligere per di¬
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0058.xml-->
+      <pb ed="#P" n="25-v"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>uersitatem distantiam linearum 
+      ab<lb ed="#P" n="2" break="no"/>inuicem: non inuenitur ergo 
+      magni<lb ed="#P" n="3" break="no"/>tudo ex extrinseco inter lineas 
+      infi<lb ed="#P" n="4" break="no"/>nitas: erit ergo haec distantia non 
+      ha<lb ed="#P" n="5" break="no"/>bens finem necessario. corpus enim
+      <lb ed="#P" n="6"/>habens finem est finitum. Et etiam,
+      <lb ed="#P" n="7"/>si distantia linearum sit distantia,
+      <lb ed="#P" n="8"/>qua maior alia non possit reperiri.
+      <lb ed="#P" n="9"/>vt dicitur, quod numerus infinitus
+      <lb ed="#P" n="10"/>est ille, qui caret termino in 
+      multi<lb ed="#P" n="11" break="no"/>tudine: similiter ergo infinita 
+      di<lb ed="#P" n="12" break="no"/>stantia est carens termino in 
+      distan<lb ed="#P" n="13" break="no"/>tia. Et etiam, si impossibile est vt
+      <lb ed="#P" n="14"/>corpus infinitum abscindatur 
+      per<lb ed="#P" n="15" break="no"/>transitum, &amp; corpus infinitum fuerit
+      <lb ed="#P" n="16"/>ens, necessario erit diuersitas, &amp; 
+      di<lb ed="#P" n="17" break="no"/>stantia infinita. &amp;, cu ita sit 
+      ma<lb ed="#P" n="18" break="no"/>nifestum est quod impossibile est
+      <lb ed="#P" n="19"/>quod sit motus circularis. sed visus
+      <lb ed="#P" n="20"/>testatur contrarium. videmus enim
+      <lb ed="#P" n="21"/>coelum moueri motu circulari. &amp; 
+      <lb ed="#P" n="22"/>iam declarauimus hoc rstione 
+      supe<lb ed="#P" n="23" break="no"/>rius, cum diximus quod motus 
+      circu<lb ed="#P" n="24" break="no"/>laris est quorudam corporum simplicium
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e1443"> <!-- arist-dc-l1c36-it -->
+         <lb ed="#P" n="32"/>Et etiam si ex tempore finito 
+      ae<lb ed="#P" n="33" break="no"/>cipiatur tempus finitum, remanet
+      <lb ed="#P" n="34"/>tempus finitum, &amp; habet 
+      princi<lb ed="#P" n="35" break="no"/>pium. &amp;, si tempus rei habet 
+      prin<lb ed="#P" n="36" break="no"/>cipium, ergo &amp; motus habet etia
+      <lb ed="#P" n="37"/>principium &amp; magnitudo propter
+      <lb ed="#P" n="38"/>hoc habet etiam principium, &amp; etiam
+      <lb ed="#P" n="39"/>hoc in quo est res. &amp; secundum hoc
+      <lb ed="#P" n="40"/>in aliis omnibus etiam. Sit ergo 
+      li<lb ed="#P" n="41" break="no"/>nea infinita A C H, sed extremum
+      <lb ed="#P" n="42"/>H solum sit infinitum, &amp; sit alia
+      <lb ed="#P" n="43"/>linea TB infinita in duobus extre
+      <lb ed="#P" n="44"/>mis, &amp; sint duae lineae in circulo
+      <lb ed="#P" n="45"/>quasi chordae, sicut in ista figura.
+      <lb ed="#P" n="46"/>Dicamus ergo quod linea A C H
+      <lb ed="#P" n="47"/>abscindens circulum ex C abscindet
+      <lb ed="#P" n="48"/>lineam B C, donec moueatur motu
+      <lb ed="#P" n="49"/>circulari. &amp; ia fuit tempus lineae
+      <lb ed="#P" n="50"/>A C H finitum: tempus enim 
+      mo<lb ed="#P" n="51" break="no"/>tus coeli, &amp; omnium, quae sunt in 
+      <lb ed="#P" n="52"/>eo, est motus circularis finitus: quae 
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0061.xml-->
+      <pb ed="#P" n="27-r"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>propter &amp; tempus acceptum ex eo,
+      <lb ed="#P" n="2"/>in quo est motus circularis 
+      abscin<lb ed="#P" n="3" break="no"/>dentis circulum, &amp; linea infinitam
+      <lb ed="#P" n="4"/>in virisque, extremis, est finitum. &amp; 
+      <lb ed="#P" n="5"/>cu ita sit, inuenietur igitur 
+      princi<lb ed="#P" n="6" break="no"/>pium pertransitus lineae A C H
+      <lb ed="#P" n="7"/>per lineam T B. quod est 
+      impossi<lb ed="#P" n="8" break="no"/>bile. manifestum est igitur, quod 
+      con<lb ed="#P" n="9" break="no"/>pus infinitum impossibile est vt 
+      mo<lb ed="#P" n="10" break="no"/>ueatur motu circulari. &amp;, cum 
+      ita<lb ed="#P" n="11" break="no"/>est, manifestum est, quod impossibile
+      <lb ed="#P" n="12"/>est vt mundus sit infinitus.
+  <!--Averroes_DC_DGC_M_JuntSecunda_05-0061.xml-->
+  <!-- not sure where image should go -->
+  <lb ed="#P" n="70" type="fixed=27-r"/>
+         <!--<figure>
+            <graphic url="https://loris2.scta.info/cod-AAadcg//[canvasshortid]/232,774,518,616/full/0/default.jpg"/>
+            <ab type="figure-details">
+               <seg type="figure-text">Figura, demonstrans infinitum circulariter perti non posse, sumpta ex propor¬ tione magnitudinis ad motu, &amp; ad tempus. uod. ge¬¬ Elir¬</seg>
+               <seg type="figure-ideas"/>
+               <seg type="transkribus-id">749269-28353966-TextRegion_1652279214561_1099</seg>
+            </ab>
+            <figDesc/>
+         </figure>-->
+      </p>
+      <p xml:id="aaaadc-gfdsss-d1e1508"> <!-- arist-dc-l1c37-it -->
+         <lb ed="#P" n="24"/>Et etiam corpus infinitum im
+      <lb ed="#P" n="25"/>possibile est moueri. &amp; hoc 
+      mani<lb ed="#P" n="26" break="no"/>festum est ex hoc, quod dicemus.
+      <lb ed="#P" n="27"/>Sint ergo duae lineae, quarum 
+      alte<lb ed="#P" n="28" break="no"/>ra sit A, &amp; altera B, &amp; sint 
+      fi<lb ed="#P" n="29" break="no"/>nitae, &amp; eat linea A finita ad 
+      li<lb ed="#P" n="30" break="no"/>neam B finitam, sicut vides in 
+      fi<lb ed="#P" n="31" break="no"/>gura: &amp; eat linea B finita ad 
+      li<lb ed="#P" n="32" break="no"/>neam A finitam, sicut vides. 
+      quo<lb ed="#P" n="33" break="no"/>niam, quado fuerit huiusmodi, eris
+      <lb ed="#P" n="34"/>separatio vtriusque, earum a 
+      suaco<lb ed="#P" n="35" break="no"/>pari insimul. quoniam, sicut alt 
+      ei<lb ed="#P" n="36" break="no"/>duorum motorum occurrit alteri, sic
+      <lb ed="#P" n="37"/>alter ponitur. Si ergo duae linea
+      <lb ed="#P" n="38"/>mouentur insimul, vna contra 
+      alto<lb ed="#P" n="39" break="no"/>ram, separabitur vna earum ab alte¬
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0063.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="40"/>ra in illa parte separatione veloci.
+      <lb ed="#P" n="41"/>si aute altera earum moueatur, 
+      alte<lb ed="#P" n="42" break="no"/>ra autem non, &amp; mobilis eat ad quie
+      <lb ed="#P" n="43"/>scentem, erit separatio earum 
+      tar<lb ed="#P" n="44" break="no"/>da, quamuis linea mobilis iens sit
+      <lb ed="#P" n="45"/>vnius dispositionis in velocitate.
+    <!-- not sure hwere image goes -->
+  <lb ed="#P" n="78" type="fixed=28-r"/>
+         <!--<figure>
+            <graphic url="https://loris2.scta.info/cod-AAadcg//[canvasshortid]/749,439,513,153/full/0/default.jpg"/>
+            <ab type="figure-details">
+               <seg type="figure-text">finita a E finita</seg>
+               <seg type="figure-ideas"/>
+               <seg type="transkribus-id">749269-28353968-TextRegion_1652279512859_1291</seg>
+            </ab>
+            <figDesc/>
+         </figure>-->
+      </p>
+      <p xml:id="aaaadc-gfdsss-d1e1539"> <!-- arist-dc-l1c38-it -->
+         <lb ed="#P" n="61"/>Manifestum est igitur quod 
+      im<lb ed="#P" n="62" break="no"/>possibile est vt motus finitus eat,
+      <lb ed="#P" n="63"/>&amp; pertranseat motum infinitum
+      <lb ed="#P" n="64"/>in tempore finito. &amp;, si hoc igitur,
+      <lb ed="#P" n="65"/>est impossibile, ergo pertransibit,
+      <lb ed="#P" n="66"/>eum in tempore infinito. &amp; ia 
+      de<lb ed="#P" n="67" break="no"/>clarauimus hoc in libro, quem 
+      feci<lb ed="#P" n="68" break="no"/>mus de motibus, &amp; 
+      determinaui<lb ed="#P" n="69" break="no"/>mus ipsum bene. Modo autem 
+      dica<lb ed="#P" n="70" break="no"/>mus quod siue motus finitus iuerit
+      <lb ed="#P" n="71"/>ad motum infinitum, siue infinitus
+      <lb ed="#P" n="72"/>ad finitum, non est ibi differentia.
+      <lb ed="#P" n="73"/>quoniam, quando alter duorum 
+      mo<lb ed="#P" n="74" break="no"/>tuum separabitur ab. altero, &amp; 
+      <lb ed="#P" n="75"/>tunc alter ab isto, siue moueatur,
+      <lb ed="#P" n="76"/>siue non, sed tamen separatio 
+      ea<lb ed="#P" n="77" break="no"/>rum est velocior, quando ambae
+      <lb ed="#P" n="78"/>mouentur. &amp; secundum hoc forte
+      <lb ed="#P" n="79"/>non est impossibile vt 
+      separatio<lb ed="#P" n="80" break="no"/>moti super quiescente sit velocior 
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0065.xml-->
+      <pb ed="#P" n="29-r"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>separatione moti super motum, 
+      mo<lb ed="#P" n="2" break="no"/>tum opposito diuerso. &amp; hoc erit, quam
+      <lb ed="#P" n="3"/>do duae res, motae motu opposito, 
+      e<lb ed="#P" n="4" break="no"/>runt tardae, &amp; motus moti super 
+      <lb ed="#P" n="5"/>quiescentem, fueri elocior. Re
+      <lb ed="#P" n="6"/>uertamur modo, &amp; dicamus quod 
+      <lb ed="#P" n="7"/>sermo noster non erit impossibilis,
+      <lb ed="#P" n="8"/>cum diximus etiam quod motum
+      <lb ed="#P" n="9"/>separabitur a quiescente ad motu: 
+      <lb ed="#P" n="10"/>possibile est enim vt linea A. 
+      mo<lb ed="#P" n="11" break="no"/>ueatur ad lineam B, &amp; ipsa 
+      mo<lb ed="#P" n="12" break="no"/>ueatur etiam motu tardo, 
+      tardio<lb ed="#P" n="13" break="no"/>ri, quam motu eius ad linea 
+      quie<lb ed="#P" n="14" break="no"/>scentem. Reuertamur etiam, &amp; 
+      <lb ed="#P" n="15"/>dicamus quod, si hoc tempus est in 
+      <lb ed="#P" n="16"/>finitum, in quo pertransit motus 
+      fi<lb ed="#P" n="17" break="no"/>nitus motu infinitum, &amp; 
+      separa<lb ed="#P" n="18" break="no"/>bitur ab eo, &amp; in quo est, iuit 
+      mo<lb ed="#P" n="19" break="no"/>tus infinitus, &amp; pertransiuit 
+      mo<lb ed="#P" n="20" break="no"/>tum finitum, tunc partes eius sut
+      <lb ed="#P" n="21"/>infinitae necessario. Manifestum est
+      <lb ed="#P" n="22"/>igitur duod corpus infinitum 
+      im<lb ed="#P" n="23" break="no"/>possibile est vt moueatur neque, 
+      to<lb ed="#P" n="24" break="no"/>tum, neque, pars eius. quoniam, si 
+      mo<lb ed="#P" n="25" break="no"/>ueatur totum, aut pars eius, etiam.
+      <lb ed="#P" n="26"/>erit hoc necessarium in tempore in
+      <lb ed="#P" n="27"/>finito, quod est impossibile: quonia
+      <lb ed="#P" n="28"/>totum coelum reuolutum est, &amp; 
+      iui<lb ed="#P" n="29" break="no"/>in tempore finito, &amp; iuit 
+      pertran<lb ed="#P" n="30" break="no"/>situs eius in omni, quod est 
+      intran<lb ed="#P" n="31" break="no"/>sum scilicet linea finita, super quam est
+      <lb ed="#P" n="32"/>A. Et certum, &amp; manifestum est
+      <lb ed="#P" n="33"/>nullo modo vt corpus rotudum sit
+      <lb ed="#P" n="34"/>infinitum.
+    <!-- not sure where image goes -->
+    <!--Averroes_DC_DGC_M_JuntSecunda_05-0065.xml-->
+    <lb ed="#P" n="64" type="fixed=29-r"/>
+         <!--<figure>
+            <graphic url="https://loris2.scta.info/cod-AAadcg//[canvasshortid]/763,97,518,623/full/0/default.jpg"/>
+            <ab type="figure-details">
+               <seg type="figure-text">Figura, ostendens non posse quod circulo fertur, infinitum esse, ut coelum, quia¬ circuit totam, quae intra ip¬ sum est lineam. sa.</seg>
+               <seg type="figure-ideas"/>
+               <seg type="transkribus-id">749269-28353970-TextRegion_1652279637291_1402</seg>
+            </ab>
+            <figDesc/>
+         </figure>-->
+      </p>
+      <p xml:id="aaaadc-gfdsss-d1e1626"> <!-- arist-dc-l1c39-it -->
+         <lb ed="#P" n="75"/>Dicamus etiam quod linea 
+      fi<lb ed="#P" n="76" break="no"/>nita impossibile est vt sit infinita.
+      <lb ed="#P" n="77"/>si igitur sit possibile, erit in 
+      alte<lb ed="#P" n="78" break="no"/>ra duarum extremitatum scilicet extre 
+      <lb ed="#P" n="79"/>mitate procedente secundum 
+      longi<lb ed="#P" n="80" break="no"/>tudinem infinitam. &amp; similiter
+      <lb ed="#P" n="81"/>superficies etiam impossibile est, ut
+      <lb ed="#P" n="82"/>sit infinita in omnibus partibus, 
+      ni<lb ed="#P" n="83" break="no"/>si in dimesione infinita. superficies
+      <lb ed="#P" n="84"/>autem est prior figura. tunc enim
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0069.xml-->
+      <pb ed="#P" n="31-r"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>est impossibile vt sit quadratum 
+      in<lb ed="#P" n="2" break="no"/>finitum in aliquae dimensione, quo
+      <lb ed="#P" n="3"/>niam neque, circulus, neque, orbis, sicut
+      <lb ed="#P" n="4"/>est impossibile vt sit figura pedis
+      <lb ed="#P" n="5"/>infinita. Si ergo orbis non est, neque, 
+      <lb ed="#P" n="6"/>circulus infinitus, &amp; etiam neque
+      <lb ed="#P" n="7"/>motus circularis omnino erit infinitus.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e1668"> <!-- arist-dc-l1c40-it -->
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0070.xml-->
+         <cb ed="#P" n="b"/>
+         <lb ed="#P" n="44"/>Et dicamus etiam quod corpus 
+      <lb ed="#P" n="45"/>quod mouetur circulariter, 
+      impos<lb ed="#P" n="46" break="no"/>sibile est esse infinitum. Sit ergo C
+      <lb ed="#P" n="47"/>centrum, &amp; sit linea A B 
+      infini<lb ed="#P" n="48" break="no"/>ta, &amp; sit linea aequalis H &amp; 
+      infi<lb ed="#P" n="49" break="no"/>nita etiam, &amp; moueatur etiam 
+      li<lb ed="#P" n="50" break="no"/>nea C D. quoniam, cum mouebitur
+      <lb ed="#P" n="51"/>impossibile est separari a linea H
+      <lb ed="#P" n="52"/>omnino, sed erit simile lineae D &amp;, 
+      <lb ed="#P" n="53"/>&amp; secat lineam H in puncto a. et
+      <lb ed="#P" n="54"/>cum ita sit, impossibile est vt 
+      mo<lb ed="#P" n="55" break="no"/>tus infinitus sit in corpore 
+      rotun<lb ed="#P" n="56" break="no"/>do omnino.
+      
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0070.xml-->
+      <lb ed="#P" n="68" type="fixed=31-v"/>
+         <!--<figure>
+            <graphic url="https://loris2.scta.info/cod-AAadcg//[canvasshortid]/783,832,522,658/full/0/default.jpg"/>
+            <ab type="figure-details">
+               <seg type="figure-text">Figura alia, idem, quod supra, ostendens. A¬ o Al &amp; n A cl B</seg>
+               <seg type="figure-ideas"/>
+               <seg type="transkribus-id">749269-28353975-TextRegion_1652279948347_1711</seg>
+            </ab>
+            <figDesc/>
+         </figure>-->
+      </p>
+      <p xml:id="aaaadc-gfdsss-d1e1689"> <!-- arist-dc-l1c41-it -->
+         <lb ed="#P" n="50"/>Et etiam, si coelum esset 
+      infini<lb ed="#P" n="51" break="no"/>tum, &amp; motus eius circularis est,
+      <lb ed="#P" n="52"/>necessario secat in tempore finito
+      <lb ed="#P" n="53"/>corpus infinitum. Sit igitur coelum
+      <lb ed="#P" n="54"/>fixum, &amp; sit aliud intra ipsum, si
+      <lb ed="#P" n="55"/>bi simile in magnitudine, motum: 
+      <lb ed="#P" n="56"/>dico quod, si corpus, quod est 
+      intra<lb ed="#P" n="57" break="no"/>coelum, est infinitum, &amp; totum coe
+      <lb ed="#P" n="58"/>lum moueatur circulariter, tunc 
+      <lb ed="#P" n="59"/>pertransibit corpus infinitum 
+      simi<lb ed="#P" n="60" break="no"/>le ei in tempore finito.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e1718"> <!-- arist-dc-l1c42-it -->
+         <lb ed="#P" n="32"/>Et possumus conuertere 
+      sermo<lb ed="#P" n="33" break="no"/>nem nostrum, si tempus, in quo per
+      <lb ed="#P" n="34"/>transiuit illud corpus coelum, 
+      fue<lb ed="#P" n="35" break="no"/>rit finitum, erit necessario 
+      magni<lb ed="#P" n="36" break="no"/>iudo etiam, in qua pertransiuit, 
+      fi<lb ed="#P" n="37" break="no"/>nita: pertransibit autem 
+      necessa<lb ed="#P" n="38" break="no"/>rio corpus sibi simile in magnitudio
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e1736"> <!-- arist-dc-l1c43-it -->
+         <lb ed="#P" n="78"/>Manifestum est modo quod 
+      cae<lb ed="#P" n="79" break="no"/>lum est finitum &amp; quod corpus 
+      <lb ed="#P" n="80"/>rotundum impossibile est vt sit 
+      si<lb ed="#P" n="81" break="no"/>ne vltimo, &amp; sine finae. Modo 
+      er<lb ed="#P" n="82" break="no"/>go volumus dicere de aliis corpori 
+      <lb ed="#P" n="83"/>pus simplicibus.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e1747"> <!-- arist-dc-l1c44-it -->
+         <lb ed="#P" n="27"/>Volumus modo dicere de aliis,
+      <lb ed="#P" n="28"/>corporibus, quod impossibile est vt
+      <lb ed="#P" n="29"/>sint infinita, neque, corpus tedens ad
+      <lb ed="#P" n="30"/>medium, neque, a medio: motus enim
+      <lb ed="#P" n="31"/>diuersus secundum contrarietatem
+      <lb ed="#P" n="32"/>est superius, &amp; inferius: &amp; 
+      muta<lb ed="#P" n="33" break="no"/>tiones diuersae sunt in locis diuersis
+      <lb ed="#P" n="34"/>Dicamus ergo quod, si alterum 
+      con<lb ed="#P" n="35" break="no"/>trariorum fuerit terminatum, 
+      al<lb ed="#P" n="36" break="no"/>terum etiam erit terminatum: 
+      mo<lb ed="#P" n="37" break="no"/>dium autem terminatum est. quod 
+      <lb ed="#P" n="38"/>enim vadit ad inferius ab omni 
+      par<lb ed="#P" n="39" break="no"/>te, impossibile est vt pertranseat
+      <lb ed="#P" n="40"/>medium, neque, prologetur a medio.
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0073.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="41"/>si ergo medium est terminatum, et
+      <lb ed="#P" n="42"/>superius est terminatum 
+      necessa<lb ed="#P" n="43" break="no"/>rio. &amp;, si loca sunt terminata, 
+      cor<lb ed="#P" n="44" break="no"/>pora erunt finita omnia omnino.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e1786"> <!-- arist-dc-l1c45-it -->
+         <lb ed="#P" n="14"/>Et etiam, si superius, &amp; 
+      infe<lb ed="#P" n="15" break="no"/>rius sunt terminata, ergo medium
+      <lb ed="#P" n="16"/>terminatum. si ergo non sit 
+      termi<lb ed="#P" n="17" break="no"/>natum, iuenietur motus infinitus.
+      <lb ed="#P" n="18"/>sed iam diximus quod impossibilo
+      <lb ed="#P" n="19"/>est motum esse infinitum. &amp;, cum
+      <lb ed="#P" n="20"/>ita sit, medium ergo est 
+      termina<lb ed="#P" n="21" break="no"/>tum, ergo quod est intra ipsum, &amp;
+      <lb ed="#P" n="22"/>quod potest esse in eo, est 
+      termina<lb ed="#P" n="23" break="no"/>tum scilicet quod corpus, tendens ad 
+      su<lb ed="#P" n="24" break="no"/>perius, &amp; ad inferius, impossibile
+      <lb ed="#P" n="25"/>est quod sit in eo: alterum enim 
+      eo<lb ed="#P" n="26" break="no"/>rum mouetur a medio, &amp; alteri
+      <lb ed="#P" n="27"/>ad medium.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e1823"> <!-- arist-dc-l1c46-it -->
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0076.xml-->
+         <pb ed="#P" n="34-v"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>Manifestum est igitur ex his, 
+      <lb ed="#P" n="2"/>diximus, quod impossibile est vt 
+      ali<lb ed="#P" n="3" break="no"/>quod ponderosum sit infinitum. Et
+      <lb ed="#P" n="4"/>omnino impossibile est vt aliquod
+      <lb ed="#P" n="5"/>istorum corporum grauium sit 
+      infi<lb ed="#P" n="6" break="no"/>nitum. corpus enim infinitum 
+      infi<lb ed="#P" n="7" break="no"/>nitam habet grauitatem. Et 
+      simi<lb ed="#P" n="8" break="no"/>liter de leuitate. si igitur grauitas
+      <lb ed="#P" n="9"/>infinita sit, ergo &amp; leuitas 
+      infini<lb ed="#P" n="10" break="no"/>ta: &amp; hoc erit, si corpus inueniatur,
+      <lb ed="#P" n="11"/>ascendens in infinitum.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e1848"> <!-- arist-dc-l1c47-it -->
+         <lb ed="#P" n="63"/>Et verificatio eius est, secundum
+      <lb ed="#P" n="64"/>quod narrabo. Sit ergo grauitas,
+      <lb ed="#P" n="65"/>corporis finita, deinde 
+      perscrute<lb ed="#P" n="66" break="no"/>mur vtrum sit possibile, aut non 
+      <lb ed="#P" n="67"/>Ponamus ergo modo corpus 
+      infini<lb ed="#P" n="68" break="no"/>tum lineam A B, &amp; sit sua 
+      gra<lb ed="#P" n="69" break="no"/>uitas C, &amp; extrahamus a corpore
+      <lb ed="#P" n="70"/>infinito magnitudinem finita, &amp; 
+      <lb ed="#P" n="71"/>sit B D, &amp; grauitas eius linea H.
+      <lb ed="#P" n="72"/>erit enim tunc H minor 
+      grauita<lb ed="#P" n="73" break="no"/>te C: grauitas enim corporis 
+      mino<lb ed="#P" n="74" break="no"/>ris, minor est grauitate maioris 
+      cor<lb ed="#P" n="75" break="no"/>poris. &amp; similiter numeremus 
+      gra<lb ed="#P" n="76" break="no"/>uitatem maiorem per minorem
+      <lb ed="#P" n="77"/>quousque, sit similis ei in grauitate: est
+      <lb ed="#P" n="78"/>similiter numeremus corpus 
+      ma<lb ed="#P" n="79" break="no"/>ius per minus, scilicet per corpus B
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0077.xml-->
+      <pb ed="#P" n="35-r"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>D corpus B &amp;: possibile est enim 
+      ex<lb ed="#P" n="2" break="no"/>trahere a corpore infinito 
+      quodcun<lb ed="#P" n="3" break="no"/>que uoluerit extrahens extrahere: 
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0077.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="4"/>erit ergo proporti. H ad C, sicut
+      <lb ed="#P" n="5"/>proportio B D ad B a. &amp; hoc 
+      vole<lb ed="#P" n="6" break="no"/>bamus declarare.
+    <!--Averroes_DC_DGC_M_JuntSecunda_05-0077.xml-->
+      <lb ed="#P" n="57" type="fixed=35-r"/>
+         <!--<figure>
+            <graphic url="https://loris2.scta.info/cod-AAadcg//[canvasshortid]/246,316,1048,577/full/0/default.jpg"/>
+            <ab type="figure-details">
+               <seg type="figure-text">Figura, ostendens non posse dari corpus infinitum, si eius grauitas sit finitum. Deseruit autem &amp; textui sequenti. Al pl &amp; asm i fat¬ a¬ et</seg>
+               <seg type="figure-ideas"/>
+               <seg type="transkribus-id">749269-28353982-TextRegion_1652118142923_1372</seg>
+            </ab>
+            <figDesc/>
+         </figure>-->
+         <!--Averroes_DC_DGC_M_JuntSecunda_05-0077.xml-->
+         <cb ed="#P" n="c"/>
+         <lb ed="#P" n="7" type="fixed=35-r"/>Pro huius descriptae figurae 
+      intelligentia<lb ed="#P" n="8" break="no"/>haec legas.
+      <lb ed="#P" n="9"/>AB literis Corpus infinitum designatur.
+      <lb ed="#P" n="10"/>C Grauitas eius.
+      <lb ed="#P" n="11"/>B D Magnitudo finita maior, pars 
+      corpo<lb ed="#P" n="12" break="no"/>ris 
+      infiniti<lb ed="#P" n="13" break="no"/>E, vel H secundum Auerroem, Grauitas eius.
+      <lb ed="#P" n="14"/>DE, vel B E secundum Auerroem, 
+      Magni<lb ed="#P" n="15" break="no"/>tudo finita alia maior, pars 
+      corpo<lb ed="#P" n="16" break="no"/>ris infiniti.
+      <lb ed="#P" n="17"/>C Grauitas eius, aequalis grauitati ipsius
+      <lb ed="#P" n="18"/>A B, corporis infiniti.
+      <lb ed="#P" n="19"/>EC, uel B H 4secundum Auerroem, 
+      Ma<lb ed="#P" n="20" break="no"/>gnitudo finita, adhuc maior, pars 
+      cor<lb ed="#P" n="21" break="no"/>poris 
+      infiniti<lb ed="#P" n="22" break="no"/>E Grauitas eius, tertio mensurans.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e1879"> <!-- arist-dc-l1c48-it -->
+         <lb ed="#P" n="27"/>Reuertamur modo, &amp; dicamus
+      <lb ed="#P" n="28"/>quod, si magnitudo corporum sit 
+      se<lb ed="#P" n="29" break="no"/>cundum grauitatem eorum: &amp; grauitas
+      <lb ed="#P" n="30"/>minoris corporis sit minor, &amp; 
+      gra<lb ed="#P" n="31" break="no"/>uitas maioris corporis sit maior: e
+      <lb ed="#P" n="32"/>rit grauitas infiniti, &amp; corporis 
+      fi<lb ed="#P" n="33" break="no"/>niti aequaliter. quod est impossibile.
+      <lb ed="#P" n="34"/>Et et, si grauitas maioris corporis
+      <lb ed="#P" n="35"/>est maior grauitate corporis mino
+      <lb ed="#P" n="36"/>ris, erit grauitas Ba E maior 
+      gra<lb ed="#P" n="37" break="no"/>uitate B 4. erit ergo grauitas 
+      cor<lb ed="#P" n="38" break="no"/>poris finiti maior grauitate 
+      corpo<lb ed="#P" n="39" break="no"/>ris infiniti. &amp; etia erit grauitas
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0079.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="40"/>corporum inaequalium in magnitu
+      <lb ed="#P" n="41"/>dine eadem, quod est impossibile.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e1966"> <!-- arist-dc-l1c49-it -->
+         <lb ed="#P" n="26"/>Et etiam quamuis corpus sit non 
+      <lb ed="#P" n="27"/>consimilium partium, tamen 
+      nul<lb ed="#P" n="28" break="no"/>la differentia est in eo, quod 
+      dixi<lb ed="#P" n="29" break="no"/>mus. sermo enim de ipso similis est ser 
+      <lb ed="#P" n="30"/>moni de corpore consimilium 
+      par<lb ed="#P" n="31" break="no"/>tium. possumus enim accipere ex
+      <lb ed="#P" n="32"/>corpore infinito multas partes 
+      aequa<lb ed="#P" n="33" break="no"/>les in grauitatem, sicut fecimus in
+      <lb ed="#P" n="34"/>B D. si ergo uoluerimus, addemus
+      <lb ed="#P" n="35"/>&amp;, si voluerimus, diminuemus,
+      <lb ed="#P" n="36"/>cum acceperimus ex isto corpore, 
+      <lb ed="#P" n="37"/>sicut vides in ista figura.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e1984"> <!-- arist-dc-l1c50-it -->
+         <lb ed="#P" n="22"/>Manifestum est igitur ex hoc,
+      <lb ed="#P" n="23"/>quod diximus, quod impossibile est
+      <lb ed="#P" n="24"/>quod grauitas corporis infiniti sit
+      <lb ed="#P" n="25"/>finita. si ergo impossibile est vt sit
+      <lb ed="#P" n="26"/>finita, necesse est vt sit infinita. si
+      <lb ed="#P" n="27"/>ergo impossibile est vt sit, &amp; hoc
+      <lb ed="#P" n="28"/>est scilicet crauitatem esse infinita, 
+      im<lb ed="#P" n="29" break="no"/>possibile est corpus esse infinitum.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e1997"> <!-- arist-dc-l1c51-it -->
+         <lb ed="#P" n="48"/>Et etiam dicemus quod 
+      impos<lb ed="#P" n="49" break="no"/>sibile est esse grauitatem infinitam,
+      <lb ed="#P" n="50"/>&amp; demonstratio eius est ex hoc,
+      <lb ed="#P" n="51"/>quod dicemus. Et est quod, si 
+      quan<lb ed="#P" n="52" break="no"/>titas huius grauitatis mouetur per 
+      <lb ed="#P" n="53"/>hoc spatium in hoc tempore, 
+      moue<lb ed="#P" n="54" break="no"/>bitur alia quantitas grauitatis in
+      <lb ed="#P" n="55"/>minori tempore, &amp; etiam in 
+      mini<lb ed="#P" n="56" break="no"/>mo tempore. dicamus modo quod 
+      con<lb ed="#P" n="57" break="no"/>iunctio temporum adinuicem est 
+      se<lb ed="#P" n="58" break="no"/>cundum coniunctionem grauitatis
+      <lb ed="#P" n="59"/>adinuice. sed coiunctio tamen 
+      tem<lb ed="#P" n="60" break="no"/>porum differt a coniunctione 
+      gra<lb ed="#P" n="61" break="no"/>uitatis. si enim medietas 
+      grauita<lb ed="#P" n="62" break="no"/>tis moueretur per aliquod spatium
+      <lb ed="#P" n="63"/>in aliquo tempore, mouebitur duplum
+      <lb ed="#P" n="64"/>illius grauitatis finitae per illud 
+      spa<lb ed="#P" n="65" break="no"/>tium per medietatem illius temporis.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e2023"> <!-- arist-dc-l1c52-it -->
+         <lb ed="#P" n="35"/>Et etiam grauitas finita 
+      moue<lb ed="#P" n="36" break="no"/>tur per omne spatium finitum in 
+      tem<lb ed="#P" n="37" break="no"/>pore finito. Ec, cum ita sit, si 
+      graui<lb ed="#P" n="38" break="no"/>tas infinita inueniatur, necesse est
+      <lb ed="#P" n="39"/>vt &amp; moueatur, &amp; no. si ergo 
+      mo<lb ed="#P" n="40" break="no"/>ueatur per aliquod spatium, 
+      moue<lb ed="#P" n="41" break="no"/>tur secundum motum quantitatis
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0082.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="42"/>grauitatis finitae, sed tamen 
+      moue<lb ed="#P" n="43" break="no"/>bitur per illud spatium in minori
+      <lb ed="#P" n="44"/>tempore. grauitas enim mouetur in 
+      <lb ed="#P" n="45"/>velocitate, &amp; tarditate secundum
+      <lb ed="#P" n="46"/>magnitudinem corporis. cum enim
+      <lb ed="#P" n="47"/>corpus fuerit magnum, tunc 
+      graui<lb ed="#P" n="48" break="no"/>tas mouebitur in minori tempore,
+      <lb ed="#P" n="49"/>tempore motus grauitatis minoris
+      <lb ed="#P" n="50"/>corporis: tempus autem minus 
+      attri<lb ed="#P" n="51" break="no"/>buitur grauitati maiori. &amp; iam 
+      di<lb ed="#P" n="52" break="no"/>ximus superius quod grauitas 
+      infi<lb ed="#P" n="53" break="no"/>nita omino non mouetur: nulla enim
+      <lb ed="#P" n="54"/>est proportio inter grauitatem 
+      fi<lb ed="#P" n="55" break="no"/>nitam, &amp; infinitam: nam 
+      graui<lb ed="#P" n="56" break="no"/>tas finita mouetur per 
+      spatiufini<lb ed="#P" n="57" break="no"/>tum in tempore finito.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e2055"> <!-- arist-dc-l1c53-it -->
+         <lb ed="#P" n="56"/>Grauitas autem infinita non 
+      mo<lb ed="#P" n="57" break="no"/>uetur omnino per illud spatium, neque,
+      <lb ed="#P" n="58"/>in minori tempore. &amp;, si moueretur, B
+      <lb ed="#P" n="59"/>nihil proficeret in ponendo quod 
+      gra<lb ed="#P" n="60" break="no"/>uitas infinita mouetur. quoniam, si
+      <lb ed="#P" n="61"/>ita esset, esset alia grauitas finita,
+      <lb ed="#P" n="62"/>quae moueretur per illud, quo mota 
+      <lb ed="#P" n="63"/>est grauitas infinita, continget ergo
+      <lb ed="#P" n="64"/>quod grauitas finita, &amp; 
+      infinita<lb ed="#P" n="65" break="no"/>moueantur per idem spatium in eo
+      <lb ed="#P" n="66"/>dem tempore. quod est impossibile.
+      <lb ed="#P" n="67"/>Si enim grauitas infinita 
+      mouere<lb ed="#P" n="68" break="no"/>tur per aliquod spatium in aliquo 
+      tem<lb ed="#P" n="69" break="no"/>pore finito, erit &amp; alia grauitas 
+      fi<lb ed="#P" n="70" break="no"/>nita, quae perambularet idem spatium in 
+      <lb ed="#P" n="71"/>illo reiopore. quod est impossbile.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e2086"> <!-- arist-dc-l1c54-it -->
+         <lb ed="#P" n="59"/>Ostensum est ergo, &amp; 
+      declara<lb ed="#P" n="60" break="no"/>tu, quod impossibile et esse 
+      grauita<lb ed="#P" n="61" break="no"/>tem infinitam, similiter &amp; 
+      leuita<lb ed="#P" n="62" break="no"/>tem infinitam. &amp;, cum ita sit, 
+      ma<lb ed="#P" n="63" break="no"/>nifestum est quod impossible est vt
+      <lb ed="#P" n="64"/>sint corpora grauia, aut leuia 
+      infi<lb ed="#P" n="65" break="no"/>nita. Et etia declaratum est ex his,
+      <lb ed="#P" n="66"/>sermonibus particularibus, corpus 
+      <lb ed="#P" n="67"/>nullo modo posse esse infinitum. &amp; 
+      <lb ed="#P" n="68"/>etiam declaratum est vniuersaliter
+      <lb ed="#P" n="69"/>ex his in libro, quem fecimus de 
+      prin<lb ed="#P" n="70" break="no"/>cipiis mudi. illic enim diximus 
+      quo<lb ed="#P" n="71" break="no"/>modo corpus finitum est, &amp; quomo 
+      <lb ed="#P" n="72"/>do infinitum, hic autem diximus
+      <lb ed="#P" n="73"/>&amp; secundum speciem, &amp; secundum
+      <lb ed="#P" n="74"/>alium modum.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e2123"> <!-- arist-dc-l1c55-it -->
+         <lb ed="#P" n="67"/>Volumus etia perscrutari alio
+      <lb ed="#P" n="68"/>modo de mundo, vtrum sit vnus,
+      <lb ed="#P" n="69"/>aut plures, dicendo quod, si 
+      impos<lb ed="#P" n="70" break="no"/>sibile est vt corpus vniuersale sit
+      <lb ed="#P" n="71"/>infinitum, possibile est tamen 
+      com<lb ed="#P" n="72" break="no"/>plures esse coelos. Forte igitur 
+      ali<lb ed="#P" n="73" break="no"/>quis perscrutabitur de hoc, &amp; quae 
+      <lb ed="#P" n="74"/>ret ipsum finitum, dicendo sicut mun
+      <lb ed="#P" n="75"/>dus continens nos, est ens 
+      perma<lb ed="#P" n="76" break="no"/>nens, non est prohibitum quin etiam
+      <lb ed="#P" n="77"/>sint alii mundi plures vno, non 
+      infi<lb ed="#P" n="78" break="no"/>niti in multitudine.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e2147"> <!-- arist-dc-l1c56-it -->
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0086.xml-->
+         <cb ed="#P" n="b"/>
+         <lb ed="#P" n="44"/>Sed tamen oportet nos prius 
+      per<lb ed="#P" n="45" break="no"/>scrutari, quid est corpus infinitum.
+      <lb ed="#P" n="46"/>Et dicamus quod omne corpus autem,
+      <lb ed="#P" n="47"/>est finitum, aut infinitum: aut 
+      to<lb ed="#P" n="48" break="no"/>tum erit consimilium partium, aut
+      <lb ed="#P" n="49"/>dissimilium partium: si non 
+      consi<lb ed="#P" n="50" break="no"/>milium, aut erit ex forma finita,
+      <lb ed="#P" n="51"/>aut ex forma infinita.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e2165"> <!-- arist-dc-l1c57-it -->
+         <lb ed="#P" n="32"/>Dicamus ergo quod impossibile
+      <lb ed="#P" n="33"/>est vt sit ex formis infinitis. &amp; hoc
+      <lb ed="#P" n="34"/>manifestum est illi, qui concesserit,
+      <lb ed="#P" n="35"/>&amp; conceperit propositiones 
+      praedi<lb ed="#P" n="36" break="no"/>ctas positas, &amp; sillogismos 
+      conue<lb ed="#P" n="37" break="no"/>nientes in situ fundamentis. 
+      Dici<lb ed="#P" n="38" break="no"/>mus enim, si primi motus 
+      infiniti<lb ed="#P" n="39" break="no"/>sunt, erunt corporum simplicium
+      <lb ed="#P" n="40"/>formae etiam infinitae necessario.
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0087.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="41"/>motus enim corporum simplicium
+      <lb ed="#P" n="42"/>simplices sunt. motus autem 
+      simpli<lb ed="#P" n="43" break="no"/>tes sunt finiti. &amp;, omne corpus 
+      na<lb ed="#P" n="44" break="no"/>turale habet motum necessario.
+      <lb ed="#P" n="45"/>Dicamus ergo quod, si corpus 
+      infi<lb ed="#P" n="46" break="no"/>nitum sit ex formis finitis, erit 
+      quae<lb ed="#P" n="47" break="no"/>libet partium eius infinita 
+      neces<lb ed="#P" n="48" break="no"/>sario, vt aqua, &amp; ignis. quod est im
+      <lb ed="#P" n="49"/>possibile omnino: iam enim 
+      decla<lb ed="#P" n="50" break="no"/>rauimus quod neque, grauitas, neque
+      <lb ed="#P" n="51"/>leuitas sunt infinitae.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e2204"> <!-- arist-dc-l1c58-it -->
+         <lb ed="#P" n="33"/>Et etiam, si formae sint infinitae.
+      <lb ed="#P" n="34"/>&amp; loca earum erut infinita in 
+      ma<lb ed="#P" n="35" break="no"/>gnitudine necessario. &amp;, cum ita
+      <lb ed="#P" n="36"/>sit, &amp; motus eorum erunt 
+      infiniti<lb ed="#P" n="37" break="no"/>quod est impossibile, si nos concesse
+      <lb ed="#P" n="38"/>rimus propositiones primas, scilicet
+      <lb ed="#P" n="39"/>quod corpus, vadens ad inferius,
+      <lb ed="#P" n="40"/>impossibile est vt in infinitum va¬
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0089.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="41"/>dat, &amp; corpus vadens ad superius 
+      <lb ed="#P" n="42"/>impossibile est vt in infinitum vadat.
+      <lb ed="#P" n="43"/>impossibile est enim vt sit quod im
+      <lb ed="#P" n="44"/>possibile est esse. hic autem sermo
+      <lb ed="#P" n="45"/>susceptus est aequaliter in 
+      quantita<lb ed="#P" n="46" break="no"/>te, &amp; qualitate, &amp; situ. &amp; dico, si
+      <lb ed="#P" n="47"/>corpus non sit album, aut vnius 
+      cu<lb ed="#P" n="48" break="no"/>biti, aut curres, impossibile est 
+      tras<lb ed="#P" n="49" break="no"/>mutari in aliquod ex his, quae 
+      dixi<lb ed="#P" n="50" break="no"/>mus, &amp; impossibile est ire ad locum,
+      <lb ed="#P" n="51"/>ad quem impossibile est peruenire.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e2247"> <!-- arist-dc-l1c59-it -->
+         <lb ed="#P" n="63"/>Et etiam, si forma corporis ignis
+      <lb ed="#P" n="64"/>inueniatur separata, &amp; 
+      disiuncta<lb ed="#P" n="65" break="no"/>adinuicem vt quidam Antiquorum
+      <lb ed="#P" n="66"/>inquiebant, erit ignis copositus ex
+      <lb ed="#P" n="67"/>mnibus diuersis formis infinitis.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e2256"> <!-- arist-dc-l1c60-it -->
+         <lb ed="#P" n="21"/>Et iam diximus superius quod 
+      cor<lb ed="#P" n="22" break="no"/>pus vadit per omnes mensuras. Si 
+      igi<lb ed="#P" n="23" break="no"/>tur ita sit, quo erit possibile quod 
+      <lb ed="#P" n="24"/>plura corpora dissimilia sint 
+      infini<lb ed="#P" n="25" break="no"/>ta, ita, quod vnumquodque, eorum.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e2274"> <!-- arist-dc-l1c61-it -->
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0092.xml-->
+         <pb ed="#P" n="42-v"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>Et etiam, si forma corporis sit 
+      con<lb ed="#P" n="2" break="no"/>similis, impossibile est enim vt sit
+      <lb ed="#P" n="3"/>infinita. Primo, quoniam, si motus 
+      <lb ed="#P" n="4"/>alius a motibus praedictis non sit, 
+      ne<lb ed="#P" n="5" break="no"/>cessario hoc corpus habebit alique
+      <lb ed="#P" n="6"/>motum horum motuum. &amp;, si ita
+      <lb ed="#P" n="7"/>sit, necessario est grauitas infinita,
+      <lb ed="#P" n="8"/>&amp; leuitas infinita, &amp; iam 
+      dixi<lb ed="#P" n="9" break="no"/>mus quod esse hoc est impossibile.
+      <lb ed="#P" n="10"/>&amp; etiam non assimilatur corpori
+      <lb ed="#P" n="11"/>eunti circulariter in infinitum: im
+      <lb ed="#P" n="12"/>possibile est enim corpus infinitunm
+      <lb ed="#P" n="13"/>ire circulariter. qui ergo dicit 
+      mo<lb ed="#P" n="14" break="no"/>tionem circularem esse perpetuam,
+      <lb ed="#P" n="15"/>similis est dicenti coelum esse 
+      infi<lb ed="#P" n="16" break="no"/>nitum. &amp; iam declarauimus 
+      supe<lb ed="#P" n="17" break="no"/>rius hoc esse impossibile: &amp; etiam.
+      <lb ed="#P" n="18"/>quod corpus infinitum impossibile
+      <lb ed="#P" n="19"/>est moueri omnino.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e2305"> <!-- arist-dc-l1c62-it -->
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0093.xml-->
+         <pb ed="#P" n="43-r"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>Et etiam, si possibile est corpus 
+      <lb ed="#P" n="2"/>infinitum moueri, mouebitur 
+      natu<lb ed="#P" n="3" break="no"/>raliter, aut vtolente. si violente, 
+      om<lb ed="#P" n="4" break="no"/>nino habet alterum motum 
+      natu<lb ed="#P" n="5" break="no"/>ralem: habebit ergo alterum locum,
+      <lb ed="#P" n="6"/>quo eat naturaliter, sicut in quo it 
+      <lb ed="#P" n="7"/>violente. quod est impossibile.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e2323"> <!-- arist-dc-l1c63-it -->
+         <lb ed="#P" n="65"/>Et dicamus quod corpus finitum
+      <lb ed="#P" n="66"/>impossibile est agere in corpus 
+      infi<lb ed="#P" n="67" break="no"/>nitum, &amp; recipere, &amp; earecipere
+      <lb ed="#P" n="68"/>actionem adinuicem omnino. &amp; de
+      <lb ed="#P" n="69"/>monstratio huius est sic. Sit igitur
+      <lb ed="#P" n="70"/>corpus infinitum A, &amp; finitum B
+      <lb ed="#P" n="71"/>&amp; sit tempus, in quo mouetur, aut
+      <lb ed="#P" n="72"/>mouet C. &amp; expellatur corpus, A
+      <lb ed="#P" n="73"/>&amp; recipiat aliquam formam a B,
+      <lb ed="#P" n="74"/>in tempore C, &amp; sit D minus quam 
+      <lb ed="#P" n="75"/>B, &amp; moueatur hoc minus per 
+      ali<lb ed="#P" n="76" break="no"/>quam magnitudinem minorem in 
+      <lb ed="#P" n="77"/>tepore aequali primo, &amp; sit E, quod 
+      <lb ed="#P" n="78"/>mouetur ex D, dicamus quod 
+      pro<lb ed="#P" n="79" break="no"/>portio D ad B est, sicut proportio E
+      <lb ed="#P" n="80"/>ad aliud minus A, puta E.
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0094.xml-->
+      <pb ed="#P" n="43-v"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="57" type="fixed=43-v"/>
+         <!--<figure>
+            <graphic url="https://loris2.scta.info/cod-AAadcg//[canvasshortid]/284,128,1050,669/full/0/default.jpg"/>
+            <ab type="figure-details">
+               <seg type="figure-text">Tigura, ortendens infinitum a finito pati non posse¬ C Tempus. A Infinitum passum. BEinitum agens. E Finitum, alteratum D Finitum agens, ipso B minus. ab ipso. D. E Tinitum passum, omnibus aliis minus.</seg>
+               <seg type="figure-ideas"/>
+               <seg type="transkribus-id">749269-28353999-TextRegion_1652288409619_2891</seg>
+            </ab>
+            <figDesc/>
+         </figure>-->
+      </p>
+      <p xml:id="aaaadc-gfdsss-d1e2360"> <!-- arist-dc-l1c64-it -->
+         <lb ed="#P" n="30"/>Et dicamus, quod corpora 
+      aequa<lb ed="#P" n="31" break="no"/>lia in magnitudine mouentur, &amp; 
+      <lb ed="#P" n="32"/>transmutantur aequaliter in 
+      tem<lb ed="#P" n="33" break="no"/>pore vno: &amp; propter hoc corpus 
+      mi<lb ed="#P" n="34" break="no"/>nus mouetur in minori motu in illo
+      <lb ed="#P" n="35"/>tempore: &amp; corpus maius mouetus
+      <lb ed="#P" n="36"/>motu maiori in illo tempore: 
+      moue<lb ed="#P" n="37" break="no"/>tur enim secudum suam 
+      magnitu<lb ed="#P" n="38" break="no"/>dinem magis, quam motu minoris
+      <lb ed="#P" n="39"/>temporis. Manifestum est igitur ex
+      <lb ed="#P" n="40"/>his, quod corpus infinitum impossi¬
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0095.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="41"/>bile est mouere aliud corporum 
+      fini<lb ed="#P" n="42" break="no"/>torum omnino, neque, in aliquo tempore.
+      <lb ed="#P" n="43"/>erit enim aliud corpus paruum, quod 
+      <lb ed="#P" n="44"/>mouebit aliud corpus minus se, 
+      se<lb ed="#P" n="45" break="no"/>cundum modum suae paruitatis in
+      <lb ed="#P" n="46"/>illo tempore. ergo erit hoc iterum
+      <lb ed="#P" n="47"/>corpus finitum. nam nullam habet
+      <lb ed="#P" n="48"/>corpus finitum, &amp; infinitum 
+      pro<lb ed="#P" n="49" break="no"/>portionem, neque, propinquitatem,
+      <lb ed="#P" n="50"/>neque, comparationem.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e2392"> <!-- arist-dc-l1c65-it -->
+    <!--Averroes_DC_DGC_M_JuntSecunda_05-0098.xml-->
+         <pb ed="#P" n="45-v"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="24" type="fixed=45=v"/>
+         <!--<figure>
+            <graphic url="https://loris2.scta.info/cod-AAadcg//[canvasshortid]/243,108,1084,575/full/0/default.jpg"/>
+            <ab type="figure-details">
+               <seg type="figure-text">Tigura, demonstrans finitum ab infinito nullo tempore moueri posse, deseruiens textui fideli. CTempus. A Infinitum. B ETinitum. D. E</seg>
+               <seg type="figure-ideas"/>
+               <seg type="transkribus-id">749269-28354003-TextRegion_1652288749235_3120</seg>
+            </ab>
+            <figDesc/>
+         </figure>-->
+         <lb ed="#P" n="1" type="fixed=45=v"/>Et etiam corpus infinitum non 
+      <lb ed="#P" n="2"/>mouet corpus finitum in aliquo 
+      tem<lb ed="#P" n="3" break="no"/>pore. Sit ergo potentia infinita in
+      <lb ed="#P" n="4"/>linea A, &amp; sit corpus finitum in 
+      <lb ed="#P" n="5"/>linea B , &amp; sit tempus, in quo sit
+      <lb ed="#P" n="6"/>motus, in linea C. D igitur 
+      moue<lb ed="#P" n="7" break="no"/>bit in C minus, quam motus B a.
+      <lb ed="#P" n="8"/>erit ergo proportio totius B a ad
+      <lb ed="#P" n="9"/>&amp;, sicut proportio motus D ad A
+      <lb ed="#P" n="10"/>H. &amp;, si ita sit, continget quod 
+      cor<lb ed="#P" n="11" break="no"/>pus finitum, &amp; infinitum moueat, 
+      <lb ed="#P" n="12"/>idem, &amp; in eodem tempore. quod 
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0098.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="13"/>est impossibile. iam enim diximus
+      <lb ed="#P" n="14"/>quod corpus maius mouet idem in 
+      <lb ed="#P" n="15"/>minori tempore quam minus. &amp; 
+      <lb ed="#P" n="16"/>hoc erit in omni tempore, in quo erit,
+      <lb ed="#P" n="17"/>actio, quam agunt per corpus 
+      fini<lb ed="#P" n="18" break="no"/>tum, corpus infinitum, &amp; corpus 
+      <lb ed="#P" n="19"/>finitum. Et etiam impossibile est
+      <lb ed="#P" n="20"/>vt moueat aliquid in tempore 
+      infi<lb ed="#P" n="21" break="no"/>nito: quoniam non habet finem: 
+      mo<lb ed="#P" n="22" break="no"/>tus autem est actio, quae non 
+      reci<lb ed="#P" n="23" break="no"/>pit affectiones.
+      <lb ed="#P" n="25" type="fixed=45=v"/>
+         <!--<figure>
+            <graphic url="https://loris2.scta.info/cod-AAadcg//[canvasshortid]/243,1312,1084,593/full/0/default.jpg"/>
+            <ab type="figure-details">
+               <seg type="figure-text">Tigura, declarans idem, quod supra, Auerrois texiui, &amp; commento deseruiens C Tempus. Pntia infinita H A D E Corpus finitum. D.</seg>
+               <seg type="figure-ideas"/>
+               <seg type="transkribus-id">749269-28354003-TextRegion_1652288759892_3128</seg>
+            </ab>
+            <figDesc/>
+         </figure>-->
+      </p>
+      <p xml:id="aaaadc-gfdsss-d1e2438"> <!-- arist-dc-l1c66-it -->
+         <lb ed="#P" n="56"/>Dicamus igitur, quod corpus 
+      in<lb ed="#P" n="57" break="no"/>finitum impossibile est mouere 
+      ali<lb ed="#P" n="58" break="no"/>quod corpus infinitum, neque, agere in
+      <lb ed="#P" n="59"/>ipsum aliquod. Sit ergo corpus 
+      infi<lb ed="#P" n="60" break="no"/>nitum cgens linea A, &amp; corpus 
+      <lb ed="#P" n="61"/>patiens infinitum linea B, &amp; sit
+      <lb ed="#P" n="62"/>tempus, in quo agit corpus agens 
+      <lb ed="#P" n="63"/>C D. &amp; moueatur ab A corpus 
+      fi<lb ed="#P" n="64" break="no"/>nitu, &amp; sit H, erit igitur A agens
+      <lb ed="#P" n="65"/>in totum B, &amp; H. sed hoc 
+      impossi<lb ed="#P" n="66" break="no"/>bile est in eodem tempore: agit enim
+      <lb ed="#P" n="67"/>in minori tempore in minus corpus. 
+      <lb ed="#P" n="68"/>A igitur mouet H in D tantum.
+      <lb ed="#P" n="69"/>&amp; proportio D ad C, ita est, sicut
+      <lb ed="#P" n="70"/>proportio H ad aliquam partem B,
+      <lb ed="#P" n="71"/>quae est finita. tunc igitur mouebit,
+      <lb ed="#P" n="72"/>A istam literam scilicet quandam 
+      par<lb ed="#P" n="73" break="no"/>tem B in tempore C D, &amp; 
+      simili<lb ed="#P" n="74" break="no"/>ter agit A in corpus maius, &amp; 
+      mi<lb ed="#P" n="75" break="no"/>nus: non quia actio eius est in 
+      par<lb ed="#P" n="76" break="no"/>te maiori, aut minori. &amp; haec est
+      <lb ed="#P" n="77"/>figura.
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0101.xml-->
+      <pb ed="#P" n="47-r"/>
+         <cb ed="#P" n="a"/>
+         <!--Averroes_DC_DGC_M_JuntSecunda_05-0101.xml-->
+         <lb ed="#P" n="61" type="fixed=47-v"/>
+         <!--<figure>
+            <graphic url="https://loris2.scta.info/cod-AAadcg//[canvasshortid]/232,134,1035,581/full/0/default.jpg"/>
+            <ab type="figure-details">
+               <seg type="figure-text">Tigura, declarans infinitum ab infinito non pati. Tempus. D. C Infinitum agens. A Infinitum passum. E B Et</seg>
+               <seg type="figure-ideas"/>
+               <seg type="transkribus-id">749269-28354006-TextRegion_1652289034622_3366</seg>
+            </ab>
+            <figDesc/>
+         </figure>-->
+      </p>
+      <p xml:id="aaaadc-gfdsss-d1e2486"> <!-- arist-dc-l1c67-it -->
+         <lb ed="#P" n="17"/>Manifestum est igitur quod 
+      im<lb ed="#P" n="18" break="no"/>possibile est vt corpus infinitum 
+      mo<lb ed="#P" n="19" break="no"/>ueat corpus infinitum in tempore.
+      <lb ed="#P" n="20"/>finito. &amp;, si hoc est impossibile, 
+      pos<lb ed="#P" n="21" break="no"/>sibile est igitur vt sit in tempore.
+      <lb ed="#P" n="22"/>infinito. &amp; iam diximus quod 
+      tem<lb ed="#P" n="23" break="no"/>pus infinitum non habet finem: 
+      cor<lb ed="#P" n="24" break="no"/>pus autem mobile habet finem.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e2502"> <!-- arist-dc-l1c68-it -->
+         <lb ed="#P" n="60"/>Et etiam omne corpus sensibile
+      <lb ed="#P" n="61"/>habet potentiam acttuam, &amp; 
+      pas<lb ed="#P" n="62" break="no"/>siuam insimul. &amp;, cum ita sit, im
+      <lb ed="#P" n="63"/>possibile est corpus sensibile esse 
+      in<lb ed="#P" n="64" break="no"/>finitum.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e2513"> <!-- arist-dc-l1c69-it -->
+         <lb ed="#P" n="11"/>Et etiam omne corpus, quod est
+      <lb ed="#P" n="12"/>in loco. est sensibile. &amp;, cum ita sit,
+      <lb ed="#P" n="13"/>nullum corpus infinitum est 
+      extra<lb ed="#P" n="14" break="no"/>coelum: quoniam nullus locus est in 
+      <lb ed="#P" n="15"/>lic, neque, corpus finitum. Manifestum
+      <lb ed="#P" n="16"/>est igitur quod nullum corpus 
+      ex<lb ed="#P" n="17" break="no"/>tra coelum est omnino forte enim si 
+      ali<lb ed="#P" n="18" break="no"/>quis dixerit possibile est quod 
+      ex<lb ed="#P" n="19" break="no"/>tra coelum sit aliud corpus 
+      spiritua<lb ed="#P" n="20" break="no"/>le, necesse est ei dicere quod illud
+      <lb ed="#P" n="21"/>corpus est in loco: extra enim, &amp; 
+      <lb ed="#P" n="22"/>intra notat locum. quapropter erit
+      <lb ed="#P" n="23"/>sensibile etiam: &amp; non est corpus 
+      <lb ed="#P" n="24"/>sensibile, nisi in loco.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e2544"> <!-- arist-dc-l1c70-it -->
+         <lb ed="#P" n="27"/>Et etiam volumus perscrutari
+      <lb ed="#P" n="28"/>ad verificandum hoc, quod 
+      dixi<lb ed="#P" n="29" break="no"/>mus, &amp; dicemus in hoc sermonem
+      <lb ed="#P" n="30"/>rationabilem, quod corpus 
+      infini<lb ed="#P" n="31" break="no"/>tum impossibile est moueri 
+      circula<lb ed="#P" n="32" break="no"/>riter. quoniam non habet omnin
+      <lb ed="#P" n="33"/>medium: &amp; etiam, quia corpus 
+      ro<lb ed="#P" n="34" break="no"/>tundum mouetur circa medium,
+      <lb ed="#P" n="35"/>Et etia impossibile est moueri hoc
+      <lb ed="#P" n="36"/>corpus infinitum motu aequali, quo
+      <lb ed="#P" n="37"/>niam, si moueretur motu 
+      aequali<lb ed="#P" n="38" break="no"/>indigeret loco infinito, &amp; sine 
+      fi<lb ed="#P" n="39" break="no"/>ne, &amp; indigeret loco ad suum mo¬ 
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0104.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="40"/>tum accidentalem secundum 
+      sub<lb ed="#P" n="41" break="no"/>statiam loci, sui motus naturalis.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e2574"> <!-- arist-dc-l1c71-it -->
+         <lb ed="#P" n="16"/>Et etiam, si motus corporis 
+      infi<lb ed="#P" n="17" break="no"/>niti fuerit aequalis, aut erit 
+      natura<lb ed="#P" n="18" break="no"/>lis, aut accidentalis, &amp; erit 
+      poten<lb ed="#P" n="19" break="no"/>tia mouens ipsum istis duobus 
+      mo<lb ed="#P" n="20" break="no"/>tibus infinita. infinita enim 
+      poten<lb ed="#P" n="21" break="no"/>tia corporis infiniti est, &amp; corpus 
+      <lb ed="#P" n="22"/>potentiae infinitae est infinitum, et
+      <lb ed="#P" n="23"/>omnino mouens infinitum. Et iam
+      <lb ed="#P" n="24"/>diximus in libro de motibus quod 
+      <lb ed="#P" n="25"/>impossibile est quod in aliquo 
+      cor<lb ed="#P" n="26" break="no"/>pore infinito sit potentia finita, 
+      ne<lb ed="#P" n="27" break="no"/>que in finito infinita. Si ergo 
+      cor<lb ed="#P" n="28" break="no"/>pus infinitum potest moueri 
+      natu<lb ed="#P" n="29" break="no"/>raliter, &amp; accidentaliter, erunt rei 
+      <lb ed="#P" n="30"/>infinitae secundum duas potentias.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e2616"> <!-- arist-dc-l1c72-it -->
+         <lb ed="#P" n="75"/>Et etiam quod mouet corpus in 
+      <lb ed="#P" n="76"/>finitum, aut est animatum, aut non 
+      <lb ed="#P" n="77"/>Et, si est animatum, quo modo erit,
+      <lb ed="#P" n="78"/>animal infinitum Et Et, si mouens
+      <lb ed="#P" n="79"/>est aliud non animatum, erunt duo in 
+      <lb ed="#P" n="80"/>finita, mouens s. &amp; motum, sed 
+      dif<lb ed="#P" n="81" break="no"/>ferunt in forma propter potentiae.
+  </p>
+      <p xml:id="aaaadc-gfdsss-d1e2636"> <!-- arist-dc-l1c73-it -->
+         <lb ed="#P" n="47"/>Et etiam, si corpus totius non 
+      fue<lb ed="#P" n="48" break="no"/>rit continuum, &amp; fuerit discretum,
+      <lb ed="#P" n="49"/>separatarum partium, vt 
+      Demo<lb ed="#P" n="50" break="no"/>critus, &amp; Leucippus dicebant, 
+      ne<lb ed="#P" n="51" break="no"/>cessario erunt motus omnium partium
+      <lb ed="#P" n="52"/>totius consimiles. discretio enim, et
+      <lb ed="#P" n="53"/>separatio earum est per figuras 
+      ea<lb ed="#P" n="54" break="no"/>rum, natura autem est eadem: 
+      si<lb ed="#P" n="55" break="no"/>cut aurum est separatum in parti
+      <lb ed="#P" n="56"/>bus diuersarum figurarum, &amp; 
+      om<lb ed="#P" n="57" break="no"/>nes partes sunt aureae. Si ergo 
+      na<lb ed="#P" n="58" break="no"/>tura omnium partium est eadem, erut
+      <lb ed="#P" n="59"/>motus etiam omnes e rum iidem 
+      neces<lb ed="#P" n="60" break="no"/>sario: sicut diximus superius quod 
+      <lb ed="#P" n="61"/>quo mouetur gleba, &amp; tota terra: 
+      <lb ed="#P" n="62"/>&amp; quo mouetur scintilla, &amp; totus
+      <lb ed="#P" n="63"/>ignis. manifestum est igitur etiam.
+      <lb ed="#P" n="64"/>quod, si haec corpora omnia fuerint
+      <lb ed="#P" n="65"/>discreta grauia, nihil erit in eis 
+      le<lb ed="#P" n="66" break="no"/>ue. &amp;, si omnia fuerint leuia, nihil 
+      <lb ed="#P" n="67"/>erit in eis graue.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e2682"> <!-- arist-dc-l1c74-it -->
+         <lb ed="#P" n="69"/>Et etiam, si corpus infinitum autm
+      <lb ed="#P" n="70"/>est graue, aut leue, est ergo autem in 
+      <lb ed="#P" n="71"/>orizonte totius, aut in eius medio.
+      <lb ed="#P" n="72"/>quod est impossibile, quoniam est
+      <lb ed="#P" n="73"/>corpus infinitum. &amp; omne corpus, cares
+      <lb ed="#P" n="74"/>medio, caret orzzonte: ideo neque
+      <lb ed="#P" n="75"/>quidam eius erit superius, &amp; 
+      qui<lb ed="#P" n="76" break="no"/>dam inferius. &amp;, cum ita sit, 
+      nul<lb ed="#P" n="77" break="no"/>lus locus erit motus corporum. &amp; 
+      <lb ed="#P" n="78"/>cum non habent locum, non 
+      ha<lb ed="#P" n="79" break="no"/>bent motum omnino. corpora enim
+      <lb ed="#P" n="80"/>mouentur, aut naturaliter aut
+      <lb ed="#P" n="81"/>accidentaliter necessario, &amp; sunt
+      <lb ed="#P" n="82"/>in suis locis terminata, &amp; in aliis,
+      <lb ed="#P" n="83"/>locis etiam.
+  </p>
+      <p xml:id="aaaadc-gfdsss-d1e2715"> <!-- arist-dc-l1c75-it -->
+         <lb ed="#P" n="51"/>Et dicamus quod, si aliquod 
+      insto<lb ed="#P" n="52" break="no"/>rum corporum separatorum fuerit 
+      fi<lb ed="#P" n="53" break="no"/>xum, aut vadens ad aliquem locum
+      <lb ed="#P" n="54"/>accidentaliter, hoc accidens erit 
+      na<lb ed="#P" n="55" break="no"/>turale alteri corpori. &amp; 
+      verifica<lb ed="#P" n="56" break="no"/>tio illius est, quoniam iste sermo 
+      com<lb ed="#P" n="57" break="no"/>uertitur. dicamus igitur, quod 
+      om<lb ed="#P" n="58" break="no"/>nia corpora non sunt leuia tatum, 
+      <lb ed="#P" n="59"/>&amp; grauia, sed quaedam grauia,
+      <lb ed="#P" n="60"/>&amp; quaedam leuia. Manifestum est
+      <lb ed="#P" n="61"/>igitur ex propositionibus, &amp; 
+      sillo<lb ed="#P" n="62" break="no"/>gismis, quos diximus, quod corpus 
+      <lb ed="#P" n="63"/>totius habet finem, &amp; quod 
+      impos<lb ed="#P" n="64" break="no"/>sibile est esse infinitum.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e2746"> <!-- arist-dc-l1c76-it -->
+         <lb ed="#P" n="68"/>Modo igitur volumus 
+      perscru<lb ed="#P" n="69" break="no"/>tari vtrum coeli sunt plures, ut 
+      pro<lb ed="#P" n="70" break="no"/>misimus. Omnia enim corpora autem 
+      mo<lb ed="#P" n="71" break="no"/>uentur, aut stant. si mouentur, aut
+      <lb ed="#P" n="72"/>naturaliter, aut violente. si stant
+      <lb ed="#P" n="73"/>similiter, aut naturaliter, aut 
+      vio<lb ed="#P" n="74" break="no"/>lente. &amp; etiam ad locum: in 
+      quo<lb ed="#P" n="75" break="no"/>corpus stat non violente, mouetur
+      <lb ed="#P" n="76"/>non violente: &amp; in loco, in quo 
+      mo<lb ed="#P" n="77" break="no"/>uetur non violente, stat non 
+      violen<lb ed="#P" n="78" break="no"/>te. &amp; etiam, si iste motus fuerit 
+      vio<lb ed="#P" n="79" break="no"/>lentus, contrarium eius erit naturale.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e2808"> <!-- arist-dc-l1c77-it -->
+         <lb ed="#P" n="55"/>Et etiam, si terra, quae est 
+      extra<lb ed="#P" n="56" break="no"/>istum mundum, mouetur ad 
+      me<lb ed="#P" n="57" break="no"/>dium istius mundi violente, 
+      moue<lb ed="#P" n="58" break="no"/>bitur a medio istius mundi ad 
+      il<lb ed="#P" n="59" break="no"/>lud medium naturaliter: &amp;, si 
+      mo<lb ed="#P" n="60" break="no"/>tus eius a medio istius mudi ad 
+      me<lb ed="#P" n="61" break="no"/>dium illius mundi fuerit violentus,
+      <lb ed="#P" n="62"/>erit motus eius a medio illius 
+      mu<lb ed="#P" n="63" break="no"/>di ad medium istius naturalis.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e2839"> <!-- arist-dc-l1c78-it -->
+         <lb ed="#P" n="57"/>Et etiam, si coeli, &amp; 
+      mundifue<lb ed="#P" n="58" break="no"/>rint plures, sunt ex partibus 
+      consi<lb ed="#P" n="59" break="no"/>milibus in natura necessario. Et 
+      po<lb ed="#P" n="60" break="no"/>tentia cuius libet corporis eorum 
+      al<lb ed="#P" n="61" break="no"/>similatur adiuicem scilicet ignis, terrae,
+      <lb ed="#P" n="62"/>&amp; eorum, quae sunt inter ea. 
+      poten<lb ed="#P" n="63" break="no"/>tia enim illius ignis assimilatur,
+      <lb ed="#P" n="64"/>potentiae istius, &amp; potentia 
+      terrae<lb ed="#P" n="65" break="no"/>illius assimilatur potentiae istius.
+      <lb ed="#P" n="66"/>Si ergo corpora mundorum plurium
+      <lb ed="#P" n="67"/>non fuerint hmoi, erunt partes 
+      con<lb ed="#P" n="68" break="no"/>porum illorum mudorum similes 
+      par<lb ed="#P" n="69" break="no"/>tibus istius mundi totius nomine
+      <lb ed="#P" n="70"/>tatum, non forma. Si igitur ita sit,
+      <lb ed="#P" n="71"/>erit etiam totum simile. smundus
+      <lb ed="#P" n="72"/>illi similis nonte, non in forma. Et, si
+      <lb ed="#P" n="73"/>corpora mudorum sunt similia ad
+      <lb ed="#P" n="74"/>luicem, sicut diximus superius quod 
+      <lb ed="#P" n="75"/>ille ignis as similatur isti, &amp; 
+      simi<lb ed="#P" n="76" break="no"/>liter de aliis corporibus, 
+      manife<lb ed="#P" n="77" break="no"/>stum est quod quaedam eorum 
+      mo<lb ed="#P" n="78" break="no"/>uentur ad medium, &amp; quaedam a
+      <lb ed="#P" n="79"/>medio. Et iam declarauimus hoc,
+      <lb ed="#P" n="80"/>cum posuimus motus corporum, et
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0112.xml-->
+      <pb ed="#P" n="52-v"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>determinauimus ipsos, &amp; 
+      dixi<lb ed="#P" n="2" break="no"/>mus quod necessario motus omnium
+      <lb ed="#P" n="3"/>corporum sunt finiti¬
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e2896"> <!-- arist-dc-l1c79-it -->
+         <lb ed="#P" n="28"/>Si igitur vnumquodque, 
+      elemen<lb ed="#P" n="29" break="no"/>torum dicatur habere alique motum.
+      <lb ed="#P" n="30"/>dicamus quod, si motus corporum
+      <lb ed="#P" n="31"/>omnium mudorum fuerint iidem,
+      <lb ed="#P" n="32"/>erunt elementa omnium mundor un 
+      <lb ed="#P" n="33"/>eadem necessario. Et, si ita sit, erit
+      <lb ed="#P" n="34"/>terra illius mundi mobilis ad 
+      me<lb ed="#P" n="35" break="no"/>dium istius mundi, &amp; ignis illius
+      <lb ed="#P" n="36"/>mundi ad superius istius mudi 
+      mo<lb ed="#P" n="37" break="no"/>bilis. et hoc est impossibile. quonia,
+      <lb ed="#P" n="38"/>si motus ignis, &amp; terrae, qui sunt
+      <lb ed="#P" n="39"/>in illo mundo, sunt, sicut narraui¬
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0113.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="40"/>mus, tunc mouebitur terra ad supe
+      <lb ed="#P" n="41"/>rius necessario, quia mouetur 
+      desi<lb ed="#P" n="42" break="no"/>derans ad suum mundum, &amp; ignis
+      <lb ed="#P" n="43"/>mouebitur ad medium. &amp; 
+      simili<lb ed="#P" n="44" break="no"/>ter erit motus istius terrae ab isto
+      <lb ed="#P" n="45"/>medio ad illud medium motu 
+      natu<lb ed="#P" n="46" break="no"/>rali: media enim, &amp; extrema 
+      mun<lb ed="#P" n="47" break="no"/>dorum similia sunt adinuicem.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e2931"> <!-- arist-dc-l1c80-it -->
+         <lb ed="#P" n="73"/>Si igitur mundi non fuerint 
+      huius<lb ed="#P" n="74" break="no"/>modi, non erunt naturae corporum
+      <lb ed="#P" n="75"/>simplicium, quae sunt in coelis, &amp; 
+      in<lb ed="#P" n="76" break="no"/>pluribus mundis, eaedem. Si igitur,
+      <lb ed="#P" n="77"/>fuerint huiusmodi, erit natura 
+      cor<lb ed="#P" n="78" break="no"/>poris eadem, &amp; concedunt dicetes
+      <lb ed="#P" n="79"/>mundos esse plures hoc necessario,
+      <lb ed="#P" n="80"/>si posuerint medium, &amp; orizonta
+      <lb ed="#P" n="81"/>esse vnum scilicet quod medium omnium
+      <lb ed="#P" n="82"/>mudorum, &amp; orizon omnium mudorum
+      <lb ed="#P" n="83"/>sint eadem. &amp;, cu ita sit, impossibile.
+      <lb ed="#P" n="84"/>est quod mundi sint plures vno.
+  </p>
+      <p xml:id="aaaadc-gfdsss-d1e2949"> <!-- arist-dc-l1c81-it -->
+         <lb ed="#P" n="74"/>Si ergo aliquis dixerit quod 
+      na<lb ed="#P" n="75" break="no"/>tura corporum simplicium, quae sunt
+      <lb ed="#P" n="76"/>in pluribus mundis, est diuersa 
+      se<lb ed="#P" n="77" break="no"/>cundum eorum remotionem a locis 
+      eo<lb ed="#P" n="78" break="no"/>rum secundum magis, &amp; minus, 
+      di<lb ed="#P" n="79" break="no"/>cemus quod hic sermo est extra non 
+      <lb ed="#P" n="80"/>mam. corpus enim, cu remoueatur,
+      <lb ed="#P" n="81"/>a suo loco, parui, vel multum, non 
+      di<lb ed="#P" n="82" break="no"/>uersatur in sua forma omnino, sed 
+      <lb ed="#P" n="83"/>solumodo in quatitate remotionis: in
+      <lb ed="#P" n="84"/>forma aut non, siue appropinquet
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0116.xml-->
+      <pb ed="#P" n="54-v"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>suo loco, siue remoueatur. sed, si 
+      ap<lb ed="#P" n="2" break="no"/>propinquauerit, aut remoueatur,
+      <lb ed="#P" n="3"/>omnino mouebuntur: &amp; motus 
+      eo<lb ed="#P" n="4" break="no"/>rum sunt manifesti, &amp; hoc non 
+      in<lb ed="#P" n="5" break="no"/>diget disputatione.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e3035"> <!-- arist-dc-l1c83-it -->
+         <lb ed="#P" n="3"/>Si ergo aliquis dixerit quod 
+      cor<lb ed="#P" n="4" break="no"/>pora, quae sunt in mundis, scilicet
+      <lb ed="#P" n="5"/>terra, &amp; alia elementa sunt eadem
+      <lb ed="#P" n="6"/>in forma, in numero autem plura,
+      <lb ed="#P" n="7"/>quoniam non assimilantur 
+      adinui<lb ed="#P" n="8" break="no"/>tem, neque, vniuersum vniuerso, sed 
+      <lb ed="#P" n="9"/>assimilantur adinuicem, sciliet quod 
+      <lb ed="#P" n="10"/>partes istius mudi sunt similes 
+      par<lb ed="#P" n="11" break="no"/>tibus illius, &amp; similiter partes 
+      cae<lb ed="#P" n="12" break="no"/>terorum mundorum. quapropter non 
+      <lb ed="#P" n="13"/>diuersantur in forma, sed in nume
+      <lb ed="#P" n="14"/>ro tantum. ignis enim istius mundi 
+      <lb ed="#P" n="15"/>est alius ab igne illius mudi in 
+      nu<lb ed="#P" n="16" break="no"/>mero. &amp;, cum corpora mundorum
+      <lb ed="#P" n="17"/>differunt in numero, differunt etia
+      <lb ed="#P" n="18"/>ilocis: quonia partes corporis istius
+      <lb ed="#P" n="19"/>sunt similes partibus corporis illius
+      <lb ed="#P" n="20"/>mundi, &amp; eaedem in forma. v.g
+      <lb ed="#P" n="21"/>auoniam partes istius terrae 
+      assimi<lb ed="#P" n="22" break="no"/>iantur terrae alterius mundi.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e3066"> <!-- arist-dc-l1c84-it -->
+         <lb ed="#P" n="44"/>Si igitur diuersitas corporum in 
+      <lb ed="#P" n="45"/>numero esset causa diuersitatis 
+      lo<lb ed="#P" n="46" break="no"/>corum, oporteret vt partes istius
+      <lb ed="#P" n="47"/>terrae diuersae in numero, &amp; 
+      graui<lb ed="#P" n="48" break="no"/>tate: quod quodlibet corpus 
+      corpo<lb ed="#P" n="49" break="no"/>rum eius haberet medium, quo 
+      va<lb ed="#P" n="50" break="no"/>dit. quod est impossibile.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e3090"> <!-- arist-dc-l1c85-it -->
+         <lb ed="#P" n="4"/>Si ergo contradicens non poterit
+      <lb ed="#P" n="5"/>contraedicere istis sermonibus, &amp; 
+      <lb ed="#P" n="6"/>ationibus, necessario est medium
+      <lb ed="#P" n="7"/>vnum, &amp; vnus orizon. si ergo 
+      me<lb ed="#P" n="8" break="no"/>dium fuerit vnum, &amp; orizon vnus,
+      <lb ed="#P" n="9"/>&amp; coelum etiam erit vnum etia per 
+      <lb ed="#P" n="10"/>istos sermones, &amp; necessitates.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e3114"> <!-- arist-dc-l1c86-it -->
+         <lb ed="#P" n="50"/>Et etiam terra mouetur ad 
+      ali<lb ed="#P" n="51" break="no"/>quem locum, &amp; ignis etiam vadit,
+      <lb ed="#P" n="52"/>ad aliquem locum, &amp; hoc manifestum
+      <lb ed="#P" n="53"/>est. omne eni mobile alteratur 
+      ab<lb ed="#P" n="54" break="no"/>aliquo in aliquid, alterationes aut
+      <lb ed="#P" n="55"/>diuersantur secundum forma, 
+      for<lb ed="#P" n="56" break="no"/>ma enim, ex quae corpus mouetus
+      <lb ed="#P" n="57"/>ad aliam, diuersatur, &amp; omnis 
+      alte<lb ed="#P" n="58" break="no"/>ratio habet finem. v. g. sanabile enim
+      <lb ed="#P" n="59"/>alteratur ex infirmitate ad 
+      sanita<lb ed="#P" n="60" break="no"/>tem, &amp; similiter augmentabile 
+      al<lb ed="#P" n="61" break="no"/>teratur ex paruitatem ad 
+      magnitu<lb ed="#P" n="62" break="no"/>dinem, &amp; similiter mobile 
+      locali<lb ed="#P" n="63" break="no"/>ter alteratur ex quibusdam locis 
+      di<lb ed="#P" n="64" break="no"/>uersis in forma ad quaedam, &amp; non
+      <lb ed="#P" n="65"/>vadit nisi ad locum, qui est finis, non 
+      <lb ed="#P" n="66"/>ad alterum. v. g quia corpus 
+      sana<lb ed="#P" n="67" break="no"/>bile mouetur neque, per 
+      transmuta<lb ed="#P" n="68" break="no"/>tionem, neque, vbicunque, voluerit 
+      mo<lb ed="#P" n="69" break="no"/>uens. sed vbi est finis motus, 
+      scili<lb ed="#P" n="70" break="no"/>cet sanitas. &amp;, cum ita sit, 
+      contin<lb ed="#P" n="71" break="no"/>git quod motus terrae, &amp; ignis non 
+      <lb ed="#P" n="72"/>sint in infinitum, sed ad fine, scilicet
+      <lb ed="#P" n="73"/>ad loca diuersa illis locis, ex quibus
+      <lb ed="#P" n="74"/>mouentur. locus enim superior est
+      <lb ed="#P" n="75"/>diuersus ab inferiori: &amp; ista duo 
+      lo<lb ed="#P" n="76" break="no"/>ca sunt orizontes motuum.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e3169"> <!-- arist-dc-l1c87-it -->
+         <lb ed="#P" n="25"/>Et etiam secundum alique 
+      mo<lb ed="#P" n="26" break="no"/>dum est in motu circulari 
+      contrarie<lb ed="#P" n="27" break="no"/>tas per diuersitatem scilicet motus, 
+      exi<lb ed="#P" n="28" break="no"/>stentis in diametro circuli, motus 
+      <lb ed="#P" n="29"/>autem totius circuli non habet 
+      con<lb ed="#P" n="30" break="no"/>trarium omnino. manifestum igitur
+      <lb ed="#P" n="31"/>est quod motus partium reuolutio
+      <lb ed="#P" n="32"/>nis sunt ad loca diuersa finita. Veri
+      <lb ed="#P" n="33"/>ficatum est modo sermonibus 
+      nece<lb ed="#P" n="34" break="no"/>sariis quod motus omnium 
+      corpori<lb ed="#P" n="35" break="no"/>habent finem, &amp; quod non vadut
+      <lb ed="#P" n="36"/>ad infinitum.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e3189"> <!-- arist-dc-l1c88-it -->
+         <lb ed="#P" n="14"/>Et signum quod mouens non 
+      mo<lb ed="#P" n="15" break="no"/>uetur in infinitum, est terra. 
+      terra<lb ed="#P" n="16" break="no"/>enim quantumcunque, 
+      appropinqua<lb ed="#P" n="17" break="no"/>uerit medio, citius mouetur: 
+      simi<lb ed="#P" n="18" break="no"/>liter ignis, quanto magis ad 
+      supe<lb ed="#P" n="19" break="no"/>rius, tanto citius mouetur. si igitur
+      <lb ed="#P" n="20"/>motus esset in infinitum, velocitas
+      <lb ed="#P" n="21"/>esset in infinitum. si igitur 
+      veloci<lb ed="#P" n="22" break="no"/>tas esset secundum hoc, grauitas, et
+      <lb ed="#P" n="23"/>leuitas secudum hoc essent, scilicet in 
+      infi<lb ed="#P" n="24" break="no"/>nitum. &amp; sicut eorum, quae ad 
+      info<lb ed="#P" n="25" break="no"/>rius mouentur, quaedam mouentur
+      <lb ed="#P" n="26"/>citius secundum diuersitatem in 
+      gra<lb ed="#P" n="27" break="no"/>uitate, ita esset, si additio 
+      grauita<lb ed="#P" n="28" break="no"/>tis esset in infinitum, esset additio
+      <lb ed="#P" n="29"/>velocitatis in infinitum.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e3227"> <!-- arist-dc-l1c89-it -->
+         <lb ed="#P" n="23"/>Et etiam corpus vadens ad su¬.
+      <lb ed="#P" n="24"/>perius, &amp; corpus vadens ad 
+      infe<lb ed="#P" n="25" break="no"/>rius non vadunt ex alio mouente vio
+      <lb ed="#P" n="26"/>lente, sicut inquiunt quidam 
+      homi<lb ed="#P" n="27" break="no"/>nes quod elementa mouetur per 
+      com<lb ed="#P" n="28" break="no"/>strictionem. &amp;, si ita esset, motus 
+      <lb ed="#P" n="29"/>ignis magni esset tardus ad 
+      supe<lb ed="#P" n="30" break="no"/>rius, &amp; motus terrae magnae ad 
+      in<lb ed="#P" n="31" break="no"/>ferius. sed videmus contrarium ignis
+      <lb ed="#P" n="32"/>eni magnus citius mouetur ad 
+      suu<lb ed="#P" n="33" break="no"/>locum. Et etiam, si motus 
+      elemen<lb ed="#P" n="34" break="no"/>torum esset cum constrictione, non 
+      <lb ed="#P" n="35"/>esset motus terrae: &amp; ignis, cum 
+      ap<lb ed="#P" n="36" break="no"/>propinquauerint suis locis, uelocior. 
+      <lb ed="#P" n="37"/>omne enim quod a suo expellente 
+      ro<lb ed="#P" n="38" break="no"/>mouetur, tarde mouetur. &amp; dice¬
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0123.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="39"/>mus quod ad locum, ex quo 
+      elemen<lb ed="#P" n="40" break="no"/>ta mouentur violente, mouentur
+      <lb ed="#P" n="41"/>naturaliter.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e3260"> <!-- arist-dc-l1c90-it -->
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0124.xml-->
+         <cb ed="#P" n="b"/>
+         <lb ed="#P" n="43"/>Oportet ergo aspicientem in istis 
+      <lb ed="#P" n="44"/>rtebus, &amp; quaerentem eas cocede 
+      re<lb ed="#P" n="45" break="no"/>hoc, quod diximus ex istis 
+      opinioni<lb ed="#P" n="46" break="no"/>bus, &amp; propositionibus concessione
+      <lb ed="#P" n="47"/>non dubia. &amp; quod sit sufficiens, et
+      <lb ed="#P" n="48"/>contentus sermonibus Physicis 
+      pri<lb ed="#P" n="49" break="no"/>mis, quos scripsimus. quonia scripsi
+      <lb ed="#P" n="50"/>mus iam illic, et diximus quod 
+      mo<lb ed="#P" n="51" break="no"/>tus circularis vnus est, sine 
+      princi<lb ed="#P" n="52" break="no"/>pio, &amp; sine fine, siue sit in hoc 
+      mun<lb ed="#P" n="53" break="no"/>do, siue in aliis mundis. Et deinde
+      <lb ed="#P" n="54"/>inuenimus ex isto motu quod coelum
+      <lb ed="#P" n="55"/>est vnum, &amp; mudus est vnus 
+      necessa<lb ed="#P" n="56" break="no"/>rio, &amp; non plures, vt alii inquiut.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e3295"> <!-- arist-dc-l1c91-it -->
+         <lb ed="#P" n="20"/>Modo autem dicamus quod ele
+      <lb ed="#P" n="21"/>menta particularia sunt tria, ergo
+      <lb ed="#P" n="22"/>&amp; loca eorum sunt tria. Quorum 
+      <lb ed="#P" n="23"/>vnus est locus corporis 
+      descendenti<lb ed="#P" n="24" break="no"/>ad inferius, quod est in medio. Et 
+      lo<lb ed="#P" n="25" break="no"/>cus secundus est corporis rotundi, et
+      <lb ed="#P" n="26"/>est vltimum. Et locus tertius est 
+      me<lb ed="#P" n="27" break="no"/>dius inter ista duo loca, &amp; est 
+      cor<lb ed="#P" n="28" break="no"/>pus leue, existens in isto loco 
+      neces<lb ed="#P" n="29" break="no"/>sario. quoniam, si non fuerit in ist
+      <lb ed="#P" n="30"/>loco, erit i alio loco extra praedicta,
+      <lb ed="#P" n="31"/>quod est impossible. Si ergo locus 
+      me<lb ed="#P" n="32" break="no"/>dius fuerit accidentalis corpori 
+      le<lb ed="#P" n="33" break="no"/>ui, erit naturalis alii corpori: sed 
+      <lb ed="#P" n="34"/>nullum corpus est praeter ista 
+      tria<lb ed="#P" n="35" break="no"/>corpora. &amp;, cum ita sit, erit locus
+      <lb ed="#P" n="36"/>istius corporis medius locorum 
+      ne<lb ed="#P" n="37" break="no"/>cessario. &amp; nos dicemus post 
+      diuer<lb ed="#P" n="38" break="no"/>sitatem istius corporis. Iam ergo de¬
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0126.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="39"/>clarauimus qualitatem 
+      elemento<lb ed="#P" n="40" break="no"/>rum particularium, &amp; etia quan 
+      <lb ed="#P" n="41"/>titatem locorum, &amp; numerum, &amp; 
+      <lb ed="#P" n="42"/>pefecte, &amp; sufficienter. Volumus
+      <lb ed="#P" n="43"/>dicere modo quod mudus est vnus,
+      <lb ed="#P" n="44"/>&amp; non est possbile quod sint 
+      multi<lb ed="#P" n="45" break="no"/>mundi, &amp; ostendam iterum quod 
+      <lb ed="#P" n="46"/>sempiternus est, &amp; non est factus
+      <lb ed="#P" n="47"/>ex aliqua re, &amp; non cadit sub 
+      cor<lb ed="#P" n="48" break="no"/>ruptione. sed volumus, antequam 
+      <lb ed="#P" n="49"/>declaremus hoc, quaerere, &amp; 
+      per<lb ed="#P" n="50" break="no"/>scrutari de hoc.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e3378"> <!-- arist-dc-l1c92-it -->
+         <lb ed="#P" n="57"/>Potest enim aliquis quaerere, et
+      <lb ed="#P" n="58"/>dicere quod impossibile est mundum
+      <lb ed="#P" n="59"/>esse vnum. Omnia enim quae sunt
+      <lb ed="#P" n="60"/>ex natura, aut arte, dispositio in eis
+      <lb ed="#P" n="61"/>formae solius est alia a sua 
+      disposi<lb ed="#P" n="62" break="no"/>tione cum materia. v. g. orbis. forma
+      <lb ed="#P" n="63"/>enim orbis secundum suam 
+      disposi<lb ed="#P" n="64" break="no"/>tionem est alia, cum fuerit cum 
+      cu<lb ed="#P" n="65" break="no"/>pro, &amp; auro. &amp; forma 
+      circulatio<lb ed="#P" n="66" break="no"/>nis est alia a cuprea, vel aurea. cum
+      <lb ed="#P" n="67"/>enim diximus rotunditatem, non 
+      col<lb ed="#P" n="68" break="no"/>locatur in ea cuprum, aut aurum,
+      <lb ed="#P" n="69"/>quonia non est substantiae auri, neque,
+      <lb ed="#P" n="70"/>cupri. si ergo diximus rotuditatem
+      <lb ed="#P" n="71"/>auream, aut cupream, tunc induce
+      <lb ed="#P" n="72"/>mus forma cum materia insimul.
+      <lb ed="#P" n="73"/>si autem diximus tantum rotundi 
+      <lb ed="#P" n="74"/>tatem, non manifestabitur omnino
+      <lb ed="#P" n="75"/>materia: orbeitate enim possibile
+      <lb ed="#P" n="76"/>est esse in diuersis materiis. cum igi
+      <lb ed="#P" n="77"/>tur dixerimus orbeitate, aut rotun
+      <lb ed="#P" n="78"/>ditate non intelligemus, nisi formam
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0129.xml-->
+      <pb ed="#P" n="61-r"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>tantum. &amp;, cum dixerimus rotum.
+      <lb ed="#P" n="2"/>dum, intelligemus formam cum 
+      ma<lb ed="#P" n="3" break="no"/>teria. &amp; sic debet esse in quolibet.
+      <lb ed="#P" n="4"/>Et, cum ita sit: &amp; coelum sit 
+      sensi<lb ed="#P" n="5" break="no"/>bile: ergo est pars partium mundi: 
+      <lb ed="#P" n="6"/>&amp; omne sensibile est sensibile per 
+      <lb ed="#P" n="7"/>materiam. si ergo coelum est vnu
+      <lb ed="#P" n="8"/>particularium: cum ergo diximus
+      <lb ed="#P" n="9"/>coelum simpliciter, est aliud, quam 
+      <lb ed="#P" n="10"/>cum diximus hoc coelum. Coelum
+      <lb ed="#P" n="11"/>ergo simpliciter est forma sola. hoc
+      <lb ed="#P" n="12"/>autem coelum est forma cum 
+      ma<lb ed="#P" n="13" break="no"/>teria. omne enim habens formam
+      <lb ed="#P" n="14"/>&amp; figuram, aut est plura, aut 
+      pos<lb ed="#P" n="15" break="no"/>sibile esse plura. Et iste sermo sequi
+      <lb ed="#P" n="16"/>tur sermonem de exemplari mun
+      <lb ed="#P" n="17"/>di: sicut dicunt quidam quod 
+      mun<lb ed="#P" n="18" break="no"/>dus habet exemplar aeternum apud
+      <lb ed="#P" n="19"/>creatorem. &amp; etiam testificatur,
+      <lb ed="#P" n="20"/>iste sermo, cum mundus non 
+      habuti<lb ed="#P" n="21" break="no"/>exemplar. v. g, quia nos videmus
+      <lb ed="#P" n="22"/>quod omne, quod est forma in 
+      ma<lb ed="#P" n="23" break="no"/>teria, habet plures partes 
+      consimi<lb ed="#P" n="24" break="no"/>les infinitas, manifestum est igitur
+      <lb ed="#P" n="25"/>ex hoc sermone quod coeli autem sunt
+      <lb ed="#P" n="26"/>plures, aut pos sibile est esse plures.
+      <lb ed="#P" n="27"/>Ex his igitur opinionibus, &amp; 
+      pro<lb ed="#P" n="28" break="no"/>positioibus potest aliquis existima
+      <lb ed="#P" n="29"/>re, &amp; dicere quod coeli sunt 
+      multi<lb ed="#P" n="30" break="no"/>aut possibile est vt sint multi.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e3495"> <!-- arist-dc-l1c93-it -->
+         <lb ed="#P" n="56"/>Oportet igitur nos, cum 
+      sollici<lb ed="#P" n="57" break="no"/>tudo nostra est circa hanc 
+      intentio<lb ed="#P" n="58" break="no"/>nem, quaererede his opinionibus, do
+      <lb ed="#P" n="59"/>nec sciamus quid eorum est rectum,
+      <lb ed="#P" n="60"/>&amp; quid non. Dicamus modo, 
+      quia<lb ed="#P" n="61" break="no"/>bene dixit dicens quod aliquod 
+      se<lb ed="#P" n="62" break="no"/>cudum formam sua tantues aliud
+      <lb ed="#P" n="63"/>quam secundum suam forma, &amp; 
+      ma<lb ed="#P" n="64" break="no"/>teriam. &amp; istae est sermo rectus 
+      si<lb ed="#P" n="65" break="no"/>ne contradictione: sed tamen 
+      coeli<lb ed="#P" n="66" break="no"/>non sunt plures propter hoc: neque
+      <lb ed="#P" n="67"/>possibile est vt sint multi propter
+      <lb ed="#P" n="68"/>huc sermonem. coelum enim factum
+      <lb ed="#P" n="69"/>est ex tota materia.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e3526"> <!-- arist-dc-l1c94-it -->
+         <lb ed="#P" n="47"/>Et nos inducemus exemplum, vt
+      <lb ed="#P" n="48"/>sermo noster sit magis declinans
+      <lb ed="#P" n="49"/>&amp; propinquior manifestationi. Di
+      <lb ed="#P" n="50"/>camus ergo quod si simitas est 
+      pro<lb ed="#P" n="51" break="no"/>funditas in naso, aut in carne, ergo
+      <lb ed="#P" n="52"/>simitas est forma in carne. si igitur,
+      <lb ed="#P" n="53"/>formetur ex tota carne vna caro: 
+      <lb ed="#P" n="54"/>iqua sit simitas, nullum aliud 
+      me<lb ed="#P" n="55" break="no"/>brum erit membrorum corporis 
+      si<lb ed="#P" n="56" break="no"/>mum, nisi illa caro tantum, &amp; im
+      <lb ed="#P" n="57"/>possibile est esse in alio loco 
+      omni<lb ed="#P" n="58" break="no"/>no. &amp; similiter, si materia 
+      homi<lb ed="#P" n="59" break="no"/>nis fuerit caro, &amp; os, tunc homo de
+      <lb ed="#P" n="60"/>bet esse totaliter ex carne, &amp; 
+      ossi<lb ed="#P" n="61" break="no"/>bus. si ergo impossibile fuerit vt 
+      ca<lb ed="#P" n="62" break="no"/>ro, &amp; ossa non dissoluantur, neque
+      <lb ed="#P" n="63"/>diminuantur, impossibile est etiam
+      <lb ed="#P" n="64"/>alium hominem esse omnino. &amp; 
+      si<lb ed="#P" n="65" break="no"/>militer de omnibus aliis. &amp; vniuer
+      <lb ed="#P" n="66"/>saliter ex omni substantia, 
+      compo<lb ed="#P" n="67" break="no"/>sita ex materia, impossibile est 
+      in<lb ed="#P" n="68" break="no"/>ueniri ex ea sibi similis, nisi 
+      fueri<lb ed="#P" n="69" break="no"/>alia materia similis materiae, ex
+      <lb ed="#P" n="70"/>qua componebatur.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e3571"> <!-- arist-dc-l1c95-it -->
+         <lb ed="#P" n="24"/>Reuertamur igitur, &amp; 
+      dica<lb ed="#P" n="25" break="no"/>mus quod coelum est vnum 
+      compo<lb ed="#P" n="26" break="no"/>situm ex sua materia, sicut alia 
+      cor<lb ed="#P" n="27" break="no"/>pora composita. &amp; si non fuerit 
+      con<lb ed="#P" n="28" break="no"/>positum ex medietate suae materiae,
+      <lb ed="#P" n="29"/>sed ex tota, erit tunc vnum, non 
+      plu<lb ed="#P" n="30" break="no"/>res. &amp; secundum hoc, cum dicitur
+      <lb ed="#P" n="31"/>coelum absolute, est aliud, quam 
+      <lb ed="#P" n="32"/>cum dicitur hoc coelum 
+      impossibi<lb ed="#P" n="33" break="no"/>le est igitur secundum hunc sermo
+      <lb ed="#P" n="34"/>nem, vt sint plures coeli, neque, sint
+      <lb ed="#P" n="35"/>plures omnino. hoc enim coelum 
+      co<lb ed="#P" n="36" break="no"/>tinet totam materiam, ex qua fit.
+      <lb ed="#P" n="37"/>Remanet ergo nobis vltimo 
+      decla<lb ed="#P" n="38" break="no"/>rare de coelo quod sua essentia sit
+      <lb ed="#P" n="39"/>composita ex toto corpore 
+      natura<lb ed="#P" n="40" break="no"/>li sensibili.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e3600"> <!-- arist-dc-l1c96-it -->
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0136.xml-->
+         <pb ed="#P" n="64-v"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>Sed antequam hoc faciamus
+      <lb ed="#P" n="2"/>uolumus hic perscrutari prius quid
+      <lb ed="#P" n="3"/>intendimus, cum dicimus coelum
+      <lb ed="#P" n="4"/>&amp; quot modis dicitur coelum, vt
+      <lb ed="#P" n="5"/>sit illud, quod quaerimus de hoc 
+      ma<lb ed="#P" n="6" break="no"/>gis manifestum. Dicamus ergo
+      <lb ed="#P" n="7"/>quod coelum dicitur vno modo, 
+      vl<lb ed="#P" n="8" break="no"/>timum motus totius, &amp; corpus 
+      na<lb ed="#P" n="9" break="no"/>turale, quod est in vltimo motus 
+      to<lb ed="#P" n="10" break="no"/>tius. assueti sumus igitur 
+      appella<lb ed="#P" n="11" break="no"/>re orizontem mundi, &amp; suum su¬.
+      <lb ed="#P" n="12"/>perius coelum, &amp; dicimus quod 
+      il<lb ed="#P" n="13" break="no"/>lic habitant spiritualia. Dicamus
+      <lb ed="#P" n="14"/>etiam secundum alium modum 
+      coe<lb ed="#P" n="15" break="no"/>lum corpus continuum cum 
+      orizo<lb ed="#P" n="16" break="no"/>te motus totius mundi, vbi sunt
+      <lb ed="#P" n="17"/>Sol, &amp; Luna, &amp; quaedam stellae.
+      <lb ed="#P" n="18"/>consuetudinem igitur habemus 
+      di<lb ed="#P" n="19" break="no"/>cerae quod Sol, &amp; Luna sunt fixi in 
+      <lb ed="#P" n="20"/>coelo. Et etiam coelum dicitur alio
+      <lb ed="#P" n="21"/>modo illud corpus contentum ex 
+      ui<lb ed="#P" n="22" break="no"/>timo motus totius. &amp; assueti etia
+      <lb ed="#P" n="23"/>sumus appellare perfectum, &amp; 
+      to<lb ed="#P" n="24" break="no"/>tum coelum.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e3657"> <!-- arist-dc-l1c97-it -->
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0137.xml-->
+         <cb ed="#P" n="b"/>
+         <lb ed="#P" n="42"/>Cum igitur coelum tribus 
+      mo<lb ed="#P" n="43" break="no"/>dis dicatur. dicamus quod totu 
+      con<lb ed="#P" n="44" break="no"/>tinens ex vltimo motus totius est
+      <lb ed="#P" n="45"/>compositum ex toto corpore 
+      natu<lb ed="#P" n="46" break="no"/>rali, sensibili necessario: extra enim
+      <lb ed="#P" n="47"/>coelum nullum corpus est, neque, est
+      <lb ed="#P" n="48"/>possibile vt sit omnino. Polumus 
+      mo<lb ed="#P" n="49" break="no"/>do perscrutari de hoc etiam, vtrum
+      <lb ed="#P" n="50"/>extra coelum est corpus, aut est 
+      possi<lb ed="#P" n="51" break="no"/>bile vt illic sit corpus. Et dicamus
+      <lb ed="#P" n="52"/>quod, si extra coelum sit corpus, aut
+      <lb ed="#P" n="53"/>est ex corporibus simplicibus, aut
+      <lb ed="#P" n="54"/>ex compositis, aut erit illic 
+      natura<lb ed="#P" n="55" break="no"/>liter, aut accidentaliter. Et 
+      dica<lb ed="#P" n="56" break="no"/>mus quod extra coelum nullum 
+      cor<lb ed="#P" n="57" break="no"/>porum simplicium est omnino. iam
+      <lb ed="#P" n="58"/>enim declarauimus, &amp; diximus
+      <lb ed="#P" n="59"/>superius quod impossibile est 
+      cor<lb ed="#P" n="60" break="no"/>pus rotundum mutare locum suu.
+      <lb ed="#P" n="61"/>Et dicamus etiam quod 
+      impossibi<lb ed="#P" n="62" break="no"/>le est vt illud corpus sit corporum,
+      <lb ed="#P" n="63"/>quae mouentur a medio, neque, ad 
+      me<lb ed="#P" n="64" break="no"/>dium. quoniam, si esset aliquod isto
+      <lb ed="#P" n="65"/>rum corporum, tunc ille locus non 
+      <lb ed="#P" n="66"/>esset naturalis ei. loca igitur 
+      isto<lb ed="#P" n="67" break="no"/>rum corporum simpliciu sunt alia
+      <lb ed="#P" n="68"/>ab illo loco, &amp; sunt cognita, &amp; 
+      ma<lb ed="#P" n="69" break="no"/>nifesta. Si ergo ille locus, qui est 
+      ex<lb ed="#P" n="70" break="no"/>tra coelum, fuerit accidentalis illi
+      <lb ed="#P" n="71"/>corpori, erit naturalis alteri 
+      corpo<lb ed="#P" n="72" break="no"/>ri necessario. diximus enim multo
+      <lb ed="#P" n="73"/>tiens quod, cum aliquis locus 
+      fue<lb ed="#P" n="74" break="no"/>rit accidentalis alicui corpori, 
+      ne<lb ed="#P" n="75" break="no"/>cessario erit naturalis alii. sed non 
+      <lb ed="#P" n="76"/>videmus aliud corpus ab istis 
+      cor<lb ed="#P" n="77" break="no"/>poribus simplicibus sa corpore ro¬
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0138.xml-->
+      <pb ed="#P" n="65-v"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>tundo, &amp; a corpore, quod vadit ad
+      <lb ed="#P" n="2"/>medium, &amp; a medio. Et, cum ita
+      <lb ed="#P" n="3"/>sit, impossibile est vt aliquod 
+      cor<lb ed="#P" n="4" break="no"/>pus corporum simplicium sit 
+      extra<lb ed="#P" n="5" break="no"/>coelum. &amp;, cum hoc est 
+      impossibi<lb ed="#P" n="6" break="no"/>le, impossibile est etiam quod illis
+      <lb ed="#P" n="7"/>sit aliquod corporum compositorum.
+      <lb ed="#P" n="8"/>quoniam, cum aliquod corpus 
+      com<lb ed="#P" n="9" break="no"/>positum fuerit, necessario erunt 
+      il<lb ed="#P" n="10" break="no"/>sic corpora simplicia.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e3733"> <!-- arist-dc-l1c98-it -->
+         <lb ed="#P" n="38"/>Et etiam impossibile est quod 
+      <lb ed="#P" n="39"/>extra coelum sit corpus. aut enim
+      <lb ed="#P" n="40"/>si fuerit, erit corporum simplicium,
+      <lb ed="#P" n="41"/>sicut diximus superius, aut compo¬
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0139.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="42"/>sitorum, aut illic naturaliter, aut 
+      <lb ed="#P" n="43"/>accidentaliter. Erit ergo sermo, et
+      <lb ed="#P" n="44"/>ratiocinatio quod impossibile est il
+      <lb ed="#P" n="45"/>lic esse corpus, sicut sermo noster 
+      su<lb ed="#P" n="46" break="no"/>perius de eo ratio enim eadem est,
+      <lb ed="#P" n="47"/>ili est quod nullum corpus est extra 
+      coe<lb ed="#P" n="48" break="no"/>lum, neque, est possibilae omnino: Ma
+      <lb ed="#P" n="49"/>nifesium igitur ex ho quod 
+      extra<lb ed="#P" n="50" break="no"/>coelum non est corpus, neque, est 
+      possibi<lb ed="#P" n="51" break="no"/>le vt sit in eo aliqua magnitudinum
+      <lb ed="#P" n="52"/>corporum. totus enim mundus est 
+      com<lb ed="#P" n="53" break="no"/>positus ex sua tota materia 
+      conue<lb ed="#P" n="54" break="no"/>nienti. &amp; iam diximus superius 
+      <lb ed="#P" n="55"/>quod materia mundi est corpus 
+      na<lb ed="#P" n="56" break="no"/>tur ale, sensibile. Manifestum est igi
+      <lb ed="#P" n="57"/>tur, si ita sit, coelos non esse plures
+      <lb ed="#P" n="58"/>modo, neque, in praeterito, neque, in 
+      fu<lb ed="#P" n="59" break="no"/>turo. hoc igitur coelum est vnum,
+      <lb ed="#P" n="60"/>perfectum, sine simili.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e3770"> <!-- arist-dc-l1c99-it -->
+         <lb ed="#P" n="57"/>Et etiam nullus locus est 
+      extra<lb ed="#P" n="58" break="no"/>coelum, neque, plenus, neque, vacuus, 
+      ne<lb ed="#P" n="59" break="no"/>que tempus. &amp; hoc manifestum est.
+      <lb ed="#P" n="60"/>possibile est enim ponere corpus in
+      <lb ed="#P" n="61"/>omni loco. Vacuum autem 
+      descri<lb ed="#P" n="62" break="no"/>ptum est ab Antiquis, dicentibus
+      <lb ed="#P" n="63"/>quod est illud, in quo nullum corpus 
+      <lb ed="#P" n="64"/>est omnino, &amp; possibile est esse. Tem
+      <lb ed="#P" n="65"/>pus autem est numerus motus. &amp; 
+      <lb ed="#P" n="66"/>motus non est sine corpore naturali¬
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e3807"> <!-- arist-dc-l1c100-it -->
+         <lb ed="#P" n="45"/>Et iam declarauimus superius, 
+      <lb ed="#P" n="46"/>quod extra coelum non est locus, 
+      ne<lb ed="#P" n="47" break="no"/>que vacuum, neque tempus. 
+      Qua<lb ed="#P" n="48" break="no"/>propter quod est illic, non est in 
+      lo<lb ed="#P" n="49" break="no"/>co, neque, tempus potest corrumpere
+      <lb ed="#P" n="50"/>ipsum, &amp; nullum extrinsecum ab
+      <lb ed="#P" n="51"/>vltimo motus alteratur, &amp; 
+      tran<lb ed="#P" n="52" break="no"/>mutatur omnino, sed permanens
+      <lb ed="#P" n="53"/>semper est, non transmutabile neque,
+      <lb ed="#P" n="54"/>passibile. Vita ergo est illic, 
+      sem<lb ed="#P" n="55" break="no"/>per permanens: perpetua secundum
+      <lb ed="#P" n="56"/>perpetuitatem seculi seculorum: 
+      <lb ed="#P" n="57"/>quod non finitur, neque destruitur,
+      <lb ed="#P" n="58"/>&amp; est vita nobilissina. Et bene 
+      di<lb ed="#P" n="59" break="no"/>xerunt Antiqui in explanatione
+      <lb ed="#P" n="60"/>huius nominis seculum, dixerunt
+      <lb ed="#P" n="61"/>enim quod finis, &amp; orizon, 
+      conti<lb ed="#P" n="62" break="no"/>nens tempus vitae cuius libet rei vi
+      <lb ed="#P" n="63"/>uae, cost quod, &amp; retro quod non 
+      <lb ed="#P" n="64"/>est tempus aliud naturale, est 
+      se<lb ed="#P" n="65" break="no"/>culum illius rei. Secundum igiiur,
+      <lb ed="#P" n="66"/>hunc modum dicimus quod finis
+      <lb ed="#P" n="67"/>orizontis totius coeli, &amp; finis 
+      con<lb ed="#P" n="68" break="no"/>tinens totum tempus perpetuum est
+      <lb ed="#P" n="69"/>seculum coeli: &amp; hoc nomen 
+      deri<lb ed="#P" n="70" break="no"/>uatur a sua operatione: quoniam 
+      sem<lb ed="#P" n="71" break="no"/>per est perpetua. &amp; in quibusdam 
+      <lb ed="#P" n="72"/>rebus semper est manifestum, &amp; 
+      <lb ed="#P" n="73"/>in quibusdam parum. Et iam 
+      dixi<lb ed="#P" n="74" break="no"/>mus in libris de Philosophia 
+      extra<lb ed="#P" n="75" break="no"/>nea, quam possumus vulgo, quod 
+      <lb ed="#P" n="76"/>oportet spirituale vt non 
+      transmu<lb ed="#P" n="77" break="no"/>tetur, neque corrumpatur: est enim
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0142.xml-->
+      <pb ed="#P" n="67-v"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>causa omnis esse &amp; post ipsam non
+      <lb ed="#P" n="2"/>est alia causa. &amp; est secundum hunc 
+      <lb ed="#P" n="3"/>modum neque, transmutabile, neque
+      <lb ed="#P" n="4"/>alterabile, perfectum, &amp; 
+      comple<lb ed="#P" n="5" break="no"/>tum, &amp; aeternum per secula. 
+      supra<lb ed="#P" n="6" break="no"/>ipsum enim non est alia causa 
+      no<lb ed="#P" n="7" break="no"/>ta, vt moueat ipsum. Et, si igitur
+      <lb ed="#P" n="8"/>inueniatur alia causa, tunc erit etiam
+      <lb ed="#P" n="9"/>perfecta existens, aeterna, &amp; 
+      pos<lb ed="#P" n="10" break="no"/>ipsam non erit alia nobilior. &amp; 
+      di<lb ed="#P" n="11" break="no"/>cimus etiam quod non recipit 
+      ali<lb ed="#P" n="12" break="no"/>quam nccasionem illud spirituale
+      <lb ed="#P" n="13"/>&amp; motus eius est perpetuus sine
+      <lb ed="#P" n="14"/>abscissione. Et dignum est habere
+      <lb ed="#P" n="15"/>hunc motum. quoniam omnes rei 
+      <lb ed="#P" n="16"/>quiescunt per motum, cum 
+      perue<lb ed="#P" n="17" break="no"/>niunt ad suum locum, hoc aut 
+      cor<lb ed="#P" n="18" break="no"/>pus mobile non quiescit omnino per
+      <lb ed="#P" n="19"/>suum motum quoniam locus istius
+      <lb ed="#P" n="20"/>corporis rotundi est vnus scilicet quod 
+      li<lb ed="#P" n="21" break="no"/>cus principii motus est locus 
+      fini<lb ed="#P" n="22" break="no"/>motus eius. quapropter est perpetur 
+      <lb ed="#P" n="23"/>motus, &amp; non quiescit omnino.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e3917"> <!-- arist-dc-l1c101-it -->
+         <lb ed="#P" n="8"/>Et, cum declarauimus, &amp; 
+      dixi<lb ed="#P" n="9" break="no"/>mus haec, volumus perscrutari 
+      do<lb ed="#P" n="10" break="no"/>coelo vtrum sit generatum ab 
+      ali<lb ed="#P" n="11" break="no"/>quo, aut non, &amp; vtrum sit 
+      corrupti<lb ed="#P" n="12" break="no"/>bile, aut non. sed ante dicamus 
+      ser<lb ed="#P" n="13" break="no"/>mones Antiquorum de hoc: vt 
+      ra<lb ed="#P" n="14" break="no"/>tiones contradicentiu sint 
+      quaestio<lb ed="#P" n="15" break="no"/>nes, contradicentes eis ex 
+      aduersa<lb ed="#P" n="16" break="no"/>viis eorum. Et nos cum hoc 
+      feceri<lb ed="#P" n="17" break="no"/>mus, tunc sermo noster erit dignior 
+      <lb ed="#P" n="18"/>vt recipiatur apud eos, qui sunt 
+      bo<lb ed="#P" n="19" break="no"/>nae discretionis, vel 
+      consyderationi<lb ed="#P" n="20" break="no"/>in discretione ipsorum, vel intellectu.
+      <lb ed="#P" n="21"/>&amp; maxime, cum audierint 
+      ratio<lb ed="#P" n="22" break="no"/>nes contradicentium primo. Et iam
+      <lb ed="#P" n="23"/>scimus quod, cum nos dixerimus in
+      <lb ed="#P" n="24"/>aliquo, necesse est vt sic sit, aut sic
+      <lb ed="#P" n="25"/>visum est nobis. &amp; cum haec opinio
+      <lb ed="#P" n="26"/>ne, &amp; necessitate non dixerimus 
+      ra<lb ed="#P" n="27" break="no"/>tiones contradicentium in eis, tunc 
+      <lb ed="#P" n="28"/>minus erunt recipiendae apud 
+      au<lb ed="#P" n="29" break="no"/>dientes ex distinguentibus 
+      proposi<lb ed="#P" n="30" break="no"/>tiones signorum, &amp; 
+      contemplatio<lb ed="#P" n="31" break="no"/>nes intollectuum. &amp; oportet qui 
+      vo<lb ed="#P" n="32" break="no"/>luerit iudicare vere, vt non sit 
+      con<lb ed="#P" n="33" break="no"/>tradicens, &amp; odiens eum, qui 
+      con<lb ed="#P" n="34" break="no"/>tradicit. sed oportet esse diligentem
+      <lb ed="#P" n="35"/>ipsum, &amp; pacificum ei. &amp; ex 
+      pa<lb ed="#P" n="36" break="no"/>cificatione est vt concedat ei, sicut
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0145.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="37"/>concederet sibi de sermonibus 
+      re<lb ed="#P" n="38" break="no"/>cte, &amp; de scientia apud terminos
+      <lb ed="#P" n="40"/>
+         <!-- line coord order confusion -->demonstrationum.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e3987"> <!-- arist-dc-l1c102-it -->
+         <lb ed="#P" n="46"/>Incipiamus modo, &amp; dicamus
+      <lb ed="#P" n="47"/>quod omnes Antiqui conueniunt,
+      <lb ed="#P" n="48"/>quod coelum est generatu. Sed 
+      qui<lb ed="#P" n="49" break="no"/>dam dicunt ipsum non habere 
+      prin<lb ed="#P" n="50" break="no"/>cipium, aut finem in tempore, Qui 
+      <lb ed="#P" n="51"/>dam autem dicunt ipsum habere
+      <lb ed="#P" n="52"/>finem in tepore, &amp; cadere sub 
+      cor<lb ed="#P" n="53" break="no"/>ruptione, sicut alia corpora 
+      genera<lb ed="#P" n="54" break="no"/>ta, Quidam vero dicunt ipsum 
+      ali<lb ed="#P" n="55" break="no"/>quando corrumpi, aliquando 
+      gene<lb ed="#P" n="56" break="no"/>rari, &amp; quod ita est semper sine 
+      fi<lb ed="#P" n="57" break="no"/>ne, &amp; sine abscissione, vt 
+      Empedo<lb ed="#P" n="58" break="no"/>cles Agrigentinus, &amp; Heraclitus
+      <lb ed="#P" n="59"/>Ephesius. Dic amus modo quod 
+      ser<lb ed="#P" n="60" break="no"/>mo dicentis coelum esse maximum
+      <lb ed="#P" n="61"/>mundum, &amp; quod ipsum 
+      generat<lb ed="#P" n="62" break="no"/>res, &amp; quod perpetuum est sine
+      <lb ed="#P" n="63"/>fine, &amp; principio, est impossibilis.
+      <lb ed="#P" n="64"/>non enim cocedimus, nec credimus
+      <lb ed="#P" n="65"/>aliquam dispositionem, nisi 
+      videri<lb ed="#P" n="66" break="no"/>mus ipsam in omnibus rebus, aut
+      <lb ed="#P" n="67"/>in pluribus. haec autem dispositio,
+      <lb ed="#P" n="68"/>scilicet coeli, dicere quod est 
+      genera<lb ed="#P" n="69" break="no"/>tum, &amp; quod non corrupitur, neque,
+      <lb ed="#P" n="70"/>cadit sub corruptione, nos videmus
+      <lb ed="#P" n="71"/>contrarium in rebus: quoniam 
+      om<lb ed="#P" n="72" break="no"/>nia generata corrumpuntur.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e4035"> <!-- arist-dc-l1c103-it -->
+         <lb ed="#P" n="45"/>Et etiam dicimus quod res, in 
+      <lb ed="#P" n="46"/>qua non est potentia, quae alteratur,
+      <lb ed="#P" n="47"/>ex sua dispositione necessario suae 
+      al<lb ed="#P" n="48" break="no"/>terationis, est causa vt alteretur.
+      <lb ed="#P" n="49"/>Dicamus ergo quod, si mudus fuit
+      <lb ed="#P" n="50"/>compositus ex rebus, quarum 
+      dispo<lb ed="#P" n="51" break="no"/>sitiones fuerut primo aliter a 
+      dispo<lb ed="#P" n="52" break="no"/>sitione mundi, &amp; fuit impossibile
+      <lb ed="#P" n="53"/>illas dispositiones mutari, 
+      impossi<lb ed="#P" n="54" break="no"/>bile est vt mundus fiat ex eis omnino.
+      <lb ed="#P" n="55"/>Si igitur res possibiles sint 
+      altera<lb ed="#P" n="56" break="no"/>ri, &amp; transmutari necessario, &amp;
+      <lb ed="#P" n="57"/>non sint secundum vnam dispositio
+      <lb ed="#P" n="58"/>nem perpetuam, si fuerint ita, cum
+      <lb ed="#P" n="59"/>alterabutur illae res, possibiles erut
+      <lb ed="#P" n="60"/>dissolui, &amp; diminui etiam. &amp;, si
+      <lb ed="#P" n="61"/>dissoluantur, componuntur etiam,
+      <lb ed="#P" n="62"/>erit ergo secundum hunc modum 
+      dif<lb ed="#P" n="63" break="no"/>solui, &amp; componi in infinitum. Si
+      <lb ed="#P" n="64"/>ergo hoc ita sit secundum hunc 
+      mo<lb ed="#P" n="65" break="no"/>dum, mudus cadet sub corruptioe,
+      <lb ed="#P" n="66"/>non sicut dixerunt ipsum esse 
+      extra<lb ed="#P" n="67" break="no"/>corruptionem, &amp; consumptionem.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e4090"> <!-- arist-dc-l1c104-it -->
+         <lb ed="#P" n="58"/>Ratio autem, quam dixerunt,
+      <lb ed="#P" n="59"/>cum laborant in affirmando 
+      mun<lb ed="#P" n="60" break="no"/>dum esse generatum, &amp; non 
+      corrum<lb ed="#P" n="61" break="no"/>ptibilem, non est vera, &amp; destruitur,
+      <lb ed="#P" n="62"/>per veram demonstratione. 
+      Dixe<lb ed="#P" n="63" break="no"/>runt enim, sicut Geometrae faciunt
+      <lb ed="#P" n="64"/>in figuris compositis ex pluribus 
+      li<lb ed="#P" n="65" break="no"/>neis, ita facimus nos in mundo. Geo
+      <lb ed="#P" n="66"/>metrae enim, cum voluerint docere
+      <lb ed="#P" n="67"/>quomodo figurae sint, dicunt quod 
+      <lb ed="#P" n="68"/>ista figura componitur ex ista 
+      li<lb ed="#P" n="69" break="no"/>nea, deinde ex ista, ad 
+      demonstran<lb ed="#P" n="70" break="no"/>dum hoc discipulis. &amp; ita fecimus
+      <lb ed="#P" n="71"/>nos cuilibet, qui dixit quod mudus,
+      <lb ed="#P" n="72"/>sit, non quia tempus fuit, &amp; 
+      mun<lb ed="#P" n="73" break="no"/>dus non fuit, sed vt doctrina sit 
+      ma<lb ed="#P" n="74" break="no"/>nifestior discipulis, quia ex hoc 
+      ge<lb ed="#P" n="75" break="no"/>nerabatur prius, deinde ex hoc, 
+      si<lb ed="#P" n="76" break="no"/>cut illud fecimus in figuris.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e4116"> <!-- arist-dc-l1c105-it -->
+         <lb ed="#P" n="47"/>Et nos contradicemus eis, 
+      dicen<lb ed="#P" n="48" break="no"/>do quod hoc exemptum non 
+      conue<lb ed="#P" n="49" break="no"/>nit eis, ex quibus sit mundus in 
+      fa<lb ed="#P" n="50" break="no"/>ctura enim figurarum, &amp; ex 
+      com<lb ed="#P" n="51" break="no"/>positione earum figura non sit 
+      per<lb ed="#P" n="52" break="no"/>fecta, &amp; completa, nisi per omnes
+      <lb ed="#P" n="53"/>lineas, ex quibus componitur, &amp; 
+      fi<lb ed="#P" n="54" break="no"/>gura non sit figura, nisi per 
+      altera<lb ed="#P" n="55" break="no"/>tionem linearum, ex quibus 
+      compo<lb ed="#P" n="56" break="no"/>nitur, neque, etiam sit figura, nisi 
+      om<lb ed="#P" n="57" break="no"/>nes lineae sint insimul. &amp;, si 
+      volue<lb ed="#P" n="58" break="no"/>rint dictum earum assimilare, &amp; 
+      <lb ed="#P" n="59"/>verificare ipsum, non 
+      manifestabun<lb ed="#P" n="60" break="no"/>tur omnes lineae simul, sed 
+      declara<lb ed="#P" n="61" break="no"/>bunt lineam post lineam, donec 
+      perfi<lb ed="#P" n="62" break="no"/>ciant omnes lineas totius figurae.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e4140"> <!-- arist-dc-l1c106-it -->
+         <lb ed="#P" n="64"/>Compositio autem mundi non est
+      <lb ed="#P" n="65"/>huiusmodi. per ea enim, ex quibus
+      <lb ed="#P" n="66"/>componitur, iuuabuntur in 
+      ratio<lb ed="#P" n="67" break="no"/>nibus nostris, dicendo quod mudus
+      <lb ed="#P" n="68"/>primo generatur ex hoc, deide post
+      <lb ed="#P" n="69"/>hoc ex hoc. haec igitur duo differunt,
+      <lb ed="#P" n="70"/>vt dicunt. res enim erant sine 
+      ordi<lb ed="#P" n="71" break="no"/>ne, deinde ordinabantur &amp; fit ex
+      <lb ed="#P" n="72"/>eis mundus. &amp; impossibile est vt
+      <lb ed="#P" n="73"/>ordinatum, &amp; non ordinatum sint
+      <lb ed="#P" n="74"/>insimul: quoniam inter ea est 
+      tem<lb ed="#P" n="75" break="no"/>pus, &amp; generatio. linearum autem,
+      <lb ed="#P" n="76"/>quae sunt in figura, nulla est 
+      ante<lb ed="#P" n="77" break="no"/>alteram: &amp; prima earum non est
+      <lb ed="#P" n="78"/>alterius dispositionis ab alia. 
+      Mani<lb ed="#P" n="79" break="no"/>festum est igitur quod impossibile
+      <lb ed="#P" n="80"/>est quod mundus sit generatus, &amp; 
+      <lb ed="#P" n="81"/>sit perpetuus sine consumptione,
+      <lb ed="#P" n="82"/>&amp; corruptione.
+  </p>
+      <p xml:id="aaaadc-gfdsss-d1e4165"> <!-- arist-dc-l1c107-it -->
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0153.xml-->
+         <cb ed="#P" n="b"/>
+         <lb ed="#P" n="43"/>Dicentes autem mundum 
+      gene<lb ed="#P" n="44" break="no"/>rari aliquando, &amp; corrumpi, volunt
+      <lb ed="#P" n="45"/>ponere mundum semper esse sine 
+      con<lb ed="#P" n="46" break="no"/>sumptione, sed forma eius 
+      altera<lb ed="#P" n="47" break="no"/>tur, &amp; transmutatur successiue ex
+      <lb ed="#P" n="48"/>forma in formam: verbi gratia ex
+      <lb ed="#P" n="49"/>pueritia in virum, ex vtro in pueri
+      <lb ed="#P" n="50"/>tiam. aliquado igitur corrumpitur,
+      <lb ed="#P" n="51"/>puer, &amp; fit vir, &amp; aliquando 
+      cor<lb ed="#P" n="52" break="no"/>rumpitur vir, &amp; sit puer. Dicamus
+      <lb ed="#P" n="53"/>nos quod iste sermo est falsus. cum
+      <lb ed="#P" n="54"/>enim elementa veniunt ad inuice,
+      <lb ed="#P" n="55"/>non erant ex eis dispositiones diuer
+      <lb ed="#P" n="56"/>sae, sed vna ordinatio, &amp; vna 
+      dispo<lb ed="#P" n="57" break="no"/>sitio. &amp; ipsi concedunt hoc, quia 
+      po<lb ed="#P" n="58" break="no"/>nunt generationi, &amp; corruptioni
+      <lb ed="#P" n="59"/>causam, sed tamen causam 
+      corru<lb ed="#P" n="60" break="no"/>ptionis contraria esse generationis.
+      <lb ed="#P" n="61"/>Dicamus ergo quod, si corpus mun
+      <lb ed="#P" n="62"/>di est continuum totu, &amp; aliquan 
+      <lb ed="#P" n="63"/>do fuerit secundum hanc dispositio
+      <lb ed="#P" n="64"/>nem, &amp; aliquando secundum aliam,
+      <lb ed="#P" n="65"/>&amp; semper reuoluitur secundum huc
+      <lb ed="#P" n="66"/>modum, &amp; fuerit compositio mun
+      <lb ed="#P" n="67"/>di, &amp; coeli secundum quacunque, 
+      di<lb ed="#P" n="68" break="no"/>spositionem sic, tunc mundus non erit
+      <lb ed="#P" n="69"/>generatus, neque, trasmutabilis, neque,
+      <lb ed="#P" n="70"/>corruptibilis, sed dispositiones eius
+      <lb ed="#P" n="71"/>sunt, quae corrumpuntur.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e4215"> <!-- arist-dc-l1c108-it -->
+         <lb ed="#P" n="56"/>Dicentes vero quod mundus sit
+      <lb ed="#P" n="57"/>corruptibilis, &amp; non reuertetur 
+      om<lb ed="#P" n="58" break="no"/>nino ad generationem, 
+      respondebi<lb ed="#P" n="59" break="no"/>mus eis quod, si mundus sit vnus,
+      <lb ed="#P" n="60"/>impossibile est vt sermo eorum sit
+      <lb ed="#P" n="61"/>verus omnino, quia antequa 
+      mun<lb ed="#P" n="62" break="no"/>dus fuerit, fuit illud, ex quo 
+      compo<lb ed="#P" n="63" break="no"/>nebatur: &amp;, nisi illud esset ante 
+      ge<lb ed="#P" n="64" break="no"/>nerationem, non diceremus quod il 
+      <lb ed="#P" n="65"/>lud alteraretur in ipsum. si igitur,
+      <lb ed="#P" n="66"/>habuit potentiam vt alteretur, 
+      pos<lb ed="#P" n="67" break="no"/>sibile est vt mundus ex eo 
+      reuerta<lb ed="#P" n="68" break="no"/>tur. si autem mundus non sit vnus,
+      <lb ed="#P" n="69"/>sed plures, tunc forte verum dicunt
+      <lb ed="#P" n="70"/>de mudo. Et nos dicemus post vtrum
+      <lb ed="#P" n="71"/>est possibile, an non. 
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e4246"> <!-- arist-dc-l1c109-it -->
+         <lb ed="#P" n="65"/>Sunt autem alii, qui dicunt 
+      pos<lb ed="#P" n="66" break="no"/>sibile est vt aliquid non generetur, 
+      <lb ed="#P" n="67"/>tamen corrumpitur, &amp; possibile est
+      <lb ed="#P" n="68"/>vt aliquid generetur, &amp; non corrum
+      <lb ed="#P" n="69"/>patur, vt aictum est in Timaeo, quod 
+      <lb ed="#P" n="70"/>coelum generatum est, &amp; est 
+      per<lb ed="#P" n="71" break="no"/>petuum in caeteris temporibus sine
+      <lb ed="#P" n="72"/>corruptione, &amp; consumptione. Nos 
+      <lb ed="#P" n="73"/>vero dicamus, quod isti coelum non 
+      <lb ed="#P" n="74"/>disponunt, nisi tantum sermone 
+      na<lb ed="#P" n="75" break="no"/>tur ali. nos autem perscrutabimur
+      <lb ed="#P" n="76"/>de hoc perscrutatione continente 
+      om<lb ed="#P" n="77" break="no"/>nia. cum igitur hoc fecerimus, 
+      ma<lb ed="#P" n="78" break="no"/>nifestabitur tunc nobis vtrum coelum
+      <lb ed="#P" n="79"/>sit generatum sine corruptione.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e4275"> <!-- arist-dc-l1c110-it -->
+         <lb ed="#P" n="63"/>Sed antequam hoc faciamus, 
+      di<lb ed="#P" n="64" break="no"/>uidamus prius intentiones 
+      genera<lb ed="#P" n="65" break="no"/>tionis, &amp; corruptionis, &amp; 
+      declare<lb ed="#P" n="66" break="no"/>mus quid est dicere generabile, aut
+      <lb ed="#P" n="67"/>non generabile, &amp; non corruptibile,
+      <lb ed="#P" n="68"/>aut corruptibile. Cum enim idem
+      <lb ed="#P" n="69"/>fuerit recipiens plures intentiones
+      <lb ed="#P" n="70"/>quae non distinguuntur, &amp; aliquis
+      <lb ed="#P" n="71"/>considerauerit illud sine distinctios
+      <lb ed="#P" n="72"/>ne, &amp; sine diuisione, stupesiet in
+      <lb ed="#P" n="73"/>intellectu, &amp; dicet de eo sermonem
+      <lb ed="#P" n="74"/>sine diuisione, &amp; sine distinctione
+      <lb ed="#P" n="75"/>necessario. nesciet enim de 
+      cuius<lb ed="#P" n="76" break="no"/>modi natura dicitur illud, &amp; cuius
+      <lb ed="#P" n="77"/>intentione.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e4331"> <!-- arist-dc-l1c111-it -->
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0158.xml-->
+         <cb ed="#P" n="b"/>
+         <lb ed="#P" n="43"/>Dicamus modo quod aliquid di 
+      <lb ed="#P" n="44"/>citur No generabile multis modis.
+      <lb ed="#P" n="45"/>Quorum vnus est, cum primo 
+      fue<lb ed="#P" n="46" break="no"/>rit in non esse, deinde in esse sine 
+      ge<lb ed="#P" n="47" break="no"/>neratione, &amp; sine alteratione, vt
+      <lb ed="#P" n="48"/>quidam dicunt de tactu, &amp; 
+      motio<lb ed="#P" n="49" break="no"/>ne. dicut enim quod tactus, &amp; 
+      mo<lb ed="#P" n="50" break="no"/>tio non sunt generabiles. Dicitur,
+      <lb ed="#P" n="51"/>et iam alio modo, cum, antequam
+      <lb ed="#P" n="52"/>fuerit, est possibile vt fiat, sed non 
+      <lb ed="#P" n="53"/>sit nisi per generationem. Et etia
+      <lb ed="#P" n="54"/>dicitur non generabile alio modo.
+      <lb ed="#P" n="55"/>cum aliquid fuerit impossibile 
+      ge<lb ed="#P" n="56" break="no"/>nerari, &amp; sine potentia, quae sit in 
+      <lb ed="#P" n="57"/>eo ad generationem, &amp; non sit 
+      ali<lb ed="#P" n="58" break="no"/>quando, &amp; aliquando sit.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e4370"> <!-- arist-dc-l1c112-it -->
+         <lb ed="#P" n="29"/>Et similiter dicitur Generabili
+      <lb ed="#P" n="30"/>multis modis. Quorum vnus est, 
+      cum<lb ed="#P" n="31" break="no"/>aliquid fuerit impossibile. 
+      genera<lb ed="#P" n="32" break="no"/>ri, deide fuerit in postremo non ens
+      <lb ed="#P" n="33"/>aut per generationem, aut sine 
+      ge<lb ed="#P" n="34" break="no"/>neratione, &amp; est aliquando ens, &amp; 
+      <lb ed="#P" n="35"/>aliquando non ens. Et etia dicitur
+      <lb ed="#P" n="36"/>generabile alio modo, cum aliquid.
+      <lb ed="#P" n="37"/>quod non fuerit, est possibile 
+      gene<lb ed="#P" n="38" break="no"/>rari. Et etiam dicitur generabile
+      <lb ed="#P" n="39"/>alio modo, cum aliquid non fuit, et
+      <lb ed="#P" n="40"/>deinde fuit per generationem.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e4400"> <!-- arist-dc-l1c113-it -->
+         <lb ed="#P" n="58"/>Et similiter corruptibile 
+      dici<lb ed="#P" n="59" break="no"/>tur multis modis. Quorum vnus est,
+      <lb ed="#P" n="60"/>cum aliquid fuerit primo ens, &amp; 
+      <lb ed="#P" n="61"/>postremo non ens, siue per 
+      alteratio<lb ed="#P" n="62" break="no"/>nem, siue non. Et forte vocabimus
+      <lb ed="#P" n="63"/>aliquid corruptibile alio modo, cum
+      <lb ed="#P" n="64"/>aliquid fuerit possibile vt non sit
+      <lb ed="#P" n="65"/>ens per corruptionem. Et dicitur,
+      <lb ed="#P" n="66"/>etiam corruptibile alio modo, cum
+      <lb ed="#P" n="67"/>aliquid fuerit velocis corruptionis,
+      <lb ed="#P" n="68"/>vt illud, quod est facilis corruptiois.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e4435"> <!-- arist-dc-l1c114-it -->
+         <lb ed="#P" n="50"/>Et similiter dicitur Quod non 
+      ca<lb ed="#P" n="51" break="no"/>dit sub corruptione multis modis.
+      <lb ed="#P" n="52"/>Quorum vnus est, cum aliquid 
+      fue<lb ed="#P" n="53" break="no"/>rit aliquando ens, aliquando non 
+      <lb ed="#P" n="54"/>ens. vt tactus. aliquando enim est
+      <lb ed="#P" n="55"/>ens, &amp; aliquando non ens absque
+      <lb ed="#P" n="56"/>esse sub corruptione. Et dicitur etiam 
+      <lb ed="#P" n="57"/>non corruptibile alio modo, illud,
+      <lb ed="#P" n="58"/>quod est ens, &amp; habet potentia ad
+      <lb ed="#P" n="59"/>non esse. aut illud, quod in futuro
+      <lb ed="#P" n="60"/>non est, modo autem est. &amp; est secum
+      <lb ed="#P" n="61"/>dum hoc cadens sub corruptione: 
+      <lb ed="#P" n="62"/>in suturo onim non ens. Modus 
+      au<lb ed="#P" n="63" break="no"/>tem uerus s. quod non cadit sub 
+      con<lb ed="#P" n="64" break="no"/>ruptione, est illud, quod modo est
+      <lb ed="#P" n="65"/>ens, &amp; non habet potentia ad 
+      cor<lb ed="#P" n="66" break="no"/>ruptionem, ita, quod sit modo ens,
+      <lb ed="#P" n="67"/>&amp; non ens. Et dicitur etiam non 
+      <lb ed="#P" n="68"/>corruptibile alio modo: cum res non 
+      <lb ed="#P" n="69"/>corrumpatur adhuc, &amp; possibile
+      <lb ed="#P" n="70"/>est postremo vt sit non ens, sine cam
+      <lb ed="#P" n="71"/>corruptionis. Et dicitur etiam non 
+      <lb ed="#P" n="72"/>corruptibile alio modo, cum aliquid
+      <lb ed="#P" n="73"/>non cadit velociter sub 
+      corruptio<lb ed="#P" n="74" break="no"/>nae, sicut illud, quod non est facilis
+      <lb ed="#P" n="75"/>corruptionis.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e4487"> <!-- arist-dc-l1c115-it -->
+         <lb ed="#P" n="71"/>Et, cum de generatione, &amp; 
+      con<lb ed="#P" n="72" break="no"/>ruptione, &amp; suis intentionibus ia
+      <lb ed="#P" n="73"/>diximus aperte, perscrutemur 
+      mo<lb ed="#P" n="74" break="no"/>do de illo, de quo dicimus ipsum 
+      hae<lb ed="#P" n="75" break="no"/>bere potentiam, aut non habere 
+      po<lb ed="#P" n="76" break="no"/>tentiam. incorruptibile vero verum,
+      <lb ed="#P" n="77"/>est illud, in quo non est potentia ad
+      <lb ed="#P" n="78"/>recipiendum corruptionem, neque
+      <lb ed="#P" n="79"/>habet potentiam, vt aliquando sit
+      <lb ed="#P" n="80"/>ens, &amp; aliquando non ens. illud 
+      au<lb ed="#P" n="81" break="no"/>tem, quod non generatur, est illud,
+      <lb ed="#P" n="82"/>quod non habet potentiam, vt sit
+      <lb ed="#P" n="83"/>aequale naturaliter.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e4524"> <!-- arist-dc-l1c116-it -->
+         <lb ed="#P" n="58"/>Dicamus modo etiam quod, cum
+      <lb ed="#P" n="59"/>potentia alicuius fuerit in moueri
+      <lb ed="#P" n="60"/>per centum leucas, &amp; ferre 
+      cenfio<lb ed="#P" n="61" break="no"/>aurenas, poterit etiam in partibus
+      <lb ed="#P" n="62"/>quae sunt inter ea. oportet ergo nos 
+      <lb ed="#P" n="63"/>definire potentiam. Dicamus ergo
+      <lb ed="#P" n="64"/>quod definitio potentiae est vltimum
+      <lb ed="#P" n="65"/>potentiae rei. quod enim potest 
+      am<lb ed="#P" n="66" break="no"/>bulare per centum leueas, potest
+      <lb ed="#P" n="67"/>ambulare per duas leueas, &amp; quod 
+      <lb ed="#P" n="68"/>potest ferre centum libras, potest
+      <lb ed="#P" n="69"/>ferre duas libras. Manifestum igi
+      <lb ed="#P" n="70"/>tur quod potentia definienda est in 
+      <lb ed="#P" n="71"/>fine eius, quod potest. Debile autem,
+      <lb ed="#P" n="72"/>terminatur per minus quam 
+      po<lb ed="#P" n="73" break="no"/>test. quoniam, si aliquid non potest
+      <lb ed="#P" n="74"/>ferre aliquod pondus, non poterit
+      <lb ed="#P" n="75"/>maius, verbi gratia: si non potest
+      <lb ed="#P" n="76"/>ferre centum libras, non potest 
+      fer<lb ed="#P" n="77" break="no"/>re centum &amp; vnam: &amp; quod non 
+      <lb ed="#P" n="78"/>poterit ambulare mille leucas
+      <lb ed="#P" n="79"/>non poter it ambulare mille &amp; 
+      <lb ed="#P" n="80"/>vnam.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e4576"> <!-- arist-dc-l1c117-it -->
+         <lb ed="#P" n="68"/>Si igitur terminus potentiae est
+      <lb ed="#P" n="69"/>finis suae potentiae, est vltimum eius
+      <lb ed="#P" n="70"/>potentiae secundum magis. Non igi
+      <lb ed="#P" n="71"/>tur existimetis, si aliquis dixerit
+      <lb ed="#P" n="72"/>nobis, quoniam forte aliquis 
+      contra<lb ed="#P" n="73" break="no"/>dicet sermoni nostro, quod 
+      defini<lb ed="#P" n="74" break="no"/>tio, per quam definimus potentia,
+      <lb ed="#P" n="75"/>non est necessaria, neque, recta. qui
+      <lb ed="#P" n="76"/>enim videt aliquid ex leuca, potest
+      <lb ed="#P" n="77"/>videre minus ex minori leuca. Sed 
+      <lb ed="#P" n="78"/>huic est contradictio sermoni, 
+      quia<lb ed="#P" n="79" break="no"/>qui potest videre punctum, vel 
+      au<lb ed="#P" n="80" break="no"/>dire minimam vocem, potest 
+      vi<lb ed="#P" n="81" break="no"/>dere plus, quam punctum, &amp; 
+      au<lb ed="#P" n="82" break="no"/>dire maonam vocem. Dicamus 
+      igi<lb ed="#P" n="83" break="no"/>tur quod hoc non destruit nostrum
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0166.xml-->
+      <pb ed="#P" n="79-v"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>sermonem de definitione 
+      potentiae<lb ed="#P" n="2" break="no"/>quia definitur aut in fine rei, aut
+      <lb ed="#P" n="3"/>in vltimo suae potentiae.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e4616"> <!-- arist-dc-l1c118-it -->
+         <lb ed="#P" n="78"/>Volumus modo, postquam hoc
+      <lb ed="#P" n="79"/>distinximus scilicet potentiam, &amp; 
+      debi<lb ed="#P" n="80" break="no"/>litatem, determinare residua per 
+      <lb ed="#P" n="81"/>ea, quae sunt similia. Dicamus 
+      igi<lb ed="#P" n="82" break="no"/>tur quod, si aliquid habuerit 
+      pote<lb ed="#P" n="83" break="no"/>tiam ad esse, &amp; non esse, omnino
+      <lb ed="#P" n="84"/>est tempus distinguens inter sun¬
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0167.xml-->
+      <pb ed="#P" n="80-r"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>essi, &amp; suam destructionem scilicet 
+      tem<lb ed="#P" n="2" break="no"/>pus, in quo illud habet potentiam.
+      <lb ed="#P" n="3"/>ad esse, &amp; non esse. &amp; iste sermo
+      <lb ed="#P" n="4"/>est in omnibus praedicamentis, vt
+      <lb ed="#P" n="5"/>homo, &amp; album, &amp; tricubitum,
+      <lb ed="#P" n="6"/>&amp; aliis praedicamentis. si igitur
+      <lb ed="#P" n="7"/>haec potentia non fuerit in 
+      aliquo<lb ed="#P" n="8" break="no"/>hora temporis, &amp; tempus eius 
+      fue<lb ed="#P" n="9" break="no"/>rit continuum, &amp; non inueniatur,
+      <lb ed="#P" n="10"/>ci tempus, neque, modicum, neque, 
+      mul<lb ed="#P" n="11" break="no"/>tum, illud tunc habebit 
+      potentia<lb ed="#P" n="12" break="no"/>ad esse, &amp; non esse in tempore 
+      infi<lb ed="#P" n="13" break="no"/>nito, quod est impossibile.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e4656"> <!-- arist-dc-l1c119-it -->
+         <lb ed="#P" n="10"/>Incipiamus modo, &amp; 
+      declare<lb ed="#P" n="11" break="no"/>mus quo modo est impossibile. &amp; 
+      <lb ed="#P" n="12"/>dicamus quod falsum, &amp; 
+      impossi<lb ed="#P" n="13" break="no"/>bile non sunt idem. sunt enim 
+      qua<lb ed="#P" n="14" break="no"/>tuor impossibile &amp; possibile, &amp; 
+      <lb ed="#P" n="15"/>verum &amp; Ealsum. Possibile est
+      <lb ed="#P" n="16"/>vt triangulum esse isochelem. 
+      im<lb ed="#P" n="17" break="no"/>possibile vero vt diametrum esse
+      <lb ed="#P" n="18"/>aequalem costae. Falsum autem, &amp; 
+      <lb ed="#P" n="19"/>verum non sunt idem, sicut 
+      dixi<lb ed="#P" n="20" break="no"/>mus superius. qui ergo dicit alique
+      <lb ed="#P" n="21"/>surgere, cum non surgit, falsum 
+      di<lb ed="#P" n="22" break="no"/>cit, sed non impossibile. &amp; qui 
+      de<lb ed="#P" n="23" break="no"/>cantore dicit ipsum cantare, dum
+      <lb ed="#P" n="24"/>non cantat, falsum dicit, sed non 
+      <lb ed="#P" n="25"/>impossibile. dicere autem idem 
+      su<lb ed="#P" n="26" break="no"/>gentem esse, &amp; sedentem simul 
+      <lb ed="#P" n="27"/>non tantum falsum, sed 
+      impossibi<lb ed="#P" n="28" break="no"/>le. impossibile enim est hominem
+      <lb ed="#P" n="29"/>habere potentiam, quae sit surgens,
+      <lb ed="#P" n="30"/>&amp; sedens insimul in eodem 
+      tempo<lb ed="#P" n="31" break="no"/>re, quia in tepore in quo est ei unum,
+      <lb ed="#P" n="32"/>est in illo tempore potentia alteri
+      <lb ed="#P" n="33"/>etiam: quia in eodem tempore 
+      ha<lb ed="#P" n="34" break="no"/>bet duo, tamen non in actu, sed 
+      sur<lb ed="#P" n="35" break="no"/>rectioin vno tempore, &amp; sessio in alio.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e4739"> <!-- arist-dc-l1c120-it -->
+         <lb ed="#P" n="29"/>Si igitur aliquis dixerit aliquio
+      <lb ed="#P" n="30"/>habere potentiam ad plura in 
+      tempo<lb ed="#P" n="31" break="no"/>re infinito, significauit quod illud
+      <lb ed="#P" n="32"/>non facit illas actiones in tempore.
+      <lb ed="#P" n="33"/>sed omnes in eodem tempore 
+      insi<lb ed="#P" n="34" break="no"/>mul. &amp; si sit, sicut dixit, erit 
+      ali<lb ed="#P" n="35" break="no"/>quid eorum cadentium sub 
+      corru<lb ed="#P" n="36" break="no"/>ptione semper in tempore infinito
+      <lb ed="#P" n="37"/>habens potentiam, vt non sit sub 
+      cor<lb ed="#P" n="38" break="no"/>ruptione semper ad infinitum. quo
+      <lb ed="#P" n="39"/>niam illud, quod habet potentiam.
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0169.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="40"/>vt non sit, est etiam Et, si ita sit, erit ilus,
+      <lb ed="#P" n="41"/>tud generatum &amp; non generatum
+      <lb ed="#P" n="42"/>insimul in actu. &amp; hoc est falsum,
+      <lb ed="#P" n="43"/>no possibile. est quidem falsum, quia
+      <lb ed="#P" n="44"/>eius positio fuit falsa. &amp; nisi esset 
+      <lb ed="#P" n="45"/>falsa, &amp; impossibilis insimul, 
+      con<lb ed="#P" n="46" break="no"/>clusio non esset impossibilis. 
+      Mani<lb ed="#P" n="47" break="no"/>festum est igitur quod omne aeternum
+      <lb ed="#P" n="48"/>in esse non cadit sub corruptione,
+      <lb ed="#P" n="49"/>neque, sub generatione. quonia, si 
+      ca<lb ed="#P" n="50" break="no"/>deret sub generatione, &amp; esset 
+      ge<lb ed="#P" n="51" break="no"/>neratum, haberet potentiam vt non
+      <lb ed="#P" n="52"/>esset in tempore.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e4778"> <!-- arist-dc-l1c121-it -->
+         <lb ed="#P" n="53"/>Dicamus igitur quod illud, quod 
+      <lb ed="#P" n="54"/>cadit sub corruptione, est illud, quod 
+      <lb ed="#P" n="55"/>primo fuit ens, deide modo non ens,
+      <lb ed="#P" n="56"/>aut possibile, vt sit non ens in futu
+      <lb ed="#P" n="57"/>ro. Generabile autem est illud, quod 
+      <lb ed="#P" n="58"/>primo fuit non ens, deinde post est
+      <lb ed="#P" n="59"/>ens. Et res aeternae quiditatis non 
+      ha<lb ed="#P" n="60" break="no"/>bet potentiam vt sit non ens in 
+      fe<lb ed="#P" n="61" break="no"/>pore finito, neque, in tempore infinito.
+      <lb ed="#P" n="62"/>impossibile est igitur vt idem 
+      ha<lb ed="#P" n="63" break="no"/>beat potentiam, qua semper sit ens
+      <lb ed="#P" n="64"/>&amp; semper non ens. &amp; impossibile
+      <lb ed="#P" n="65"/>est aleconem vt sit verum, vt 
+      di<lb ed="#P" n="66" break="no"/>cimus quod impossibile est idem esse
+      <lb ed="#P" n="67"/>ens semper, &amp; non ens semper. &amp; 
+      <lb ed="#P" n="68"/>cum ita sit, impossibile est vt 
+      ali<lb ed="#P" n="69" break="no"/>quid sit semper ens, &amp; cum hoc ea 
+      <lb ed="#P" n="70"/>dat sub corruptione. Sunt igitur,
+      <lb ed="#P" n="71"/>duo termini, quorum vnus est 
+      ante<lb ed="#P" n="72" break="no"/>alterum, &amp; impossibile est vt 
+      al<lb ed="#P" n="73" break="no"/>ter terminus sit absque, essentia 
+      pri<lb ed="#P" n="74" break="no"/>mi. quoniam, si primus non fuerit,
+      <lb ed="#P" n="75"/>non erit alter omnino. Et, cum ita
+      <lb ed="#P" n="76"/>sit, &amp; res aeterna perpetua, quae 
+      in<lb ed="#P" n="77" break="no"/>possibile est vt in aliquo tempore
+      <lb ed="#P" n="78"/>etiato fuerit non ens, 
+      impossibil<lb ed="#P" n="79" break="no"/>est vt sit generata omnine.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e4843"> <!-- arist-dc-l1c122-it -->
+         <lb ed="#P" n="16"/>Dicamus etiam quod aleconem
+      <lb ed="#P" n="17"/>eius, quod habet potentiam vt 
+      sem<lb ed="#P" n="18" break="no"/>per sit ens, est illud, quod non habet
+      <lb ed="#P" n="19"/>potentiam vt semper sit ens, 
+      con<lb ed="#P" n="20" break="no"/>trarium autem istius est illud, quod 
+      <lb ed="#P" n="21"/>habet potentiam vt semper sit non 
+      <lb ed="#P" n="22"/>ens, aleconem etia istius est illud,
+      <lb ed="#P" n="23"/>quod non habet potentiam vt 
+      sem<lb ed="#P" n="24" break="no"/>per sit non ens. Dicamus igitur
+      <lb ed="#P" n="25"/>quod possibile est vt inter ista 
+      ale<lb ed="#P" n="26" break="no"/>conem sit aliquod medium, quod 
+      pos<lb ed="#P" n="27" break="no"/>sibile est vt sit ens, &amp; non ens, in
+      <lb ed="#P" n="28"/>tempore, &amp; tempore, quoniam ale
+      <lb ed="#P" n="29"/>conem vtriusque, eorum erit non ens
+      <lb ed="#P" n="30"/>in tempore, &amp; in tempore ens. &amp; 
+      <lb ed="#P" n="31"/>hoc erit illud, quod non habet potetia
+      <lb ed="#P" n="32"/>vt semper sit ens, vel semper non 
+      <lb ed="#P" n="33"/>ens, sed in aliquo tempore ens, &amp; 
+      <lb ed="#P" n="34"/>in aliquo tempore non ens. 
+      Habe<lb ed="#P" n="35" break="no"/>bit igitur idem potentiam vt sit 
+      sem<lb ed="#P" n="36" break="no"/>per non ens, &amp; vt sit in aliquo 
+      tem<lb ed="#P" n="37" break="no"/>pore ens, &amp; in aliquo tempore non 
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0173.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="38"/>ens. &amp; hoc est impossibile. habebit,
+      <lb ed="#P" n="39"/>igitur idem potentiam vt non sit
+      <lb ed="#P" n="40"/>ens, &amp; vt sit ens in tempore, &amp; 
+      tem<lb ed="#P" n="41" break="no"/>pore &amp; est medium aleconem, 
+      si<lb ed="#P" n="42" break="no"/>cut diximus superius. 
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e4906"> <!-- arist-dc-l1c123-it -->
+         <lb ed="#P" n="71"/>Sint ergo A, &amp; B contraria, 
+      <lb ed="#P" n="72"/>non cadentia in eodem insimul, &amp;  
+      <lb ed="#P" n="73"/>sit C contrarium ad A, &amp; D 
+      con<lb ed="#P" n="74" break="no"/>trarium ad B: &amp; dicamus igitur 
+      <lb ed="#P" n="75"/>quod illud, quod non est in A, neque, 
+      <lb ed="#P" n="76"/>in B, est in toto C, &amp; D. sit eroo H, 
+      <lb ed="#P" n="77"/>quod est inter A, &amp; B. illud enim 
+      <lb ed="#P" n="78"/>quod non est alterum duorum 
+      con<lb ed="#P" n="79" break="no"/>trariorum, medium est inter illa. 
+      <lb ed="#P" n="80"/>erit ergo H, sicut C, &amp; D 
+      ne<lb ed="#P" n="81" break="no"/>cessario.
+      <!-- possible extra line coords -->
+      <pb ed="#P" n="84-r"/>
+         <cb ed="#P" n="a"/>
+         <!--Averroes_DC_DGC_M_JuntSecunda_05-0175.xml-->
+         <lb ed="#P" n="39" type="fixed=84-r"/>
+         <!--<figure>
+            <graphic url="https://loris2.scta.info/cod-AAadcg//[canvasshortid]/253,117,1060,1007/full/0/default.jpg"/>
+            <ab type="figure-details">
+               <seg type="figure-text">Figura, ostendens quod de quo alterius contrariorum negatio vera est. de eodem &amp; alterius negatio vera erit. A B Contrariae. Semper ers. Semper non ens. pus &amp; D. C E. H. Medium Non sper non ens. Non sper ens.</seg>
+               <seg type="figure-ideas"/>
+               <seg type="transkribus-id">749269-28354080-TextRegion_1652537737469_257</seg>
+            </ab>
+            <figDesc/>
+         </figure>-->
+      </p>
+      <p xml:id="aaaadc-gfdsss-d1e4937"> <!-- arist-dc-l1c124-it -->
+         <lb ed="#P" n="17"/>Reuertamur modo ad nostrum
+      <lb ed="#P" n="18"/>sermonem, &amp; dicamus ergo quod 
+      <lb ed="#P" n="19"/>illud, quod semper est ens, neque, est
+      <lb ed="#P" n="20"/>generabile, neque corruptibile. Et
+      <lb ed="#P" n="21"/>cum ita sit, manifestum est quod 
+      <lb ed="#P" n="22"/>illud, quod est generabile, &amp; 
+      cor<lb ed="#P" n="23" break="no"/>ruptibile est non ens perpetuum,
+      <lb ed="#P" n="24"/>aeternum, si enim esset aeternum, 
+      ha<lb ed="#P" n="25" break="no"/>beret potentiam vt semper eet ens
+      <lb ed="#P" n="26"/>&amp; semper non ens. quod est 
+      impos<lb ed="#P" n="27" break="no"/>sibile omnino, sicut superius 
+      dixi<lb ed="#P" n="28" break="no"/>mus in eis, quae declarauimus.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e4960"> <!-- arist-dc-l1c125-it -->
+         <lb ed="#P" n="30"/>Dicamus et quod illud, quod non 
+      <lb ed="#P" n="31"/>cadit sub generatione, scilicet illud, quod 
+      <lb ed="#P" n="32"/>non est generabile, est aeternum, sine
+      <lb ed="#P" n="33"/>principio, &amp; sine fine necessario. et
+      <lb ed="#P" n="34"/>similiter illud, quod non cadit 
+      sub<lb ed="#P" n="35" break="no"/>corruptione, est aeternu. Et dico non 
+      <lb ed="#P" n="36"/>generabile, &amp; non cadens sub 
+      cor<lb ed="#P" n="37" break="no"/>ruptione vera intentione mei 
+      ser<lb ed="#P" n="38" break="no"/>monis, quod illud, quod est ens vere, 
+      <lb ed="#P" n="39"/>est non generabile, &amp; illud, quoo
+      <lb ed="#P" n="40"/>est vere non ens, est non cadens sub¬
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0178.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="41"/>corruptione. modo igitur volumus B
+      <lb ed="#P" n="42"/>definire ea, &amp; dicamus quod illud,
+      <lb ed="#P" n="43"/>quod est non generabile, est mo ens,
+      <lb ed="#P" n="44"/>&amp; non dicitur quod fuit primo no 
+      <lb ed="#P" n="45"/>ens, neque, dicitur quod postremo erit
+      <lb ed="#P" n="46"/>non ens. Et, cum ita sit, erit 
+      alteru<lb ed="#P" n="47" break="no"/>horum duorum consequens 
+      alteri<lb ed="#P" n="48" break="no"/>illud enim quod non est generabile,
+      <lb ed="#P" n="49"/>no cadit sub corruptione, &amp; omne
+      <lb ed="#P" n="50"/>illud, quod non cadit sub 
+      corruptio<lb ed="#P" n="51" break="no"/>ne. est non generabile. &amp; etiam vtrumque
+      <lb ed="#P" n="52"/>eorum necessario est aeternum. 
+      quo<lb ed="#P" n="53" break="no"/>nam, si aliquod non generabile fue I
+      <lb ed="#P" n="54"/>rit, erit aeternum, &amp;, si aliquod non 
+      <lb ed="#P" n="55"/>cadit sub corruptione, erit semper 
+      <lb ed="#P" n="56"/>aeternum, &amp; hoc manifestum est,
+      <lb ed="#P" n="57"/>&amp; existens, &amp; sunt ea, quae 
+      supe<lb ed="#P" n="58" break="no"/>rius diximus.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e5012"> <!-- arist-dc-l1c126-it -->
+         <lb ed="#P" n="8"/>Dicamus igitur quod, si aliquid
+      <lb ed="#P" n="9"/>corruptibile fuerit, necessario erit
+      <lb ed="#P" n="10"/>generabile. &amp;, si fuerit non 
+      genera<lb ed="#P" n="11" break="no"/>bile, non erit corruptibile. &amp;, si 
+      ali<lb ed="#P" n="12" break="no"/>quid fuerit generabile, necessario
+      <lb ed="#P" n="13"/>erit corruptibile. &amp;, si igitur non 
+      <lb ed="#P" n="14"/>fuerit corruptibile, est non 
+      genera<lb ed="#P" n="15" break="no"/>bile, sicut diximus superius. 
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e5054"> <!-- arist-dc-l1c127-it -->
+         <lb ed="#P" n="73"/>Si igitur non generabile, &amp; non 
+      <lb ed="#P" n="74"/>corruptibile non sequuntur adinui
+      <lb ed="#P" n="75"/>cem, ergo non sunt aeterna. Et 
+      veri<lb ed="#P" n="76" break="no"/>ficatio huius est, quod alterum illo
+      <lb ed="#P" n="77"/>rum consequitur alterum, quemad
+      <lb ed="#P" n="78"/>modum ego sum dicens quod 
+      gene<lb ed="#P" n="79" break="no"/>rabile est corruptibile, &amp; omne 
+      cor<lb ed="#P" n="80" break="no"/>ruptibile est necessario generabile.
+      <lb ed="#P" n="81"/>Et verificatio huius est illud, quod 
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0181.xml-->
+      <pb ed="#P" n="87-r"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>diximus superius, quod ex illo quod 
+      <lb ed="#P" n="2"/>est semper ens, &amp; ex illo, quod est
+      <lb ed="#P" n="3"/>semper non ens, sit aliquod medium
+      <lb ed="#P" n="4"/>diuersum ab vtroque, illorum: &amp; est
+      <lb ed="#P" n="5"/>illud, quod est generabile, &amp; quod 
+      <lb ed="#P" n="6"/>est corruptibile. habet enim 
+      poten<lb ed="#P" n="7" break="no"/>tiam vt sit ens, &amp; vt sit non ens,
+      <lb ed="#P" n="8"/>sed tamen in tempore, &amp; tempore, scilicet
+      <lb ed="#P" n="9"/>vt in fepore ens, &amp; in alio non ens.
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e5093"> <!-- arist-dc-l1c128-it -->
+         <lb ed="#P" n="76"/>Dicamus etiam quod omne 
+      cor<lb ed="#P" n="77" break="no"/>ruptibile necessario est medium in 
+      <lb ed="#P" n="78"/>ter duo, sicut diximus superius. Sit
+      <lb ed="#P" n="79"/>igitur A illud, quod semper e ens,
+      <lb ed="#P" n="80"/>&amp; B illud, quod semper est non ens,
+      <lb ed="#P" n="81"/>&amp; C generabile, et D corruptibile.
+      <lb ed="#P" n="82"/>manifestum est igitur quod C est 
+      in<lb ed="#P" n="83" break="no"/>ter A, &amp; B. A autem, &amp; B non 
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0182.xml-->
+      <pb ed="#P" n="87-v"/>
+         <cb ed="#P" n="a"/>
+         <lb ed="#P" n="1"/>habent finem, neque, vltimum in 
+      tem<lb ed="#P" n="2" break="no"/>pore generabile aut habet finem.
+      <lb ed="#P" n="3"/>&amp; vltimitatem in tempore, aut in 
+      <lb ed="#P" n="4"/>actu, aut in potentia. A autem, et
+      <lb ed="#P" n="5"/>B non habent finem in tempore, neque,
+      <lb ed="#P" n="6"/>in actu, neque, in potentia: quia non 
+      <lb ed="#P" n="7"/>sunt in aliquo tepore ens, &amp; in 
+      ali<lb ed="#P" n="8" break="no"/>quo non ens: sed alterum eorum est
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0182.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="9"/>ens in tempore infinito, &amp; veliquam 
+      <lb ed="#P" n="10"/>no ens in tempore infinito, &amp; 
+      simi<lb ed="#P" n="11" break="no"/>liter D habet finem, &amp; vltimum,
+      <lb ed="#P" n="12"/>vt C, aut in actu, aut potetia. omne
+      <lb ed="#P" n="13"/>igitur generabile est corruptibile,
+      <lb ed="#P" n="14"/>&amp; omne corruptibile generabile.
+      <lb ed="#P" n="15"/>declaratum est igitur quod 
+      genera<lb ed="#P" n="16" break="no"/>bile, &amp; corruptibile se sequuntur.
+      <lb ed="#P" n="37" type="fixed=87-v"/>
+         <!--<figure>
+            <graphic url="https://loris2.scta.info/cod-AAadcg//[canvasshortid]/235,555,1099,919/full/0/default.jpg"/>
+            <ab type="figure-details">
+               <seg type="figure-text">Tigura, ostendens generabile, &amp; corruptibile se mutuo sequi. : A Semper Semper non enm. ens. D. C Corrupti¬ Genera¬ bile. bile.</seg>
+               <seg type="figure-ideas"/>
+               <seg type="transkribus-id">749269-28354087-TextRegion_1652538342610_614</seg>
+            </ab>
+            <figDesc/>
+         </figure>-->
+      </p>
+      <p xml:id="aaaadc-gfdsss-d1e5135"> <!-- arist-dc-l1c129-it -->
+         <lb ed="#P" n="14"/>Sit igitur non generabile A, et
+      <lb ed="#P" n="15"/>generabile C, &amp; non corruptibile
+      <lb ed="#P" n="16"/>B, &amp; corruptibile H. dico quod C, 
+      <lb ed="#P" n="17"/>&amp; H consequuntur se, cum fuerint,
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0184.xml-->
+      <cb ed="#P" n="b"/>
+         <lb ed="#P" n="18"/>secundum quod narrabo ex literis 
+      <lb ed="#P" n="19"/>his, quas dicam modo. C autem, &amp; 
+      <lb ed="#P" n="20"/>H sequuntur se, A autem, &amp; C non
+      <lb ed="#P" n="21"/>cadut super idem, sed hoc super rem, 
+      <lb ed="#P" n="22"/>&amp; hoc super aliam, &amp; similiter H,
+      <lb ed="#P" n="23"/>&amp; B. si igitur ita sit, H, &amp; C sunt
+      <lb ed="#P" n="24"/>consequetia se. Sit igitur H non 
+      con<lb ed="#P" n="25" break="no"/>sequens C, tunc igitur erit C 
+      conse<lb ed="#P" n="26" break="no"/>quens. A: H enim &amp; C non cadut,
+      <lb ed="#P" n="27"/>simul super idem. A autem, &amp; B
+      <lb ed="#P" n="28"/>cadunt, consequetur igitur H ad B.
+      <lb ed="#P" n="29"/>quod est impossibile, propter hoc,
+      <lb ed="#P" n="30"/>quod superius diximus. Et simili¬I
+      <lb ed="#P" n="31"/>ter erit actio de A, &amp; B, propter
+      <lb ed="#P" n="32"/>hoc, quod A sequitur B.
+      <!--Averroes_DC_DGC_M_JuntSecunda_05-0184.xml-->
+      <lb ed="#P" n="33" type="fixed=88-v"/>
+         <!--<figure>
+            <graphic url="https://loris2.scta.info/cod-AAadcg//[canvasshortid]/231,901,1112,1007/full/0/default.jpg"/>
+            <ab type="figure-details">
+               <seg type="figure-text">Figura, ostendens ingenerabile, &amp; incorruptibile se inuicem sequi, quia &amp; generabile, &amp; corruptibile se consequuntur. &amp; est argumentum a commutata, vel con¬ iuncta conuersione ex Secundo Triorum resol. Cap. LI E A EC Contraria. Ingnabile. Generabile. i¬ s¬ H &amp;. B Contraria. Incorrupsibile,. Corruptile.</seg>
+               <seg type="figure-ideas"/>
+               <seg type="transkribus-id">749269-28354089-TextRegion_1652538484816_720</seg>
+            </ab>
+            <figDesc/>
+         </figure>-->
+      </p>
+      <p xml:id="aaaadc-gfdsss-d1e5800"> <!-- arist-dc-l1c139-it -->
+         <lb ed="#P" n="15"/>Si igitur aliquis dixerit, quod 
+      <lb ed="#P" n="16"/>illud, quod est in potentia, pos 
+      sibi<lb ed="#P" n="17" break="no"/>le est etiam quod sit in hoc, 
+      dice<lb ed="#P" n="18" break="no"/>mus modo quod, si hoc possibile est,
+      <lb ed="#P" n="19"/>potentia enim non est in temporo.
+      <lb ed="#P" n="20"/>praeterito, sed in tempore, in quo 
+      di<lb ed="#P" n="21" break="no"/>citur modo, &amp; in tempore futuro,
+      <lb ed="#P" n="22"/>&amp; simil iter dicimus de eo, quod 
+      <lb ed="#P" n="23"/>est primo semper ens, deinde in 
+      po<lb ed="#P" n="24" break="no"/>stremo non ens. habet enim 
+      poten<lb ed="#P" n="25" break="no"/>tiam in tempore, in quo non est in 
+      <lb ed="#P" n="26"/>actu, vt sit non ens, si igitur aliquis
+      <lb ed="#P" n="27"/>dixerit quod possibile est, dicemus
+      <lb ed="#P" n="28"/>quod modo est annus praeteritus. 
+    </p>
+      <p xml:id="aaaadc-gfdsss-d1e5820"> <!-- arist-dc-l1c140-it -->
+         <lb ed="#P" n="14"/>Et possumus perscrutari de hoc
+      <lb ed="#P" n="15"/>sermone, &amp; declarare errorem 
+      di<lb ed="#P" n="16" break="no"/>centis ipsum sermone naturali non 
+      <lb ed="#P" n="17"/>vniuersaliter, sicut fecimus 
+      ante<lb ed="#P" n="18" break="no"/>Dicamus ergo quod impossibile est
+      <lb ed="#P" n="19"/>vt aliquid primo sit aeternum ens,
+      <lb ed="#P" n="20"/>deide post corrumpatur. aut ut 
+      ali<lb ed="#P" n="21" break="no"/>quid primo sit non ens, deinde 
+      post<lb ed="#P" n="22" break="no"/>sit ens aeternum. omnia enim 
+      gene<lb ed="#P" n="23" break="no"/>rabilia, &amp; corruptibilia 
+      alteran<lb ed="#P" n="24" break="no"/>tur, &amp; transmutantur, &amp; non 
+      al<lb ed="#P" n="25" break="no"/>terantur, nisi ex suis contrariis, ex
+      <lb ed="#P" n="26"/>quibus componuntur, &amp; 
+      generan<lb ed="#P" n="27" break="no"/>tur generatione naturali, &amp; per
+      <lb ed="#P" n="28"/>ea consumuntur, &amp; 
+      corrumpun<lb ed="#P" n="29" break="no"/>tur etiam.
+    </p>
+   </div>
+   
+    </body>
+  </text>
+</TEI>
